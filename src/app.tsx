@@ -40,17 +40,36 @@ export default function App() {
       .join("-")
     setDataId(newDataId)
   }
+
+  function updateUrl() {
+    let paramString = window.location.search
+    let params = queryString.parse(paramString)
+    params = {
+      ...(gameId && { gameId }),
+      ...(charactorId && hasCharactor && { charactorId }),
+      ...(typeId && hasType && { typeId }),
+      ...(dataId && { dataId }),
+    }
+    paramString = queryString.stringify(params)
+    const separator = paramString ? "?" : ""
+    const newUrl = window.location.pathname + separator + paramString
+    window.history.pushState({}, "", newUrl)
+  }
+
   function handleGameClick(id: string) {
     setGameId(id)
     updateDataId()
+    updateUrl()
   }
   function handleCharactorClick(id: string) {
     setCharactorId(id)
     updateDataId()
+    updateUrl()
   }
   function handleTypeClick(id: string) {
     setTypeId(id)
     updateDataId()
+    updateUrl()
   }
 
   useEffect(() => {
@@ -66,17 +85,7 @@ export default function App() {
 
   useEffect(() => {
     if (mounted) {
-      let paramString = window.location.search
-      let params = queryString.parse(paramString)
-      params = {
-        ...(gameId && { gameId }),
-        ...(charactorId && hasCharactor && { charactorId }),
-        ...(typeId && hasType && { typeId }),
-      }
-      paramString = queryString.stringify(params)
-      const separator = paramString ? "?" : ""
-      const newUrl = window.location.pathname + separator + paramString
-      window.history.pushState({}, "", newUrl)
+      updateUrl()
     }
   }, [dataId])
 
@@ -91,6 +100,7 @@ export default function App() {
     }
     setMounted(true)
   }, [])
+
   return (
     <div className="app">
       <header className="header">
