@@ -43,14 +43,12 @@ export default function App() {
 
   useEffect(() => {
     if (mounted) {
-      let paramString = window.location.search
-      let params = queryString.parse(paramString)
-      params = {
+      const params = {
         ...(gameId && { gameId }),
         ...(charactorId && hasCharactor && { charactorId }),
         ...(typeId && hasType && { typeId }),
       }
-      paramString = queryString.stringify(params)
+      const paramString = queryString.stringify(params)
       const separator = paramString ? "?" : ""
       const newUrl = window.location.pathname + separator + paramString
       window.history.pushState({}, "", newUrl)
