@@ -30,48 +30,6 @@ export default function App() {
   const currentData = dataList.find((data) => data.id === dataId)
   const isBase = ckeckIsBase(dataId)
 
-  function updateDataId() {
-    const newDataId = [
-      gameId,
-      hasCharactor ? charactorId : "",
-      hasType ? typeId : "",
-    ]
-      .filter((id) => id !== "")
-      .join("-")
-    setDataId(newDataId)
-  }
-
-  function updateUrl() {
-    let paramString = window.location.search
-    let params = queryString.parse(paramString)
-    params = {
-      ...(gameId && { gameId }),
-      ...(charactorId && hasCharactor && { charactorId }),
-      ...(typeId && hasType && { typeId }),
-      ...(dataId && { dataId }),
-    }
-    paramString = queryString.stringify(params)
-    const separator = paramString ? "?" : ""
-    const newUrl = window.location.pathname + separator + paramString
-    window.history.pushState({}, "", newUrl)
-  }
-
-  function handleGameClick(id: string) {
-    setGameId(id)
-    updateDataId()
-    updateUrl()
-  }
-  function handleCharactorClick(id: string) {
-    setCharactorId(id)
-    updateDataId()
-    updateUrl()
-  }
-  function handleTypeClick(id: string) {
-    setTypeId(id)
-    updateDataId()
-    updateUrl()
-  }
-
   useEffect(() => {
     const newDataId = [
       gameId,
@@ -85,7 +43,17 @@ export default function App() {
 
   useEffect(() => {
     if (mounted) {
-      updateUrl()
+      let paramString = window.location.search
+      let params = queryString.parse(paramString)
+      params = {
+        ...(gameId && { gameId }),
+        ...(charactorId && hasCharactor && { charactorId }),
+        ...(typeId && hasType && { typeId }),
+      }
+      paramString = queryString.stringify(params)
+      const separator = paramString ? "?" : ""
+      const newUrl = window.location.pathname + separator + paramString
+      window.history.pushState({}, "", newUrl)
     }
   }, [dataId])
 
@@ -96,11 +64,9 @@ export default function App() {
       params?.gameId && setGameId(params.gameId as string)
       params?.charactorId && setCharactorId(params.charactorId as string)
       params?.typeId && setTypeId(params.typeId as string)
-      updateDataId()
     }
     setMounted(true)
   }, [])
-
   return (
     <div className="app">
       <header className="header">
@@ -117,7 +83,7 @@ export default function App() {
                   "nav-button",
                   gameId === item.id && "is-active"
                 )}
-                onClick={() => handleGameClick(item.id)}
+                onClick={() => setGameId(item.id)}
               >
                 {item.name}
               </button>
@@ -134,7 +100,7 @@ export default function App() {
                     "nav-button",
                     charactorId === item.id && "is-active"
                   )}
-                  onClick={() => handleCharactorClick(item.id)}
+                  onClick={() => setCharactorId(item.id)}
                 >
                   {item.name}
                 </button>
@@ -152,7 +118,7 @@ export default function App() {
                     "nav-button",
                     typeId === item.id && "is-active"
                   )}
-                  onClick={() => handleTypeClick(item.id)}
+                  onClick={() => setTypeId(item.id)}
                 >
                   {item.name}
                 </button>
