@@ -1,5 +1,6 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { clsx } from "clsx"
+import queryString from "query-string"
 
 import Qmark from "./assets/image/qmark.svg?react"
 import gameList from "./control/game"
@@ -19,20 +20,77 @@ function checkHasType(gameId: string) {
 }
 
 export default function App() {
+  const [mounted, setMounted] = useState(false)
   const [gameId, setGameId] = useState("")
   const [charactorId, setCharactorId] = useState("")
   const [typeId, setTypeId] = useState("shura")
+  const [dataId, setDataId] = useState("")
   const hasCharactor = gameId !== ""
   const hasType = charactorId !== "" && checkHasType(gameId)
-  const dataId = [
-    gameId,
-    hasCharactor ? charactorId : "",
-    hasType ? typeId : "",
-  ]
-    .filter((id) => id !== "")
-    .join("-")
   const currentData = dataList.find((data) => data.id === dataId)
   const isBase = ckeckIsBase(dataId)
+
+  function updateDataId() {
+    const newDataId = [
+      gameId,
+      hasCharactor ? charactorId : "",
+      hasType ? typeId : "",
+    ]
+      .filter((id) => id !== "")
+      .join("-")
+    setDataId(newDataId)
+  }
+  function handleGameClick(id: string) {
+    setGameId(id)
+    updateDataId()
+  }
+  function handleCharactorClick(id: string) {
+    setCharactorId(id)
+    updateDataId()
+  }
+  function handleTypeClick(id: string) {
+    setTypeId(id)
+    updateDataId()
+  }
+
+  useEffect(() => {
+    const newDataId = [
+      gameId,
+      hasCharactor ? charactorId : "",
+      hasType ? typeId : "",
+    ]
+      .filter((id) => id !== "")
+      .join("-")
+    setDataId(newDataId)
+  }, [gameId, charactorId, typeId])
+
+  useEffect(() => {
+    if (mounted) {
+      let paramString = window.location.search
+      let params = queryString.parse(paramString)
+      params = {
+        ...(gameId && { gameId }),
+        ...(charactorId && hasCharactor && { charactorId }),
+        ...(typeId && hasType && { typeId }),
+      }
+      paramString = queryString.stringify(params)
+      const separator = paramString ? "?" : ""
+      const newUrl = window.location.pathname + separator + paramString
+      window.history.pushState({}, "", newUrl)
+    }
+  }, [dataId])
+
+  useEffect(() => {
+    const paramString = window.location.search
+    if (paramString) {
+      const params = queryString.parse(paramString)
+      params?.gameId && setGameId(params.gameId as string)
+      params?.charactorId && setCharactorId(params.charactorId as string)
+      params?.typeId && setTypeId(params.typeId as string)
+      updateDataId()
+    }
+    setMounted(true)
+  }, [])
   return (
     <div className="app">
       <header className="header">
@@ -49,7 +107,7 @@ export default function App() {
                   "nav-button",
                   gameId === item.id && "is-active"
                 )}
-                onClick={() => setGameId(item.id)}
+                onClick={() => handleGameClick(item.id)}
               >
                 {item.name}
               </button>
@@ -66,7 +124,7 @@ export default function App() {
                     "nav-button",
                     charactorId === item.id && "is-active"
                   )}
-                  onClick={() => setCharactorId(item.id)}
+                  onClick={() => handleCharactorClick(item.id)}
                 >
                   {item.name}
                 </button>
@@ -84,7 +142,7 @@ export default function App() {
                     "nav-button",
                     typeId === item.id && "is-active"
                   )}
-                  onClick={() => setTypeId(item.id)}
+                  onClick={() => handleTypeClick(item.id)}
                 >
                   {item.name}
                 </button>
