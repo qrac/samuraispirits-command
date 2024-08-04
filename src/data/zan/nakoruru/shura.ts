@@ -56,6 +56,14 @@ export default {
           name: "レラ オ チキリ",
           command: "近距離で→↓↘+D",
         },
+        {
+          name: "三角飛び",
+          command: "空中画面端で↗ or → or ↘",
+        },
+        {
+          name: "レラ キシマ テㇰ",
+          command: "空中近距離で↙ or ↓ or ↘+C",
+        },
       ],
     },
     {
