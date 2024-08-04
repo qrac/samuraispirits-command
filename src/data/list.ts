@@ -1,5 +1,6 @@
 import zan from "./zan"
 import zanHaoumaruShura from "./zan/haoumaru/shura"
+import zanHaoumaruRasetsu from "./zan/haoumaru/rasetsu"
 
 type DataItem = {
   id: string
@@ -14,4 +15,4 @@ type DataItem = {
   }[]
 }
 
-export default [zan, zanHaoumaruShura] as DataItem[]
+export default [zan, zanHaoumaruShura, zanHaoumaruRasetsu] as DataItem[]
