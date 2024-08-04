@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import { clsx } from "clsx"
 import queryString from "query-string"
 
-import Qmark from "./assets/image/qmark.svg?react"
 import gameList from "./control/game"
 import charactorList from "./control/charactor"
 import typeList from "./control/type"
