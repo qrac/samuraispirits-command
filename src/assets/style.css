@@ -5,6 +5,7 @@
 :root {
   --theme-tx-2: #1f1a16;
   --theme-bg-1: #eee7d6;
+  --theme-bg-2: #c2b89f;
   --theme-bd-1: #1f1a16;
   --theme-tx-lk: #eee7d6;
   --theme-ac-1: #e9b43c;
@@ -192,11 +193,55 @@
 }
 
 .data-item {
-  padding: calc(var(--theme-space) * 0.5) 0;
+  padding: calc(var(--theme-space) * 0.5) calc(var(--theme-space) * 0.5)
+    calc(var(--theme-space) * 0.5) 0;
 }
 
 .data-item > * + * {
   margin-top: calc(var(--theme-space) * 0.375);
+}
+
+.data-list .data-list {
+  position: relative;
+  margin-top: calc(var(--theme-space) * 0.5);
+  margin-right: 0;
+  margin-bottom: calc(var(--theme-space) * -0.5);
+  margin-left: calc(var(--theme-space) * 1.5);
+  border-bottom-width: 0;
+}
+
+.data-list .data-list::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: calc(var(--theme-space) * -0.9875);
+  width: 8px;
+  height: 100%;
+  background: var(--theme-bg-2);
+}
+
+.data-list .data-list > .data-item {
+  position: relative;
+}
+
+.data-list .data-list > .data-item::before {
+  content: "";
+  position: absolute;
+  top: calc(calc(var(--theme-space) * 0.5) + (1.25rem * 1.25 / 2) - 4px);
+  left: calc(var(--theme-space) * -0.9875);
+  width: calc(var(--theme-space) * 0.9875 - 6px);
+  height: 8px;
+  background: var(--theme-bg-2);
+}
+
+.data-list .data-list > .data-item:last-child::after {
+  content: "";
+  position: absolute;
+  top: calc(calc(var(--theme-space) * 0.5) + (1.25rem * 1.25 / 2) + 4px);
+  left: calc(var(--theme-space) * -0.9875 - 6px);
+  width: calc(var(--theme-space) * 0.9875);
+  height: calc(100% - 26% - 8px);
+  background: var(--theme-bg-1);
 }
 
 .data.is-base .data-item > * + * {

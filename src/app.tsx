@@ -155,6 +155,22 @@ export default function App() {
                         <div className="data-item-name">{item.name}</div>
                         <div className="data-item-command">
                           <SpriteCommand command={item.command} />
+                          {item.list && (
+                            <div className="data-list">
+                              {item?.list.map((childItem, childItemIndex) => (
+                                <div key={childItemIndex} className="data-item">
+                                  <div className="data-item-name">
+                                    {childItem.name}
+                                  </div>
+                                  <div className="data-item-command">
+                                    <SpriteCommand
+                                      command={childItem.command}
+                                    />
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       </div>
                     ))}
