@@ -1,6 +1,5 @@
 import { defineConfig } from "vite"
 import react from "@vitejs/plugin-react"
-import svgr from "vite-plugin-svgr"
 import mdx from "@mdx-js/rollup"
 import remarkGfm from "remark-gfm"
 
@@ -21,7 +20,7 @@ const preactAlias = [
 ]
 
 export default defineConfig({
-  plugins: [react(), svgr(), { enforce: "pre", ...mdx(mdxOptions) }],
+  plugins: [react(), { enforce: "pre", ...mdx(mdxOptions) }],
   resolve: {
     alias: process.env.NODE_ENV === "production" ? preactAlias : [],
   },

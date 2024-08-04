@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "preview:h": "vite preview --host",
-    "sprite": "svg-sprite -s --symbol-dest=public --ss=sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/sprite/*.svg"
+    "sprite": "svg-sprite -s --symbol-dest=public --ss=assets/sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/sprite/*.svg"
   },
   "license": "MIT",
   "dependencies": {
@@ -29,7 +29,6 @@
     "remark-gfm": "^4.0.0",
     "svg-sprite": "^2.0.4",
     "typescript": "^5.5.4",
-    "vite": "^5.3.5",
-    "vite-plugin-svgr": "^4.2.0"
+    "vite": "^5.3.5"
   }
 }

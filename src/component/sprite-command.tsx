@@ -26,7 +26,7 @@ export function SpriteCommand({ command }: { command: string }) {
           className={clsx("sprite-command", `is-${symbolId}`)}
           role="img"
         >
-          <use href={"/sprite.svg#" + symbolId}></use>
+          <use href={"/assets/sprite.svg#" + symbolId}></use>
         </svg>
       )
     } else {

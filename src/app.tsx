@@ -69,7 +69,9 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1 className="header-title">Samurai Spirits Series Command List</h1>
-        <Qmark className="header-bg-icon" />
+        <svg className="header-bg-icon" role="img">
+          <use href="/assets/sprite.svg#qmark"></use>
+        </svg>
       </header>
       <nav className="nav">
         <div className="nav-group">
