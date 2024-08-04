@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:h": "vite --host",
-    "build": "npm run sprite && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "preview:h": "vite preview --host",
     "sprite": "svg-sprite -s --symbol-dest=public --ss=sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/sprite/*.svg"
