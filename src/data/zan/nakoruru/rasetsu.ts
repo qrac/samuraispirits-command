@@ -1,0 +1,72 @@
+export default {
+  id: "zan-nakoruru-rasetsu",
+  name: "ナコルル（羅刹）",
+  groups: [
+    {
+      list: [
+        {
+          name: "アンヌ ムツベ",
+          command: "←↙↓+斬",
+        },
+        {
+          name: "レラ ムツベ",
+          command: "↓↘→+斬",
+        },
+        {
+          name: "カムイ リㇺセ",
+          command: "←↓↙+斬",
+          list: [
+            {
+              name: "カムイ リㇺセの返し",
+              command: "斬 or D",
+            },
+          ],
+        },
+        {
+          name: "狼にまたがる",
+          command: "↓↙←+D",
+          list: [
+            {
+              name: "狼から降りる",
+              command: "↖︎ or ↑ or ↗︎+D",
+            },
+            {
+              name: "狼またがり攻撃",
+              command: "斬",
+            },
+            {
+              name: "イメル シキテ",
+              command: "空中で→↓↘+C",
+            },
+            {
+              name: "メㇽ シキテ",
+              command: "←↙↓+C（↖ or ↑ or ↗ or →+Cで分離）",
+            },
+            {
+              name: "カント シキテ",
+              command: "↓↘→+C（↑ or ↓以外+Cで分離）",
+            },
+          ],
+        },
+        {
+          name: "エプンキネ シキテ",
+          command: "被ダウン時AC同時押し",
+        },
+        {
+          name: "レラ オ チキリ",
+          command: "近距離で→↓↘+D",
+        },
+      ],
+    },
+    {
+      title: "武器飛ばし",
+      titleColor: 2,
+      list: [
+        {
+          name: "ヌペキ カムイ シキテ",
+          command: "←↙↓↘→↓↘+BC同時押し",
+        },
+      ],
+    },
+  ],
+}

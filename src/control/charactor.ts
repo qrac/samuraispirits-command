@@ -7,4 +7,8 @@ export default [
     id: "haoumaru",
     name: "覇王丸",
   },
+  {
+    id: "nakoruru",
+    name: "ナコルル",
+  },
 ]
