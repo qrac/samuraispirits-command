@@ -244,17 +244,17 @@
   background: var(--theme-bg-1);
 }
 
-.data.is-base .data-item > * + * {
+.data.is-slim .data-item > * + * {
   margin-top: 0;
 }
 
-.data.is-base .data-list {
+.data.is-slim .data-list {
   display: grid;
   grid-template-columns: minmax(0, 7em) 1fr;
   grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
 }
 
-.data.is-base .data-item {
+.data.is-slim .data-item {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: span 2;

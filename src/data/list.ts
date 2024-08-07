@@ -1,12 +1,13 @@
-import zan from "./zan"
+import zanRoot from "./zan/root"
 import zanHaoumaruShura from "./zan/haoumaru/shura"
 import zanHaoumaruRasetsu from "./zan/haoumaru/rasetsu"
 import zanNakoruruShura from "./zan/nakoruru/shura"
 import zanNakoruruRasetsu from "./zan/nakoruru/rasetsu"
 
-type DataItem = {
+export type DataItem = {
   id: string
   name: string
+  layout?: "slim"
   groups: {
     title?: string
     titleColor?: string
@@ -21,8 +22,8 @@ type DataItem = {
   }[]
 }
 
-export default [
-  zan,
+export const dataList = [
+  zanRoot,
   zanHaoumaruShura,
   zanHaoumaruRasetsu,
   zanNakoruruShura,

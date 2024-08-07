@@ -1,6 +1,7 @@
 export default {
-  id: "zan",
+  id: "zan-root",
   name: "基本操作",
+  layout: "slim",
   groups: [
     {
       list: [
