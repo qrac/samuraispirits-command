@@ -53,6 +53,17 @@ export const dataNav: DataNav = {
           },
         },
       },
+      rimururu: {
+        name: "リムルル",
+        types: {
+          shura: {
+            name: "修羅",
+          },
+          rasetsu: {
+            name: "羅刹",
+          },
+        },
+      },
     },
   },
   /*ten: {
