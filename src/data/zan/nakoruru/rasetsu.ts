@@ -1,4 +1,6 @@
-export default {
+import type { DataItem } from "../../../types"
+
+export const zanNakoruruRasetsu: DataItem = {
   id: "zan-nakoruru-rasetsu",
   name: "ナコルル（羅刹）",
   groups: [

@@ -1,19 +1,4 @@
-export type DataNav = {
-  [id: string]: {
-    name: string
-    charas?: {
-      [id: string]: {
-        name: string
-        types?: {
-          [id: string]: {
-            name: string
-          }
-        }
-      }
-    }
-  }
-}
-export type EntryDataNavItem = [id: string, { name: string }]
+import type { DataNav } from "../types"
 
 export const dataNav: DataNav = {
   root: {
@@ -55,6 +40,17 @@ export const dataNav: DataNav = {
       },
       rimururu: {
         name: "リムルル",
+        types: {
+          shura: {
+            name: "修羅",
+          },
+          rasetsu: {
+            name: "羅刹",
+          },
+        },
+      },
+      shizumaru: {
+        name: "緋雨閑丸",
         types: {
           shura: {
             name: "修羅",
