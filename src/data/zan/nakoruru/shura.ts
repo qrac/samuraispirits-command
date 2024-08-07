@@ -3,6 +3,7 @@ export default {
   name: "ナコルル（修羅）",
   groups: [
     {
+      title: "必殺技",
       list: [
         {
           name: "アンヌ ムツベ",
@@ -56,6 +57,11 @@ export default {
           name: "レラ オ チキリ",
           command: "近距離で→↓↘+D",
         },
+      ],
+    },
+    {
+      title: "特殊技",
+      list: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",

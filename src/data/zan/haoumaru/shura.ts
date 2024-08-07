@@ -3,6 +3,7 @@ export default {
   name: "覇王丸（修羅）",
   groups: [
     {
+      title: "必殺技",
       list: [
         {
           name: "奥義 旋風裂斬",
