@@ -20,27 +20,25 @@ export default function App() {
   const [currentData, setCurrentData] = useState<DataItem>()
 
   function getDataId(gameId: string, charaId: string, typeId: string) {
-    const hasCharas = Object.hasOwn(dataNav[gameId], "charas")
-    const hasCharaId =
-      hasCharas && Object.hasOwn(dataNav[gameId].charas, charaId)
-    const hasTypes =
-      hasCharaId && Object.hasOwn(dataNav[gameId].charas[charaId], "types")
+    const game = dataNav[gameId]
+    const hasCharas = Object.hasOwn(game, "charas")
+    const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
+    const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
     const charaIdStr = hasCharaId ? charaId : ""
     const typeIdStr = hasTypes ? typeId : ""
-    const newDataId = [gameId, charaIdStr, typeIdStr]
-      .filter((str) => str)
-      .join("-")
+    const strs = [gameId, charaIdStr, typeIdStr]
+    const newDataId = strs.filter((str) => str).join("-")
     return newDataId
   }
 
   function updateParams(gameId: string, charaId: string, typeId: string) {
-    const hasGameId = gameId !== "root"
-    const hasCharaId = hasGameId && charaId !== "root"
-    const hasTypeId = hasCharaId && typeId !== "shura"
+    const pushGameId = gameId !== "root"
+    const pushCharaId = pushGameId && charaId !== "root"
+    const pushTypeId = pushCharaId && typeId !== "shura"
     const params = {
-      ...(hasGameId && { gameId }),
-      ...(hasCharaId && { charaId }),
-      ...(hasTypeId && { typeId }),
+      ...(pushGameId && { gameId }),
+      ...(pushCharaId && { charaId }),
+      ...(pushTypeId && { typeId }),
     }
     const paramString = queryString.stringify(params)
     const separator = paramString ? "?" : ""
@@ -54,43 +52,39 @@ export default function App() {
   }
 
   function handleClickGame(id: string) {
-    const hasCharas = Object.hasOwn(dataNav[id], "charas")
-    const hasCharaId = hasCharas && Object.hasOwn(dataNav[id].charas, charaId)
-    const hasTypes =
-      hasCharaId && Object.hasOwn(dataNav[id].charas[charaId], "types")
-    const newCharas = hasCharas ? Object.entries(dataNav[id].charas) : []
-    const newTypes = hasTypes
-      ? Object.entries(dataNav[id].charas[charaId].types)
-      : []
+    const game = dataNav[id]
+    const hasCharas = Object.hasOwn(game, "charas")
+    const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
+    const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
+    const newCharas = hasCharas ? Object.entries(game.charas) : []
+    const newTypes = hasTypes ? Object.entries(game.charas[charaId].types) : []
     const newCharaId = hasCharaId ? charaId : "root"
-
+    const newDataId = getDataId(id, newCharaId, typeId)
     setCharas(newCharas)
     setTypes(newTypes)
     setGameId(id)
     setCharaId(newCharaId)
-    updateParams(id, newCharaId, typeId)
-
-    const newDataId = getDataId(id, newCharaId, typeId)
+    setTypeId("shura")
     setDataId(newDataId)
+    updateParams(id, newCharaId, "shura")
     updateCurrentData(newDataId)
   }
 
   function handleClickCharactor(id: string) {
-    setCharaId(id)
-    setTypes(Object.entries(dataNav[gameId].charas[id]?.types || {}))
-    updateParams(gameId, id, typeId)
-
     const newDataId = getDataId(gameId, id, typeId)
+    setTypes(Object.entries(dataNav[gameId].charas[id]?.types || {}))
+    setCharaId(id)
+    setTypeId("shura")
     setDataId(newDataId)
+    updateParams(gameId, id, "shura")
     updateCurrentData(newDataId)
   }
 
   function handleClickType(id: string) {
-    setTypeId(id)
-    updateParams(gameId, charaId, id)
-
     const newDataId = getDataId(gameId, charaId, id)
+    setTypeId(id)
     setDataId(newDataId)
+    updateParams(gameId, charaId, id)
     updateCurrentData(newDataId)
   }
 
@@ -105,17 +99,14 @@ export default function App() {
       params?.charaId && setCharaId(paramCharaId)
       params?.typeId && setTypeId(paramTypeId)
 
-      const hasCharas = Object.hasOwn(dataNav[paramGameId], "charas")
-      const hasCharaId =
-        hasCharas && Object.hasOwn(dataNav[paramGameId].charas, paramCharaId)
+      const game = dataNav[paramGameId]
+      const hasCharas = Object.hasOwn(game, "charas")
+      const hasCharaId = hasCharas && Object.hasOwn(game.charas, paramCharaId)
       const hasTypes =
-        hasCharaId &&
-        Object.hasOwn(dataNav[paramGameId].charas[paramCharaId], "types")
-      const newCharas = hasCharas
-        ? Object.entries(dataNav[paramGameId].charas)
-        : []
+        hasCharaId && Object.hasOwn(game.charas[paramCharaId], "types")
+      const newCharas = hasCharas ? Object.entries(game.charas) : []
       const newTypes = hasTypes
-        ? Object.entries(dataNav[paramGameId].charas[paramCharaId].types)
+        ? Object.entries(game.charas[paramCharaId].types)
         : []
       setCharas(newCharas)
       setTypes(newTypes)
