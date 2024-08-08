@@ -250,7 +250,7 @@
 
 .data.is-slim .data-list {
   display: grid;
-  grid-template-columns: minmax(0, 7em) 1fr;
+  grid-template-columns: minmax(0, calc(6rem * 1.25)) 1fr;
   grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
 }
 
