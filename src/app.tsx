@@ -108,10 +108,9 @@ export default function App() {
       const newTypes = hasTypes
         ? Object.entries(game.charas[paramCharaId].types)
         : []
+      const newDataId = getDataId(paramGameId, paramCharaId, paramTypeId)
       setCharas(newCharas)
       setTypes(newTypes)
-
-      const newDataId = getDataId(paramGameId, paramCharaId, paramTypeId)
       setDataId(newDataId)
       updateCurrentData(newDataId)
     }
