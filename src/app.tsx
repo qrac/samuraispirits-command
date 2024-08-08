@@ -1,118 +1,86 @@
 import { useState, useEffect } from "react"
 import { clsx } from "clsx"
-import queryString from "query-string"
 
 import type { EntryDataNavItem, DataItem } from "./types"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
 import RootData from "./data/root.md"
 import { SpriteCommand } from "./component/sprite-command"
+import {
+  getCharas,
+  getTypes,
+  getCharaId,
+  getDataId,
+  getCurrentData,
+  getUrlWithParams,
+  getParamStates,
+} from "./utils"
 
 export default function App() {
   const games = Object.entries(dataNav) as EntryDataNavItem[]
   const [charas, setCharas] = useState<EntryDataNavItem[]>([])
   const [types, setTypes] = useState<EntryDataNavItem[]>([])
-
   const [gameId, setGameId] = useState("root")
   const [charaId, setCharaId] = useState("root")
   const [typeId, setTypeId] = useState("shura")
   const [dataId, setDataId] = useState("root")
   const [currentData, setCurrentData] = useState<DataItem>()
 
-  function getDataId(gameId: string, charaId: string, typeId: string) {
-    const game = dataNav[gameId]
-    const hasCharas = Object.hasOwn(game, "charas")
-    const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
-    const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
-    const charaIdStr = hasCharaId ? charaId : ""
-    const typeIdStr = hasTypes ? typeId : ""
-    const strs = [gameId, charaIdStr, typeIdStr]
-    const newDataId = strs.filter((str) => str).join("-")
-    return newDataId
-  }
-
-  function updateParams(gameId: string, charaId: string, typeId: string) {
-    const pushGameId = gameId !== "root"
-    const pushCharaId = pushGameId && charaId !== "root"
-    const pushTypeId = pushCharaId && typeId !== "shura"
-    const params = {
-      ...(pushGameId && { gameId }),
-      ...(pushCharaId && { charaId }),
-      ...(pushTypeId && { typeId }),
-    }
-    const paramString = queryString.stringify(params)
-    const separator = paramString ? "?" : ""
-    const newUrl = window.location.pathname + separator + paramString
-    window.history.pushState({}, "", newUrl)
-  }
-
-  function updateCurrentData(dataId: string) {
-    const newData = dataList.find((data) => data.id === dataId)
-    setCurrentData(newData)
-  }
-
   function handleClickGame(id: string) {
-    const game = dataNav[id]
-    const hasCharas = Object.hasOwn(game, "charas")
-    const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
-    const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
-    const newCharas = hasCharas ? Object.entries(game.charas) : []
-    const newTypes = hasTypes ? Object.entries(game.charas[charaId].types) : []
-    const newCharaId = hasCharaId ? charaId : "root"
-    const newDataId = getDataId(id, newCharaId, typeId)
+    const newCharas = getCharas(dataNav, id)
+    const newTypes = getTypes(dataNav, id, charaId)
+    const newCharaId = getCharaId(dataNav, id, charaId)
+    const newDataId = getDataId(dataNav, id, newCharaId, "shura")
+    const newCurrentData = getCurrentData(dataList, newDataId)
+    const newUrl = getUrlWithParams(id, newCharaId, "shura")
     setCharas(newCharas)
     setTypes(newTypes)
     setGameId(id)
     setCharaId(newCharaId)
     setTypeId("shura")
     setDataId(newDataId)
-    updateParams(id, newCharaId, "shura")
-    updateCurrentData(newDataId)
+    setCurrentData(newCurrentData)
+    window.history.pushState({}, "", newUrl)
   }
 
   function handleClickCharactor(id: string) {
-    const newDataId = getDataId(gameId, id, typeId)
-    setTypes(Object.entries(dataNav[gameId].charas[id]?.types || {}))
+    const newTypes = getTypes(dataNav, gameId, id)
+    const newDataId = getDataId(dataNav, gameId, id, "shura")
+    const newCurrentData = getCurrentData(dataList, newDataId)
+    const newUrl = getUrlWithParams(gameId, id, "shura")
+    setTypes(newTypes)
     setCharaId(id)
     setTypeId("shura")
     setDataId(newDataId)
-    updateParams(gameId, id, "shura")
-    updateCurrentData(newDataId)
+    setCurrentData(newCurrentData)
+    window.history.pushState({}, "", newUrl)
   }
 
   function handleClickType(id: string) {
-    const newDataId = getDataId(gameId, charaId, id)
+    const newDataId = getDataId(dataNav, gameId, charaId, id)
+    const newCurrentData = getCurrentData(dataList, newDataId)
+    const newUrl = getUrlWithParams(gameId, charaId, id)
     setTypeId(id)
     setDataId(newDataId)
-    updateParams(gameId, charaId, id)
-    updateCurrentData(newDataId)
+    setCurrentData(newCurrentData)
+    window.history.pushState({}, "", newUrl)
   }
 
   useEffect(() => {
     const paramString = window.location.search
     if (paramString) {
-      const params = queryString.parse(paramString)
-      const paramGameId = (params?.gameId || "root") as string
-      const paramCharaId = (params?.charaId || "root") as string
-      const paramTypeId = (params?.typeId || "shura") as string
-      params?.gameId && setGameId(paramGameId)
-      params?.charaId && setCharaId(paramCharaId)
-      params?.typeId && setTypeId(paramTypeId)
-
-      const game = dataNav[paramGameId]
-      const hasCharas = Object.hasOwn(game, "charas")
-      const hasCharaId = hasCharas && Object.hasOwn(game.charas, paramCharaId)
-      const hasTypes =
-        hasCharaId && Object.hasOwn(game.charas[paramCharaId], "types")
-      const newCharas = hasCharas ? Object.entries(game.charas) : []
-      const newTypes = hasTypes
-        ? Object.entries(game.charas[paramCharaId].types)
-        : []
-      const newDataId = getDataId(paramGameId, paramCharaId, paramTypeId)
+      const { pGameId, pCharaId, pTypeId } = getParamStates(paramString)
+      const newCharas = getCharas(dataNav, pGameId)
+      const newTypes = getTypes(dataNav, pGameId, pCharaId)
+      const newDataId = getDataId(dataNav, pGameId, pCharaId, pTypeId)
+      const newCurrentData = getCurrentData(dataList, newDataId)
       setCharas(newCharas)
       setTypes(newTypes)
+      setGameId(pGameId)
+      setCharaId(pCharaId)
+      setTypeId(pTypeId)
       setDataId(newDataId)
-      updateCurrentData(newDataId)
+      setCurrentData(newCurrentData)
     }
   }, [])
   return (
