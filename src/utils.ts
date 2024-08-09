@@ -1,6 +1,9 @@
-import queryString from "query-string"
-
 import type { DataNav, EntryDataNavItem, DataItem } from "./types"
+
+export function getGames(dataNav: DataNav): EntryDataNavItem[] {
+  const newGames = Object.entries(dataNav) || []
+  return newGames
+}
 
 export function getCharas(
   dataNav: DataNav,
@@ -25,14 +28,6 @@ export function getTypes(
   return newTypes
 }
 
-export function getCharaId(dataNav: DataNav, gameId: string, charaId: string) {
-  const game = dataNav[gameId]
-  const hasCharas = Object.hasOwn(game, "charas")
-  const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
-  const newCharaId = hasCharaId ? charaId : "root"
-  return newCharaId
-}
-
 export function getDataId(
   dataNav: DataNav,
   gameId: string,
@@ -55,29 +50,37 @@ export function getCurrentData(dataList: DataItem[], dataId: string) {
   return currentData
 }
 
-export function getUrlWithParams(
-  gameId: string,
-  charaId: string,
-  typeId: string
+export function getNavigatePath(
+  dataNav: DataNav,
+  gameId: string = "root",
+  charaId: string = "root",
+  typeId: string = "shura"
 ) {
-  const hasGameId = gameId !== "root"
-  const hasCharaId = hasGameId && charaId !== "root"
-  const hasTypeId = hasCharaId && typeId !== "shura"
-  const params = {
-    ...(hasGameId && { gameId }),
-    ...(hasCharaId && { charaId }),
-    ...(hasTypeId && { typeId }),
-  }
-  const paramString = queryString.stringify(params)
-  const separator = paramString ? "?" : ""
-  const newUrl = window.location.pathname + separator + paramString
-  return newUrl
+  const game = dataNav[gameId]
+  const hasCharas = Object.hasOwn(game, "charas")
+  const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
+  const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
+  const gameIdStr = gameId === "root" ? "" : gameId
+  const charaIdStr = hasCharaId ? (charaId === "root" ? "" : charaId) : ""
+  const typeIdStr = hasTypes ? typeId : ""
+  const pathArray = [gameIdStr, charaIdStr, typeIdStr]
+  const newPath = pathArray.filter((str) => str).join("/")
+  return newPath
 }
 
-export function getParamStates(paramString: string) {
-  const params = queryString.parse(paramString)
-  const pGameId = (params?.gameId || "root") as string
-  const pCharaId = (params?.charaId || "root") as string
-  const pTypeId = (params?.typeId || "shura") as string
-  return { pGameId, pCharaId, pTypeId }
+export function getRoutePath(
+  dataNav: DataNav,
+  gameId: string,
+  charaId: string
+) {
+  const game = dataNav[gameId]
+  const hasCharas = Object.hasOwn(game, "charas")
+  const hasCharaId = hasCharas && Object.hasOwn(game.charas, charaId)
+  const hasTypes = hasCharaId && Object.hasOwn(game.charas[charaId], "types")
+  const gameIdStr = gameId === "root" ? "" : ":gameId"
+  const charaIdStr = hasCharaId ? (charaId === "root" ? "" : ":charaId") : ""
+  const typeIdStr = hasTypes ? ":typeId" : ""
+  const pathArray = ["/", gameIdStr, charaIdStr, typeIdStr]
+  const newPath = pathArray.filter((str) => str).join("/")
+  return newPath
 }

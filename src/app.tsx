@@ -1,88 +1,49 @@
-import { useState, useEffect } from "react"
 import { clsx } from "clsx"
+import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
-import type { EntryDataNavItem, DataItem } from "./types"
+import type { EntryDataNavItem } from "./types"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
-import RootData from "./data/root.md"
+import DataRoot from "./data/root.md"
 import { SpriteCommand } from "./component/sprite-command"
 import {
   getCharas,
   getTypes,
-  getCharaId,
   getDataId,
   getCurrentData,
-  getUrlWithParams,
-  getParamStates,
+  getNavigatePath,
+  getRoutePath,
 } from "./utils"
 
 export default function App() {
-  const games = Object.entries(dataNav) as EntryDataNavItem[]
-  const [charas, setCharas] = useState<EntryDataNavItem[]>([])
-  const [types, setTypes] = useState<EntryDataNavItem[]>([])
-  const [gameId, setGameId] = useState("root")
-  const [charaId, setCharaId] = useState("root")
-  const [typeId, setTypeId] = useState("shura")
-  const [dataId, setDataId] = useState("root")
-  const [currentData, setCurrentData] = useState<DataItem>()
+  const location = useLocation()
+  const navigate = useNavigate()
+
+  let pathArray = location.pathname.split("/")
+  let gameId = pathArray[1] || "root"
+  let charaId = pathArray[2] || "root"
+  let typeId = pathArray[3] || "shura"
+  let dataId = getDataId(dataNav, gameId, charaId, typeId)
+  let games = Object.entries(dataNav) as EntryDataNavItem[]
+  let charas = getCharas(dataNav, gameId)
+  let types = getTypes(dataNav, gameId, charaId)
+  let currentData = getCurrentData(dataList, dataId)
 
   function handleClickGame(id: string) {
-    const newCharas = getCharas(dataNav, id)
-    const newTypes = getTypes(dataNav, id, charaId)
-    const newCharaId = getCharaId(dataNav, id, charaId)
-    const newDataId = getDataId(dataNav, id, newCharaId, "shura")
-    const newCurrentData = getCurrentData(dataList, newDataId)
-    const newUrl = getUrlWithParams(id, newCharaId, "shura")
-    setCharas(newCharas)
-    setTypes(newTypes)
-    setGameId(id)
-    setCharaId(newCharaId)
-    setTypeId("shura")
-    setDataId(newDataId)
-    setCurrentData(newCurrentData)
-    window.history.pushState({}, "", newUrl)
+    const routePath = getNavigatePath(dataNav, id, charaId, "shura")
+    navigate(routePath)
+    gameId = id
   }
-
-  function handleClickCharactor(id: string) {
-    const newTypes = getTypes(dataNav, gameId, id)
-    const newDataId = getDataId(dataNav, gameId, id, "shura")
-    const newCurrentData = getCurrentData(dataList, newDataId)
-    const newUrl = getUrlWithParams(gameId, id, "shura")
-    setTypes(newTypes)
-    setCharaId(id)
-    setTypeId("shura")
-    setDataId(newDataId)
-    setCurrentData(newCurrentData)
-    window.history.pushState({}, "", newUrl)
+  function handleClickChara(id: string) {
+    const routePath = getNavigatePath(dataNav, gameId, id, "shura")
+    navigate(routePath)
+    charaId = id
   }
-
   function handleClickType(id: string) {
-    const newDataId = getDataId(dataNav, gameId, charaId, id)
-    const newCurrentData = getCurrentData(dataList, newDataId)
-    const newUrl = getUrlWithParams(gameId, charaId, id)
-    setTypeId(id)
-    setDataId(newDataId)
-    setCurrentData(newCurrentData)
-    window.history.pushState({}, "", newUrl)
+    const routePath = getNavigatePath(dataNav, gameId, charaId, id)
+    navigate(routePath)
+    typeId = id
   }
-
-  useEffect(() => {
-    const paramString = window.location.search
-    if (paramString) {
-      const { pGameId, pCharaId, pTypeId } = getParamStates(paramString)
-      const newCharas = getCharas(dataNav, pGameId)
-      const newTypes = getTypes(dataNav, pGameId, pCharaId)
-      const newDataId = getDataId(dataNav, pGameId, pCharaId, pTypeId)
-      const newCurrentData = getCurrentData(dataList, newDataId)
-      setCharas(newCharas)
-      setTypes(newTypes)
-      setGameId(pGameId)
-      setCharaId(pCharaId)
-      setTypeId(pTypeId)
-      setDataId(newDataId)
-      setCurrentData(newCurrentData)
-    }
-  }, [])
   return (
     <div className="app">
       <header className="header">
@@ -97,7 +58,11 @@ export default function App() {
             {games.map(([id, item]) => (
               <button
                 key={id}
-                className={clsx("nav-button", gameId === id && "is-active")}
+                className={clsx(
+                  "nav-button",
+                  id === "root" && !gameId && "is-active",
+                  gameId === id && "is-active"
+                )}
                 onClick={() => handleClickGame(id)}
               >
                 {item.name}
@@ -112,7 +77,7 @@ export default function App() {
                 <button
                   key={id}
                   className={clsx("nav-button", charaId === id && "is-active")}
-                  onClick={() => handleClickCharactor(id)}
+                  onClick={() => handleClickChara(id)}
                 >
                   {item.name}
                 </button>
@@ -136,71 +101,88 @@ export default function App() {
           </div>
         )}
       </nav>
-      <main className="main">
-        {/*dataId*/}
-        {dataId === "root" && (
-          <div className="docs">
-            <RootData />
-          </div>
-        )}
-        {currentData && (
-          <div
-            className={clsx(
-              "data",
-              currentData?.layout === "slim" && "is-slim"
-            )}
-          >
-            <h2 className="data-name">{currentData.name}</h2>
-            <div className="data-groups">
-              {currentData.groups.map((group, groupIndex) => (
-                <div key={groupIndex} className="data-group">
-                  {group.title && (
-                    <h3
-                      className={clsx(
-                        "data-group-title",
-                        group.titleColor && `is-ac-${group.titleColor}`
-                      )}
-                    >
-                      {group.title}
-                    </h3>
-                  )}
-                  <div className="data-list">
-                    {group.list.map((item, itemIndex) => (
-                      <div key={itemIndex} className="data-item">
-                        <div className="data-item-name">{item.name}</div>
-                        <div className="data-item-command">
-                          <SpriteCommand command={item.command} />
-                          {item.list && (
-                            <div className="data-list">
-                              {item?.list.map((childItem, childItemIndex) => (
-                                <div key={childItemIndex} className="data-item">
-                                  <div className="data-item-name">
-                                    {childItem.name}
-                                  </div>
-                                  <div className="data-item-command">
-                                    <SpriteCommand
-                                      command={childItem.command}
-                                    />
-                                  </div>
-                                </div>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+      {
+        <main className="main">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div className="docs">
+                  <DataRoot />
                 </div>
-              ))}
-            </div>
-          </div>
-        )}
-        {dataId !== "root" && !currentData && (
-          <div className="docs">
-            <p>no data</p>
-          </div>
-        )}
-      </main>
+              }
+            />
+            <Route
+              path={getRoutePath(dataNav, gameId, charaId)}
+              element={
+                currentData ? (
+                  <div
+                    className={clsx(
+                      "data",
+                      currentData?.layout === "slim" && "is-slim"
+                    )}
+                  >
+                    <h2 className="data-name">{currentData.name}</h2>
+                    <div className="data-groups">
+                      {currentData.groups.map((group, groupIndex) => (
+                        <div key={groupIndex} className="data-group">
+                          {group.title && (
+                            <h3
+                              className={clsx(
+                                "data-group-title",
+                                group.titleColor && `is-ac-${group.titleColor}`
+                              )}
+                            >
+                              {group.title}
+                            </h3>
+                          )}
+                          <div className="data-list">
+                            {group.list.map((item, itemIndex) => (
+                              <div key={itemIndex} className="data-item">
+                                <div className="data-item-name">
+                                  {item.name}
+                                </div>
+                                <div className="data-item-command">
+                                  <SpriteCommand command={item.command} />
+                                  {item.list && (
+                                    <div className="data-list">
+                                      {item?.list.map(
+                                        (childItem, childItemIndex) => (
+                                          <div
+                                            key={childItemIndex}
+                                            className="data-item"
+                                          >
+                                            <div className="data-item-name">
+                                              {childItem.name}
+                                            </div>
+                                            <div className="data-item-command">
+                                              <SpriteCommand
+                                                command={childItem.command}
+                                              />
+                                            </div>
+                                          </div>
+                                        )
+                                      )}
+                                    </div>
+                                  )}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="docs">
+                    <p>No data</p>
+                  </div>
+                )
+              }
+            />
+          </Routes>
+        </main>
+      }
       <footer className="footer">
         <p className="footer-copyright">© 2024 Qrac</p>
       </footer>
