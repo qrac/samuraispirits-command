@@ -30,7 +30,7 @@ export default function App() {
   let currentData = getCurrentData(dataList, dataId)
 
   function handleClickGame(id: string) {
-    const routePath = getNavigatePath(dataNav, id, charaId, "shura")
+    const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
     gameId = id
   }
@@ -139,19 +139,23 @@ export default function App() {
                           <div className="data-list">
                             {group.list.map((item, itemIndex) => (
                               <div key={itemIndex} className="data-item">
-                                <div className="data-item-name">
-                                  {item.name}
+                                <div className="data-item-set">
+                                  <div className="data-item-name">
+                                    {item.name}
+                                  </div>
+                                  <div className="data-item-command">
+                                    <SpriteCommand command={item.command} />
+                                  </div>
                                 </div>
-                                <div className="data-item-command">
-                                  <SpriteCommand command={item.command} />
-                                  {item.list && (
-                                    <div className="data-list">
-                                      {item?.list.map(
-                                        (childItem, childItemIndex) => (
-                                          <div
-                                            key={childItemIndex}
-                                            className="data-item"
-                                          >
+                                {item.list && (
+                                  <div className="data-list">
+                                    {item?.list.map(
+                                      (childItem, childItemIndex) => (
+                                        <div
+                                          key={childItemIndex}
+                                          className="data-item"
+                                        >
+                                          <div className="data-item-set">
                                             <div className="data-item-name">
                                               {childItem.name}
                                             </div>
@@ -161,11 +165,11 @@ export default function App() {
                                               />
                                             </div>
                                           </div>
-                                        )
-                                      )}
-                                    </div>
-                                  )}
-                                </div>
+                                        </div>
+                                      )
+                                    )}
+                                  </div>
+                                )}
                               </div>
                             ))}
                           </div>
@@ -180,6 +184,7 @@ export default function App() {
                 )
               }
             />
+            <Route path="*" element={<div className="docs">Not found</div>} />
           </Routes>
         </main>
       }
