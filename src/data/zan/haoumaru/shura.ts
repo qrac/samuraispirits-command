@@ -13,7 +13,7 @@ export const zanHaoumaruShura: DataItem = {
         },
         {
           name: "奥義 飛翔旋風裂斬",
-          command: "（空中で）↓↘→+斬",
+          command: "空中で↓↘→+斬",
         },
         {
           name: "奥義 弧月斬",
@@ -21,7 +21,7 @@ export const zanHaoumaruShura: DataItem = {
         },
         {
           name: "奥義 疾風弧月斬",
-          command: "（踏み込み中）→↙↓↘+斬",
+          command: "踏み込み中→↙↓↘+斬",
         },
         {
           name: "奥義 烈震斬",
@@ -29,7 +29,7 @@ export const zanHaoumaruShura: DataItem = {
         },
         {
           name: "奥義 飛翔烈震斬",
-          command: "（空中で）↓↙←+斬",
+          command: "空中で↓↙←+斬",
         },
         {
           name: "斬鋼閃",

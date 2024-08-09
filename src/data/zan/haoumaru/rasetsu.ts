@@ -12,16 +12,16 @@ export const zanHaoumaruRasetsu: DataItem = {
           command: "↓↘→+斬",
         },
         {
-          name: "旋風波",
-          command: "↓↘→+D",
-        },
-        {
           name: "奥義 弧月斬",
           command: "→↙↓↘+斬",
         },
         {
           name: "奥義 疾風弧月斬",
-          command: "（踏み込み中）→↙↓↘+斬",
+          command: "踏み込み中→↙↓↘+斬",
+        },
+        {
+          name: "旋風波",
+          command: "↓↘→+D",
         },
         {
           name: "剛破",
