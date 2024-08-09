@@ -17,4 +17,4 @@
 
 ## Credit
 
-- Author: [Qrac](https://qrac.jp)
+- Author: [Qrac](https://x.com/Qrac_JP)
