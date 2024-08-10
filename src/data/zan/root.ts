@@ -24,6 +24,22 @@ export const zanRoot: DataItem = {
           command: "D",
         },
         {
+          name: "上段蹴り",
+          command: "レバーニュートラル or ←+D",
+        },
+        {
+          name: "下段狙い蹴り",
+          command: "→+D",
+        },
+        {
+          name: "牽制攻撃",
+          command: "↙ or ↓+D",
+        },
+        {
+          name: "足払い",
+          command: "↘+D",
+        },
+        {
           name: "防御崩し",
           command: "接近して→+C or ←+C",
         },
@@ -42,6 +58,22 @@ export const zanRoot: DataItem = {
         {
           name: "怒りゲージ溜め",
           command: "ABC同時押し（継続）",
+        },
+        {
+          name: "踏み込み",
+          command: "→→",
+        },
+        {
+          name: "引き込み",
+          command: "←←",
+        },
+        {
+          name: "移動起き上がり",
+          command: "被ダウン時← or →",
+        },
+        {
+          name: "クイック起き上がり",
+          command: "被ダウン時↑",
         },
         {
           name: "当て身",
