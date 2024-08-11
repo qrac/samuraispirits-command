@@ -32,12 +32,12 @@ export const zanHanzoRasetsu: DataItem = {
           command: "↓↓+A",
         },
         {
-          name: "忍法 影分身",
-          command: "→←↙↓↘→+A or B",
-        },
-        {
           name: "忍法 猿舞",
           command: "←↓↙+斬 or D",
+        },
+        {
+          name: "忍法 影分身",
+          command: "→←↙↓↘→+A or B",
         },
       ],
     },
