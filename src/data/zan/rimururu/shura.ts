@@ -6,7 +6,7 @@ export const zanRimururuShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "ルプㇱ クアレ",
           command: "↓↘→+斬",
@@ -35,7 +35,7 @@ export const zanRimururuShura: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -45,7 +45,7 @@ export const zanRimururuShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "ルプㇱ カムイ エムㇱ",
           command: "→↘↓↙←→↘↓↙←+CD同時押し",

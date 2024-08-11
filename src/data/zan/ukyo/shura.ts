@@ -6,7 +6,7 @@ export const zanUkyoShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "秘剣 ツバメ返し",
           command: "空中で↙↓↘→+斬",
@@ -36,7 +36,7 @@ export const zanUkyoShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "ツバメ六連",
           command: "→↘↓↙←→+BC同時押し",

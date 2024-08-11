@@ -6,7 +6,7 @@ export const zanRoot: DataItem = {
   layout: "slim",
   groups: [
     {
-      list: [
+      skills: [
         {
           name: "弱斬り",
           command: "A",

@@ -16,6 +16,12 @@ export type DataNav = {
 
 export type EntryDataNavItem = [id: string, { name: string }]
 
+export type Skill = {
+  name: string
+  command: string
+  skills?: Skill[]
+}
+
 export type DataItem = {
   id: string
   name: string
@@ -23,13 +29,6 @@ export type DataItem = {
   groups: {
     title?: string
     titleColor?: number
-    list: {
-      name: string
-      command: string
-      list?: {
-        name: string
-        command: string
-      }[]
-    }[]
+    skills: Skill[]
   }[]
 }

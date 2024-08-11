@@ -1,6 +1,6 @@
 import { clsx } from "clsx"
 
-export function SpriteCommand({ command }: { command: string }) {
+export function ComponentCommand({ command }: { command: string }) {
   return command.split("").map((char, index) => {
     const regCommand = /[↙↓↘←→↖↑↗ABCD斬]/
     const commandMap = {
@@ -23,7 +23,7 @@ export function SpriteCommand({ command }: { command: string }) {
       return (
         <svg
           key={index}
-          className={clsx("sprite-command", `is-${symbolId}`)}
+          className={clsx("data-skill-command-icon", `is-${symbolId}`)}
           role="img"
         >
           <use href={"/assets/sprite.svg#" + symbolId}></use>

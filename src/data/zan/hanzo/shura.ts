@@ -6,7 +6,7 @@ export const zanHanzoShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "忍法 爆炎龍・改",
           command: "↓↙←+斬",
@@ -51,7 +51,7 @@ export const zanHanzoShura: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -65,7 +65,7 @@ export const zanHanzoShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "封じ手 微塵隠れ",
           command: "↓↓↓+AB同時押し",

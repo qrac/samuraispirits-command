@@ -5,7 +5,7 @@ import type { EntryDataNavItem } from "./types"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
 import DataRoot from "./data/root.md"
-import { SpriteCommand } from "./component/sprite-command"
+import { ComponentSkills } from "./component/skills"
 import {
   getCharas,
   getTypes,
@@ -101,93 +101,56 @@ export default function App() {
           </div>
         )}
       </nav>
-      {
-        <main className="main">
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <div className="docs">
-                  <DataRoot />
+      <main className="main">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div className="docs">
+                <DataRoot />
+              </div>
+            }
+          />
+          <Route
+            path={getRoutePath(dataNav, gameId, charaId)}
+            element={
+              currentData ? (
+                <div
+                  className={clsx(
+                    "data",
+                    currentData?.layout === "slim" && "is-slim"
+                  )}
+                >
+                  <h2 className="data-name">{currentData.name}</h2>
+                  <div className="data-groups">
+                    {currentData.groups.map((group, groupIndex) => (
+                      <div key={groupIndex} className="data-group">
+                        {group.title && (
+                          <h3
+                            className={clsx(
+                              "data-group-title",
+                              group.titleColor && `is-ac-${group.titleColor}`
+                            )}
+                          >
+                            {group.title}
+                          </h3>
+                        )}
+                        <ComponentSkills skills={group.skills} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              }
-            />
-            <Route
-              path={getRoutePath(dataNav, gameId, charaId)}
-              element={
-                currentData ? (
-                  <div
-                    className={clsx(
-                      "data",
-                      currentData?.layout === "slim" && "is-slim"
-                    )}
-                  >
-                    <h2 className="data-name">{currentData.name}</h2>
-                    <div className="data-groups">
-                      {currentData.groups.map((group, groupIndex) => (
-                        <div key={groupIndex} className="data-group">
-                          {group.title && (
-                            <h3
-                              className={clsx(
-                                "data-group-title",
-                                group.titleColor && `is-ac-${group.titleColor}`
-                              )}
-                            >
-                              {group.title}
-                            </h3>
-                          )}
-                          <div className="data-list">
-                            {group.list.map((item, itemIndex) => (
-                              <div key={itemIndex} className="data-item">
-                                <div className="data-item-set">
-                                  <div className="data-item-name">
-                                    {item.name}
-                                  </div>
-                                  <div className="data-item-command">
-                                    <SpriteCommand command={item.command} />
-                                  </div>
-                                </div>
-                                {item.list && (
-                                  <div className="data-list">
-                                    {item?.list.map(
-                                      (childItem, childItemIndex) => (
-                                        <div
-                                          key={childItemIndex}
-                                          className="data-item"
-                                        >
-                                          <div className="data-item-set">
-                                            <div className="data-item-name">
-                                              {childItem.name}
-                                            </div>
-                                            <div className="data-item-command">
-                                              <SpriteCommand
-                                                command={childItem.command}
-                                              />
-                                            </div>
-                                          </div>
-                                        </div>
-                                      )
-                                    )}
-                                  </div>
-                                )}
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="docs">
-                    <p>No data</p>
-                  </div>
-                )
-              }
-            />
-            <Route path="*" element={<div className="docs">Not found</div>} />
-          </Routes>
-        </main>
-      }
+              ) : (
+                <div className="docs">
+                  <p>No data</p>
+                </div>
+              )
+            }
+          />
+          <Route path="*" element={<div className="docs">Not found</div>} />
+        </Routes>
+      </main>
+
       <footer className="footer">
         <p className="footer-copyright">© 2024 Qrac</p>
       </footer>

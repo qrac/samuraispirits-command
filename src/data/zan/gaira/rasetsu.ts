@@ -6,7 +6,7 @@ export const zanGairaRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "喝！",
           command: "↓↙←+A",
@@ -36,7 +36,7 @@ export const zanGairaRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "拳舞",
           command: "↓↘→↓↘+AB同時押し",

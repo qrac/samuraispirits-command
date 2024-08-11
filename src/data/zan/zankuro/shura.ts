@@ -6,7 +6,7 @@ export const zanZankuroShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "無限流 疾風斬",
           command: "↓↘→+斬",
@@ -40,7 +40,7 @@ export const zanZankuroShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "奥義 無双震撃斬",
           command: "↓↓↓↘→+AB同時押し",
@@ -49,7 +49,7 @@ export const zanZankuroShura: DataItem = {
     },
     {
       title: "システム",
-      list: [
+      skills: [
         {
           name: "斬紅郎の使用方法",
           command:

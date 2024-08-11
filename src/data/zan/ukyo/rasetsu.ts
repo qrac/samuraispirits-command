@@ -6,7 +6,7 @@ export const zanUkyoRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "秘剣 ツバメ返し",
           command: "空中で↙↓↘→+斬",
@@ -32,7 +32,7 @@ export const zanUkyoRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "夢想残光霞",
           command: "→←→+CD同時押し",

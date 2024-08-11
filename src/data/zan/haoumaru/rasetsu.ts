@@ -6,7 +6,7 @@ export const zanHaoumaruRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "奥義 旋風裂斬・刹",
           command: "↓↘→+斬",
@@ -44,7 +44,7 @@ export const zanHaoumaruRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "秘奥義 天覇断空烈斬",
           command: "→←↙↓↘→+CD同時押し",

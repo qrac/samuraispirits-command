@@ -6,7 +6,7 @@ export const zanNakoruruRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "アンヌ ムツベ",
           command: "←↙↓+斬",
@@ -18,7 +18,7 @@ export const zanNakoruruRasetsu: DataItem = {
         {
           name: "カムイ リㇺセ",
           command: "←↓↙+斬",
-          list: [
+          skills: [
             {
               name: "カムイ リㇺセの返し",
               command: "斬 or D",
@@ -28,7 +28,7 @@ export const zanNakoruruRasetsu: DataItem = {
         {
           name: "狼にまたがる",
           command: "↓↙←+D",
-          list: [
+          skills: [
             {
               name: "狼から降りる",
               command: "↖︎ or ↑ or ↗︎+D",
@@ -63,7 +63,7 @@ export const zanNakoruruRasetsu: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -77,7 +77,7 @@ export const zanNakoruruRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "ヌペキ カムイ シキテ",
           command: "←↙↓↘→↓↘+BC同時押し",

@@ -6,7 +6,7 @@ export const zanAmakusaShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "死霊刃",
           command: "↓↘→+斬",
@@ -39,7 +39,7 @@ export const zanAmakusaShura: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -49,7 +49,7 @@ export const zanAmakusaShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "凶冥十殺陣",
           command: "←→↓↘+BC同時押し",

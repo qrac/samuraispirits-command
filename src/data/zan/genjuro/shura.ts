@@ -6,7 +6,7 @@ export const zanGenjuroShura: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "桜華斬",
           command: "↓↙←+斬",
@@ -18,7 +18,7 @@ export const zanGenjuroShura: DataItem = {
         {
           name: "三連殺",
           command: "↓↘→+斬（3回まで）",
-          list: [
+          skills: [
             {
               name: "返し刃",
               command: "斬",
@@ -38,7 +38,7 @@ export const zanGenjuroShura: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "五光斬",
           command: "→←↙↓↘→+AB同時押し",

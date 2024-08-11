@@ -6,7 +6,7 @@ export const zanGenjuroRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "裏桜華・菖蒲",
           command: "↓↙←+斬（与ガード時ボタン継続で跳ね返り）",
@@ -32,7 +32,7 @@ export const zanGenjuroRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "裏五光",
           command: "→←↙↓↘→+CD同時押し",

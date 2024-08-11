@@ -6,7 +6,7 @@ export const zanGalfordRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "プラズマブレイク",
           command: "↓↘→+斬",
@@ -47,7 +47,7 @@ export const zanGalfordRasetsu: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -61,7 +61,7 @@ export const zanGalfordRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "ライトニングストライクスリー",
           command: "→↘↓↙←→+C",

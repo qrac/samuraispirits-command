@@ -6,7 +6,7 @@ export const zanBasaraRasetsu: DataItem = {
   groups: [
     {
       title: "必殺技",
-      list: [
+      skills: [
         {
           name: "地刺し",
           command: "↓↘→+斬",
@@ -39,7 +39,7 @@ export const zanBasaraRasetsu: DataItem = {
     },
     {
       title: "特殊技",
-      list: [
+      skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
@@ -49,7 +49,7 @@ export const zanBasaraRasetsu: DataItem = {
     {
       title: "武器飛ばし",
       titleColor: 2,
-      list: [
+      skills: [
         {
           name: "影舞い・夢彈",
           command: "←↙↓↘→←+BC同時押し",
