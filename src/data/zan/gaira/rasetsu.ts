@@ -12,6 +12,10 @@ export const zanGairaRasetsu: DataItem = {
           command: "↓↙←+A",
         },
         {
+          name: "ぶちころし",
+          command: "↓↘→+斬",
+        },
+        {
           name: "地震丸",
           command: "↓↓+AB同時押し",
         },
@@ -26,10 +30,6 @@ export const zanGairaRasetsu: DataItem = {
         {
           name: "百貫落とし",
           command: "空中で↓+D",
-        },
-        {
-          name: "ぶちころし",
-          command: "↓↘→+斬",
         },
       ],
     },

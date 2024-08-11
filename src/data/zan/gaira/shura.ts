@@ -12,12 +12,16 @@ export const zanGairaShura: DataItem = {
           command: "↓↙←+A",
         },
         {
-          name: "地震丸",
-          command: "↓↓+AB同時押し",
-        },
-        {
           name: "かちあげ",
           command: "→↓↘+斬",
+        },
+        {
+          name: "みだれうち",
+          command: "↓↘→+AB同時押し",
+        },
+        {
+          name: "地震丸",
+          command: "↓↓+AB同時押し",
         },
         {
           name: "つかむぞ～組み天井",
@@ -38,10 +42,6 @@ export const zanGairaShura: DataItem = {
         {
           name: "百貫落とし",
           command: "空中で↓+D",
-        },
-        {
-          name: "みだれうち",
-          command: "↓↘→+AB同時押し",
         },
       ],
     },
