@@ -1,6 +1,6 @@
-このサイトは「スマホでサムスピのコマンドを素早く確認したい！」という思いで作りました。手元に置いても見えるよう文字サイズを大きめに設定しています。
+これはスマホでサムスピのコマンドを素早く確認できるウェブアプリです。
 
-## 開発情報
-
+- **ホーム画面に追加**すると見やすさ UP
+- 文字サイズ大きめ（台に置いて見える）
 - 開発者: [クラク](https://x.com/Qrac_JP)
-- リポジトリ: [qrac/samuraispirits-command](https://github.com/qrac/samuraispirits-command)
+- ソースコード: [GitHub](https://github.com/qrac/samuraispirits-command)
