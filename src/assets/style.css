@@ -42,7 +42,7 @@
   z-index: 2;
 }
 
-.header-bg-icon {
+.header-title-icon {
   position: absolute;
   top: 0;
   right: calc(var(--theme-space) * -0.5);

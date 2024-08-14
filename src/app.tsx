@@ -5,6 +5,7 @@ import type { EntryDataNavItem } from "./types"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
 import DataHome from "./data/home.md"
+import { ComponentTitleIcon } from "./component/title-icon"
 import { ComponentSkills } from "./component/skills"
 import {
   getCharacters,
@@ -48,9 +49,7 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1 className="header-title">Samurai Spirits Series Command List</h1>
-        <svg className="header-bg-icon" role="img">
-          <use href="/assets/sprite.svg#qmark"></use>
-        </svg>
+        <ComponentTitleIcon gameId={gameId} />
       </header>
       <nav className="nav">
         <div className="nav-group">

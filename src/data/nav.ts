@@ -14,7 +14,7 @@ export const dataNav: DataNav = {
     /*first: {
     name: "初サム",
     },*/
-    /*sin: {
+    /*shin: {
       name: "真サム",
     },*/
     /*zero: {
