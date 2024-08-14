@@ -1,5 +1,5 @@
 .footer {
-  padding: var(--theme-space) 0 calc(var(--theme-space) * 2);
+  padding: var(--theme-space) 0;
 }
 
 .footer-copyright {
