@@ -1,0 +1,34 @@
+.docs > * + * {
+  margin-top: 1em;
+}
+
+.docs h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.docs :is(ul, ol) {
+  margin-left: 1.5em;
+}
+
+.docs :is(ul, ol) > li {
+  display: list-item;
+}
+
+.docs ul > li {
+  list-style: circle outside;
+}
+
+.docs p {
+  word-break: auto-phrase;
+}
+
+.docs a {
+  text-decoration: underline;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .docs a:hover {
+    text-decoration: none;
+  }
+}

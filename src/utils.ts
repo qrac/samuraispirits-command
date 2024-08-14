@@ -1,14 +1,11 @@
-import type { DataNav, EntryDataNavItem, DataItem } from "./types"
+import type { DataNav, NavItem, DataItem } from "./types"
 
-export function getGames(dataNav: DataNav): EntryDataNavItem[] {
+export function getGames(dataNav: DataNav): NavItem[] {
   const newGames = Object.entries(dataNav) || []
   return newGames
 }
 
-export function getCharacters(
-  dataNav: DataNav,
-  gameId: string
-): EntryDataNavItem[] {
+export function getCharacters(dataNav: DataNav, gameId: string): NavItem[] {
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const newCharacters = hasCharacters ? Object.entries(game.characters) : []
@@ -19,7 +16,7 @@ export function getTypes(
   dataNav: DataNav,
   gameId: string,
   characterId: string
-): EntryDataNavItem[] {
+): NavItem[] {
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const hasCharacterId =
@@ -51,9 +48,9 @@ export function getDataId(
   return newDataId
 }
 
-export function getCurrentData(dataList: DataItem[], dataId: string) {
-  const currentData = dataList.find((data) => data.id === dataId)
-  return currentData
+export function getCurrentDataItem(dataList: DataItem[], dataId: string) {
+  const currentDataItem = dataList.find((data) => data.id === dataId)
+  return currentDataItem
 }
 
 export function getNavigatePath(

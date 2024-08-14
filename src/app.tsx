@@ -1,17 +1,21 @@
-import { clsx } from "clsx"
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
-import type { EntryDataNavItem } from "./types"
+import type { NavItem } from "./types"
+import "./app.css"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
 import DataHome from "./data/home.md"
-import { ComponentCover } from "./component/cover"
-import { ComponentSkills } from "./component/skills"
+import { ComponentHeader } from "./component/header"
+import { ComponentNav } from "./component/nav"
+import { ComponentDocs } from "./component/docs"
+import { ComponentLineup } from "./component/lineup"
+import { ComponentContent } from "./component/content"
+import { ComponentFooter } from "./component/footer"
 import {
   getCharacters,
   getTypes,
   getDataId,
-  getCurrentData,
+  getCurrentDataItem,
   getNavigatePath,
   getRoutePath,
 } from "./utils"
@@ -25,10 +29,10 @@ export default function App() {
   let characterId = pathArray[2] || "root"
   let typeId = pathArray[3] || "shura"
   let dataId = getDataId(dataNav, gameId, characterId, typeId)
-  let games = Object.entries(dataNav) as EntryDataNavItem[]
+  let games = Object.entries(dataNav) as NavItem[]
   let characters = getCharacters(dataNav, gameId)
   let types = getTypes(dataNav, gameId, characterId)
-  let currentData = getCurrentData(dataList, dataId)
+  let currentDataItem = getCurrentDataItem(dataList, dataId)
 
   function handleClickGame(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
@@ -47,115 +51,79 @@ export default function App() {
   }
   return (
     <div className="app">
-      <header className="header">
-        <h1 className="header-title">Samurai Spirits Series Command List</h1>
-        <ComponentCover gameId={gameId} />
-      </header>
-      <nav className="nav">
-        <div className="nav-group">
-          <div className="nav-group-grid">
-            {games.map(([id, item]) => (
-              <button
-                key={id}
-                className={clsx(
-                  "nav-button",
-                  id === "root" && !gameId && "is-active",
-                  gameId === id && "is-active"
-                )}
-                onClick={() => handleClickGame(id)}
-              >
-                {item.name}
-              </button>
-            ))}
-          </div>
-        </div>
-        {characters.length > 0 && (
-          <div className="nav-group">
-            <div className="nav-group-grid">
-              {characters.map(([id, item]) => (
-                <button
-                  key={id}
-                  className={clsx(
-                    "nav-button",
-                    characterId === id && "is-active"
-                  )}
-                  onClick={() => handleClickChara(id)}
-                >
-                  {item.name}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-        {types.length > 0 && (
-          <div className="nav-group">
-            <div className="nav-group-grid">
-              {types.map(([id, item]) => (
-                <button
-                  key={id}
-                  className={clsx("nav-button", typeId === id && "is-active")}
-                  onClick={() => handleClickType(id)}
-                >
-                  {item.name}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </nav>
+      <ComponentHeader gameId={gameId} />
+      <ComponentNav
+        navGroups={[
+          {
+            navItems: games,
+            activeId: gameId,
+            onClickAction: handleClickGame,
+          },
+          {
+            navItems: characters,
+            activeId: characterId,
+            onClickAction: handleClickChara,
+          },
+          {
+            navItems: types,
+            activeId: typeId,
+            onClickAction: handleClickType,
+          },
+        ]}
+      />
       <main className="main">
         <Routes>
           <Route
             path="/"
             element={
-              <div className="docs">
-                <DataHome />
+              <div className="page">
+                <ComponentLineup
+                  navItems={games}
+                  onClickAction={handleClickGame}
+                />
+                <ComponentDocs>
+                  <DataHome />
+                </ComponentDocs>
               </div>
             }
           />
           <Route
             path={getRoutePath(dataNav, gameId, characterId)}
             element={
-              currentData ? (
-                <div
-                  className={clsx(
-                    "data",
-                    currentData?.layout === "slim" && "is-slim"
-                  )}
-                >
-                  <h2 className="data-name">{currentData.name}</h2>
-                  <div className="data-groups">
-                    {currentData.groups.map((group, groupIndex) => (
-                      <div key={groupIndex} className="data-group">
-                        {group.title && (
-                          <h3
-                            className={clsx(
-                              "data-group-title",
-                              group.titleColor && `is-ac-${group.titleColor}`
-                            )}
-                          >
-                            {group.title}
-                          </h3>
-                        )}
-                        <ComponentSkills skills={group.skills} />
-                      </div>
-                    ))}
-                  </div>
+              currentDataItem ? (
+                <div className="page">
+                  <ComponentContent dataItem={currentDataItem} />
                 </div>
               ) : (
-                <div className="docs">
-                  <p>No data</p>
+                <div className="page">
+                  <ComponentDocs>
+                    <p>No data</p>
+                  </ComponentDocs>
+                  <ComponentLineup
+                    navItems={games}
+                    onClickAction={handleClickGame}
+                  />
                 </div>
               )
             }
           />
-          <Route path="*" element={<div className="docs">Not found</div>} />
+          <Route
+            path="*"
+            element={
+              <div className="page">
+                <ComponentDocs>
+                  <p>Not found</p>
+                </ComponentDocs>
+                <ComponentLineup
+                  navItems={games}
+                  onClickAction={handleClickGame}
+                />
+              </div>
+            }
+          />
         </Routes>
       </main>
-
-      <footer className="footer">
-        <p className="footer-copyright">© 2024 Qrac</p>
-      </footer>
+      <ComponentFooter />
     </div>
   )
 }

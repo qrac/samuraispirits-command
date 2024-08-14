@@ -1,0 +1,25 @@
+.content > * + * {
+  margin-top: calc(var(--theme-space) * 0.5);
+}
+
+.content-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content-groups > * + * {
+  margin-top: calc(var(--theme-space) * 0.5);
+}
+
+.content-group-title {
+  display: flex;
+  width: fit-content;
+  padding: 2px 6px;
+  background: var(--theme-tx-2);
+  color: var(--theme-tx-lk);
+  font-weight: 600;
+}
+
+.content-group-title.is-ac-2 {
+  background: var(--theme-ac-2);
+}

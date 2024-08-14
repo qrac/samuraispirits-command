@@ -1,0 +1,7 @@
+.footer {
+  padding: var(--theme-space) 0;
+}
+
+.footer-copyright {
+  font-family: var(--font-sans-en);
+}

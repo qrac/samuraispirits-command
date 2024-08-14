@@ -1,6 +1,7 @@
 export type DataNav = {
   [id: string]: {
     name: string
+    fullName?: string
     characters?: {
       [id: string]: {
         name: string
@@ -14,7 +15,7 @@ export type DataNav = {
   }
 }
 
-export type EntryDataNavItem = [id: string, { name: string }]
+export type NavItem = [id: string, { name: string; fullName?: string }]
 
 export type Skill = {
   name: string

@@ -1,0 +1,36 @@
+@import "musubii/src/bases/typo/font.css";
+@import "musubii/src/bases/base/reset.css";
+@import "musubii/src/bases/base/html.css";
+
+:root {
+  --theme-tx-2: #1f1a16;
+  --theme-bg-1: #eee7d6;
+  --theme-bg-2: #c2b89f;
+  --theme-bd-1: #1f1a16;
+  --theme-tx-lk: #eee7d6;
+  --theme-ac-1: #e9b43c;
+  --theme-ac-2: #b30a0a;
+  --theme-button-a: #b30a0a;
+  --theme-button-b: #9f7e00;
+  --theme-button-c: #02a55c;
+  --theme-button-d: #0d7cb9;
+  --theme-space: 28px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto 1fr auto;
+  max-width: 540px;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding: 0 var(--theme-space);
+}
+
+.main {
+  padding: var(--theme-space) 0;
+}
+
+.page > * + * {
+  margin-top: 1em;
+}

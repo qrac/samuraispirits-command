@@ -1,6 +1,27 @@
 import { clsx } from "clsx"
 
-export function ComponentCommand({ command }: { command: string }) {
+import type { Skill } from "../../types"
+import "./index.css"
+
+export function ComponentSkills({ skills }: { skills: Skill[] }) {
+  return (
+    <div className="skills">
+      {skills.map((item, itemIndex) => (
+        <div key={itemIndex} className="skill">
+          <div className="skill-set">
+            <div className="skill-name">{item.name}</div>
+            <div className="skill-command">
+              <ComponentCommand command={item.command} />
+            </div>
+          </div>
+          {item.skills && <ComponentSkills skills={item.skills} />}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function ComponentCommand({ command }: { command: string }) {
   return command.split("").map((char, index) => {
     const regCommand = /[↙↓↘←→↖↑↗ABCD斬]/
     const commandMap = {
@@ -23,7 +44,7 @@ export function ComponentCommand({ command }: { command: string }) {
       return (
         <svg
           key={index}
-          className={clsx("data-skill-command-icon", `is-${symbolId}`)}
+          className={clsx("skill-command-icon", `is-${symbolId}`)}
           role="img"
         >
           <use href={"/assets/sprite.svg#" + symbolId}></use>

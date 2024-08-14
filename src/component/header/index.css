@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  padding: calc(var(--theme-space) * 0.875) 0;
+}
+
+.header-title {
+  position: relative;
+  font-size: clamp(28px, 7.5vw, 42px);
+  font-weight: 900;
+  font-family: var(--font-serif);
+  line-height: 1.2;
+  word-break: auto-phrase;
+  z-index: 2;
+}
+
+.header-cover {
+  position: absolute;
+  top: 0;
+  right: calc(var(--theme-space) * -0.5);
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  z-index: 1;
+}
+
+@media (width >= 540px) {
+  .header-cover {
+    right: 0;
+  }
+}
