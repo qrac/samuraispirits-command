@@ -1,5 +1,5 @@
 import type { DataItem } from "../../types"
-import { tenRoot } from "./characters/root"
+import { tenRoot } from "./root"
 import { tenHaoumaruShura } from "./characters/haoumaru/shura"
 import { tenHaoumaruRasetsu } from "./characters/haoumaru/rasetsu"
 import { tenNakoruruShura } from "./characters/nakoruru/shura"

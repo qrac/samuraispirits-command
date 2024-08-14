@@ -41,7 +41,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "防御崩し",
-          command: "接近して→+C or ←+C",
+          command: "近距離で→+C or ←+C",
         },
         {
           name: "見切り",
@@ -49,7 +49,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "回り込み",
-          command: "接近してAB同時押し",
+          command: "近距離でAB同時押し",
         },
         {
           name: "不意打ち",

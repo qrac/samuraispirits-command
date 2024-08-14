@@ -4,7 +4,7 @@ import type { NavItem } from "./types"
 import "./app.css"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
-import DataHome from "./data/home.md"
+import DataRoot from "./data/root.md"
 import { ComponentHeader } from "./component/header"
 import { ComponentNav } from "./component/nav"
 import { ComponentDocs } from "./component/docs"
@@ -82,7 +82,7 @@ export default function App() {
                   onClickAction={handleClickGame}
                 />
                 <ComponentDocs>
-                  <DataHome />
+                  <DataRoot />
                 </ComponentDocs>
               </div>
             }

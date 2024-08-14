@@ -1,5 +1,5 @@
 import type { DataItem } from "../../types"
-import { zanRoot } from "./characters/root"
+import { zanRoot } from "./root"
 import { zanHaoumaruShura } from "./characters/haoumaru/shura"
 import { zanHaoumaruRasetsu } from "./characters/haoumaru/rasetsu"
 import { zanNakoruruShura } from "./characters/nakoruru/shura"

@@ -33,7 +33,7 @@ export const firstRoot: DataItem = {
         },
         {
           name: "防御崩し",
-          command: "接近して→ or ←+中 or 強攻撃",
+          command: "近距離で→ or ←+中 or 強攻撃",
         },
         {
           name: "踏み込み",

@@ -1,7 +1,7 @@
 import type { DataItem } from "../../../types"
 
 export const firstGenan: DataItem = {
-  id: "first-Genan",
+  id: "first-genan",
   name: "不知火幻庵",
   groups: [
     {
