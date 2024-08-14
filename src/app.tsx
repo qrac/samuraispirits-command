@@ -4,7 +4,7 @@ import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 import type { EntryDataNavItem } from "./types"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
-import DataRoot from "./data/root.md"
+import DataHome from "./data/home.md"
 import { ComponentSkills } from "./component/skills"
 import {
   getCharacters,
@@ -110,7 +110,7 @@ export default function App() {
             path="/"
             element={
               <div className="docs">
-                <DataRoot />
+                <DataHome />
               </div>
             }
           />
