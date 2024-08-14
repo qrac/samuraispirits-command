@@ -1,7 +1,7 @@
 export type DataNav = {
   [id: string]: {
     name: string
-    charas?: {
+    characters?: {
       [id: string]: {
         name: string
         types?: {

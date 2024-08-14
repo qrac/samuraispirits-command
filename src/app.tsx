@@ -7,7 +7,7 @@ import { dataList } from "./data/list"
 import DataRoot from "./data/root.md"
 import { ComponentSkills } from "./component/skills"
 import {
-  getCharas,
+  getCharacters,
   getTypes,
   getDataId,
   getCurrentData,
@@ -21,12 +21,12 @@ export default function App() {
 
   let pathArray = location.pathname.split("/")
   let gameId = pathArray[1] || "root"
-  let charaId = pathArray[2] || "root"
+  let characterId = pathArray[2] || "root"
   let typeId = pathArray[3] || "shura"
-  let dataId = getDataId(dataNav, gameId, charaId, typeId)
+  let dataId = getDataId(dataNav, gameId, characterId, typeId)
   let games = Object.entries(dataNav) as EntryDataNavItem[]
-  let charas = getCharas(dataNav, gameId)
-  let types = getTypes(dataNav, gameId, charaId)
+  let characters = getCharacters(dataNav, gameId)
+  let types = getTypes(dataNav, gameId, characterId)
   let currentData = getCurrentData(dataList, dataId)
 
   function handleClickGame(id: string) {
@@ -37,10 +37,10 @@ export default function App() {
   function handleClickChara(id: string) {
     const routePath = getNavigatePath(dataNav, gameId, id, "shura")
     navigate(routePath)
-    charaId = id
+    characterId = id
   }
   function handleClickType(id: string) {
-    const routePath = getNavigatePath(dataNav, gameId, charaId, id)
+    const routePath = getNavigatePath(dataNav, gameId, characterId, id)
     navigate(routePath)
     typeId = id
   }
@@ -70,13 +70,16 @@ export default function App() {
             ))}
           </div>
         </div>
-        {charas.length > 0 && (
+        {characters.length > 0 && (
           <div className="nav-group">
             <div className="nav-group-grid">
-              {charas.map(([id, item]) => (
+              {characters.map(([id, item]) => (
                 <button
                   key={id}
-                  className={clsx("nav-button", charaId === id && "is-active")}
+                  className={clsx(
+                    "nav-button",
+                    characterId === id && "is-active"
+                  )}
                   onClick={() => handleClickChara(id)}
                 >
                   {item.name}
@@ -112,7 +115,7 @@ export default function App() {
             }
           />
           <Route
-            path={getRoutePath(dataNav, gameId, charaId)}
+            path={getRoutePath(dataNav, gameId, characterId)}
             element={
               currentData ? (
                 <div

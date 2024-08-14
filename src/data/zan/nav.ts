@@ -3,7 +3,7 @@ import type { DataNav } from "../../types"
 export const zanNav: DataNav = {
   zan: {
     name: "斬サム",
-    charas: {
+    characters: {
       root: {
         name: "基本操作",
       },

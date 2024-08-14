@@ -3,7 +3,7 @@ import type { DataNav } from "../../types"
 export const tenNav: DataNav = {
   ten: {
     name: "天サム",
-    charas: {
+    characters: {
       root: {
         name: "基本操作",
       },
