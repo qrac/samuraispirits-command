@@ -13,6 +13,8 @@
 
 .docs :is(ul, ol) > li {
   display: list-item;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
 
 .docs ul > li {
