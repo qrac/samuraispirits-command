@@ -24,6 +24,12 @@
   rotate: 45deg;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .lineup-button:hover {
+    background: color-mix(in srgb, var(--theme-tx-2) 7%, transparent 93%);
+  }
+}
+
 .lineup-button-title {
   display: block;
   font-weight: 600;
