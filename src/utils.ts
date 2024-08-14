@@ -6,6 +6,7 @@ export function getGames(dataNav: DataNav): NavItem[] {
 }
 
 export function getCharacters(dataNav: DataNav, gameId: string): NavItem[] {
+  if (!dataNav[gameId]) return []
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const newCharacters = hasCharacters ? Object.entries(game.characters) : []
@@ -17,6 +18,7 @@ export function getTypes(
   gameId: string,
   characterId: string
 ): NavItem[] {
+  if (!dataNav[gameId]) return []
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const hasCharacterId =
@@ -35,6 +37,7 @@ export function getDataId(
   characterId: string,
   typeId: string
 ) {
+  if (!dataNav[gameId]) return ""
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const hasCharacterId =
@@ -82,6 +85,7 @@ export function getRoutePath(
   gameId: string,
   characterId: string
 ) {
+  if (!dataNav[gameId]) return ""
   const game = dataNav[gameId]
   const hasCharacters = Object.hasOwn(game, "characters")
   const hasCharacterId =
