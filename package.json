@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "preview:h": "vite preview --host",
-    "sprite": "svg-sprite -s --symbol-dest=public --ss=assets/sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/sprite/*.svg"
+    "sprite": "svg-sprite -s --symbol-dest=public --ss=assets/sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/icons/*.svg"
   },
   "license": "MIT",
   "dependencies": {

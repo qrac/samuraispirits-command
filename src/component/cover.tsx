@@ -4,7 +4,7 @@ import imageUrlShin from "../assets/images/shin.svg"
 import imageUrlZan from "../assets/images/zan.svg"
 import imageUrlTen from "../assets/images/ten.svg"
 
-export function ComponentTitleIcon({ gameId }: { gameId: string }) {
+export function ComponentCover({ gameId }: { gameId: string }) {
   const imageUrl = () => {
     switch (gameId) {
       case "first":
@@ -24,7 +24,7 @@ export function ComponentTitleIcon({ gameId }: { gameId: string }) {
       src={imageUrl()}
       width={150}
       height={150}
-      className="header-title-icon"
+      className="header-cover"
       alt="Title Icon"
     />
   )
