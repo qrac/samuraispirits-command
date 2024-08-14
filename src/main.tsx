@@ -5,6 +5,8 @@ import { registerSW } from "virtual:pwa-register"
 
 import App from "./app"
 
+registerSW({ immediate: true })
+
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -12,4 +14,3 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     </BrowserRouter>
   </React.StrictMode>
 )
-registerSW({ immediate: true })
