@@ -23,7 +23,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
 
 function ComponentCommand({ command }: { command: string }) {
   return command.split("").map((char, index) => {
-    const regCommand = /[↙↓↘←→↖↑↗ABCD斬]/
+    const regCommand = /[↙↓↘←→↖↑↗ABCD斬蹴]/
     const commandMap = {
       "↙": "arrow-1",
       "↓": "arrow-2",
@@ -38,6 +38,7 @@ function ComponentCommand({ command }: { command: string }) {
       C: "button-c",
       D: "button-d",
       斬: "button-zan",
+      蹴: "button-kick",
     }
     if (regCommand.test(char)) {
       const symbolId = commandMap[char]

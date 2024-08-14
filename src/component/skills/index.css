@@ -61,6 +61,14 @@
   fill: var(--theme-button-d);
 }
 
+.skill-command-icon.is-button-zan {
+  fill: var(--theme-button-zan);
+}
+
+.skill-command-icon.is-button-kick {
+  fill: var(--theme-button-kick);
+}
+
 .skills .skills {
   position: relative;
   margin-top: calc(var(--theme-space) * 0.5);
