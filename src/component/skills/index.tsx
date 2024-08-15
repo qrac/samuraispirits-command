@@ -48,7 +48,7 @@ function ComponentCommand({ command }: { command: string }) {
           className={clsx("skill-command-icon", `is-${symbolId}`)}
           role="img"
         >
-          <use href={"/assets/sprite.svg#" + symbolId}></use>
+          <use href={"/assets/icons.svg#" + symbolId}></use>
         </svg>
       )
     } else {

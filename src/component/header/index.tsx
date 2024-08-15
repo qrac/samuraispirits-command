@@ -1,9 +1,4 @@
 import "./index.css"
-import imageUrlQmark from "../../assets/images/qmark.svg"
-import imageUrlFirst from "../../assets/images/first.svg"
-import imageUrlShin from "../../assets/images/shin.svg"
-import imageUrlZan from "../../assets/images/zan.svg"
-import imageUrlTen from "../../assets/images/ten.svg"
 
 export function ComponentHeader({ gameId }: { gameId: string }) {
   return (
@@ -15,27 +10,23 @@ export function ComponentHeader({ gameId }: { gameId: string }) {
 }
 
 function Cover({ gameId }: { gameId: string }) {
-  const coverUrl = () => {
-    switch (gameId) {
-      case "first":
-        return imageUrlFirst
-      case "shin":
-        return imageUrlShin
-      case "zan":
-        return imageUrlZan
-      case "ten":
-        return imageUrlTen
-      default:
-        return imageUrlQmark
-    }
-  }
+  const coverList = [
+    "first",
+    "shin",
+    "zan",
+    "ten",
+    "zero",
+    "zerosp",
+    "ken",
+    "poly",
+    "asura",
+    "sen",
+    "soukou",
+  ]
+  const symbolId = coverList.includes(gameId) ? gameId : "qmark"
   return (
-    <img
-      src={coverUrl()}
-      width={150}
-      height={150}
-      className="header-cover"
-      alt="Header Cover"
-    />
+    <svg className="header-cover" role="img">
+      <use href={"/assets/covers.svg#" + symbolId}></use>
+    </svg>
   )
 }

@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "preview:h": "vite preview --host",
-    "sprite": "svg-sprite -s --symbol-dest=public --ss=assets/sprite.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/icons/*.svg"
+    "sprite": "npm run icons && npm run covers",
+    "icons": "svg-sprite -s --symbol-dest=public --ss=assets/icons.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/icons/*.svg",
+    "covers": "svg-sprite -s --symbol-dest=public --ss=assets/covers.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/covers/*.svg"
   },
   "license": "MIT",
   "dependencies": {
