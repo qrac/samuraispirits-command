@@ -2,4 +2,4 @@
 
 - 開発者: [クラク](https://x.com/Qrac_JP)
 - 更新情報: [Releases](https://github.com/qrac/samuraispirits-command/releases)
-- ソースコード: [GitHub Repository](https://github.com/qrac/samuraispirits-command)
+- ソースコード: [Repository](https://github.com/qrac/samuraispirits-command)

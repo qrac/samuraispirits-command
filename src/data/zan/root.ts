@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const zanRoot: DataItem = {
   id: "zan-root",
-  name: "基本操作",
+  name: "基本操作（斬サム）",
   layout: "slim",
   groups: [
     {
