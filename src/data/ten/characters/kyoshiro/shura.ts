@@ -29,7 +29,7 @@ export const tenKyoshiroShura: DataItem = {
         },
         {
           name: "蝦蟇地獄",
-          command: "↓↘→+D同時押し",
+          command: "↓↘→+D",
         },
       ],
     },
