@@ -38,11 +38,11 @@ export const tenSougetsuRasetsu: DataItem = {
       title: "連斬",
       skills: [
         {
-          name: "火月専用①",
+          name: "蒼月専用①",
           command: "CD同時押し後にC,C",
         },
         {
-          name: "火月専用②",
+          name: "蒼月専用②",
           command: "CD同時押し後にC,B,B,B",
         },
       ],
