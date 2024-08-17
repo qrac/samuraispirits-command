@@ -17,7 +17,7 @@ export const tenKazukiShura: DataItem = {
         },
         {
           name: "大爆殺",
-          command: "近距離で→↓↘+斬 or D",
+          command: "→↓↘+斬 or D",
         },
         {
           name: "炎滅",
