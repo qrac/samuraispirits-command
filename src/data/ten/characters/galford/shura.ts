@@ -28,12 +28,20 @@ export const tenGalfordShura: DataItem = {
           command: "↓↙←+D",
         },
         {
-          name: "レプリカアタック",
-          command: "→↘↓↙←+AC or BD同時押し",
+          name: "レプリカアタック（ヘッド）",
+          command: "→↘↓↙←+AC同時押し",
         },
         {
-          name: "イミテイトレプリカ",
-          command: "被ダメージ中AC or BD同時押し",
+          name: "レプリカアタック（リア）",
+          command: "→↘↓↙←+BD同時押し",
+        },
+        {
+          name: "イミテイトレプリカ（ヘッド）",
+          command: "被ダメージ中AC同時押し",
+        },
+        {
+          name: "イミテイトレプリカ（リア）",
+          command: "被ダメージ中BD同時押し",
         },
         {
           name: "シャドーコピー",
@@ -60,7 +68,7 @@ export const tenGalfordShura: DataItem = {
       skills: [
         {
           name: "ダブルメガストライクヘッズ",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB or CD同時押し",
         },
       ],
     },

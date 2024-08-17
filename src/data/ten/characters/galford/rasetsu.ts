@@ -28,12 +28,20 @@ export const tenGalfordRasetsu: DataItem = {
           command: "踏み込み中近距離で→↓↘+斬 or D",
         },
         {
-          name: "レプリカアタック",
-          command: "→↘↓↙←+AC or BD同時押し",
+          name: "レプリカアタック（ヘッド）",
+          command: "→↘↓↙←+AC同時押し",
         },
         {
-          name: "イミテイトレプリカ",
-          command: "被ダメージ中AC or BD同時押し",
+          name: "レプリカアタック（リア）",
+          command: "→↘↓↙←+BD同時押し",
+        },
+        {
+          name: "イミテイトレプリカ（ヘッド）",
+          command: "被ダメージ中AC同時押し",
+        },
+        {
+          name: "イミテイトレプリカ（リア）",
+          command: "被ダメージ中BD同時押し",
         },
         {
           name: "シャドーコピー",
