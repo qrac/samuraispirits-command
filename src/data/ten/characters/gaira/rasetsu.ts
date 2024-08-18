@@ -17,7 +17,7 @@ export const tenGairaRasetsu: DataItem = {
         },
         {
           name: "円心殺",
-          command: "↓↙←→+斬",
+          command: "↓↙←→+斬（レバー回転でダメージ増加）",
         },
         {
           name: "百貫落とし",
