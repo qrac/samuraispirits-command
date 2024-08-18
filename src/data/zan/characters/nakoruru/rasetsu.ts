@@ -38,16 +38,28 @@ export const zanNakoruruRasetsu: DataItem = {
               command: "斬",
             },
             {
-              name: "イメル シキテ",
-              command: "空中で→↓↘+C",
-            },
-            {
               name: "メㇽ シキテ",
-              command: "←↙↓+C（↖ or ↑ or ↗ or →+Cで分離）",
+              command: "←↙↓+C",
+              skills: [
+                {
+                  name: "分離攻撃",
+                  command: "↖ or ↑ or ↗ or →+C",
+                },
+              ],
             },
             {
               name: "カント シキテ",
               command: "↓↘→+C（↑ or ↓以外+Cで分離）",
+              skills: [
+                {
+                  name: "分離攻撃",
+                  command: "上下以外+C",
+                },
+              ],
+            },
+            {
+              name: "イメル シキテ",
+              command: "空中で→↓↘+C",
             },
           ],
         },

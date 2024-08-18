@@ -20,16 +20,34 @@ export const zeroRera: DataItem = {
               command: "斬",
             },
             {
-              name: "イメル シキテ",
-              command: "空中で↓↘→+斬（↑ or ↓以外+Cで分離）",
-            },
-            {
               name: "メㇽ シキテ",
-              command: "←↙↓+斬（↑ or ↓以外+Cで分離）",
+              command: "←↙↓+斬",
+              skills: [
+                {
+                  name: "分離攻撃",
+                  command: "上下以外+C",
+                },
+              ],
             },
             {
               name: "カント シキテ",
-              command: "→↓↘+斬（↑ or ↓以外+Cで分離）",
+              command: "→↓↘+斬",
+              skills: [
+                {
+                  name: "分離攻撃",
+                  command: "上下以外+C",
+                },
+              ],
+            },
+            {
+              name: "イメル シキテ",
+              command: "空中で↓↘→+斬",
+              skills: [
+                {
+                  name: "分離攻撃",
+                  command: "上下以外+C",
+                },
+              ],
             },
           ],
         },
