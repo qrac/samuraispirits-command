@@ -35,7 +35,7 @@ export const zeroEnja: DataItem = {
         },
         {
           name: "炎滅",
-          command: "←↓↙+A or B or C",
+          command: "←↓↙+斬",
         },
       ],
     },
