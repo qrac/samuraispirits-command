@@ -52,7 +52,7 @@ export const zeroRoot: DataItem = {
           command: "近距離で→+C or ←+C",
           skills: [
             {
-              name: "切り崩し",
+              name: "崩し斬り",
               command: "斬",
             },
           ],
