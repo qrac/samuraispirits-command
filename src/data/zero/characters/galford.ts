@@ -41,7 +41,7 @@ export const zeroGalford: DataItem = {
         },
         {
           name: "イミテイトレプリカ（リア）",
-          command: "被ダメージ中→←→←→←↓+BD同時押し",
+          command: "被ダメージ中→←→←→←↓+BC同時押し",
         },
         {
           name: "シャドーコピー",
