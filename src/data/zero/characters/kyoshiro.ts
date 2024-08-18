@@ -20,10 +20,6 @@ export const zeroKyoshiro: DataItem = {
           command: "←↓↙+斬",
         },
         {
-          name: "血煙曲輪",
-          command: "空中で↓+斬",
-        },
-        {
           name: "跳尾獅子",
           command: "↓↙←+A or B",
         },
@@ -34,6 +30,10 @@ export const zeroKyoshiro: DataItem = {
         {
           name: "蝦蟇地獄",
           command: "↓↙←+C",
+        },
+        {
+          name: "血煙曲輪",
+          command: "空中で↓+斬",
         },
       ],
     },

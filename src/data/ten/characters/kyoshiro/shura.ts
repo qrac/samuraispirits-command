@@ -20,16 +20,16 @@ export const tenKyoshiroShura: DataItem = {
           command: "←↓↙+斬",
         },
         {
-          name: "血煙曲輪",
-          command: "空中で↓+A",
-        },
-        {
           name: "跳尾獅子",
           command: "↓↙←+斬",
         },
         {
           name: "蝦蟇地獄",
           command: "↓↘→+D",
+        },
+        {
+          name: "血煙曲輪",
+          command: "空中で↓+A",
         },
       ],
     },
