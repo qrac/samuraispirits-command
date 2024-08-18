@@ -13,11 +13,11 @@ export const zeroKazuki: DataItem = {
         },
         {
           name: "焦熱魂",
-          command: "↓↘→+斬 or C",
+          command: "↓↘→+A or B or C or AB同時押し",
         },
         {
           name: "大爆殺",
-          command: "→↓↘+斬 or C",
+          command: "→↓↘+A or B or C or AB同時押し",
         },
         {
           name: "炎滅",
