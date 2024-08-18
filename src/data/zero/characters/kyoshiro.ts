@@ -8,16 +8,16 @@ export const zeroKyoshiro: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "火炎曲舞",
-          command: "←↓↙+斬",
-        },
-        {
           name: "大津波",
           command: "↓↘→+斬",
         },
         {
           name: "回天曲舞",
           command: "→↓↘+斬",
+        },
+        {
+          name: "火炎曲舞",
+          command: "←↓↙+斬",
         },
         {
           name: "血煙曲輪",
