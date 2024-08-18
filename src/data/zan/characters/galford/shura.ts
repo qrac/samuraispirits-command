@@ -13,7 +13,7 @@ export const zanGalfordShura: DataItem = {
         },
         {
           name: "ローリングクラッシュ",
-          command: "→↓↘+C",
+          command: "近距離で→↓↘+C",
         },
         {
           name: "プラズマドッグ",
