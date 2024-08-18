@@ -45,7 +45,7 @@ export const zeroHanzo: DataItem = {
         },
         {
           name: "忍法 猿舞",
-          command: "←↓↙+斬 or C",
+          command: "←↓↙+A or B or C",
         },
         {
           name: "忍法 影分身",

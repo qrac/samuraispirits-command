@@ -9,11 +9,11 @@ export const zeroEnja: DataItem = {
       skills: [
         {
           name: "愚連脚",
-          command: "→↓↘+斬 or C",
+          command: "→↓↘+A or B or C",
           skills: [
             {
               name: "追加攻撃",
-              command: "→+斬 or C・←+斬 or Cを交互に入力",
+              command: "→+A or B or C・←+A or B or Cを交互に入力",
             },
           ],
         },
