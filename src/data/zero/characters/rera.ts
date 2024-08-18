@@ -58,7 +58,7 @@ export const zeroRera: DataItem = {
       skills: [
         {
           name: "ヌペキ カムイ シキテ",
-          command: "↓↘→+CD同時押し（狼乗り中も使用可能）",
+          command: "↓↘→+CD同時押し（狼乗り中でも使用可能）",
         },
       ],
     },
