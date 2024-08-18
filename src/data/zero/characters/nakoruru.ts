@@ -31,7 +31,7 @@ export const zeroNakoruru: DataItem = {
         },
         {
           name: "鷹につかまる",
-          command: "↓↙←+D",
+          command: "↓↙←+C",
           skills: [
             {
               name: "鷹から降りる",
