@@ -17,7 +17,17 @@ export const tenAmakusaShura: DataItem = {
         },
         {
           name: "汝、暗転入滅せよ",
-          command: "→↓↘+斬（斬で攻撃・Dで中止）",
+          command: "→↓↘+斬",
+          skills: [
+            {
+              name: "攻撃",
+              command: "斬",
+            },
+            {
+              name: "中止",
+              command: "D",
+            },
+          ],
         },
         {
           name: "逢魔刻・前",

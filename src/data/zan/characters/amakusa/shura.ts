@@ -17,7 +17,17 @@ export const zanAmakusaShura: DataItem = {
         },
         {
           name: "汝、暗転入滅せよ",
-          command: "→←↙↓↘→+C（斬で攻撃・Dで中止）",
+          command: "→←↙↓↘→+C",
+          skills: [
+            {
+              name: "攻撃",
+              command: "斬",
+            },
+            {
+              name: "中止",
+              command: "D",
+            },
+          ],
         },
         {
           name: "逢魔刻・前",
