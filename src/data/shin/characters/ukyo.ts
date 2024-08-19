@@ -21,7 +21,7 @@ export const shinUkyo: DataItem = {
         },
         {
           name: "残像踏み込み斬り",
-          command: "↓↘→+斬",
+          command: "↓↘→+蹴",
         },
       ],
     },
