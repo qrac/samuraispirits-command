@@ -13,7 +13,7 @@ export const tenRimururuRasetsu: DataItem = {
         },
         {
           name: "コンル メㇺ",
-          command: "←↙↓+斬",
+          command: "↓↙←+斬",
         },
         {
           name: "ルプㇱ トゥム",
