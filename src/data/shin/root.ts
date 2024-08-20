@@ -32,8 +32,8 @@ export const shinRoot: DataItem = {
           command: "CD同時押し",
         },
         {
-          name: "防御崩し",
-          command: "接近して→ or ←+中 or 強攻撃",
+          name: "投げ",
+          command: "近距離で→ or ←+中 or 強攻撃",
         },
         {
           name: "踏み込み",

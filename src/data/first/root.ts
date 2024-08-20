@@ -32,7 +32,7 @@ export const firstRoot: DataItem = {
           command: "CD同時押し",
         },
         {
-          name: "防御崩し",
+          name: "投げ",
           command: "近距離で→ or ←+中 or 強攻撃",
         },
         {
