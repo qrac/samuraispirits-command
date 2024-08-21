@@ -81,7 +81,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "体力回復",
-          command: "被ダウン時↓+斬",
+          command: "被ダウン時↓+ボタン連打",
         },
         {
           name: "弾き",
