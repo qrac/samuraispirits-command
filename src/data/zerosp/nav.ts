@@ -2,7 +2,7 @@ import type { DataNav } from "../../types"
 
 export const zerospNav: DataNav = {
   zerosp: {
-    name: "零スペ",
+    name: "零SP",
     fullName: "サムライスピリッツ零SPECIAL",
     characters: {
       root: {
