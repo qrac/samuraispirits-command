@@ -37,11 +37,11 @@ export const zerospRimururu: DataItem = {
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "踏み込み中AC or BC同時押し",
+          command: "素手時 踏み込み中AC or BC同時押し",
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル ルヤンペ",
-          command: "怒り時踏み込み中AC or BC同時押し",
+          command: "素手+怒りゲージ最大時 踏み込み中AC or BC同時押し",
         },
       ],
     },
