@@ -54,7 +54,7 @@ export const zerospYunfei: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "天彗跳陥",
@@ -63,7 +63,7 @@ export const zerospYunfei: DataItem = {
       ],
     },
     {
-      title: "武器飛ばし",
+      title: "武器飛ばし技",
       titleColor: 2,
       skills: [
         {
