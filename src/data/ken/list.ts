@@ -1,6 +1,6 @@
 import type { DataItem } from "../../types"
 import { kenRoot } from "./root"
-//import { kenHaoumaru } from "./characters/haoumaru"
+import { kenHaoumaru } from "./characters/haoumaru"
 //import { kenNakoruru } from "./characters/nakoruru"
 //import { kenRimururu } from "./characters/rimururu"
 //import { kenShizumaru } from "./characters/shizumaru"
@@ -31,7 +31,7 @@ import { kenRoot } from "./root"
 
 export const kenList = [
   kenRoot,
-  //kenHaoumaru,
+  kenHaoumaru,
   //kenNakoruru,
   //kenRimururu,
   //kenShizumaru,
