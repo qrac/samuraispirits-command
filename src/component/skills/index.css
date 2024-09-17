@@ -61,6 +61,10 @@
   fill: var(--theme-button-d);
 }
 
+.skill-command-icon.is-button-e {
+  fill: var(--theme-button-e);
+}
+
 .skill-command-icon.is-button-zan {
   fill: var(--theme-button-zan);
 }
@@ -118,6 +122,14 @@
   display: grid;
   grid-template-columns: minmax(0, calc(5.5rem * 1.25)) 1fr;
   grid-template-rows: auto;
+}
+
+@media (width >= 540px) {
+  .content.is-slim .skills {
+    grid-template-columns: minmax(calc(7.5rem * 1.25), auto) 1fr;
+    column-gap: 1.25rem;
+    word-break: auto-phrase;
+  }
 }
 
 .content.is-slim .skills .skills {
