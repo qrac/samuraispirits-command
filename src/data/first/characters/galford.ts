@@ -42,7 +42,7 @@ export const firstGalford: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "トライアングルジャンプ",

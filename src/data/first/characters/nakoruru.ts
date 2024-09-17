@@ -40,7 +40,7 @@ export const firstNakoruru: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "三角飛び",

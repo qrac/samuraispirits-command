@@ -18,7 +18,7 @@ export const firstEarthquake: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "ファットトライアングルジャンプ",
