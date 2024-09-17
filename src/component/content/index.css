@@ -23,3 +23,7 @@
 .content-group-title.is-ac-2 {
   background: var(--theme-ac-2);
 }
+
+.content-group-title.is-ac-3 {
+  background: var(--theme-ac-3);
+}
