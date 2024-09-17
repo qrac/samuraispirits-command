@@ -45,7 +45,7 @@ export const kenHaoumaru: DataItem = {
           command: "↘+B",
         },
         {
-          name: "ぬいぐるみ変化（真）",
+          name: "ぬいぐるみ変化【真】",
           command: "→↘↓↙←→←+E",
         },
       ],
@@ -55,11 +55,11 @@ export const kenHaoumaru: DataItem = {
       titleColor: 3,
       skills: [
         {
-          name: "天覇封神斬（真）",
+          name: "天覇封神斬【真】",
           command: "↘←↙↓↘→←↓↙+BC同時押し",
         },
         {
-          name: "天覇封神斬（剣）",
+          name: "天覇封神斬【剣】",
           command: "↓↘→+BC同時押し",
         },
       ],

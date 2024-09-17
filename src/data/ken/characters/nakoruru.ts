@@ -77,7 +77,7 @@ export const kenNakoruru: DataItem = {
           command: "空中近距離で← or →+D",
         },
         {
-          name: "ぬいぐるみ変化（真）",
+          name: "ぬいぐるみ変化【真】",
           command: "↘↓↙←↓↙+E",
         },
       ],
@@ -87,11 +87,11 @@ export const kenNakoruru: DataItem = {
       titleColor: 3,
       skills: [
         {
-          name: "アペフチ カムイ リㇺセ（真）",
+          name: "アペフチ カムイ リㇺセ【真】",
           command: "↘↓↙←→↓↘+BC同時押し",
         },
         {
-          name: "アペフチ カムイ リㇺセ（剣）",
+          name: "アペフチ カムイ リㇺセ【剣】",
           command: "↓↘→+BC同時押し",
         },
       ],
