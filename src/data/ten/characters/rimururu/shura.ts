@@ -29,7 +29,7 @@ export const tenRimururuShura: DataItem = {
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "素手時踏み込み中AC or BD同時押し",
+          command: "素手時 踏み込み中AC or BD同時押し",
         },
       ],
     },
