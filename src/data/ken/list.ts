@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 import { kenRoot } from "./root"
 import { kenHaoumaru } from "./characters/haoumaru"
 import { kenNakoruru } from "./characters/nakoruru"
-//import { kenRimururu } from "./characters/rimururu"
+import { kenRimururu } from "./characters/rimururu"
 //import { kenShizumaru } from "./characters/shizumaru"
 //import { kenGenjuro } from "./characters/genjuro"
 //import { kenUkyo } from "./characters/ukyo"
@@ -33,7 +33,7 @@ export const kenList = [
   kenRoot,
   kenHaoumaru,
   kenNakoruru,
-  //kenRimururu,
+  kenRimururu,
   //kenShizumaru,
   //kenGenjuro,
   //kenUkyo,
