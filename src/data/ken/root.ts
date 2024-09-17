@@ -298,7 +298,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "ミキリスライド・スライド",
-          command: "E",
+          command: "レバーニュートラル+E",
         },
         {
           name: "ミキリスライド・下段避け",
