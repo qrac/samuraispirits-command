@@ -6,6 +6,7 @@ export const tenRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "共通",
       skills: [
         {
           name: "弱斬り",
@@ -99,6 +100,28 @@ export const tenRoot: DataItem = {
           name: "自決",
           command: "←→↘↓+スタート",
         },
+      ],
+    },
+    {
+      title: "剣客",
+      skills: [
+        {
+          name: "オートガード",
+          command: "自動発動 ※1試合5回まで",
+        },
+        {
+          name: "連斬",
+          command: "CD同時押し",
+        },
+        {
+          name: "武器飛ばし技",
+          command: "怒ゲージ最大時ABCD同時押し",
+        },
+      ],
+    },
+    {
+      title: "剣豪・剣聖",
+      skills: [
         {
           name: "連斬",
           command: "CD同時押し",
@@ -122,6 +145,11 @@ export const tenRoot: DataItem = {
           ],
         },
         {
+          name: "武器飛ばし技",
+          command:
+            "怒ゲージ最大時に←→↘↓+AB同時押し（修羅ガルフォードはCDもあり）",
+        },
+        {
           name: "怒り爆発",
           command: "ABC同時押し",
           skills: [
@@ -134,6 +162,15 @@ export const tenRoot: DataItem = {
               command: "BCD同時押し",
             },
           ],
+        },
+      ],
+    },
+    {
+      title: "剣聖",
+      skills: [
+        {
+          name: "ガード不能",
+          command: "常時",
         },
       ],
     },

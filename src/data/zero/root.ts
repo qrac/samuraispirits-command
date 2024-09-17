@@ -29,7 +29,7 @@ export const zeroRoot: DataItem = {
         },
         {
           name: "瞑想",
-          command: "D継続押し（怒ゲージ消費）",
+          command: "D押し継続（怒ゲージ消費）",
         },
         {
           name: "上段蹴り",
@@ -120,6 +120,11 @@ export const zeroRoot: DataItem = {
         {
           name: "自決",
           command: "←→↘↓+スタート",
+        },
+        {
+          name: "武器飛ばし技",
+          command:
+            "怒ゲージ最大時に↓↘→+CD同時押し（ガルフォード・妖怪腐れ外道は複数あり）",
         },
         {
           name: "怒り爆発",

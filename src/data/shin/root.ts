@@ -56,12 +56,12 @@ export const shinRoot: DataItem = {
           command: "↓↓",
         },
         {
-          name: "受け流し",
-          command: "攻撃を受ける直前に←",
-        },
-        {
           name: "下段避け",
           command: "BC同時押し or 攻撃を受ける直前に↙",
+        },
+        {
+          name: "受け流し",
+          command: "攻撃を受ける直前に←",
         },
         {
           name: "真剣白羽取り",
@@ -70,6 +70,23 @@ export const shinRoot: DataItem = {
         {
           name: "挑発",
           command: "AC or BD同時押し",
+        },
+        {
+          name: "ぬいぐるみ変化",
+          command: "キャラ別コマンド",
+        },
+        {
+          name: "秘奥義",
+          command:
+            "キャラ別コマンド（覇王丸,ナコルル,服部半蔵,ガルフォードのみ）",
+        },
+        {
+          name: "怒り頂点ポーズ",
+          command: "怒ゲージ最大化後の行動可能時に自動発動",
+        },
+        {
+          name: "武器破壊技",
+          command: "怒ゲージ最大時にキャラ別コマンド",
         },
       ],
     },

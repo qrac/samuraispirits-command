@@ -6,6 +6,7 @@ export const zanRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "共通",
       skills: [
         {
           name: "弱斬り",
@@ -56,8 +57,8 @@ export const zanRoot: DataItem = {
           command: "BC同時押し",
         },
         {
-          name: "怒りゲージ溜め",
-          command: "ABC同時押し（継続）",
+          name: "怒ゲージ溜め",
+          command: "ABC同時押し継続",
         },
         {
           name: "踏み込み",
@@ -82,6 +83,45 @@ export const zanRoot: DataItem = {
         {
           name: "真剣白羽取り",
           command: "素手時←↙↓↘→",
+        },
+        {
+          name: "武器飛ばし技",
+          command: "怒ゲージ最大時にキャラ別コマンド",
+        },
+      ],
+    },
+    {
+      title: "剣客",
+      skills: [
+        {
+          name: "オートガード",
+          command: "自動発動 ※1試合5回まで",
+        },
+        {
+          name: "怒ゲージ常時最大",
+          command: "体力が一定以下",
+        },
+      ],
+    },
+    {
+      title: "剣豪",
+      skills: [
+        {
+          name: "怒ゲージ常時最大",
+          command: "体力が一定以下",
+        },
+      ],
+    },
+    {
+      title: "剣聖",
+      skills: [
+        {
+          name: "ガード不能",
+          command: "常時",
+        },
+        {
+          name: "怒ゲージ常時最大",
+          command: "常時",
         },
       ],
     },
