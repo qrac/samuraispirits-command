@@ -30,7 +30,7 @@ export const shinEarthquake: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "ファットトライアングルジャンプ",
@@ -43,7 +43,7 @@ export const shinEarthquake: DataItem = {
       ],
     },
     {
-      title: "武器破壊",
+      title: "武器破壊技",
       titleColor: 2,
       skills: [
         {

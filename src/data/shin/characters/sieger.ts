@@ -54,7 +54,7 @@ export const shinSieger: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "フォアスト・ツヴァングスマースナーメ",
@@ -67,7 +67,7 @@ export const shinSieger: DataItem = {
       ],
     },
     {
-      title: "武器破壊",
+      title: "武器破壊技",
       titleColor: 2,
       skills: [
         {

@@ -30,7 +30,7 @@ export const shinHaoumaru: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "ぬいぐるみ変化",
@@ -49,7 +49,7 @@ export const shinHaoumaru: DataItem = {
       ],
     },
     {
-      title: "武器破壊",
+      title: "武器破壊技",
       titleColor: 2,
       skills: [
         {
