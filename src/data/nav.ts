@@ -5,6 +5,7 @@ import { zanNav } from "./zan/nav"
 import { tenNav } from "./ten/nav"
 import { zeroNav } from "./zero/nav"
 import { zerospNav } from "./zerosp/nav"
+import { kenNav } from "./ken/nav"
 
 export const dataNav: DataNav = {
   ...{
@@ -18,4 +19,5 @@ export const dataNav: DataNav = {
   ...tenNav,
   ...zeroNav,
   ...zerospNav,
+  ...kenNav,
 }

@@ -5,6 +5,7 @@ import { zanList } from "./zan/list"
 import { tenList } from "./ten/list"
 import { zeroList } from "./zero/list"
 import { zerospList } from "./zerosp/list"
+import { kenList } from "./ken/list"
 
 export const dataList = [
   ...firstList,
@@ -13,4 +14,5 @@ export const dataList = [
   ...tenList,
   ...zeroList,
   ...zerospList,
+  ...kenList,
 ] as DataItem[]
