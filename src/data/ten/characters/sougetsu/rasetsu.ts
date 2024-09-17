@@ -54,12 +54,6 @@ export const tenSougetsuRasetsu: DataItem = {
         {
           name: "月昇・水柱波",
           command: "←→↘↓+AB同時押し",
-          skills: [
-            {
-              name: "覚醒停止",
-              command: "ABCD同時押し",
-            },
-          ],
         },
       ],
     },
