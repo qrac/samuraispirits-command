@@ -52,6 +52,7 @@ export const shinHanzo: DataItem = {
     },
     {
       title: "秘奥義",
+      titleColor: 3,
       skills: [
         {
           name: "忍法 影舞",

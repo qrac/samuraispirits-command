@@ -60,6 +60,7 @@ export const shinGalford: DataItem = {
     },
     {
       title: "秘奥義",
+      titleColor: 3,
       skills: [
         {
           name: "バックスタブ",

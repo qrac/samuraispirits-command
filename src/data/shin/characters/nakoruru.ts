@@ -62,6 +62,7 @@ export const shinNakoruru: DataItem = {
     },
     {
       title: "秘奥義",
+      titleColor: 3,
       skills: [
         {
           name: "アペフチ カムイ リㇺセ",

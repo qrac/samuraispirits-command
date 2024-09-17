@@ -40,6 +40,7 @@ export const shinHaoumaru: DataItem = {
     },
     {
       title: "秘奥義",
+      titleColor: 3,
       skills: [
         {
           name: "天覇封神斬",
