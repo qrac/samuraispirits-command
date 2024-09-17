@@ -83,6 +83,10 @@
   fill: var(--theme-button-d);
 }
 
+.skill-command-icon-svg.is-button-e {
+  fill: var(--theme-button-e);
+}
+
 .skill-command-icon-svg.is-button-zan {
   fill: var(--theme-button-zan);
 }
