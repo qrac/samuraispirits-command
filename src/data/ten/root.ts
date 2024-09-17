@@ -146,8 +146,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "怒ゲージ最大時に←→↘↓+AB同時押し（修羅ガルフォードはCDもあり）",
+          command: "怒ゲージ最大時に←→↘↓+AB同時押し",
         },
         {
           name: "怒り爆発",

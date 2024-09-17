@@ -123,8 +123,7 @@ export const zeroRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "怒ゲージ最大時に↓↘→+CD同時押し（ガルフォード・妖怪腐れ外道は複数あり）",
+          command: "怒ゲージ最大時に↓↘→+CD同時押し",
         },
         {
           name: "怒り爆発",

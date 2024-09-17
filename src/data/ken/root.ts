@@ -144,8 +144,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器破壊技",
-          command:
-            "ゲージ最大時に↓↘→+AB同時押し（ガルフォード・風間蒼月・妖怪腐れ外道は複数あり）",
+          command: "ゲージ最大時に↓↘→+AB同時押し",
         },
       ],
     },
@@ -178,8 +177,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "ゲージ最大時に↓↘→+AB同時押し（ガルフォード・風間蒼月・妖怪腐れ外道は複数あり）",
+          command: "ゲージ最大時に↓↘→+AB同時押し",
         },
       ],
     },
@@ -222,8 +220,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "ゲージ最大時に↓↘→+AB同時押し（ガルフォード・風間蒼月・妖怪腐れ外道は複数あり）",
+          command: "ゲージ最大時に↓↘→+AB同時押し",
         },
         {
           name: "怒り爆発",
@@ -270,8 +267,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "ゲージ最大時に↓↘→+AB同時押し（ガルフォード・風間蒼月・妖怪腐れ外道は複数あり）",
+          command: "ゲージ最大時に↓↘→+AB同時押し",
         },
         {
           name: "怒り爆発",
@@ -318,8 +314,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command:
-            "ゲージ最大時に↓↘→+AB同時押し（ガルフォード・風間蒼月・妖怪腐れ外道は複数あり）",
+          command: "ゲージ最大時に↓↘→+AB同時押し",
         },
       ],
     },
