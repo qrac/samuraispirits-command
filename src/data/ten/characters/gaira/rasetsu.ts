@@ -26,7 +26,7 @@ export const tenGairaRasetsu: DataItem = {
       ],
     },
     {
-      title: "武器飛ばし",
+      title: "武器飛ばし技",
       titleColor: 2,
       skills: [
         {

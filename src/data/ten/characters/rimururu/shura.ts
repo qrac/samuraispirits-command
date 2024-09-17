@@ -34,7 +34,7 @@ export const tenRimururuShura: DataItem = {
       ],
     },
     {
-      title: "特殊技",
+      title: "特殊",
       skills: [
         {
           name: "三角飛び",
@@ -43,7 +43,7 @@ export const tenRimururuShura: DataItem = {
       ],
     },
     {
-      title: "武器飛ばし",
+      title: "武器飛ばし技",
       titleColor: 2,
       skills: [
         {
