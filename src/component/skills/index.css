@@ -39,33 +39,55 @@
 }
 
 .skill-command-icon {
+  position: relative;
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
   vertical-align: top;
 }
 
-.skill-command-icon.is-button-a {
+.skill-command-icon-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+}
+
+.skill-command-icon-svg {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-command-icon-svg.is-button-a {
   fill: var(--theme-button-a);
 }
 
-.skill-command-icon.is-button-b {
+.skill-command-icon-svg.is-button-b {
   fill: var(--theme-button-b);
 }
 
-.skill-command-icon.is-button-c {
+.skill-command-icon-svg.is-button-c {
   fill: var(--theme-button-c);
 }
 
-.skill-command-icon.is-button-d {
+.skill-command-icon-svg.is-button-d {
   fill: var(--theme-button-d);
 }
 
-.skill-command-icon.is-button-zan {
+.skill-command-icon-svg.is-button-zan {
   fill: var(--theme-button-zan);
 }
 
-.skill-command-icon.is-button-kick {
+.skill-command-icon-svg.is-button-kick {
   fill: var(--theme-button-kick);
 }
 
