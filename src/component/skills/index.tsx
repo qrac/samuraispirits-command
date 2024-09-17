@@ -44,13 +44,15 @@ function ComponentCommand({ command }: { command: string }) {
     if (regCommand.test(char)) {
       const symbolId = commandMap[char]
       return (
-        <svg
-          key={index}
-          className={clsx("skill-command-icon", `is-${symbolId}`)}
-          role="img"
-        >
-          <use href={"/assets/icons.svg#" + symbolId}></use>
-        </svg>
+        <span key={index} className="skill-command-icon">
+          <span className="skill-command-icon-text">{char}</span>
+          <svg
+            className={clsx("skill-command-icon-svg", `is-${symbolId}`)}
+            role="img"
+          >
+            <use href={"/assets/icons.svg#" + symbolId}></use>
+          </svg>
+        </span>
       )
     } else {
       return char
