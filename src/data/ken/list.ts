@@ -3,7 +3,7 @@ import { kenRoot } from "./root"
 import { kenHaoumaru } from "./characters/haoumaru"
 import { kenNakoruru } from "./characters/nakoruru"
 import { kenRimururu } from "./characters/rimururu"
-//import { kenShizumaru } from "./characters/shizumaru"
+import { kenShizumaru } from "./characters/shizumaru"
 //import { kenGenjuro } from "./characters/genjuro"
 //import { kenUkyo } from "./characters/ukyo"
 //import { kenKyoshiro } from "./characters/kyoshiro"
@@ -34,7 +34,7 @@ export const kenList = [
   kenHaoumaru,
   kenNakoruru,
   kenRimururu,
-  //kenShizumaru,
+  kenShizumaru,
   //kenGenjuro,
   //kenUkyo,
   //kenKyoshiro,
