@@ -38,7 +38,7 @@ export const zeroShizumaru: DataItem = {
           ],
         },
         {
-          name: "緋刀流 真・雨流狂落斬",
+          name: "緋刀流 真・雨流れ狂落斬",
           command: "D継続押し後離す",
         },
       ],
