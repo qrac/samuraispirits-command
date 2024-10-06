@@ -8,7 +8,7 @@ import { kenGenjuro } from "./characters/genjuro"
 import { kenUkyo } from "./characters/ukyo"
 import { kenKyoshiro } from "./characters/kyoshiro"
 import { kenGalford } from "./characters/galford"
-//import { kenHanzo } from "./characters/hanzo"
+import { kenHanzo } from "./characters/hanzo"
 //import { kenKazuki } from "./characters/kazuki"
 //import { kenSougetsu } from "./characters/sougetsu"
 //import { kenBasara } from "./characters/basara"
@@ -39,7 +39,7 @@ export const kenList = [
   kenUkyo,
   kenKyoshiro,
   kenGalford,
-  //kenHanzo,
+  kenHanzo,
   //kenKazuki,
   //kenSougetsu,
   //kenBasara,
