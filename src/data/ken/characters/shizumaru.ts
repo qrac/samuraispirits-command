@@ -39,7 +39,7 @@ export const kenShizumaru: DataItem = {
         },
         {
           name: "緋刀流 時雨",
-          command: "空中で↓+斬",
+          command: "空中で↓+D",
         },
         {
           name: "緋刀流 小雨",

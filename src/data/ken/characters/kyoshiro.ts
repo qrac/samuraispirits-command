@@ -47,7 +47,7 @@ export const kenKyoshiro: DataItem = {
         },
         {
           name: "蝦蟇地獄",
-          command: "↓↙←+D",
+          command: "↓↘→+D",
         },
         {
           name: "血煙曲輪",
