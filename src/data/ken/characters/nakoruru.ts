@@ -66,7 +66,11 @@ export const kenNakoruru: DataItem = {
       skills: [
         {
           name: "三角飛び",
-          command: "空中画面端で↗ or ↘",
+          command: "空中画面端で↗",
+        },
+        {
+          name: "三角降り",
+          command: "空中画面端で↘",
         },
         {
           name: "カムイ フㇺ ケスㇷ゚",
