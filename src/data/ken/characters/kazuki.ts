@@ -42,7 +42,7 @@ export const kenKazuki: DataItem = {
       skills: [
         {
           name: "三角飛び",
-          command: "空中画面端で↗ or → or ↘",
+          command: "空中画面端で↗ or ↘",
         },
         {
           name: "ぬいぐるみ変化【真】",
