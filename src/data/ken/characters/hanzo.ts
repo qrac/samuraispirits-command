@@ -70,7 +70,7 @@ export const kenHanzo: DataItem = {
         },
         {
           name: "空転撃",
-          command: "空中近距離で↙ or ↓ or ↘+D",
+          command: "空中近距離で← or →+D",
         },
         {
           name: "ぬいぐるみ変化【真】",

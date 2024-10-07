@@ -94,7 +94,7 @@ export const kenGalford: DataItem = {
         },
         {
           name: "スターダストドロップ",
-          command: "空中近距離で↙ or ↓ or ↘+D",
+          command: "空中近距離で← or →+D",
         },
         {
           name: "特殊技",
