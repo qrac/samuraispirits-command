@@ -17,6 +17,7 @@ import { kenJubei } from "./characters/jubei"
 import { kenCharlotte } from "./characters/charlotte"
 import { kenGenan } from "./characters/genan"
 import { kenWanfu } from "./characters/wanfu"
+import { kenEarthquake } from "./characters/earthquake"
 //import { kenTamtam } from "./characters/tamtam"
 //import { kenYoshitora } from "./characters/yoshitora"
 //import { kenMina } from "./characters/mina"
@@ -50,6 +51,7 @@ export const kenList = [
   kenCharlotte,
   kenGenan,
   kenWanfu,
+  kenEarthquake,
   //kenTamtam,
   //kenYoshitora,
   //kenMina,
