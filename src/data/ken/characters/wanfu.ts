@@ -45,7 +45,7 @@ export const kenWanfu: DataItem = {
           command: "↘+C",
         },
         {
-          name: "ぬいぐるみ変化",
+          name: "ぬいぐるみ変化【真】",
           command: "→←↙↓↘→←+E",
         },
       ],
