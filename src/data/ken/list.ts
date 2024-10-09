@@ -32,6 +32,7 @@ import { kenEnja } from "./characters/enja"
 import { kenSuija } from "./characters/suija"
 import { kenYumeji } from "./characters/yumeji"
 import { kenSankuro } from "./characters/sankuro"
+import { kenIroha } from "./characters/iroha"
 //import { kenAmakusa } from "./characters/amakusa"
 //import { kenGaoh } from "./characters/gaoh"
 //import { kenZankuro } from "./characters/zankuro"
@@ -71,6 +72,7 @@ export const kenList = [
   kenSuija,
   kenYumeji,
   kenSankuro,
+  kenIroha,
   //kenAmakusa,
   //kenGaoh,
   //kenZankuro,
