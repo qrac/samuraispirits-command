@@ -25,9 +25,9 @@ import { zerospRera } from "./characters/rera"
 import { zerospEnja } from "./characters/enja"
 import { zerospSuija } from "./characters/suija"
 import { zerospAmakusa } from "./characters/amakusa"
-import { zerospGaoh } from "./characters/gaoh"
-import { zerospZankuro } from "./characters/zankuro"
 import { zerospMizuki } from "./characters/mizuki"
+import { zerospZankuro } from "./characters/zankuro"
+import { zerospGaoh } from "./characters/gaoh"
 
 export const zerospList = [
   zerospRoot,
@@ -56,7 +56,7 @@ export const zerospList = [
   zerospEnja,
   zerospSuija,
   zerospAmakusa,
-  zerospGaoh,
-  zerospZankuro,
   zerospMizuki,
+  zerospZankuro,
+  zerospGaoh,
 ] as DataItem[]
