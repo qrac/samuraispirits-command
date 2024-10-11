@@ -37,9 +37,9 @@ import { kenAndrew } from "./characters/andrew"
 import { kenoOhamaro } from "./characters/ochamaro"
 import { kenSugoroku } from "./characters/sugoroku"
 import { kenAmakusa } from "./characters/amakusa"
-//import { kenGaoh } from "./characters/gaoh"
-//import { kenZankuro } from "./characters/zankuro"
-//import { kenMizuki } from "./characters/mizuki"
+import { kenMizuki } from "./characters/mizuki"
+import { kenZankuro } from "./characters/zankuro"
+import { kenGaoh } from "./characters/gaoh"
 
 export const kenList = [
   kenRoot,
@@ -80,7 +80,7 @@ export const kenList = [
   kenoOhamaro,
   kenSugoroku,
   kenAmakusa,
-  //kenGaoh,
-  //kenZankuro,
-  //kenMizuki,
+  kenMizuki,
+  kenZankuro,
+  kenGaoh,
 ] as DataItem[]

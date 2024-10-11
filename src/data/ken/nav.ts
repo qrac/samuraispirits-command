@@ -119,14 +119,14 @@ export const kenNav: DataNav = {
       amakusa: {
         name: "天草四郎時貞",
       },
-      gaoh: {
-        name: "兇國日輪守我旺",
+      mizuki: {
+        name: "羅将神ミヅキ",
       },
       zankuro: {
         name: "壬無月斬紅郎",
       },
-      mizuki: {
-        name: "羅将神ミヅキ",
+      gaoh: {
+        name: "兇國日輪守我旺",
       },
     },
   },
