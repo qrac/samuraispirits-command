@@ -11,26 +11,28 @@
     "preview:h": "vite preview --host",
     "sprite": "npm run icons && npm run covers",
     "icons": "svg-sprite -s --symbol-dest=public --ss=assets/icons.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/icons/*.svg",
-    "covers": "svg-sprite -s --symbol-dest=public --ss=assets/covers.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/covers/*.svg"
+    "covers": "svg-sprite -s --symbol-dest=public --ss=assets/covers.svg --svg-xmldecl=false --shape-id-separator= ./src/assets/covers/*.svg",
+    "up": "npx npm-check-updates",
+    "up:u": "npx npm-check-updates -u"
   },
   "license": "MIT",
   "dependencies": {
     "clsx": "^2.1.1",
-    "musubii": "^8.1.3",
-    "preact": "^10.23.1",
-    "react-router-dom": "^6.26.0"
+    "musubii": "^8.2.0",
+    "preact": "^10.24.2",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@mdx-js/rollup": "^3.0.1",
-    "@types/node": "^22.0.2",
-    "@types/react": "^18.3.3",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "remark-gfm": "^4.0.0",
     "svg-sprite": "^2.0.4",
-    "typescript": "^5.5.4",
-    "vite": "^5.3.5"
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
   }
 }
