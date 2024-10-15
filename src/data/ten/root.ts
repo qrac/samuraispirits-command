@@ -106,11 +106,7 @@ export const tenRoot: DataItem = {
       title: "剣客",
       skills: [
         {
-          name: "オートガード",
-          command: "自動発動 ※1試合5回まで",
-        },
-        {
-          name: "連斬",
+          name: "連斬（自動）",
           command: "CD同時押し",
         },
         {
