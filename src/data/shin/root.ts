@@ -60,7 +60,7 @@ export const shinRoot: DataItem = {
           command: "BC同時押し or 攻撃を受ける直前に↙",
         },
         {
-          name: "受け流し",
+          name: "受け返し",
           command: "攻撃を受ける直前に←",
         },
         {
