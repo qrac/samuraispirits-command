@@ -19,9 +19,9 @@
   list-style: circle outside;
 }
 
-.docs p {
+/*.docs p {
   word-break: auto-phrase;
-}
+}*/
 
 .docs a {
   text-decoration: underline;
