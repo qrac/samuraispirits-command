@@ -26,6 +26,8 @@
   padding-right: calc(var(--theme-space) * 0.5);
   font-size: 1.25rem;
   font-weight: 600;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
   line-height: 1.25;
 }
 
@@ -142,7 +144,7 @@
 
 .content.is-slim .skills {
   display: grid;
-  grid-template-columns: minmax(0, calc(5.5rem * 1.25)) 1fr;
+  grid-template-columns: minmax(0, 40vw) 1fr;
   grid-template-rows: auto;
 }
 
