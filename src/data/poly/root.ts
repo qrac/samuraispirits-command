@@ -17,7 +17,7 @@ export const polyRoot: DataItem = {
           command: "B",
         },
         {
-          name: "基本組み技",
+          name: "投げ（基本組み技）",
           command: "近距離でC",
           skills: [
             {
@@ -43,6 +43,10 @@ export const polyRoot: DataItem = {
               ],
             },
           ],
+        },
+        {
+          name: "投げ抜け",
+          command: "投げられ直後にC",
         },
         {
           name: "ダッシュ",
@@ -102,7 +106,7 @@ export const polyRoot: DataItem = {
         },
         {
           name: "防御キャンセル",
-          command: "被ガード時に対応技コマンド（スタミナ半分消費）",
+          command: "被ガード中に対応技コマンド（スタミナ半分消費）",
         },
         {
           name: "S・C・S",
@@ -142,6 +146,10 @@ export const polyRoot: DataItem = {
               ],
             },
           ],
+        },
+        {
+          name: "S・C・S弾き返し",
+          command: "被弾中、駆け引き前にA or B",
         },
         {
           name: "秘奥義",
