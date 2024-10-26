@@ -8,7 +8,13 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
     <div className="skills">
       {skills.map((item, itemIndex) => (
         <div key={itemIndex} className="skill">
-          <div className="skill-set">
+          <div
+            className={clsx(
+              "skill-set",
+              item?.slimMobileGrid &&
+                `is-grid-template-columns-${item?.slimMobileGrid}`
+            )}
+          >
             <div className="skill-name">{item.name}</div>
             <div className="skill-command">
               <ComponentCommand command={item.command} />

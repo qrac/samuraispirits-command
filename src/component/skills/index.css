@@ -144,7 +144,7 @@
 
 .content.is-slim .skills {
   display: grid;
-  grid-template-columns: minmax(0, 40vw) 1fr;
+  grid-template-columns: minmax(0, calc(5.5rem * 1.25)) 1fr;
   grid-template-rows: auto;
 }
 
@@ -172,6 +172,12 @@
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
   grid-column: 1 / 3;
+}
+
+@media (width < 540px) {
+  .content.is-slim .skill-set.is-grid-template-columns-auto-1fr {
+    grid-template-columns: auto 1fr;
+  }
 }
 
 .content.is-slim .skill-set > * + * {
