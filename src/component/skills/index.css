@@ -26,8 +26,6 @@
   padding-right: calc(var(--theme-space) * 0.5);
   font-size: 1.25rem;
   font-weight: 600;
-  font-feature-settings: "palt";
-  letter-spacing: 0.025em;
   line-height: 1.25;
 }
 
@@ -182,4 +180,9 @@
 
 .content.is-slim .skill-set > * + * {
   margin-top: 0;
+}
+
+.content.is-slim .skill-name {
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
