@@ -85,8 +85,12 @@ export const polyRoot: DataItem = {
           command: "← or →",
         },
         {
-          name: "移動起き上がり",
-          command: "被ダウン時← or → or ↑ or ↓",
+          name: "移動起き上がり（前後）",
+          command: "被ダウン時← or →",
+        },
+        {
+          name: "移動起き上がり（軸変）",
+          command: "被ダウン時↑ or ↓",
         },
         {
           name: "起き上がり攻撃（中段）",
@@ -106,11 +110,11 @@ export const polyRoot: DataItem = {
         },
         {
           name: "防御キャンセル",
-          command: "被ガード中に対応技コマンド（スタミナ半分消費）",
+          command: "被ガード中に対応技コマンド（スタミナ半分必要）",
         },
         {
           name: "S・C・S",
-          command: "CD同時押し（スタミナ半分消費）",
+          command: "CD同時押し（スタミナ半分必要）",
           skills: [
             {
               name: "連斬",
