@@ -142,7 +142,7 @@
 
 .content.is-slim .skills {
   display: grid;
-  grid-template-columns: minmax(0, calc(5.5rem * 1.25)) 1fr;
+  grid-template-columns: 40vw 1fr;
   grid-template-rows: auto;
 }
 
