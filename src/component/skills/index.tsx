@@ -29,7 +29,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
 
 function ComponentCommand({ command }: { command: string }) {
   return command.split("").map((char, index) => {
-    const regCommand = /[↙↓↘←→↖↑↗ABCDE斬蹴]/
+    const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴]/
     const commandMap = {
       "↙": "arrow-1",
       "↓": "arrow-2",
@@ -39,6 +39,7 @@ function ComponentCommand({ command }: { command: string }) {
       "↖": "arrow-7",
       "↑": "arrow-8",
       "↗": "arrow-9",
+      N: "lever-neutral",
       A: "button-a",
       B: "button-b",
       C: "button-c",
