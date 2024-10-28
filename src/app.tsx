@@ -34,6 +34,12 @@ export default function App() {
   let types = getTypes(dataNav, gameId, characterId)
   let currentDataItem = getCurrentDataItem(dataList, dataId)
 
+  function handleClickGameWithGoTop(id: string) {
+    const routePath = getNavigatePath(dataNav, id, "root", "shura")
+    navigate(routePath)
+    gameId = id
+    window.scrollTo({ top: 0 })
+  }
   function handleClickGame(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
@@ -79,7 +85,7 @@ export default function App() {
               <div className="page">
                 <ComponentLineup
                   navItems={games}
-                  onClickAction={handleClickGame}
+                  onClickAction={handleClickGameWithGoTop}
                 />
                 <ComponentDocs>
                   <DataRoot />
