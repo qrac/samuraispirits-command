@@ -20,7 +20,7 @@ export type NavItem = [id: string, { name: string; fullName?: string }]
 export type Skill = {
   name: string
   command: string
-  slimMobileGrid?: string
+  isShort?: boolean
   skills?: Skill[]
 }
 

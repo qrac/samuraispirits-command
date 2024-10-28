@@ -17,7 +17,7 @@ export const polyRoot: DataItem = {
           command: "B",
         },
         {
-          name: "投げ（基本組み技）",
+          name: "基本組み技",
           command: "近距離でC",
           skills: [
             {
@@ -50,27 +50,27 @@ export const polyRoot: DataItem = {
         },
         {
           name: "ダッシュ",
-          command: "→→継続 or D + →継続",
+          command: "→→継続 or D+→継続",
         },
         {
           name: "ステップ（前）",
-          command: "→→ or D + →",
+          command: "→→ or D+→",
         },
         {
           name: "ステップ（後）",
-          command: "←← or D + ←",
+          command: "←← or D+←",
         },
         {
           name: "ステップ（奥）",
-          command: "D or D + ↖ or ↑ or ↗",
+          command: "D or D+↖ or ↑ or ↗",
         },
         {
           name: "ステップ（手前）",
-          command: "D + ↙ or ↓ or ↘",
+          command: "D+↙ or ↓ or ↘",
         },
         {
           name: "走り込み",
-          command: "D押し継続 + レバー",
+          command: "D押し継続+レバー",
         },
         {
           name: "大ジャンプ",
@@ -117,29 +117,29 @@ export const polyRoot: DataItem = {
           command: "CD同時押し（スタミナ半分必要）",
           skills: [
             {
-              name: "連斬",
+              name: "",
               command: "A,A,A,A or B,B,B,B",
-              slimMobileGrid: "auto-1fr",
+              isShort: true,
               skills: [
                 {
                   name: "駆け引き",
                   command: "A or B",
-                  slimMobileGrid: "auto-1fr",
+                  isShort: true,
                   skills: [
                     {
-                      name: "連斬",
+                      name: "",
                       command: "A,A,A or B,B,B",
-                      slimMobileGrid: "auto-1fr",
+                      isShort: true,
                       skills: [
                         {
                           name: "駆け引き",
                           command: "A or B",
-                          slimMobileGrid: "auto-1fr",
+                          isShort: true,
                           skills: [
                             {
-                              name: "連斬",
+                              name: "",
                               command: "A,A or B,B",
-                              slimMobileGrid: "auto-1fr",
+                              isShort: true,
                             },
                           ],
                         },

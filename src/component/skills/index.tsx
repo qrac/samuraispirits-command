@@ -8,17 +8,13 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
     <div className="skills">
       {skills.map((item, itemIndex) => (
         <div key={itemIndex} className="skill">
-          <div
-            className={clsx(
-              "skill-set",
-              item?.slimMobileGrid &&
-                `is-grid-template-columns-${item?.slimMobileGrid}`
+          <div className={clsx("skill-set", item.isShort && "is-short")}>
+            {item.name && <div className="skill-name">{item.name}</div>}
+            {item.command && (
+              <div className="skill-command">
+                <ComponentCommand command={item.command} />
+              </div>
             )}
-          >
-            <div className="skill-name">{item.name}</div>
-            <div className="skill-command">
-              <ComponentCommand command={item.command} />
-            </div>
           </div>
           {item.skills && <ComponentSkills skills={item.skills} />}
         </div>
