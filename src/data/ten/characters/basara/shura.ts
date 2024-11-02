@@ -17,7 +17,7 @@ export const tenBasaraShura: DataItem = {
         },
         {
           name: "鵺魂",
-          command: "←↓↙+斬",
+          command: "←↓↙+斬 or D",
         },
         {
           name: "友引",
