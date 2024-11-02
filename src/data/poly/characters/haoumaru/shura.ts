@@ -229,7 +229,7 @@ export const polyHaoumaruShura: DataItem = {
           command: "→↓↘+B",
         },
         {
-          name: "奥義 烈震斬",
+          name: "烈震斬",
           command: "←↓↙+A or B",
         },
         {
