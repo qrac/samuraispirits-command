@@ -70,7 +70,7 @@ export const polyRoot: DataItem = {
         },
         {
           name: "走り込み",
-          command: "D押し継続+レバー",
+          command: "D継続押し+レバー",
         },
         {
           name: "大ジャンプ",
