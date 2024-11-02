@@ -33,7 +33,7 @@ export const zeroYoshitora: DataItem = {
         },
         {
           name: "七の太刀 遊蝶華",
-          command: "壱〜六をすべて当て終わったラウンドで→↘↓↙←→+BC同時押し",
+          command: "壱〜六をすべて当て終わったラウンドで→↘↓↙←→+BC",
         },
       ],
     },
@@ -43,7 +43,7 @@ export const zeroYoshitora: DataItem = {
       skills: [
         {
           name: "葵",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

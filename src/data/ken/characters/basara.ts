@@ -76,11 +76,11 @@ export const kenBasara: DataItem = {
       skills: [
         {
           name: "影出・凶守【真】",
-          command: "←↙↓↘→←+BC同時押し",
+          command: "←↙↓↘→←+BC",
         },
         {
           name: "影出・凶守【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const kenBasara: DataItem = {
       skills: [
         {
           name: "影舞い・酬",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

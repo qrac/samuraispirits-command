@@ -17,19 +17,19 @@ export const kenHanzo: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+AD同時押し",
+          command: "→↘↓↙←+AD",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "→↘↓↙←+CE同時押し",
+          command: "→↘↓↙←+CE",
         },
         {
           name: "忍法 身代わりの術・仏",
-          command: "被ダメージ中→←→←→←↓+AD同時押し",
+          command: "被ダメージ中→←→←→←↓+AD",
         },
         {
           name: "忍法 身代わりの術・鬼",
-          command: "被ダメージ中→←→←→←↓+CE同時押し",
+          command: "被ダメージ中→←→←→←↓+CE",
         },
         {
           name: "モズ落とし",
@@ -53,7 +53,7 @@ export const kenHanzo: DataItem = {
         },
         {
           name: "忍法 影臥",
-          command: "→←→←→←↓+BCD同時押し",
+          command: "→←→←→←↓+BCD",
         },
       ],
     },
@@ -84,11 +84,11 @@ export const kenHanzo: DataItem = {
       skills: [
         {
           name: "真モズ落とし【真】",
-          command: "近距離で↙→↘↓↙←↘+BC同時押し",
+          command: "近距離で↙→↘↓↙←↘+BC",
         },
         {
           name: "真モズ落とし【剣】",
-          command: "近距離で↓↘→+BC同時押し",
+          command: "近距離で↓↘→+BC",
         },
       ],
     },
@@ -98,7 +98,7 @@ export const kenHanzo: DataItem = {
       skills: [
         {
           name: "忍法 天魔覆滅",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

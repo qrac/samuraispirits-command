@@ -29,7 +29,7 @@ export const kenHaoumaru: DataItem = {
         },
         {
           name: "斬鋼閃",
-          command: "→↘↓↙←→+AB同時押し",
+          command: "→↘↓↙←→+AB",
         },
         {
           name: "酒攻撃",
@@ -56,11 +56,11 @@ export const kenHaoumaru: DataItem = {
       skills: [
         {
           name: "天覇封神斬【真】",
-          command: "↘←↙↓↘→←↓↙+BC同時押し",
+          command: "↘←↙↓↘→←↓↙+BC",
         },
         {
           name: "天覇封神斬【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenHaoumaru: DataItem = {
       skills: [
         {
           name: "天覇凄煌斬",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

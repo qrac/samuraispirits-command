@@ -29,11 +29,11 @@ export const zeroGaira: DataItem = {
         },
         {
           name: "百貫落とし",
-          command: "空中で↑+AB同時押し",
+          command: "空中で↑+AB",
         },
         {
           name: "円心殺",
-          command: "近距離で←↖↑↗→+AB同時押し（レバー回転でダメージ増加）",
+          command: "近距離で←↖↑↗→+AB（レバー回転でダメージ増加）",
         },
       ],
     },
@@ -43,7 +43,7 @@ export const zeroGaira: DataItem = {
       skills: [
         {
           name: "仁王爆震殺",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

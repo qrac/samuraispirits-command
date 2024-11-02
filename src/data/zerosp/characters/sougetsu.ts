@@ -42,7 +42,7 @@ export const zerospSougetsu: DataItem = {
       skills: [
         {
           name: "消波・風月斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -52,7 +52,7 @@ export const zerospSougetsu: DataItem = {
       skills: [
         {
           name: "湖月・水鏡の陣",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

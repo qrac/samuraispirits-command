@@ -29,7 +29,7 @@ export const shinChamcham: DataItem = {
         },
         {
           name: "パクパク・ガブル",
-          command: "→↘↓↙←+CD同時押し",
+          command: "→↘↓↙←+CD",
         },
       ],
     },

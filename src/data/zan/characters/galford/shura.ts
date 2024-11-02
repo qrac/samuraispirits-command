@@ -37,11 +37,11 @@ export const zanGalfordShura: DataItem = {
         },
         {
           name: "レプリカアタック",
-          command: "→↘↓↙←+AC or BD同時押し",
+          command: "→↘↓↙←+AC or BD",
         },
         {
           name: "イミテイトレプリカ",
-          command: "被ダメージ中AC or BD同時押し",
+          command: "被ダメージ中AC or BD",
         },
         {
           name: "シャドーコピー",

@@ -25,7 +25,7 @@ export const zeroKyoshiro: DataItem = {
         },
         {
           name: "跳尾獅子・乱心",
-          command: "↓↙←+AB同時押し",
+          command: "↓↙←+AB",
         },
         {
           name: "蝦蟇地獄",
@@ -43,7 +43,7 @@ export const zeroKyoshiro: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“血肉の舞”",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

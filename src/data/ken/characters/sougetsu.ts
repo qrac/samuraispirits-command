@@ -66,11 +66,11 @@ export const kenSougetsu: DataItem = {
       skills: [
         {
           name: "消波・風月斬【真】",
-          command: "←→↘↓+BC同時押し",
+          command: "←→↘↓+BC",
         },
         {
           name: "消波・風月斬【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -80,7 +80,7 @@ export const kenSougetsu: DataItem = {
       skills: [
         {
           name: "湖月・水鏡の陣",
-          command: "↓↘→+AB or AD同時押し",
+          command: "↓↘→+AB or AD",
         },
       ],
     },

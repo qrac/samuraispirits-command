@@ -25,11 +25,11 @@ export const zanRimururuRasetsu: DataItem = {
         },
         {
           name: "ルプㇱ トゥム（立ち）",
-          command: "→+AB同時押し",
+          command: "→+AB",
         },
         {
           name: "ルプㇱ トゥム（屈）",
-          command: "↘+AB同時押し",
+          command: "↘+AB",
         },
         {
           name: "ルプㇱ テㇰ ヌㇺ（ヤク）",
@@ -52,7 +52,7 @@ export const zanRimururuRasetsu: DataItem = {
       skills: [
         {
           name: "ルプㇱ カムイ エムㇱ",
-          command: "→↘↓↙←→↘↓↙←+CD同時押し",
+          command: "→↘↓↙←→↘↓↙←+CD",
         },
       ],
     },

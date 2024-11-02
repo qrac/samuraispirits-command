@@ -17,7 +17,7 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "強斬り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "蹴り",
@@ -49,7 +49,7 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "防御崩し",
-          command: "近距離で→+CD同時押し or ←+CD同時押し",
+          command: "近距離で→+CD or ←+CD",
           skills: [
             {
               name: "崩し斬り",
@@ -59,15 +59,15 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "不意打ち",
-          command: "BC同時押し",
+          command: "BC",
         },
         {
           name: "小追い打ち",
-          command: "与ダウン時↘+BC同時押し",
+          command: "与ダウン時↘+BC",
         },
         {
           name: "大追い打ち",
-          command: "与ダウン時↑+BC同時押し",
+          command: "与ダウン時↑+BC",
         },
         {
           name: "踏み込み",
@@ -123,25 +123,25 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command: "怒ゲージ最大時に↓↘→+CD同時押し",
+          command: "怒ゲージ最大時に↓↘→+CD",
         },
         {
           name: "怒り爆発",
-          command: "ABC同時押し",
+          command: "ABC",
           skills: [
             {
               name: "絶命奥義",
-              command: "勝負が決まるラウンド・相手が体力青の時↓↙←+CD同時押し",
+              command: "勝負が決まるラウンド・相手が体力青の時↓↙←+CD",
             },
           ],
         },
         {
           name: "無の境地",
-          command: "体力青でBCD同時押し",
+          command: "体力青でBCD",
           skills: [
             {
               name: "一閃",
-              command: "BCD同時押し",
+              command: "BCD",
             },
           ],
         },

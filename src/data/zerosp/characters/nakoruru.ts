@@ -47,13 +47,13 @@ export const zerospNakoruru: DataItem = {
             },
             {
               name: "カムイ ムツベ",
-              command: "BC同時押し",
+              command: "BC",
             },
           ],
         },
         {
           name: "アペフチ カムイ リㇺセ",
-          command: "素手時↘↓↙←→↓↘+BC同時押し",
+          command: "素手時↘↓↙←→↓↘+BC",
         },
       ],
     },
@@ -80,7 +80,7 @@ export const zerospNakoruru: DataItem = {
       skills: [
         {
           name: "エレルㇱ カムイ リㇺセ",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const zerospNakoruru: DataItem = {
       skills: [
         {
           name: "トゥルセ サンベ キク ムツベ",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

@@ -39,11 +39,11 @@ export const tenSougetsuRasetsu: DataItem = {
       skills: [
         {
           name: "蒼月専用①",
-          command: "CD同時押し後にC,C",
+          command: "CD後にC・C",
         },
         {
           name: "蒼月専用②",
-          command: "CD同時押し後にC,B,B,B",
+          command: "CD後にC・B・B・B",
         },
       ],
     },
@@ -53,7 +53,7 @@ export const tenSougetsuRasetsu: DataItem = {
       skills: [
         {
           name: "月昇・水柱波",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

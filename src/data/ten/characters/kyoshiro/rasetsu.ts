@@ -31,7 +31,7 @@ export const tenKyoshiroRasetsu: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“血肉の舞”",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

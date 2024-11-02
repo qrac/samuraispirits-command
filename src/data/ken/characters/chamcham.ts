@@ -66,11 +66,11 @@ export const kenChamcham: DataItem = {
       skills: [
         {
           name: "当たると痛いンだゾ！【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "当たると痛いンだゾ！【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -80,7 +80,7 @@ export const kenChamcham: DataItem = {
       skills: [
         {
           name: "もぅ許さないンだからな！",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

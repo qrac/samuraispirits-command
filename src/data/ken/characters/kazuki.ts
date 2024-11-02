@@ -13,15 +13,15 @@ export const kenKazuki: DataItem = {
         },
         {
           name: "焦熱魂",
-          command: "↓↘→+A or B or C or AD同時押し",
+          command: "↓↘→+A or B or C or AD",
         },
         {
           name: "大爆殺",
-          command: "→↓↘+A or B or C or AD同時押し",
+          command: "→↓↘+A or B or C or AD",
         },
         {
           name: "火炎撃",
-          command: "↓↙←+A or B or C or AD同時押し",
+          command: "↓↙←+A or B or C or AD",
         },
         {
           name: "猛炎脚",
@@ -33,7 +33,7 @@ export const kenKazuki: DataItem = {
         },
         {
           name: "炎返し",
-          command: "炎ストック時 被吹っ飛び中にAD同時押し",
+          command: "炎ストック時 被吹っ飛び中にAD",
         },
       ],
     },
@@ -60,11 +60,11 @@ export const kenKazuki: DataItem = {
       skills: [
         {
           name: "極大災炎【真】",
-          command: "←→↘↓+BC同時押し",
+          command: "←→↘↓+BC",
         },
         {
           name: "極大災炎【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -74,11 +74,11 @@ export const kenKazuki: DataItem = {
       skills: [
         {
           name: "炎邪覚醒",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
           skills: [
             {
               name: "覚醒停止",
-              command: "ABCD同時押し",
+              command: "ABCD",
             },
           ],
         },

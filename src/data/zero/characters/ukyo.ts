@@ -31,7 +31,7 @@ export const zeroUkyo: DataItem = {
       skills: [
         {
           name: "ツバメ六連",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

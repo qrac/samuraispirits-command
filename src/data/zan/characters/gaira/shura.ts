@@ -17,11 +17,11 @@ export const zanGairaShura: DataItem = {
         },
         {
           name: "みだれうち",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
         {
           name: "地震丸",
-          command: "↓↓+AB同時押し",
+          command: "↓↓+AB",
         },
         {
           name: "つかむぞ～組み天井",
@@ -51,7 +51,7 @@ export const zanGairaShura: DataItem = {
       skills: [
         {
           name: "拳舞",
-          command: "↓↘→↓↘+AB同時押し",
+          command: "↓↘→↓↘+AB",
         },
       ],
     },

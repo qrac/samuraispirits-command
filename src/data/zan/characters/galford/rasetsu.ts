@@ -13,11 +13,11 @@ export const zanGalfordRasetsu: DataItem = {
         },
         {
           name: "プラズマファクター（立ち）",
-          command: "→+AB同時押し",
+          command: "→+AB",
         },
         {
           name: "プラズマファクター（屈）",
-          command: "↘+AB同時押し",
+          command: "↘+AB",
         },
         {
           name: "ライトニングスラッシュ",
@@ -33,11 +33,11 @@ export const zanGalfordRasetsu: DataItem = {
         },
         {
           name: "レプリカアタック",
-          command: "→↘↓↙←+AC or BD同時押し",
+          command: "→↘↓↙←+AC or BD",
         },
         {
           name: "イミテイトレプリカ",
-          command: "被ダメージ中AC or BD同時押し",
+          command: "被ダメージ中AC or BD",
         },
         {
           name: "シャドーコピー",

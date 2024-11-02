@@ -39,7 +39,7 @@ export const zerospMizuki: DataItem = {
       skills: [
         {
           name: "天地魔境陣",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -49,7 +49,7 @@ export const zerospMizuki: DataItem = {
       skills: [
         {
           name: "狂魔祀怨獄",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

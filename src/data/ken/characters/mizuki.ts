@@ -48,11 +48,11 @@ export const kenMizuki: DataItem = {
       skills: [
         {
           name: "幻魔怨呪魂【真】",
-          command: "↓↘→↘↓↙←+BC同時押し",
+          command: "↓↘→↘↓↙←+BC",
         },
         {
           name: "幻魔怨呪魂【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -62,7 +62,7 @@ export const kenMizuki: DataItem = {
       skills: [
         {
           name: "天地魔境陣",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

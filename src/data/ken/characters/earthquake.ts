@@ -21,7 +21,7 @@ export const kenEarthquake: DataItem = {
         },
         {
           name: "ファットレプリカアタック",
-          command: "→↘↓↙+AD同時押し",
+          command: "→↘↓↙+AD",
         },
         {
           name: "スカンクバースト",
@@ -52,11 +52,11 @@ export const kenEarthquake: DataItem = {
       skills: [
         {
           name: "ファットギロチン【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "ファットギロチン【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const kenEarthquake: DataItem = {
       skills: [
         {
           name: "アースガッデム",
-          command: "↓↘→+AB同時押し（左右で移動）",
+          command: "↓↘→+AB（左右で移動）",
         },
       ],
     },

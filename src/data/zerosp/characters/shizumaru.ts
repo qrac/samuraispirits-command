@@ -33,7 +33,7 @@ export const zerospShizumaru: DataItem = {
           skills: [
             {
               name: "緋刀流 雷雨",
-              command: "AB同時押し",
+              command: "AB",
             },
           ],
         },
@@ -58,7 +58,7 @@ export const zerospShizumaru: DataItem = {
       skills: [
         {
           name: "緋刀流禁じ手 暴雨狂風斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -68,7 +68,7 @@ export const zerospShizumaru: DataItem = {
       skills: [
         {
           name: "鬼の記憶 無限砲",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

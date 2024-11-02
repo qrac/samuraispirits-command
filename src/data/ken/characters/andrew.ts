@@ -68,11 +68,11 @@ export const kenAndrew: DataItem = {
       skills: [
         {
           name: "ゴールドラッシュ【真】",
-          command: "↓↙←↙→+BC同時押し",
+          command: "↓↙←↙→+BC",
         },
         {
           name: "ゴールドラッシュ【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -82,7 +82,7 @@ export const kenAndrew: DataItem = {
       skills: [
         {
           name: "スタチューオブリバティ",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

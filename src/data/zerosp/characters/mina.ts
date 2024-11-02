@@ -56,7 +56,7 @@ export const zerospMina: DataItem = {
       skills: [
         {
           name: "ウミチムンの怒り",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const zerospMina: DataItem = {
       skills: [
         {
           name: "ニルヤ・カナヤの呪縛",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

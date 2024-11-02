@@ -49,7 +49,7 @@ export const tenShizumaruRasetsu: DataItem = {
       skills: [
         {
           name: "閑丸専用",
-          command: "CD同時押し後にC,C,D",
+          command: "CD後にC・C・D",
         },
       ],
     },
@@ -59,7 +59,7 @@ export const tenShizumaruRasetsu: DataItem = {
       skills: [
         {
           name: "緋刀流禁じ手 雨流裂殺刃",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

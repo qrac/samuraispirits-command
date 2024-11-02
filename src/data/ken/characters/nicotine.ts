@@ -56,11 +56,11 @@ export const kenNicotine: DataItem = {
       skills: [
         {
           name: "式神霊符・仁王符霊殺【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "式神霊符・仁王符霊殺【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenNicotine: DataItem = {
       skills: [
         {
           name: "封魔真言",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

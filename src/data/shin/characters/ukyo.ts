@@ -40,7 +40,7 @@ export const shinUkyo: DataItem = {
       skills: [
         {
           name: "ツバメ六連",
-          command: "→←↙↓↘→+AB同時押し（C押しながらで演出変化）",
+          command: "→←↙↓↘→+AB（C押しながらで演出変化）",
         },
       ],
     },

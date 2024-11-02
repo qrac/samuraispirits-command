@@ -17,27 +17,27 @@ export const zanHanzoShura: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+BCD同時押し",
+          command: "→↘↓↙←+BCD",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "←↙↓↘→+BCD同時押し",
+          command: "←↙↓↘→+BCD",
         },
         {
           name: "忍法 身代わりの術＝仏",
-          command: "被ダメージ中AC同時押し",
+          command: "被ダメージ中AC",
         },
         {
           name: "忍法 身代わりの術＝鬼",
-          command: "被ダメージ中BD同時押し",
+          command: "被ダメージ中BD",
         },
         {
           name: "忍法 もず落とし",
-          command: "近距離で→↓↘+CD同時押し",
+          command: "近距離で→↓↘+CD",
         },
         {
           name: "忍法 もず落とし -颯-",
-          command: "踏み込み中近距離で→↓↘+CD同時押し",
+          command: "踏み込み中近距離で→↓↘+CD",
         },
         {
           name: "忍法 影",
@@ -68,7 +68,7 @@ export const zanHanzoShura: DataItem = {
       skills: [
         {
           name: "封じ手 微塵隠れ",
-          command: "↓↓↓+AB同時押し",
+          command: "↓↓↓+AB",
         },
       ],
     },

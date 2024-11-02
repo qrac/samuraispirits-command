@@ -13,7 +13,7 @@ export const kenGalford: DataItem = {
         },
         {
           name: "プラズマブレイク",
-          command: "→↘↓↙←→+AC同時押し",
+          command: "→↘↓↙←→+AC",
         },
         {
           name: "ラッシュドッグ",
@@ -61,19 +61,19 @@ export const kenGalford: DataItem = {
         },
         {
           name: "レプリカアタック（ヘッド）",
-          command: "→↘↓↙←+AD同時押し",
+          command: "→↘↓↙←+AD",
         },
         {
           name: "レプリカアタック（リア）",
-          command: "→↘↓↙←+CE同時押し",
+          command: "→↘↓↙←+CE",
         },
         {
           name: "イミテイトレプリカ（ヘッド）",
-          command: "被ダメージ中→←→←→←↓+AD同時押し",
+          command: "被ダメージ中→←→←→←↓+AD",
         },
         {
           name: "イミテイトレプリカ（リア）",
-          command: "被ダメージ中→←→←→←↓+CE同時押し",
+          command: "被ダメージ中→←→←→←↓+CE",
         },
         {
           name: "ストライクヘッズ",
@@ -112,11 +112,11 @@ export const kenGalford: DataItem = {
       skills: [
         {
           name: "メガストライクドッグ【真】",
-          command: "→↘↓↙←→+BC同時押し",
+          command: "→↘↓↙←→+BC",
         },
         {
           name: "メガストライクドッグ【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -126,11 +126,11 @@ export const kenGalford: DataItem = {
       skills: [
         {
           name: "ダブルメガストライクヘッズ（ヘッド）",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
         {
           name: "ダブルメガストライクヘッズ（リア）",
-          command: "↓↘→+AD同時押し",
+          command: "↓↘→+AD",
         },
       ],
     },

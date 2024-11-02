@@ -49,11 +49,11 @@ export const tenKazukiRasetsu: DataItem = {
       skills: [
         {
           name: "火月専用①",
-          command: "CD同時押し後にC,C",
+          command: "CD後にC・C",
         },
         {
           name: "火月専用②",
-          command: "CD同時押し後にC,B,B,B",
+          command: "CD後にC・B・B・B",
         },
       ],
     },
@@ -63,11 +63,11 @@ export const tenKazukiRasetsu: DataItem = {
       skills: [
         {
           name: "炎邪覚醒",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
           skills: [
             {
               name: "覚醒停止",
-              command: "ABCD同時押し",
+              command: "ABCD",
             },
           ],
         },

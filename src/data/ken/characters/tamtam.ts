@@ -44,11 +44,11 @@ export const kenTamtam: DataItem = {
       skills: [
         {
           name: "アハウ・ティウワカン【真】",
-          command: "→↓↘→↓↘+BC同時押し",
+          command: "→↓↘→↓↘+BC",
         },
         {
           name: "アハウ・ティウワカン【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const kenTamtam: DataItem = {
       skills: [
         {
           name: "マグナス・ディオス・ザール",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

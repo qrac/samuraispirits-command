@@ -35,7 +35,7 @@ export const zeroRasetsumaru: DataItem = {
       skills: [
         {
           name: "天覇断空烈斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

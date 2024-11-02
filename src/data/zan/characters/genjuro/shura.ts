@@ -41,7 +41,7 @@ export const zanGenjuroShura: DataItem = {
       skills: [
         {
           name: "五光斬",
-          command: "→←↙↓↘→+AB同時押し",
+          command: "→←↙↓↘→+AB",
         },
       ],
     },

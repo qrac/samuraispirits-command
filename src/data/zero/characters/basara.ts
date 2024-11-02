@@ -60,7 +60,7 @@ export const zeroBasara: DataItem = {
       skills: [
         {
           name: "影舞い・夢彈",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

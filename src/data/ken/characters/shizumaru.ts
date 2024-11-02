@@ -47,7 +47,7 @@ export const kenShizumaru: DataItem = {
           skills: [
             {
               name: "緋刀流 雷雨",
-              command: "AB同時押し",
+              command: "AB",
             },
           ],
         },
@@ -84,11 +84,11 @@ export const kenShizumaru: DataItem = {
       skills: [
         {
           name: "緋刀流 暴雨円殺陣【真】",
-          command: "→↓↘→↓↘+BC同時押し",
+          command: "→↓↘→↓↘+BC",
         },
         {
           name: "緋刀流 暴雨円殺陣【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -98,7 +98,7 @@ export const kenShizumaru: DataItem = {
       skills: [
         {
           name: "緋刀流禁じ手 暴雨狂風斬",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

@@ -17,19 +17,19 @@ export const tenHanzoShura: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+AC同時押し",
+          command: "→↘↓↙←+AC",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "→↘↓↙←+BD同時押し",
+          command: "→↘↓↙←+BD",
         },
         {
           name: "忍法 身代わりの術・仏",
-          command: "被ダメージ中AC同時押し",
+          command: "被ダメージ中AC",
         },
         {
           name: "忍法 身代わりの術・鬼",
-          command: "被ダメージ中BD同時押し",
+          command: "被ダメージ中BD",
         },
         {
           name: "モズ落とし",
@@ -64,7 +64,7 @@ export const tenHanzoShura: DataItem = {
       skills: [
         {
           name: "封じ手 微塵隠れ",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

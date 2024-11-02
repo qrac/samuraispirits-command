@@ -56,11 +56,11 @@ export const kenWanfu: DataItem = {
       skills: [
         {
           name: "超気功旋風大撲殺【真】",
-          command: "↘←↙↓↘→←↓↙+BC同時押し",
+          command: "↘←↙↓↘→←↓↙+BC",
         },
         {
           name: "超気功旋風大撲殺【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenWanfu: DataItem = {
       skills: [
         {
           name: "極気功大爆天",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

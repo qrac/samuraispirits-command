@@ -27,7 +27,7 @@ export const tenCharlotteShura: DataItem = {
       skills: [
         {
           name: "スプラッシュグラデーション",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

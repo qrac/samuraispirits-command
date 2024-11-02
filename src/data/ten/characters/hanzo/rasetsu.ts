@@ -52,7 +52,7 @@ export const tenHanzoRasetsu: DataItem = {
       skills: [
         {
           name: "封じ手 毒龍",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

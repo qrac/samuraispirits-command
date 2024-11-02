@@ -39,7 +39,7 @@ export const tenHaoumaruRasetsu: DataItem = {
       skills: [
         {
           name: "秘奥義 天覇断空烈斬",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

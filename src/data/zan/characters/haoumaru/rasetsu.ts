@@ -47,7 +47,7 @@ export const zanHaoumaruRasetsu: DataItem = {
       skills: [
         {
           name: "秘奥義 天覇断空烈斬",
-          command: "→←↙↓↘→+CD同時押し",
+          command: "→←↙↓↘→+CD",
         },
       ],
     },

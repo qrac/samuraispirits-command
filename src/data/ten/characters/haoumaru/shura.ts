@@ -31,7 +31,7 @@ export const tenHaoumaruShura: DataItem = {
       skills: [
         {
           name: "秘奥義 天覇封神斬",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

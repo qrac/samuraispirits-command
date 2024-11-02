@@ -25,7 +25,7 @@ export const tenKazukiShura: DataItem = {
         },
         {
           name: "炎返し",
-          command: "炎ストック時 被吹っ飛び中にAC同時押し",
+          command: "炎ストック時 被吹っ飛び中にAC",
         },
       ],
     },
@@ -43,11 +43,11 @@ export const tenKazukiShura: DataItem = {
       skills: [
         {
           name: "火月専用①",
-          command: "CD同時押し後にC,C",
+          command: "CD後にC・C",
         },
         {
           name: "火月専用②",
-          command: "CD同時押し後にC,B,B,B",
+          command: "CD後にC・B・B・B",
         },
       ],
     },
@@ -57,7 +57,7 @@ export const tenKazukiShura: DataItem = {
       skills: [
         {
           name: "暴爆、火炎撃",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

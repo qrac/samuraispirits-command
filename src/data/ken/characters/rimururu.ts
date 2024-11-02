@@ -37,11 +37,11 @@ export const kenRimururu: DataItem = {
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "素手時 踏み込み中AC or AD同時押し",
+          command: "素手時 踏み込み中AC or AD",
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル ルヤンペ",
-          command: "素手+ゲージ最大時 踏み込み中AC or AD同時押し",
+          command: "素手+ゲージ最大時 踏み込み中AC or AD",
         },
       ],
     },
@@ -72,11 +72,11 @@ export const kenRimururu: DataItem = {
       skills: [
         {
           name: "ルプㇱ カムイ エムㇱ（トィトィ）【真】",
-          command: "→↘↓↙←→↘↓↙←+BC同時押し",
+          command: "→↘↓↙←→↘↓↙←+BC",
         },
         {
           name: "ルプㇱ カムイ エムㇱ（トィトィ）【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -86,7 +86,7 @@ export const kenRimururu: DataItem = {
       skills: [
         {
           name: "コンル ストゥ ポロ",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

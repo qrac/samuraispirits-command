@@ -35,7 +35,7 @@ export const tenTamtamShura: DataItem = {
       skills: [
         {
           name: "アハウ・ティウワカン",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

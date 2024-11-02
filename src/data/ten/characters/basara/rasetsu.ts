@@ -52,7 +52,7 @@ export const tenBasaraRasetsu: DataItem = {
       skills: [
         {
           name: "影舞い・夢彈",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

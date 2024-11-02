@@ -40,7 +40,7 @@ export const zeroSuija: DataItem = {
       skills: [
         {
           name: "天昇・水柱波",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

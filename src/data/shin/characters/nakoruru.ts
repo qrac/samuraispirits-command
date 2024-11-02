@@ -52,7 +52,7 @@ export const shinNakoruru: DataItem = {
         },
         {
           name: "飛天鷹落撃",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB同時押し",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
         {
           name: "ぬいぐるみ変化",
@@ -66,7 +66,7 @@ export const shinNakoruru: DataItem = {
       skills: [
         {
           name: "アペフチ カムイ リㇺセ",
-          command: "↘↓↙←→↓↘+BC同時押し",
+          command: "↘↓↙←→↓↘+BC",
         },
       ],
     },

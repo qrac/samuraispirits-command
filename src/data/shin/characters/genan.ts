@@ -21,11 +21,11 @@ export const shinGenan: DataItem = {
         },
         {
           name: "幻庵うつせみ脱皮",
-          command: "↘↓↙+BCD同時押し",
+          command: "↘↓↙+BCD",
         },
         {
           name: "幻庵脱皮",
-          command: "被ダメージ中BCD同時押し",
+          command: "被ダメージ中BCD",
         },
       ],
     },
@@ -52,7 +52,7 @@ export const shinGenan: DataItem = {
       skills: [
         {
           name: "M.D.C（魔道ダイビングクロー）",
-          command: "→↘↓↙←→+AB同時押し",
+          command: "→↘↓↙←→+AB",
         },
       ],
     },

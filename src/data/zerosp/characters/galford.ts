@@ -21,7 +21,7 @@ export const zerospGalford: DataItem = {
         },
         {
           name: "レプリカドッグ",
-          command: "↓↙←+AB同時押し",
+          command: "↓↙←+AB",
         },
         {
           name: "オーバーヘッドクラッシュ",
@@ -29,19 +29,19 @@ export const zerospGalford: DataItem = {
         },
         {
           name: "レプリカアタック（ヘッド）",
-          command: "→↘↓↙←+AC同時押し",
+          command: "→↘↓↙←+AC",
         },
         {
           name: "レプリカアタック（リア）",
-          command: "→↘↓↙←+BC同時押し",
+          command: "→↘↓↙←+BC",
         },
         {
           name: "イミテイトレプリカ（ヘッド）",
-          command: "被ダメージ中→←→←→←↓+AC同時押し",
+          command: "被ダメージ中→←→←→←↓+AC",
         },
         {
           name: "イミテイトレプリカ（リア）",
-          command: "被ダメージ中→←→←→←↓+BC同時押し",
+          command: "被ダメージ中→←→←→←↓+BC",
         },
         {
           name: "ストライクヘッズ",
@@ -68,11 +68,11 @@ export const zerospGalford: DataItem = {
       skills: [
         {
           name: "ダブルメガストライクヘッズ（ヘッド）",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
         {
           name: "ダブルメガストライクヘッズ（リア）",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -82,7 +82,7 @@ export const zerospGalford: DataItem = {
       skills: [
         {
           name: "絶・ヘブンズウルフ・バッドファング",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

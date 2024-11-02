@@ -56,11 +56,11 @@ export const kenIroha: DataItem = {
       skills: [
         {
           name: "冬曙 雪月花【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "冬曙 雪月花【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenIroha: DataItem = {
       skills: [
         {
           name: "夕鶴の舞",
-          command: "近距離で↓↘→+AB同時押し",
+          command: "近距離で↓↘→+AB",
         },
       ],
     },

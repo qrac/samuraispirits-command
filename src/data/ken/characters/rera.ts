@@ -118,11 +118,11 @@ export const kenRera: DataItem = {
       skills: [
         {
           name: "キムン カムイ シキテ【真】",
-          command: "狼乗り中に←↙↓↘→↓↘+BC同時押し",
+          command: "狼乗り中に←↙↓↘→↓↘+BC",
         },
         {
           name: "キムン カムイ シキテ【剣】",
-          command: "狼乗り中に↓↘→+BC同時押し",
+          command: "狼乗り中に↓↘→+BC",
         },
       ],
     },
@@ -132,7 +132,7 @@ export const kenRera: DataItem = {
       skills: [
         {
           name: "ヌペキ カムイ シキテ",
-          command: "↓↘→+AB同時押し（狼乗り中でも使用可能）",
+          command: "↓↘→+AB（狼乗り中でも使用可能）",
         },
       ],
     },

@@ -52,11 +52,11 @@ export const kenUkyo: DataItem = {
       skills: [
         {
           name: "秘剣 神荒れ【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "秘剣 神荒れ【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const kenUkyo: DataItem = {
       skills: [
         {
           name: "ツバメ六連",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

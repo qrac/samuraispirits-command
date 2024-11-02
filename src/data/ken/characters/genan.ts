@@ -78,11 +78,11 @@ export const kenGenan: DataItem = {
       skills: [
         {
           name: "肉転地獄突き【真】",
-          command: "→↘↓↙←→+BC同時押し",
+          command: "→↘↓↙←→+BC",
         },
         {
           name: "肉転地獄突き【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -92,7 +92,7 @@ export const kenGenan: DataItem = {
       skills: [
         {
           name: "M.D.C（魔道ダイビングクロー）",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

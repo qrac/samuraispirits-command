@@ -17,15 +17,15 @@ export const zanHanzoRasetsu: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+BCD同時押し",
+          command: "→↘↓↙←+BCD",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "←↙↓↘→+BCD同時押し",
+          command: "←↙↓↘→+BCD",
         },
         {
           name: "忍法 爆炎微塵隠れ",
-          command: "近距離で→↓↘+CD同時押し",
+          command: "近距離で→↓↘+CD",
         },
         {
           name: "忍法 影・静音",
@@ -60,7 +60,7 @@ export const zanHanzoRasetsu: DataItem = {
       skills: [
         {
           name: "封じ手 毒龍",
-          command: "→↘↓↙←→+CD同時押し",
+          command: "→↘↓↙←→+CD",
         },
       ],
     },

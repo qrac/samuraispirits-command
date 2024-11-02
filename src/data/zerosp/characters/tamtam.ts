@@ -35,7 +35,7 @@ export const zerospTamtam: DataItem = {
       skills: [
         {
           name: "マグナス・ディオス・ザール",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -45,7 +45,7 @@ export const zerospTamtam: DataItem = {
       skills: [
         {
           name: "アハウ・カスティーガー",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

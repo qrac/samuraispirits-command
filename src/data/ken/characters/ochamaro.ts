@@ -117,15 +117,15 @@ export const kenoOhamaro: DataItem = {
           skills: [
             {
               name: "傀儡回し 弐の幕",
-              command: "A,A,BC",
+              command: "A・A・BC",
               skills: [
                 {
                   name: "傀儡回し 参の幕",
-                  command: "C,C,ABC",
+                  command: "C・C・ABC",
                   skills: [
                     {
                       name: "傀儡回し 四の幕",
-                      command: "A,B,C,B,ABD",
+                      command: "A・B・C・B・ABD",
                     },
                   ],
                 },
@@ -154,11 +154,11 @@ export const kenoOhamaro: DataItem = {
       skills: [
         {
           name: "都古舞 秘奥 団扇楓【真】",
-          command: "→↘↓↙←→↘↓↙←+BC同時押し",
+          command: "→↘↓↙←→↘↓↙←+BC",
         },
         {
           name: "都古舞 秘奥 団扇楓【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -168,11 +168,11 @@ export const kenoOhamaro: DataItem = {
       skills: [
         {
           name: "獅子舞 鬼遣",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
           skills: [
             {
               name: "獅子舞 鬼紋封",
-              command: "→↘↓↙←→↘↓↙←+ABC同時押し",
+              command: "→↘↓↙←→↘↓↙←+ABC",
             },
           ],
         },

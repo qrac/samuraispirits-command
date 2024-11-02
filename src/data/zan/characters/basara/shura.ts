@@ -52,7 +52,7 @@ export const zanBasaraShura: DataItem = {
       skills: [
         {
           name: "影舞い・酬",
-          command: "←↙↓↘→←+AB同時押し",
+          command: "←↙↓↘→←+AB",
         },
       ],
     },

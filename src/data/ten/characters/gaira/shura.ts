@@ -43,7 +43,7 @@ export const tenGairaShura: DataItem = {
       skills: [
         {
           name: "拳舞",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

@@ -45,11 +45,11 @@ export const kenYunfei: DataItem = {
         },
         {
           name: "天機七曜 日",
-          command: "空中でAC同時押し",
+          command: "空中でAC",
         },
         {
           name: "天猛金翅",
-          command: "空中で↓↘→ or ↓↙←+AD or CE同時押し",
+          command: "空中で↓↘→ or ↓↙←+AD or CE",
         },
         {
           name: "天牢旋氣",
@@ -76,11 +76,11 @@ export const kenYunfei: DataItem = {
       skills: [
         {
           name: "天罪喪門【真】",
-          command: "空中で→↘↓↙←↖↘+BC同時押し",
+          command: "空中で→↘↓↙←↖↘+BC",
         },
         {
           name: "天罪喪門【剣】",
-          command: "空中で↓↘→+BC同時押し",
+          command: "空中で↓↘→+BC",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const kenYunfei: DataItem = {
       skills: [
         {
           name: "天魁雲裏",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

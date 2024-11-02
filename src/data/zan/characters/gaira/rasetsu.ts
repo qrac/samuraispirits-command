@@ -17,15 +17,15 @@ export const zanGairaRasetsu: DataItem = {
         },
         {
           name: "地震丸",
-          command: "↓↓+AB同時押し",
+          command: "↓↓+AB",
         },
         {
           name: "円心殺～天",
-          command: "↓↙←→+AB同時押し",
+          command: "↓↙←→+AB",
         },
         {
           name: "円心殺～地",
-          command: "↓↙←→+CD同時押し",
+          command: "↓↙←→+CD",
         },
         {
           name: "百貫落とし",
@@ -39,7 +39,7 @@ export const zanGairaRasetsu: DataItem = {
       skills: [
         {
           name: "拳舞",
-          command: "↓↘→↓↘+AB同時押し",
+          command: "↓↘→↓↘+AB",
         },
       ],
     },

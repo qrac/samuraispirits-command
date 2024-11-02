@@ -54,11 +54,11 @@ export const zerospEnja: DataItem = {
       skills: [
         {
           name: "炎邪爆熱",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
           skills: [
             {
               name: "中断",
-              command: "ABCD同時押し",
+              command: "ABCD",
             },
           ],
         },
@@ -70,7 +70,7 @@ export const zerospEnja: DataItem = {
       skills: [
         {
           name: "三千大千世界全焦土",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

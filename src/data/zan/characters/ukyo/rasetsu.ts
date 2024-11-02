@@ -35,7 +35,7 @@ export const zanUkyoRasetsu: DataItem = {
       skills: [
         {
           name: "夢想残光霞",
-          command: "→←→+CD同時押し",
+          command: "→←→+CD",
         },
       ],
     },
