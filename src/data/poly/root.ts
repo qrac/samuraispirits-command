@@ -3,10 +3,10 @@ import type { DataItem } from "../../types"
 export const polyRoot: DataItem = {
   id: "poly-root",
   name: "基本操作（ポリサム）",
-  layout: "slim",
   groups: [
     {
       title: "共通",
+      layout: "slim",
       skills: [
         {
           name: "弱攻撃",
@@ -62,7 +62,7 @@ export const polyRoot: DataItem = {
         },
         {
           name: "ステップ（奥）",
-          command: "D or D+↖ or ↑ or ↗",
+          command: "D+↖ or ↑ or ↗",
         },
         {
           name: "ステップ（手前）",
@@ -94,11 +94,11 @@ export const polyRoot: DataItem = {
         },
         {
           name: "起き上がり攻撃（中段）",
-          command: "被ダウン復帰中A",
+          command: "起き上がり中A",
         },
         {
           name: "起き上がり攻撃（下段）",
-          command: "被ダウン復帰中B",
+          command: "起き上がり中B",
         },
         {
           name: "ジャンプ復帰",
@@ -113,33 +113,52 @@ export const polyRoot: DataItem = {
           command: "被ガード中に対応技コマンド（スタミナ半分必要）",
         },
         {
-          name: "S・C・S",
-          command: "CD同時押し（スタミナ半分必要）",
+          name: "秘奥義",
+          command: "怒ゲージ最大時にキャラ別コマンド",
+        },
+        {
+          name: "怒り爆発",
+          command: "怒ゲージ最大時ABC",
+          skills: [
+            {
+              name: "一閃",
+              command: "ABC or BCD",
+            },
+          ],
+        },
+        {
+          name: "初心者モード",
+          command: "スタートを押しながら剣質を決定",
+        },
+      ],
+    },
+    {
+      title: "S・C・S（共通）",
+      titleNote: "キャラ個別ルートあり",
+      skills: [
+        {
+          name: "",
+          command: "CD（スタミナ半分必要）",
           skills: [
             {
               name: "",
-              command: "A,A,A,A or B,B,B,B",
-              isShort: true,
+              command: "A・A・A・A or B・B・B・B",
               skills: [
                 {
-                  name: "駆け引き",
-                  command: "A or B",
-                  isShort: true,
+                  name: "駆け引きポイント",
+                  command: "A（中段） or B（下段）",
                   skills: [
                     {
                       name: "",
-                      command: "A,A,A or B,B,B",
-                      isShort: true,
+                      command: "A・A・A or B・B・B",
                       skills: [
                         {
-                          name: "駆け引き",
-                          command: "A or B",
-                          isShort: true,
+                          name: "駆け引きポイント",
+                          command: "A（中段） or B（下段）",
                           skills: [
                             {
                               name: "",
-                              command: "A,A or B,B",
-                              isShort: true,
+                              command: "A・A or B・B",
                             },
                           ],
                         },
@@ -152,26 +171,8 @@ export const polyRoot: DataItem = {
           ],
         },
         {
-          name: "S・C・S弾き返し",
-          command: "被弾中、駆け引き前にA or B",
-        },
-        {
-          name: "秘奥義",
-          command: "怒ゲージ最大時にキャラ別コマンド",
-        },
-        {
-          name: "怒り爆発",
-          command: "怒ゲージ最大時ABC同時押し",
-          skills: [
-            {
-              name: "一閃",
-              command: "ABC or BCD同時押し",
-            },
-          ],
-        },
-        {
-          name: "初心者モード",
-          command: "スタートを押しながら剣質を決定",
+          name: "S・C・S 弾き返し",
+          command: "駆け引きポイント前にA or B",
         },
       ],
     },

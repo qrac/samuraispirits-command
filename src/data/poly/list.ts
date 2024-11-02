@@ -1,7 +1,7 @@
 import type { DataItem } from "../../types"
 import { polyRoot } from "./root"
-//import { polyHaoumaruShura } from "./characters/haoumaru/shura"
-//import { polyHaoumaruRasetsu } from "./characters/haoumaru/rasetsu"
+import { polyHaoumaruShura } from "./characters/haoumaru/shura"
+import { polyHaoumaruRasetsu } from "./characters/haoumaru/rasetsu"
 //import { polyNakoruruShura } from "./characters/nakoruru/shura"
 //import { polyNakoruruRasetsu } from "./characters/nakoruru/rasetsu"
 //import { polyRimururuShura } from "./characters/rimururu/shura"
@@ -21,8 +21,8 @@ import { polyRoot } from "./root"
 
 export const polyList = [
   polyRoot,
-  //polyHaoumaruShura,
-  //polyHaoumaruRasetsu,
+  polyHaoumaruShura,
+  polyHaoumaruRasetsu,
   //polyNakoruruShura,
   //polyNakoruruRasetsu,
   //polyRimururuShura,

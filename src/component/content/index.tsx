@@ -6,20 +6,28 @@ import { ComponentSkills } from "../skills"
 
 export function ComponentContent({ dataItem }: { dataItem: DataItem }) {
   return (
-    <div className={clsx("content", dataItem?.layout === "slim" && "is-slim")}>
+    <div className={clsx("content", dataItem?.layout && dataItem?.layout)}>
       <h2 className="content-name">{dataItem.name}</h2>
       <div className="content-groups">
         {dataItem.groups.map((group, groupIndex) => (
-          <div key={groupIndex} className="content-group">
+          <div
+            key={groupIndex}
+            className={clsx("content-group", group?.layout && group?.layout)}
+          >
             {group.title && (
-              <h3
-                className={clsx(
-                  "content-group-title",
-                  group.titleColor && `is-ac-${group.titleColor}`
+              <div className="content-group-title">
+                <h3
+                  className={clsx(
+                    "content-group-title-label",
+                    group.titleColor && `is-ac-${group.titleColor}`
+                  )}
+                >
+                  {group.title}
+                </h3>
+                {group.titleNote && (
+                  <p className="content-group-title-note">{group.titleNote}</p>
                 )}
-              >
-                {group.title}
-              </h3>
+              </div>
             )}
             <ComponentSkills skills={group.skills} />
           </div>
