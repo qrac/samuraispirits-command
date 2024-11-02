@@ -13,11 +13,11 @@ export const zeroKazuki: DataItem = {
         },
         {
           name: "焦熱魂",
-          command: "↓↘→+A or B or C or AB同時押し",
+          command: "↓↘→+A or B or C or AB",
         },
         {
           name: "大爆殺",
-          command: "→↓↘+A or B or C or AB同時押し",
+          command: "→↓↘+A or B or C or AB",
         },
         {
           name: "炎滅",
@@ -25,7 +25,7 @@ export const zeroKazuki: DataItem = {
         },
         {
           name: "炎返し",
-          command: "炎ストック時 被吹っ飛び中にAC同時押し",
+          command: "炎ストック時 被吹っ飛び中にAC",
         },
       ],
     },
@@ -44,7 +44,7 @@ export const zeroKazuki: DataItem = {
       skills: [
         {
           name: "暴爆、火炎撃",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

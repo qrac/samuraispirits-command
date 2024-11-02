@@ -13,7 +13,7 @@ export const zeroRimururu: DataItem = {
         },
         {
           name: "ルプㇱ クアレ（トィトィ）",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
         {
           name: "コンル メㇺ",
@@ -37,11 +37,11 @@ export const zeroRimururu: DataItem = {
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "素手時 踏み込み中AC or BC同時押し",
+          command: "素手時 踏み込み中AC or BC",
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル ルヤンペ",
-          command: "素手+怒りゲージ最大時 踏み込み中AC or BC同時押し",
+          command: "素手+怒りゲージ最大時 踏み込み中AC or BC",
         },
       ],
     },
@@ -60,7 +60,7 @@ export const zeroRimururu: DataItem = {
       skills: [
         {
           name: "ルプㇱ カムイ エムㇱ（トィトィ）",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

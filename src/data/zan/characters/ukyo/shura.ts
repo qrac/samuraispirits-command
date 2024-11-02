@@ -39,7 +39,7 @@ export const zanUkyoShura: DataItem = {
       skills: [
         {
           name: "ツバメ六連",
-          command: "→↘↓↙←→+BC同時押し",
+          command: "→↘↓↙←→+BC",
         },
       ],
     },

@@ -31,7 +31,7 @@ export const tenUkyoRasetsu: DataItem = {
       skills: [
         {
           name: "夢想残光霞",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

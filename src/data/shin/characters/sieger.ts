@@ -41,7 +41,7 @@ export const shinSieger: DataItem = {
         },
         {
           name: "ヴォルフ・ファンゲン",
-          command: "→←↙↓↘+AB同時押し",
+          command: "→←↙↓↘+AB",
         },
         {
           name: "ブリッツ・イェーガー",
@@ -49,7 +49,7 @@ export const shinSieger: DataItem = {
         },
         {
           name: "ファイヤー・ストゥーム",
-          command: "↘+BC同時押し",
+          command: "↘+BC",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const shinSieger: DataItem = {
       skills: [
         {
           name: "フォアスト・ツヴァングスマースナーメ",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB同時押し",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
         {
           name: "ぬいぐるみ変化",
@@ -72,7 +72,7 @@ export const shinSieger: DataItem = {
       skills: [
         {
           name: "オペラツィオン・ティーガー",
-          command: "→↘↓↙←→+CD同時押し",
+          command: "→↘↓↙←→+CD",
         },
       ],
     },

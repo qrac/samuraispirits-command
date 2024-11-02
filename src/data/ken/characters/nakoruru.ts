@@ -55,7 +55,7 @@ export const kenNakoruru: DataItem = {
             },
             {
               name: "カムイ ムツベ",
-              command: "↗ or → or ↘+BC同時押し",
+              command: "↗ or → or ↘+BC",
             },
           ],
         },
@@ -92,11 +92,11 @@ export const kenNakoruru: DataItem = {
       skills: [
         {
           name: "アペフチ カムイ リㇺセ【真】",
-          command: "↘↓↙←→↓↘+BC同時押し",
+          command: "↘↓↙←→↓↘+BC",
         },
         {
           name: "アペフチ カムイ リㇺセ【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -106,7 +106,7 @@ export const kenNakoruru: DataItem = {
       skills: [
         {
           name: "エレルㇱ カムイ リㇺセ",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

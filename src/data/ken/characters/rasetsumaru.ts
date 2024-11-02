@@ -44,11 +44,11 @@ export const kenRasetsumaru: DataItem = {
       skills: [
         {
           name: "剛咆【真】",
-          command: "↙→↘↓↙←→↓↘+BC同時押し",
+          command: "↙→↘↓↙←→↓↘+BC",
         },
         {
           name: "剛咆【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -58,7 +58,7 @@ export const kenRasetsumaru: DataItem = {
       skills: [
         {
           name: "天覇断空烈斬",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

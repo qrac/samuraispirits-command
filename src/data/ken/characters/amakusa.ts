@@ -9,7 +9,7 @@ export const kenAmakusa: DataItem = {
       skills: [
         {
           name: "魔力変質",
-          command: "CE同時押し",
+          command: "CE",
         },
         {
           name: "逢魔刻（前）",
@@ -88,11 +88,11 @@ export const kenAmakusa: DataItem = {
       skills: [
         {
           name: "煉獄死霊刃【真】",
-          command: "←→↓↘+BC同時押し",
+          command: "←→↓↘+BC",
         },
         {
           name: "煉獄死霊刃【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -102,11 +102,11 @@ export const kenAmakusa: DataItem = {
       skills: [
         {
           name: "救恤魔導弾【真】",
-          command: "←→↓↘+BC同時押し",
+          command: "←→↓↘+BC",
         },
         {
           name: "救恤魔導弾【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -116,7 +116,7 @@ export const kenAmakusa: DataItem = {
       skills: [
         {
           name: "凶冥十殺陣",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

@@ -42,7 +42,7 @@ export const zeroSougetsu: DataItem = {
       skills: [
         {
           name: "消波・風月斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

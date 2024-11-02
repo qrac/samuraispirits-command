@@ -35,7 +35,7 @@ export const zeroTamtam: DataItem = {
       skills: [
         {
           name: "マグナス・ディオス・ザール",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

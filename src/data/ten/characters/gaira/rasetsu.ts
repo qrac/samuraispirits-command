@@ -13,7 +13,7 @@ export const tenGairaRasetsu: DataItem = {
         },
         {
           name: "地震丸",
-          command: "↓↓+AB同時押し",
+          command: "↓↓+AB",
         },
         {
           name: "円心殺",
@@ -31,7 +31,7 @@ export const tenGairaRasetsu: DataItem = {
       skills: [
         {
           name: "仁王爆震殺",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

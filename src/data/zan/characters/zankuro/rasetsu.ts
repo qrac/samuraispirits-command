@@ -25,7 +25,7 @@ export const zanZankuroRasetsu: DataItem = {
         },
         {
           name: "無限流 一刀斬",
-          command: "←↙↓+AB同時押し",
+          command: "←↙↓+AB",
         },
         {
           name: "無限流 不動",
@@ -43,7 +43,7 @@ export const zanZankuroRasetsu: DataItem = {
       skills: [
         {
           name: "奥義 無双震撃斬",
-          command: "↓↓↓↘→+AB同時押し",
+          command: "↓↓↓↘→+AB",
         },
       ],
     },
@@ -53,7 +53,7 @@ export const zanZankuroRasetsu: DataItem = {
         {
           name: "斬紅郎の使用方法",
           command:
-            "対戦のキャラ選択時に覇王丸にカーソルを合わせ←,←,↓,→,→,↑,→,↓,→,→,↑,←,←,残りタイム03秒の時にスタートを押しながらAB同時押し",
+            "対戦のキャラ選択時に覇王丸にカーソルを合わせ←←↓→→↑→↓→→↑←←残りタイム03秒の時にスタートを押しながらAB",
         },
       ],
     },

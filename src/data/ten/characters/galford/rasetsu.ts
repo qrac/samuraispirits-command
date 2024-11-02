@@ -29,19 +29,19 @@ export const tenGalfordRasetsu: DataItem = {
         },
         {
           name: "レプリカアタック（ヘッド）",
-          command: "→↘↓↙←+AC同時押し",
+          command: "→↘↓↙←+AC",
         },
         {
           name: "レプリカアタック（リア）",
-          command: "→↘↓↙←+BD同時押し",
+          command: "→↘↓↙←+BD",
         },
         {
           name: "イミテイトレプリカ（ヘッド）",
-          command: "被ダメージ中AC同時押し",
+          command: "被ダメージ中AC",
         },
         {
           name: "イミテイトレプリカ（リア）",
-          command: "被ダメージ中BD同時押し",
+          command: "被ダメージ中BD",
         },
         {
           name: "シャドーコピー",
@@ -68,7 +68,7 @@ export const tenGalfordRasetsu: DataItem = {
       skills: [
         {
           name: "ライトニングストライクスリー",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

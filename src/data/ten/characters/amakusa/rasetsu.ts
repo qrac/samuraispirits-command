@@ -58,7 +58,7 @@ export const tenAmakusaRasetsu: DataItem = {
       skills: [
         {
           name: "凶冥十殺陣",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

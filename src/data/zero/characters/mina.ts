@@ -56,7 +56,7 @@ export const zeroMina: DataItem = {
       skills: [
         {
           name: "ウミチムンの怒り",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

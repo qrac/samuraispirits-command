@@ -54,7 +54,7 @@ export const zeroEnja: DataItem = {
       skills: [
         {
           name: "炎邪爆熱",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

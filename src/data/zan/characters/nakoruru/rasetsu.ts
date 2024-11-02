@@ -65,7 +65,7 @@ export const zanNakoruruRasetsu: DataItem = {
         },
         {
           name: "エプンキネ シキテ",
-          command: "被ダウン時AC同時押し",
+          command: "被ダウン時AC",
         },
         {
           name: "レラ オ チキリ",
@@ -92,7 +92,7 @@ export const zanNakoruruRasetsu: DataItem = {
       skills: [
         {
           name: "ヌペキ カムイ シキテ",
-          command: "←↙↓↘→↓↘+BC同時押し",
+          command: "←↙↓↘→↓↘+BC",
         },
       ],
     },

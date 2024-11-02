@@ -46,7 +46,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "防御崩し",
-          command: "近距離で→+BC同時押し or ←+BC同時押し",
+          command: "近距離で→+BC or ←+BC",
         },
         {
           name: "追い打ち",
@@ -90,7 +90,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "アイテム使用",
-          command: "アイテムに重なりAD同時押し",
+          command: "アイテムに重なりAD",
         },
       ],
     },
@@ -103,7 +103,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "超斬り",
-          command: "AB同時押し",
+          command: "AB",
         },
       ],
     },
@@ -144,7 +144,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器破壊技",
-          command: "ゲージ最大時に↓↘→+AB同時押し",
+          command: "ゲージ最大時に↓↘→+AB",
         },
       ],
     },
@@ -157,7 +157,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "斬ゲージ溜め",
-          command: "AB同時押し継続",
+          command: "AB継続押し",
         },
         {
           name: "斬ゲージ常時最大",
@@ -177,7 +177,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command: "ゲージ最大時に↓↘→+AB同時押し",
+          command: "ゲージ最大時に↓↘→+AB",
         },
       ],
     },
@@ -198,37 +198,37 @@ export const kenRoot: DataItem = {
         },
         {
           name: "連斬",
-          command: "AB同時押し",
+          command: "AB",
           skills: [
             {
               name: "ルート①",
-              command: "A,A,A",
+              command: "A・A・A",
             },
             {
               name: "ルート②",
-              command: "B,B,C",
+              command: "B・B・C",
             },
             {
               name: "ルート③",
-              command: "C,C,D",
+              command: "C・C・D",
             },
             {
               name: "ルート④",
-              command: "A,A,B,B,C,C,C",
+              command: "A・A・B・B・C・C・C",
             },
           ],
         },
         {
           name: "武器飛ばし技",
-          command: "ゲージ最大時に↓↘→+AB同時押し",
+          command: "ゲージ最大時に↓↘→+AB",
         },
         {
           name: "怒り爆発",
-          command: "ABC同時押し",
+          command: "ABC",
           skills: [
             {
               name: "一閃",
-              command: "ABC同時押し",
+              command: "ABC",
             },
           ],
         },
@@ -243,7 +243,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "瞑想",
-          command: "AB同時押し継続（零ゲージ消費）",
+          command: "AB継続押し（零ゲージ消費）",
         },
         {
           name: "跳び込み",
@@ -267,19 +267,19 @@ export const kenRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command: "ゲージ最大時に↓↘→+AB同時押し",
+          command: "ゲージ最大時に↓↘→+AB",
         },
         {
           name: "怒り爆発",
-          command: "ABC同時押し",
+          command: "ABC",
         },
         {
           name: "無の境地",
-          command: "体力青でDE同時押し",
+          command: "体力青でDE",
           skills: [
             {
               name: "一閃",
-              command: "ABC同時押し",
+              command: "ABC",
             },
           ],
         },
@@ -306,15 +306,15 @@ export const kenRoot: DataItem = {
         },
         {
           name: "完全ガード",
-          command: "AB同時押し継続（剣ゲージ消費）",
+          command: "AB継続押し（剣ゲージ消費）",
         },
         {
           name: "秘奥義",
-          command: "体力緑で↓↘→+BC同時押し",
+          command: "体力緑で↓↘→+BC",
         },
         {
           name: "武器飛ばし技",
-          command: "ゲージ最大時に↓↘→+AB同時押し",
+          command: "ゲージ最大時に↓↘→+AB",
         },
       ],
     },

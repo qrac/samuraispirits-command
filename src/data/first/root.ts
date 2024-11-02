@@ -17,7 +17,7 @@ export const firstRoot: DataItem = {
         },
         {
           name: "強斬り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "弱蹴り",
@@ -29,7 +29,7 @@ export const firstRoot: DataItem = {
         },
         {
           name: "強蹴り",
-          command: "CD同時押し",
+          command: "CD",
         },
         {
           name: "投げ",

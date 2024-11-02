@@ -46,19 +46,19 @@ export const zanRoot: DataItem = {
         },
         {
           name: "見切り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "回り込み",
-          command: "近距離でAB同時押し",
+          command: "近距離でAB",
         },
         {
           name: "不意打ち",
-          command: "BC同時押し",
+          command: "BC",
         },
         {
           name: "怒ゲージ溜め",
-          command: "ABC同時押し継続",
+          command: "ABC継続押し",
         },
         {
           name: "踏み込み",

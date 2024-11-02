@@ -33,7 +33,7 @@ export const kenGaira: DataItem = {
         },
         {
           name: "円心殺",
-          command: "近距離で←↖↑↗→+C同時押し（レバー回転でダメージ増加）",
+          command: "近距離で←↖↑↗→+C（レバー回転でダメージ増加）",
         },
       ],
     },
@@ -56,11 +56,11 @@ export const kenGaira: DataItem = {
       skills: [
         {
           name: "断固相殺・大往生【真】",
-          command: "↓↘→↓↘+BC同時押し",
+          command: "↓↘→↓↘+BC",
         },
         {
           name: "断固相殺・大往生【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenGaira: DataItem = {
       skills: [
         {
           name: "仁王爆震殺",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

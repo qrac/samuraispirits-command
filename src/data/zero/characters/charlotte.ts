@@ -35,7 +35,7 @@ export const zeroCharlotte: DataItem = {
       skills: [
         {
           name: "クリスタルローズ",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

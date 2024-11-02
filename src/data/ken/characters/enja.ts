@@ -21,7 +21,7 @@ export const kenEnja: DataItem = {
                 },
                 {
                   name: "六道烈火・天道（MAX版）",
-                  command: "ゲージ最大時に↓↘→↗↑↖←↙↓+AB同時押し",
+                  command: "ゲージ最大時に↓↘→↗↑↖←↙↓+AB",
                 },
               ],
             },
@@ -66,11 +66,11 @@ export const kenEnja: DataItem = {
       skills: [
         {
           name: "紅蓮黒縄【真】",
-          command: "→↓↘→↓↘+BC同時押し",
+          command: "→↓↘→↓↘+BC",
         },
         {
           name: "紅蓮黒縄【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -80,11 +80,11 @@ export const kenEnja: DataItem = {
       skills: [
         {
           name: "炎邪爆熱",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
           skills: [
             {
               name: "中断",
-              command: "ABCD同時押し",
+              command: "ABCD",
             },
           ],
         },

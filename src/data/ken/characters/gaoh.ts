@@ -68,11 +68,11 @@ export const kenGaoh: DataItem = {
       skills: [
         {
           name: "金剛砕【真】",
-          command: "→↘↓↙←→↘↓↙←+BC同時押し",
+          command: "→↘↓↙←→↘↓↙←+BC",
         },
         {
           name: "金剛砕【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -82,7 +82,7 @@ export const kenGaoh: DataItem = {
       skills: [
         {
           name: "奈落吼",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

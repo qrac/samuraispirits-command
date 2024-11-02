@@ -29,7 +29,7 @@ export const zerospHaoumaru: DataItem = {
         },
         {
           name: "斬鋼閃",
-          command: "→↘↓↙←→+AB同時押し",
+          command: "→↘↓↙←→+AB",
         },
         {
           name: "酒攻撃",
@@ -43,7 +43,7 @@ export const zerospHaoumaru: DataItem = {
       skills: [
         {
           name: "秘奥義 天覇封神斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -53,7 +53,7 @@ export const zerospHaoumaru: DataItem = {
       skills: [
         {
           name: "天覇凄煌斬",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

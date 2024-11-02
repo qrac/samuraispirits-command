@@ -25,7 +25,7 @@ export const shinKyoshiro: DataItem = {
         },
         {
           name: "血煙曲輪",
-          command: "空中で↓+AB同時押し",
+          command: "空中で↓+AB",
         },
       ],
     },

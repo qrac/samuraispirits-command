@@ -80,7 +80,7 @@ export const zanNakoruruShura: DataItem = {
       skills: [
         {
           name: "エレルㇱ カムイ リㇺセ",
-          command: "→↘↓↙←→↘↓↙←+AB同時押し",
+          command: "→↘↓↙←→↘↓↙←+AB",
         },
       ],
     },

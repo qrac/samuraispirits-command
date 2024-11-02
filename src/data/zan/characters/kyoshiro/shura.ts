@@ -33,7 +33,7 @@ export const zanKyoshiroShura: DataItem = {
         },
         {
           name: "蝦蟇地獄",
-          command: "→←↙↓↘→+AC同時押し",
+          command: "→←↙↓↘→+AC",
         },
       ],
     },
@@ -43,7 +43,7 @@ export const zanKyoshiroShura: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“鬼の舞”",
-          command: "↓↘→↓↘→+BC同時押し",
+          command: "↓↘→↓↘→+BC",
         },
       ],
     },

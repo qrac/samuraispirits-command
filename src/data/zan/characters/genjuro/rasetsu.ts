@@ -9,7 +9,7 @@ export const zanGenjuroRasetsu: DataItem = {
       skills: [
         {
           name: "裏桜華・菖蒲",
-          command: "↓↙←+斬（与ガード時ボタン継続で跳ね返り）",
+          command: "↓↙←+斬（与ガード時ボタン継続押しで跳ね返り）",
         },
         {
           name: "桐覇 光翼刃",
@@ -35,7 +35,7 @@ export const zanGenjuroRasetsu: DataItem = {
       skills: [
         {
           name: "裏五光",
-          command: "→←↙↓↘→+CD同時押し",
+          command: "→←↙↓↘→+CD",
         },
       ],
     },

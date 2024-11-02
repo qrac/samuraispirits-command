@@ -54,11 +54,11 @@ export const kenSugoroku: DataItem = {
       skills: [
         {
           name: "江戸っ子の男気【真】",
-          command: "←↙↓↘→↓↘+BC同時押し",
+          command: "←↙↓↘→↓↘+BC",
         },
         {
           name: "江戸っ子の男気【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -68,7 +68,7 @@ export const kenSugoroku: DataItem = {
       skills: [
         {
           name: "神輿突進 男の花道",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

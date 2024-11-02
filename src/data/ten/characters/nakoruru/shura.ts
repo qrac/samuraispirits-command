@@ -13,7 +13,7 @@ export const tenNakoruruShura: DataItem = {
           skills: [
             {
               name: "緊急停止",
-              command: "ABCD同時押し",
+              command: "ABCD",
             },
           ],
         },
@@ -45,7 +45,7 @@ export const tenNakoruruShura: DataItem = {
             },
             {
               name: "カムイ ムツベ",
-              command: "AB同時押し",
+              command: "AB",
             },
           ],
         },
@@ -78,7 +78,7 @@ export const tenNakoruruShura: DataItem = {
       skills: [
         {
           name: "エレルㇱ カムイ リㇺセ",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

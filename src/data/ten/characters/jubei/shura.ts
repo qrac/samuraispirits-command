@@ -27,7 +27,7 @@ export const tenJubeiShura: DataItem = {
       skills: [
         {
           name: "絶 水月刀",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

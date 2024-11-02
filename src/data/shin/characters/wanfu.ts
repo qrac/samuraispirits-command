@@ -21,7 +21,7 @@ export const shinWanfu: DataItem = {
         },
         {
           name: "怒髪柱撃",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

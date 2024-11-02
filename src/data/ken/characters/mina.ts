@@ -37,11 +37,11 @@ export const kenMina: DataItem = {
         },
         {
           name: "チャンプル、こっちおいで",
-          command: "BE同時押し（再入力で解除）",
+          command: "BE（再入力で解除）",
         },
         {
           name: "チャンプル、おやすみなさい",
-          command: "CE同時押し（再入力で解除）",
+          command: "CE（再入力で解除）",
         },
       ],
     },
@@ -80,11 +80,11 @@ export const kenMina: DataItem = {
       skills: [
         {
           name: "ミトゥンチの裁き【真】",
-          command: "←↙↓↘→←↓↙+BC同時押し",
+          command: "←↙↓↘→←↓↙+BC",
         },
         {
           name: "ミトゥンチの裁き【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -94,7 +94,7 @@ export const kenMina: DataItem = {
       skills: [
         {
           name: "ニルヤ・カナヤの呪縛",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

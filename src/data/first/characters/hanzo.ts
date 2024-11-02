@@ -13,11 +13,11 @@ export const firstHanzo: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+BCD同時押し",
+          command: "→↘↓↙←+BCD",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "被ダメージ中BCD同時押し",
+          command: "被ダメージ中BCD",
         },
         {
           name: "忍法 影分身",
@@ -38,7 +38,7 @@ export const firstHanzo: DataItem = {
         },
         {
           name: "空転撃",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB同時押し",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
       ],
     },

@@ -21,7 +21,7 @@ export const shinEarthquake: DataItem = {
         },
         {
           name: "ファットレプリカアタック",
-          command: "→↘↓↙←+BCD同時押し",
+          command: "→↘↓↙←+BCD",
         },
         {
           name: "ファットコピー",
@@ -48,7 +48,7 @@ export const shinEarthquake: DataItem = {
       skills: [
         {
           name: "アースガッデム",
-          command: "→←↙↓↘→+CD同時押し",
+          command: "→←↙↓↘→+CD",
         },
       ],
     },

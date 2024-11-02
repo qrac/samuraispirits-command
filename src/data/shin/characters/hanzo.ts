@@ -17,11 +17,11 @@ export const shinHanzo: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+BCD同時押し",
+          command: "→↘↓↙←+BCD",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "被ダメージ中BCD同時押し",
+          command: "被ダメージ中BCD",
         },
         {
           name: "忍法 影分身",
@@ -42,7 +42,7 @@ export const shinHanzo: DataItem = {
         },
         {
           name: "空転撃",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB同時押し",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
         {
           name: "ぬいぐるみ変化",
@@ -56,7 +56,7 @@ export const shinHanzo: DataItem = {
       skills: [
         {
           name: "忍法 影舞",
-          command: "→←→←→←↓+BCD同時押し",
+          command: "→←→←→←↓+BCD",
         },
       ],
     },

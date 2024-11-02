@@ -56,11 +56,11 @@ export const kenSuija: DataItem = {
       skills: [
         {
           name: "天翔月【真】",
-          command: "空中で↓↙←↓↙←↘+BC同時押し",
+          command: "空中で↓↙←↓↙←↘+BC",
         },
         {
           name: "天翔月【剣】",
-          command: "空中で↓↘→+BC同時押し",
+          command: "空中で↓↘→+BC",
         },
       ],
     },
@@ -70,7 +70,7 @@ export const kenSuija: DataItem = {
       skills: [
         {
           name: "月天法界",
-          command: "空中で↓↘→+AB同時押し",
+          command: "空中で↓↘→+AB",
         },
       ],
     },

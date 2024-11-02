@@ -39,7 +39,7 @@ export const zeroJubei: DataItem = {
       skills: [
         {
           name: "絶 水月刀",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },

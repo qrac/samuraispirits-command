@@ -17,7 +17,7 @@ export const shinRoot: DataItem = {
         },
         {
           name: "強斬り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "弱蹴り",
@@ -29,7 +29,7 @@ export const shinRoot: DataItem = {
         },
         {
           name: "強蹴り",
-          command: "CD同時押し",
+          command: "CD",
         },
         {
           name: "投げ",
@@ -57,7 +57,7 @@ export const shinRoot: DataItem = {
         },
         {
           name: "下段避け",
-          command: "BC同時押し or 攻撃を受ける直前に↙",
+          command: "BC or 攻撃を受ける直前に↙",
         },
         {
           name: "受け返し",
@@ -69,7 +69,7 @@ export const shinRoot: DataItem = {
         },
         {
           name: "挑発",
-          command: "AC or BD同時押し",
+          command: "AC or BD",
         },
         {
           name: "ぬいぐるみ変化",

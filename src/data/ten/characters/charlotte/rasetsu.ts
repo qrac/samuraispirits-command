@@ -27,7 +27,7 @@ export const tenCharlotteRasetsu: DataItem = {
       skills: [
         {
           name: "クリスタルローズ",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

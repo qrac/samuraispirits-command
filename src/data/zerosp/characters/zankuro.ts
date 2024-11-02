@@ -31,7 +31,7 @@ export const zerospZankuro: DataItem = {
       skills: [
         {
           name: "無限流 無限砲",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -41,7 +41,7 @@ export const zerospZankuro: DataItem = {
       skills: [
         {
           name: "無限流極意 無双剣",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

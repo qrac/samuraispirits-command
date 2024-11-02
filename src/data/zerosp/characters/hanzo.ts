@@ -17,19 +17,19 @@ export const zerospHanzo: DataItem = {
         },
         {
           name: "忍法 うつせみ天舞",
-          command: "→↘↓↙←+AC同時押し",
+          command: "→↘↓↙←+AC",
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "→↘↓↙←+BC同時押し",
+          command: "→↘↓↙←+BC",
         },
         {
           name: "忍法 身代わりの術・仏",
-          command: "被ダメージ中→←→←→←↓+AC同時押し",
+          command: "被ダメージ中→←→←→←↓+AC",
         },
         {
           name: "忍法 身代わりの術・鬼",
-          command: "被ダメージ中→←→←→←↓+BC同時押し",
+          command: "被ダメージ中→←→←→←↓+BC",
         },
         {
           name: "モズ落とし",
@@ -68,7 +68,7 @@ export const zerospHanzo: DataItem = {
       skills: [
         {
           name: "真モズ落とし",
-          command: "近距離で↓↘→+CD同時押し",
+          command: "近距離で↓↘→+CD",
         },
       ],
     },
@@ -78,7 +78,7 @@ export const zerospHanzo: DataItem = {
       skills: [
         {
           name: "禁忌 モズ砕き",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

@@ -64,11 +64,11 @@ export const kenSieger: DataItem = {
       skills: [
         {
           name: "オペラツィオン・ティーガー【真】",
-          command: "→↘↓↙←→+BC同時押し",
+          command: "→↘↓↙←→+BC",
         },
         {
           name: "オペラツィオン・ティーガー【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -78,7 +78,7 @@ export const kenSieger: DataItem = {
       skills: [
         {
           name: "ドラグーン・ファウスト",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

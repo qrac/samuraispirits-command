@@ -31,7 +31,7 @@ export const tenUkyoShura: DataItem = {
       skills: [
         {
           name: "ツバメ六連",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

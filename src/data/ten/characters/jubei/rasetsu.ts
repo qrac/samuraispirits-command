@@ -25,7 +25,7 @@ export const tenJubeiRasetsu: DataItem = {
         },
         {
           name: "柳生 双月陣（壱の太刀）",
-          command: "↓↘→+AB同時押し（与ガード時のみヒット）",
+          command: "↓↘→+AB（与ガード時のみヒット）",
           skills: [
             {
               name: "柳生 双月陣（弍の太刀）",
@@ -47,7 +47,7 @@ export const tenJubeiRasetsu: DataItem = {
       skills: [
         {
           name: "激 双嵐陣",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

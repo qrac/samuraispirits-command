@@ -46,15 +46,15 @@ export const tenRoot: DataItem = {
         },
         {
           name: "見切り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "回り込み",
-          command: "近距離でAB同時押し",
+          command: "近距離でAB",
         },
         {
           name: "不意打ち",
-          command: "BC同時押し",
+          command: "BC",
         },
         {
           name: "小追い打ち",
@@ -107,11 +107,11 @@ export const tenRoot: DataItem = {
       skills: [
         {
           name: "連斬（自動）",
-          command: "CD同時押し",
+          command: "CD",
         },
         {
           name: "武器飛ばし技",
-          command: "怒ゲージ最大時ABCD同時押し",
+          command: "怒ゲージ最大時ABCD",
         },
       ],
     },
@@ -120,41 +120,41 @@ export const tenRoot: DataItem = {
       skills: [
         {
           name: "連斬",
-          command: "CD同時押し",
+          command: "CD",
           skills: [
             {
               name: "ルート①",
-              command: "A,A,A",
+              command: "A・A・A",
             },
             {
               name: "ルート②",
-              command: "A,B,C",
+              command: "A・B・C",
             },
             {
               name: "ルート③",
-              command: "B,B,C",
+              command: "B・B・C",
             },
             {
               name: "ルート④",
-              command: "→+A,A,B,B,C,C,A,B,C,C,C,C,C",
+              command: "→+A・A・B・B・C・C・A・B・C・C・C・C・C",
             },
           ],
         },
         {
           name: "武器飛ばし技",
-          command: "怒ゲージ最大時に←→↘↓+AB同時押し",
+          command: "怒ゲージ最大時に←→↘↓+AB",
         },
         {
           name: "怒り爆発",
-          command: "ABC同時押し",
+          command: "ABC",
           skills: [
             {
               name: "連ね斬り",
-              command: "ABC同時押し",
+              command: "ABC",
             },
             {
               name: "一閃",
-              command: "BCD同時押し",
+              command: "BCD",
             },
           ],
         },

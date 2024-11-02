@@ -62,7 +62,7 @@ export const zanAmakusaRasetsu: DataItem = {
       skills: [
         {
           name: "凶冥十殺陣",
-          command: "←→↓↘+BC同時押し",
+          command: "←→↓↘+BC",
         },
       ],
     },

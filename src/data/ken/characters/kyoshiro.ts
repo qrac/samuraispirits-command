@@ -74,11 +74,11 @@ export const kenKyoshiro: DataItem = {
       skills: [
         {
           name: "鬼炎曲舞【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "鬼炎曲舞【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -88,7 +88,7 @@ export const kenKyoshiro: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“血肉の舞”",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

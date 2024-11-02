@@ -58,7 +58,7 @@ export const zerospAmakusa: DataItem = {
       skills: [
         {
           name: "凶冥十殺陣",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -68,7 +68,7 @@ export const zerospAmakusa: DataItem = {
       skills: [
         {
           name: "汝、懺悔せよ。我、滅罪せん。",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

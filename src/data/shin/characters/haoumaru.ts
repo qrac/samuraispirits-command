@@ -44,7 +44,7 @@ export const shinHaoumaru: DataItem = {
       skills: [
         {
           name: "天覇封神斬",
-          command: "↘←↙↓↘→←↓↙+BC同時押し",
+          command: "↘←↙↓↘→←↓↙+BC",
         },
       ],
     },

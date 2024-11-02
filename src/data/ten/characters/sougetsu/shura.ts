@@ -41,11 +41,11 @@ export const tenSougetsuShura: DataItem = {
       skills: [
         {
           name: "蒼月専用①",
-          command: "CD同時押し後にC,C",
+          command: "CD後にC・C",
         },
         {
           name: "蒼月専用②",
-          command: "CD同時押し後にC,B,B,B",
+          command: "CD後にC・B・B・B",
         },
       ],
     },
@@ -55,7 +55,7 @@ export const tenSougetsuShura: DataItem = {
       skills: [
         {
           name: "消波・風月斬",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

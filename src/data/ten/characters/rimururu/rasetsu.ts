@@ -25,7 +25,7 @@ export const tenRimururuRasetsu: DataItem = {
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "素手時 踏み込み中AC or BD同時押し",
+          command: "素手時 踏み込み中AC or BD",
         },
       ],
     },
@@ -44,7 +44,7 @@ export const tenRimururuRasetsu: DataItem = {
       skills: [
         {
           name: "ルプㇱ カムイ エムㇱ（トィトィ）",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

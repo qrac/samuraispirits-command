@@ -39,7 +39,7 @@ export const tenKyoshiroShura: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“鬼の舞”",
-          command: "←→↘↓+AB同時押し",
+          command: "←→↘↓+AB",
         },
       ],
     },

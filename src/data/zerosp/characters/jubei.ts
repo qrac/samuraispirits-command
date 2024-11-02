@@ -39,7 +39,7 @@ export const zerospJubei: DataItem = {
       skills: [
         {
           name: "絶 水月刀",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -49,7 +49,7 @@ export const zerospJubei: DataItem = {
       skills: [
         {
           name: "柳生新陰流秘伝 無二羅天",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

@@ -52,11 +52,11 @@ export const kenSankuro: DataItem = {
       skills: [
         {
           name: "寿司は江戸前やで、ほんま！！【真】",
-          command: "近距離で↘↗→+BC同時押し",
+          command: "近距離で↘↗→+BC",
         },
         {
           name: "寿司は江戸前やで、ほんま！！【剣】",
-          command: "近距離で↓↘→+BC同時押し",
+          command: "近距離で↓↘→+BC",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const kenSankuro: DataItem = {
       skills: [
         {
           name: "暴力はええのぅ",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

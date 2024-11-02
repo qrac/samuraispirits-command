@@ -21,7 +21,7 @@ export const shinNicotine: DataItem = {
         },
         {
           name: "心乱呪符",
-          command: "←↓↙+AB同時押し",
+          command: "←↓↙+AB",
         },
         {
           name: "支杖螺旋脚",

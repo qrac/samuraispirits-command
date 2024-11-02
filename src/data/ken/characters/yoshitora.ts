@@ -33,7 +33,7 @@ export const kenYoshitora: DataItem = {
         },
         {
           name: "七の太刀 遊蝶華",
-          command: "壱〜六をすべて当て終わったラウンドで→↘↓↙←→+BC同時押し",
+          command: "壱〜六をすべて当て終わったラウンドで→↘↓↙←→+BC",
         },
       ],
     },
@@ -52,11 +52,11 @@ export const kenYoshitora: DataItem = {
       skills: [
         {
           name: "百花繚乱【真】",
-          command: "↓↘→↘↓↙←+BC同時押し",
+          command: "↓↘→↘↓↙←+BC",
         },
         {
           name: "百花繚乱【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -66,7 +66,7 @@ export const kenYoshitora: DataItem = {
       skills: [
         {
           name: "葵",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

@@ -9,7 +9,7 @@ export const zerospGenjuro: DataItem = {
       skills: [
         {
           name: "裏桜華・菖蒲",
-          command: "↓↙←+斬（与ガード時ボタン継続で跳ね返り）",
+          command: "↓↙←+斬（与ガード時ボタン継続押しで跳ね返り）",
         },
         {
           name: "桐覇 光翼刃",
@@ -35,7 +35,7 @@ export const zerospGenjuro: DataItem = {
       skills: [
         {
           name: "五光斬",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -45,7 +45,7 @@ export const zerospGenjuro: DataItem = {
       skills: [
         {
           name: "札死舞",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

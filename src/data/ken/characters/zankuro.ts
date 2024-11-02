@@ -62,11 +62,11 @@ export const kenZankuro: DataItem = {
       skills: [
         {
           name: "無限流 奥義 無双震撃斬【真】",
-          command: "↓↓↓↘→+BC同時押し",
+          command: "↓↓↓↘→+BC",
         },
         {
           name: "無限流 奥義 無双震撃斬【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -76,7 +76,7 @@ export const kenZankuro: DataItem = {
       skills: [
         {
           name: "無限流 無限砲",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

@@ -48,7 +48,7 @@ export const zanRimururuShura: DataItem = {
       skills: [
         {
           name: "ルプㇱ カムイ エムㇱ",
-          command: "→↘↓↙←→↘↓↙←+CD同時押し",
+          command: "→↘↓↙←→↘↓↙←+CD",
         },
       ],
     },

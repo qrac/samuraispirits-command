@@ -48,11 +48,11 @@ export const kenCharlotte: DataItem = {
       skills: [
         {
           name: "スプラッシュグラデーション【真】",
-          command: "→↘↓↙←→+BC同時押し",
+          command: "→↘↓↙←→+BC",
         },
         {
           name: "スプラッシュグラデーション【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -62,7 +62,7 @@ export const kenCharlotte: DataItem = {
       skills: [
         {
           name: "クリスタルローズ",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

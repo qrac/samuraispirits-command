@@ -39,7 +39,7 @@ export const zanKyoshiroRasetsu: DataItem = {
       skills: [
         {
           name: "荒事師狂死郎“鬼の舞”",
-          command: "↓↘→↓↘→+BC同時押し",
+          command: "↓↘→↓↘→+BC",
         },
       ],
     },

@@ -40,11 +40,11 @@ export const kenKusaregedo: DataItem = {
       skills: [
         {
           name: "外道の晩餐【真】",
-          command: "近距離で←↙↓↘→↗↑↓+BC同時押し",
+          command: "近距離で←↙↓↘→↗↑↓+BC",
         },
         {
           name: "外道の晩餐【剣】",
-          command: "近距離で↓↘→+BC同時押し",
+          command: "近距離で↓↘→+BC",
         },
       ],
     },
@@ -54,11 +54,11 @@ export const kenKusaregedo: DataItem = {
       skills: [
         {
           name: "飛び頭突き",
-          command: "↓↘→+AB or AD同時押し",
+          command: "↓↘→+AB or AD",
         },
         {
           name: "外道の獲物狩り",
-          command: "→↗↑↖←↙↓↑+AB同時押し",
+          command: "→↗↑↖←↙↓↑+AB",
         },
       ],
     },

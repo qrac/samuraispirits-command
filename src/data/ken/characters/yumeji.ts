@@ -72,11 +72,11 @@ export const kenYumeji: DataItem = {
       skills: [
         {
           name: "秘奥義 垣神【真】",
-          command: "→←↙↓↘→+BC同時押し",
+          command: "→←↙↓↘→+BC",
         },
         {
           name: "秘奥義 垣神【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -86,7 +86,7 @@ export const kenYumeji: DataItem = {
       skills: [
         {
           name: "奥義 御神薙",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

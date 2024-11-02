@@ -17,7 +17,7 @@ export const zeroRoot: DataItem = {
         },
         {
           name: "強斬り",
-          command: "AB同時押し",
+          command: "AB",
         },
         {
           name: "蹴り",
@@ -59,15 +59,15 @@ export const zeroRoot: DataItem = {
         },
         {
           name: "不意打ち",
-          command: "BC同時押し",
+          command: "BC",
         },
         {
           name: "小追い打ち",
-          command: "与ダウン時↘+BC同時押し",
+          command: "与ダウン時↘+BC",
         },
         {
           name: "大追い打ち",
-          command: "与ダウン時↑+BC同時押し",
+          command: "与ダウン時↑+BC",
         },
         {
           name: "踏み込み",
@@ -123,19 +123,19 @@ export const zeroRoot: DataItem = {
         },
         {
           name: "武器飛ばし技",
-          command: "怒ゲージ最大時に↓↘→+CD同時押し",
+          command: "怒ゲージ最大時に↓↘→+CD",
         },
         {
           name: "怒り爆発",
-          command: "ABC同時押し",
+          command: "ABC",
         },
         {
           name: "無の境地",
-          command: "体力青で↓↙←+CD同時押し",
+          command: "体力青で↓↙←+CD",
           skills: [
             {
               name: "一閃",
-              command: "BCD同時押し",
+              command: "BCD",
             },
           ],
         },

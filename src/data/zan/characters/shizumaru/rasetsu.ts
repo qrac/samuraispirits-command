@@ -44,7 +44,7 @@ export const zanShizumaruRasetsu: DataItem = {
       skills: [
         {
           name: "緋刀流禁じ手 雨流裂殺刃",
-          command: "→←↙↓↘→+AB同時押し",
+          command: "→←↙↓↘→+AB",
         },
       ],
     },

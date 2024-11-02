@@ -35,7 +35,7 @@ export const zerospGaoh: DataItem = {
       skills: [
         {
           name: "奈落吼",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -45,7 +45,7 @@ export const zerospGaoh: DataItem = {
       skills: [
         {
           name: "黄泉社",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

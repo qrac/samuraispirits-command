@@ -44,7 +44,7 @@ export const zanShizumaruShura: DataItem = {
       skills: [
         {
           name: "緋刀流禁じ手 暴雨狂風斬",
-          command: "→↘↓↙←→↘↓↙←+CD同時押し",
+          command: "→↘↓↙←→↘↓↙←+CD",
         },
       ],
     },

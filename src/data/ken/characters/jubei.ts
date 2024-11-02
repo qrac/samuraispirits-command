@@ -62,11 +62,11 @@ export const kenJubei: DataItem = {
       skills: [
         {
           name: "奥義 柳生虎殺剣【真】",
-          command: "←→↘↓+BC同時押し",
+          command: "←→↘↓+BC",
         },
         {
           name: "奥義 柳生虎殺剣【剣】",
-          command: "↓↘→+BC同時押し",
+          command: "↓↘→+BC",
         },
       ],
     },
@@ -76,7 +76,7 @@ export const kenJubei: DataItem = {
       skills: [
         {
           name: "絶 水月刀",
-          command: "↓↘→+AB同時押し",
+          command: "↓↘→+AB",
         },
       ],
     },

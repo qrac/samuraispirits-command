@@ -17,7 +17,7 @@ export const zerospYunfei: DataItem = {
         },
         {
           name: "天殺太歳",
-          command: "天哭封羅後に↓↘→+AB同時押し",
+          command: "天哭封羅後に↓↘→+AB",
         },
         {
           name: "天機七曜 月",
@@ -45,11 +45,11 @@ export const zerospYunfei: DataItem = {
         },
         {
           name: "天機七曜 日",
-          command: "空中でAC同時押し",
+          command: "空中でAC",
         },
         {
           name: "天猛金翅",
-          command: "空中で↓↘→ or ↓↙←+AB or CD同時押し",
+          command: "空中で↓↘→ or ↓↙←+AB or CD",
         },
       ],
     },
@@ -68,7 +68,7 @@ export const zerospYunfei: DataItem = {
       skills: [
         {
           name: "天魁雲裏",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
       ],
     },
@@ -78,7 +78,7 @@ export const zerospYunfei: DataItem = {
       skills: [
         {
           name: "天罪喪門",
-          command: "↓↙←+CD同時押し",
+          command: "↓↙←+CD",
         },
       ],
     },

@@ -25,7 +25,7 @@ export const zeroKusaregedo: DataItem = {
         },
         {
           name: "泥投げ",
-          command: "↘←↙↓↘→←↓↙+BC同時押し",
+          command: "↘←↙↓↘→←↓↙+BC",
         },
       ],
     },
@@ -35,11 +35,11 @@ export const zeroKusaregedo: DataItem = {
       skills: [
         {
           name: "飛び頭突き",
-          command: "↓↘→+CD同時押し",
+          command: "↓↘→+CD",
         },
         {
           name: "外道の獲物狩り",
-          command: "→↗↑↖←↙↓↑+CD同時押し",
+          command: "→↗↑↖←↙↓↑+CD",
         },
       ],
     },
