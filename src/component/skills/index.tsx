@@ -19,7 +19,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
               <div className="skill-notes">
                 {item.notes.map((note, noteIndex) => (
                   <div key={noteIndex} className="skill-note">
-                    <ComponentNote chars={note} />
+                    <ComponentCommand chars={note} />
                   </div>
                 ))}
               </div>
@@ -33,67 +33,87 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
 }
 
 function ComponentCommand({ chars }: { chars: string }) {
-  return chars.split("").map((char, index) => {
-    const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴]/
-    const commandMap = {
-      "↙": "arrow-1",
-      "↓": "arrow-2",
-      "↘": "arrow-3",
-      "←": "arrow-4",
-      "→": "arrow-6",
-      "↖": "arrow-7",
-      "↑": "arrow-8",
-      "↗": "arrow-9",
-      N: "lever-neutral",
-      A: "button-a",
-      B: "button-b",
-      C: "button-c",
-      D: "button-d",
-      E: "button-e",
-      斬: "button-zan",
-      蹴: "button-kick",
-    }
+  const elements: JSX.Element[] = []
+  const items: { group: string; values: string }[] = []
+  const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴○×]/
+  const commandMap: { [key: string]: string } = {
+    "↙": "arrow-1",
+    "↓": "arrow-2",
+    "↘": "arrow-3",
+    "←": "arrow-4",
+    "→": "arrow-6",
+    "↖": "arrow-7",
+    "↑": "arrow-8",
+    "↗": "arrow-9",
+    N: "lever-neutral",
+    A: "button-a",
+    B: "button-b",
+    C: "button-c",
+    D: "button-d",
+    E: "button-e",
+    斬: "button-zan",
+    蹴: "button-kick",
+    "○": "circle",
+    "×": "close",
+  }
+
+  let group = ""
+  let values = ""
+
+  for (const char of chars) {
+    let newGroup: string
+
     if (regCommand.test(char)) {
-      const symbolId = commandMap[char]
-      return (
-        <span key={index} className="skill-command-icon">
-          <span className="skill-command-icon-text">{char}</span>
-          <svg
-            className={clsx("skill-command-icon-svg", `is-${symbolId}`)}
-            role="img"
-          >
-            <use href={"/assets/icons.svg#" + symbolId}></use>
-          </svg>
+      newGroup = "icons"
+    } else {
+      newGroup = "texts"
+    }
+    if (newGroup === group) {
+      values += char
+    } else {
+      if (values) items.push({ group, values })
+      values = char
+      group = newGroup
+    }
+  }
+  if (values) items.push({ group, values })
+
+  items.forEach((item, index) => {
+    const { group, values } = item
+    if (group === "icons") {
+      elements.push(
+        <span key={`icons-${index}`} className="skill-command-icons">
+          {values.split("").map((char, charIndex) => {
+            const symbolId = commandMap[char]
+            return (
+              <ComponentIcon
+                key={`icon-${index}-${charIndex}`}
+                symbolId={symbolId}
+                char={char}
+              />
+            )
+          })}
         </span>
       )
-    } else {
-      return char
+    }
+    if (group === "texts") {
+      elements.push(<span key={`texts-${index}`}>{values}</span>)
     }
   })
+
+  return <>{elements}</>
 }
 
-function ComponentNote({ chars }: { chars: string }) {
-  return chars.split("").map((char, index) => {
-    const regCommand = /[○×]/
-    const commandMap = {
-      "○": "circle",
-      "×": "close",
-    }
-    if (regCommand.test(char)) {
-      const symbolId = commandMap[char]
-      return (
-        <span key={index} className="skill-note-icon">
-          <span className="skill-note-icon-text">{char}</span>
-          <svg
-            className={clsx("skill-note-icon-svg", `is-${symbolId}`)}
-            role="img"
-          >
-            <use href={"/assets/icons.svg#" + symbolId}></use>
-          </svg>
-        </span>
-      )
-    } else {
-      return char
-    }
-  })
+function ComponentIcon({ symbolId, char }: { symbolId: string; char: string }) {
+  return (
+    <span className="skill-command-icon">
+      <span className="skill-command-icon-text">{char}</span>
+      <svg
+        className={clsx("skill-command-icon-svg", `is-${symbolId}`)}
+        role="img"
+      >
+        <use href={`/assets/icons.svg#${symbolId}`}></use>
+      </svg>
+    </span>
+  )
 }
