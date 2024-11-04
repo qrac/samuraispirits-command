@@ -6,8 +6,8 @@ import { polyNakoruruShura } from "./characters/nakoruru/shura"
 import { polyNakoruruRasetsu } from "./characters/nakoruru/rasetsu"
 import { polyRimururuShura } from "./characters/rimururu/shura"
 import { polyRimururuRasetsu } from "./characters/rimururu/rasetsu"
-//import { polyGenjuroShura } from "./characters/genjuro/shura"
-//import { polyGenjuroRasetsu } from "./characters/genjuro/rasetsu"
+import { polyGenjuroShura } from "./characters/genjuro/shura"
+import { polyGenjuroRasetsu } from "./characters/genjuro/rasetsu"
 //import { polyUkyoShura } from "./characters/ukyo/shura"
 //import { polyUkyoRasetsu } from "./characters/ukyo/rasetsu"
 //import { polyGalfordShura } from "./characters/galford/shura"
@@ -27,8 +27,8 @@ export const polyList = [
   polyNakoruruRasetsu,
   polyRimururuShura,
   polyRimururuRasetsu,
-  //polyGenjuroShura,
-  //polyGenjuroRasetsu,
+  polyGenjuroShura,
+  polyGenjuroRasetsu,
   //polyUkyoShura,
   //polyUkyoRasetsu,
   //polyGalfordShura,
