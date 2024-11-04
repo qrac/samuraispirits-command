@@ -215,11 +215,11 @@ export const polyNakoruruShura: DataItem = {
           ],
         },
         {
-          name: "シチカプ エトゥ",
+          name: "シチカㇷ゚ エトゥ",
           command: "↓↘→+A",
         },
         {
-          name: "シチカプ アㇺ",
+          name: "シチカㇷ゚ アㇺ",
           command: "↓↘→+B",
         },
       ],
