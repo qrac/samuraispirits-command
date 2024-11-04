@@ -36,26 +36,6 @@ export const polyHaoumaruShura: DataItem = {
         },
         {
           name: "",
-          command: "屈A",
-          notes: ["下段", "×"],
-        },
-        {
-          name: "",
-          command: "屈B",
-          notes: ["下段", "×"],
-        },
-        {
-          name: "",
-          command: "屈AB",
-          notes: ["上段", "○"],
-        },
-        {
-          name: "",
-          command: "屈BC",
-          notes: ["下段", "×"],
-        },
-        {
-          name: "",
           command: "↘+A",
           notes: ["中段", "×"],
         },
@@ -77,6 +57,26 @@ export const polyHaoumaruShura: DataItem = {
         {
           name: "",
           command: "↓N+A",
+          notes: ["下段", "×"],
+        },
+        {
+          name: "",
+          command: "屈A",
+          notes: ["下段", "×"],
+        },
+        {
+          name: "",
+          command: "屈B",
+          notes: ["下段", "×"],
+        },
+        {
+          name: "",
+          command: "屈AB",
+          notes: ["上段", "○"],
+        },
+        {
+          name: "",
+          command: "屈BC",
           notes: ["下段", "×"],
         },
         {
