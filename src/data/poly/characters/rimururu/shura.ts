@@ -221,7 +221,7 @@ export const polyRimururuShura: DataItem = {
         },
         {
           name: "エプンキネ コンル",
-          command: "ふっ飛びダメージ中AB",
+          command: "被吹っ飛び中AB",
         },
       ],
     },
