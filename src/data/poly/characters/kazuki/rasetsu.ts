@@ -372,7 +372,7 @@ export const polyKazukiRasetsu: DataItem = {
         },
         {
           name: "六道烈火・祓",
-          command: "↓↘→+A",
+          command: "→↓↘+A",
           skills: [
             {
               name: "六道烈火・爆",
