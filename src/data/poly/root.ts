@@ -49,6 +49,10 @@ export const polyRoot: DataItem = {
           command: "投げられ直後にC",
         },
         {
+          name: "動作キャンセル（巻き戻し）",
+          command: "通常技などの発生前にC",
+        },
+        {
           name: "ダッシュ",
           command: "→→継続 or D+→継続",
         },
