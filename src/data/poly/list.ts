@@ -20,6 +20,8 @@ import { polySougetsuShura } from "./characters/sougetsu/shura"
 import { polySougetsuRasetsu } from "./characters/sougetsu/rasetsu"
 import { polyShikiShura } from "./characters/shiki/shura"
 import { polyShikiRasetsu } from "./characters/shiki/rasetsu"
+import { polyHanmaShura } from "./characters/hanma/shura"
+import { polyHanmaRasetsu } from "./characters/hanma/rasetsu"
 
 export const polyList = [
   polyRoot,
@@ -43,4 +45,6 @@ export const polyList = [
   polySougetsuRasetsu,
   polyShikiShura,
   polyShikiRasetsu,
+  polyHanmaShura,
+  polyHanmaRasetsu,
 ] as DataItem[]
