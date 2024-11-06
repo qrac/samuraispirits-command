@@ -18,7 +18,7 @@ export const polyRoot: DataItem = {
         },
         {
           name: "基本組み技",
-          command: "近距離でC",
+          command: "C",
           skills: [
             {
               name: "地面転がし投げ",
@@ -51,6 +51,10 @@ export const polyRoot: DataItem = {
         {
           name: "動作キャンセル（巻き戻し）",
           command: "通常技などの発生前にC",
+        },
+        {
+          name: "防御キャンセル",
+          command: "被ガード時に対応技コマンド（スタミナ半分必要）",
         },
         {
           name: "ダッシュ",
@@ -98,23 +102,19 @@ export const polyRoot: DataItem = {
         },
         {
           name: "起き上がり攻撃（中段）",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
         },
         {
           name: "起き上がり攻撃（下段）",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
         },
         {
           name: "ジャンプ復帰",
-          command: "崖つかまり中↖ or ↑ or ↗",
+          command: "崖つかまり時↖ or ↑ or ↗",
         },
         {
           name: "クイック復帰",
-          command: "崖つかまり中レバガチャ",
-        },
-        {
-          name: "防御キャンセル",
-          command: "被ガード中に対応技コマンド（スタミナ半分必要）",
+          command: "崖つかまり時レバガチャ",
         },
         {
           name: "秘奥義",
@@ -150,7 +150,8 @@ export const polyRoot: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -158,7 +159,8 @@ export const polyRoot: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",

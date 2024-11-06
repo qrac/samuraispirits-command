@@ -96,12 +96,12 @@ export const polyHanzoRasetsu: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -109,7 +109,6 @@ export const polyHanzoRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "臨",
@@ -163,7 +162,7 @@ export const polyHanzoRasetsu: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（スタミナ半分必要）",
+          command: "CD",
           skills: [
             {
               name: "",
@@ -171,7 +170,8 @@ export const polyHanzoRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -179,7 +179,8 @@ export const polyHanzoRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -222,15 +223,17 @@ export const polyHanzoRasetsu: DataItem = {
         },
         {
           name: "忍法 爆韻",
-          command: "被ダメージ中BC",
+          command: "被ダメージ中にBC",
         },
         {
           name: "もず落とし",
-          command: "近距離で→↓↘+C",
+          command: "→↓↘+C",
+          notes: ["上段投げ"],
         },
         {
           name: "上段当て身",
           command: "←+BC",
+          notes: ["上段当て身"],
           skills: [
             {
               name: "地面転がし投げ",
@@ -238,8 +241,8 @@ export const polyHanzoRasetsu: DataItem = {
             },
             {
               name: "もず落とし",
-              command: "近距離で→↓↘+C",
-              notes: ["（投げ抜け:A）"],
+              command: "→↓↘+C",
+              notes: ["投げ抜け:A"],
             },
             {
               name: "罰 or 雷に派生可能",
@@ -250,6 +253,7 @@ export const polyHanzoRasetsu: DataItem = {
         {
           name: "中段当て身",
           command: "↙+BC",
+          notes: ["中段当て身"],
           skills: [
             {
               name: "地面転がし投げ",
@@ -257,8 +261,8 @@ export const polyHanzoRasetsu: DataItem = {
             },
             {
               name: "もず落とし",
-              command: "近距離で→↓↘+C",
-              notes: ["（投げ抜け:A）"],
+              command: "→↓↘+C",
+              notes: ["投げ抜け:A"],
             },
             {
               name: "罰 or 雷に派生可能",
@@ -269,6 +273,7 @@ export const polyHanzoRasetsu: DataItem = {
         {
           name: "下段当て身",
           command: "↓+BC",
+          notes: ["下段当て身"],
           skills: [
             {
               name: "輦",
@@ -285,7 +290,7 @@ export const polyHanzoRasetsu: DataItem = {
                         {
                           name: "もず落とし",
                           command: "A・C・B・D・AB・CD・ABCD",
-                          notes: ["（投げ抜け:D）"],
+                          notes: ["投げ抜け:D"],
                         },
                       ],
                     },
@@ -297,30 +302,30 @@ export const polyHanzoRasetsu: DataItem = {
         },
         {
           name: "罰",
-          command: "近距離で←↙↓↘→+C",
-          notes: ["（上段投げ / 腕を極める / 投げ抜け:B）"],
+          command: "←↙↓↘→+C",
+          notes: ["上段投げ / 腕を極める / 投げ抜け:B"],
           skills: [
             {
               name: "朧",
               command: "B・C・BC",
-              notes: ["（背後から関節 / 投げ抜け:A）"],
+              notes: ["背後から関節 / 投げ抜け:A"],
               skills: [
                 {
                   name: "戒",
                   command: "A・C・B・D・BC",
-                  notes: ["（のど元切り）"],
+                  notes: ["のど元切り"],
                 },
               ],
             },
             {
               name: "麟",
               command: "A・B・C・D",
-              notes: ["（下段投げ / 投げ抜け:B）"],
+              notes: ["下段投げ / 投げ抜け:B"],
               skills: [
                 {
                   name: "断",
                   command: "AD・BC・ABCD",
-                  notes: ["（踏みつけ）"],
+                  notes: ["踏みつけ"],
                 },
               ],
             },
@@ -328,76 +333,76 @@ export const polyHanzoRasetsu: DataItem = {
         },
         {
           name: "雷",
-          command: "近距離で→↘↓↙←+C",
-          notes: ["（上段投げ / 投げ飛ばし / 投げ抜け:C）"],
+          command: "→↘↓↙←+C",
+          notes: ["上段投げ / 投げ飛ばし / 投げ抜け:C"],
           skills: [
             {
               name: "冥",
               command: "D・C・B・A",
-              notes: ["（ダウン投げ / 首 / 投げ抜け:C）"],
+              notes: ["ダウン投げ / 首 / 投げ抜け:C"],
               skills: [
                 {
                   name: "業",
                   command: "ABCD・CD・AB",
-                  notes: ["（つり天井固め）"],
+                  notes: ["つり天井固め"],
                 },
               ],
             },
             {
               name: "獄",
               command: "AB・CD・BC",
-              notes: ["（ダウン投げ / 腕 / 投げ抜け:D）"],
+              notes: ["ダウン投げ / 腕 / 投げ抜け:D"],
             },
           ],
         },
         {
           name: "麟",
-          command: "相手が屈時に近距離で↓+C",
-          notes: ["（下段投げ）"],
+          command: "相手が屈時に↓+C",
+          notes: ["下段投げ"],
           skills: [
             {
               name: "断",
               command: "AD・BC・ABCD",
-              notes: ["（踏みつけ）"],
+              notes: ["踏みつけ"],
             },
           ],
         },
         {
           name: "雹",
-          command: "相手が屈時に近距離で↓↘→+C",
-          notes: ["（下段投げ）"],
+          command: "相手が屈時に↓↘→+C",
+          notes: ["下段投げ"],
         },
         {
           name: "冥",
-          command: "与ダウン時に近距離で↘+C",
-          notes: ["（ダウン投げ / 首 / 投げ抜け:A）"],
+          command: "与ダウン時に↘+C",
+          notes: ["ダウン投げ / 首 / 投げ抜け:A"],
           skills: [
             {
               name: "業",
               command: "ABCD・CD・AB",
-              notes: ["（つり天井固め）"],
+              notes: ["つり天井固め"],
             },
           ],
         },
         {
           name: "獄",
-          command: "与ダウン時に近距離で↙+C",
-          notes: ["（ダウン投げ / 腕 / 投げ抜け:B）"],
+          command: "与ダウン時に↙+C",
+          notes: ["ダウン投げ / 腕 / 投げ抜け:B"],
         },
         {
           name: "砕",
-          command: "近距離で→+C",
-          notes: ["（上段投げ / 投げ抜け:D）"],
+          command: "→+C",
+          notes: ["上段投げ / 投げ抜け:D"],
         },
         {
           name: "胤",
           command: "→→+C",
-          notes: ["（飛びつき上段投げ / 腕を極める）"],
+          notes: ["上段投げ / 飛びつき腕を極める"],
         },
         {
           name: "霞",
           command: "↗+C",
-          notes: ["（飛びつき中段投げ / 首をへし折る）"],
+          notes: ["中段投げ / 飛びつき首をへし折る"],
         },
       ],
     },
@@ -407,7 +412,8 @@ export const polyHanzoRasetsu: DataItem = {
       skills: [
         {
           name: "真もず落とし",
-          command: "近距離で→↓↘+AB",
+          command: "→↓↘+AB",
+          notes: ["上段投げ"],
         },
       ],
     },

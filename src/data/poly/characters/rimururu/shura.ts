@@ -106,12 +106,12 @@ export const polyRimururuShura: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -119,7 +119,6 @@ export const polyRimururuShura: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "熊爪翼破",
@@ -148,7 +147,8 @@ export const polyRimururuShura: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（中段 / スタミナ半分必要）",
+          command: "CD",
+          notes: ["中段"],
           skills: [
             {
               name: "",
@@ -156,7 +156,8 @@ export const polyRimururuShura: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -164,7 +165,8 @@ export const polyRimururuShura: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -190,8 +192,9 @@ export const polyRimururuShura: DataItem = {
           command: "↓↘→+A",
           skills: [
             {
-              name: "氷の華を発生",
+              name: "",
               command: "A",
+              notes: ["氷の華を発動"],
             },
           ],
         },
@@ -209,19 +212,21 @@ export const polyRimururuShura: DataItem = {
         },
         {
           name: "ルプㇱ テㇰ ヌㇺ",
-          command: "近距離で→↘↓↙←+C",
+          command: "→↘↓↙←+C",
+          notes: ["上段投げ"],
         },
         {
           name: "テㇽケ ポン オンカミクル",
-          command: "近距離で↓+C",
+          command: "↓+C",
+          notes: ["下段投げ"],
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",
-          command: "ダッシュ中AB",
+          command: "ダッシュ中にAB",
         },
         {
           name: "エプンキネ コンル",
-          command: "被吹っ飛び中AB",
+          command: "被吹っ飛び中にAB",
         },
       ],
     },

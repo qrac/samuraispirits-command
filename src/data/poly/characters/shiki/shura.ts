@@ -141,12 +141,12 @@ export const polyShikiShura: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],

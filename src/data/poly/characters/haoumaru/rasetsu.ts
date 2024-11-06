@@ -96,12 +96,12 @@ export const polyHaoumaruRasetsu: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -109,7 +109,6 @@ export const polyHaoumaruRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "疾風連斬",
@@ -117,14 +116,14 @@ export const polyHaoumaruRasetsu: DataItem = {
           notes: ["上・上", "×・×"],
         },
         {
-          name: "松風剛斬",
-          command: "A・B",
-          notes: ["上・上", "×・×"],
-        },
-        {
           name: "疾風斬蹴",
           command: "A・A・B",
           notes: ["上・上・中", "×・×・×"],
+        },
+        {
+          name: "松風剛斬",
+          command: "A・B",
+          notes: ["上・上", "×・×"],
         },
         {
           name: "轟砕天地",
@@ -143,7 +142,7 @@ export const polyHaoumaruRasetsu: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（スタミナ半分必要）",
+          command: "CD",
           skills: [
             {
               name: "",
@@ -151,7 +150,8 @@ export const polyHaoumaruRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -159,7 +159,8 @@ export const polyHaoumaruRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -179,7 +180,8 @@ export const polyHaoumaruRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段） or AB（中段）",
+                  command: "A or B or AB",
+                  notes: ["中段 or 下段 or 中段"],
                   skills: [
                     {
                       name: "",
@@ -187,7 +189,8 @@ export const polyHaoumaruRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",

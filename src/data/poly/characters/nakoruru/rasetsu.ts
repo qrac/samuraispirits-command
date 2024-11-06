@@ -101,12 +101,12 @@ export const polyNakoruruRasetsu: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -114,7 +114,6 @@ export const polyNakoruruRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "双猫爪",
@@ -143,7 +142,7 @@ export const polyNakoruruRasetsu: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（スタミナ半分必要）",
+          command: "CD",
           skills: [
             {
               name: "",
@@ -151,7 +150,8 @@ export const polyNakoruruRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -159,7 +159,8 @@ export const polyNakoruruRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -193,20 +194,18 @@ export const polyNakoruruRasetsu: DataItem = {
           command: "←↓↙+A",
         },
         {
-          name: "レラ オ チキリ",
-          command: "近距離で→↓↘+C",
-        },
-        {
           name: "カムイ シキテ",
           command: "↓↘→+A",
         },
         {
-          name: "疾走 流転胸撃刃",
-          command: "↓↘→+C",
+          name: "レラ オ チキリ",
+          command: "→↓↘+C",
+          notes: ["全段投げ"],
         },
         {
-          name: "シクルゥを撫でる",
-          command: "↓↓+AB",
+          name: "疾走 流転胸撃刃",
+          command: "↓↘→+C",
+          notes: ["上段投げ"],
         },
         {
           name: "円舞双掌",
@@ -214,7 +213,12 @@ export const polyNakoruruRasetsu: DataItem = {
         },
         {
           name: "円舞剛脚",
-          command: "BC・B（相手が男性キャラの場合のみ）",
+          command: "BC・B",
+          notes: ["相手が男性キャラの場合のみ"],
+        },
+        {
+          name: "シクルゥを撫でる",
+          command: "↓↓+AB",
         },
       ],
     },

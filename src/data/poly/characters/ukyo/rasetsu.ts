@@ -101,12 +101,12 @@ export const polyUkyoRasetsu: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -114,7 +114,6 @@ export const polyUkyoRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "水平連斬",
@@ -153,7 +152,8 @@ export const polyUkyoRasetsu: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（中段 / スタミナ半分必要）",
+          command: "CD",
+          notes: ["中段"],
           skills: [
             {
               name: "",
@@ -161,7 +161,8 @@ export const polyUkyoRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -169,7 +170,8 @@ export const polyUkyoRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -213,10 +215,12 @@ export const polyUkyoRasetsu: DataItem = {
         {
           name: "巻雲 甲ノ型",
           command: "←+BC",
+          notes: ["上段当て身"],
         },
         {
           name: "巻雲 丙ノ型",
           command: "↓+BC",
+          notes: ["下段当て身"],
         },
       ],
     },

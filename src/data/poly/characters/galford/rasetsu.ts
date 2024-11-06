@@ -111,12 +111,12 @@ export const polyGalfordRasetsu: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -124,7 +124,6 @@ export const polyGalfordRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "GC1",
@@ -188,7 +187,8 @@ export const polyGalfordRasetsu: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（中段 / スタミナ半分必要）",
+          command: "CD",
+          notes: ["中段"],
           skills: [
             {
               name: "",
@@ -196,7 +196,8 @@ export const polyGalfordRasetsu: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -204,7 +205,8 @@ export const polyGalfordRasetsu: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -249,7 +251,8 @@ export const polyGalfordRasetsu: DataItem = {
         },
         {
           name: "ストライクヘッズ",
-          command: "近距離で→↓↘+C",
+          command: "→↓↘+C",
+          notes: ["上段投げ"],
         },
         {
           name: "レプリカアタック",

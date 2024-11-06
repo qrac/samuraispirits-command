@@ -146,12 +146,12 @@ export const polyKazukiShura: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -159,7 +159,6 @@ export const polyKazukiShura: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "八熱地獄・等活",
@@ -263,7 +262,8 @@ export const polyKazukiShura: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（中段 / スタミナ半分必要）",
+          command: "CD",
+          notes: ["中段 or 下段"],
           skills: [
             {
               name: "",
@@ -271,7 +271,8 @@ export const polyKazukiShura: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -279,7 +280,8 @@ export const polyKazukiShura: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -307,7 +309,8 @@ export const polyKazukiShura: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -315,7 +318,8 @@ export const polyKazukiShura: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
@@ -323,7 +327,8 @@ export const polyKazukiShura: DataItem = {
                               skills: [
                                 {
                                   name: "駆け引きポイント",
-                                  command: "A（中段） or B（下段）",
+                                  command: "A or B",
+                                  notes: ["中段 or 下段"],
                                   skills: [
                                     {
                                       name: "",
@@ -359,10 +364,12 @@ export const polyKazukiShura: DataItem = {
         {
           name: "大爆殺",
           command: "→↓↘+A or B",
+          notes: ["上段ガード不能技"],
         },
         {
           name: "灼熱地獄・命門",
-          command: "近距離で→↓↘+C",
+          command: "→↓↘+C",
+          notes: ["上段投げ"],
           skills: [
             {
               name: "灼熱地獄・暴爆",

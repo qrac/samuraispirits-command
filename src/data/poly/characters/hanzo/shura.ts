@@ -96,12 +96,12 @@ export const polyHanzoShura: DataItem = {
         },
         {
           name: "",
-          command: "起き上がり中A",
+          command: "起き上がり時A",
           notes: ["中段", "×"],
         },
         {
           name: "",
-          command: "起き上がり中B",
+          command: "起き上がり時B",
           notes: ["下段", "×"],
         },
       ],
@@ -109,7 +109,6 @@ export const polyHanzoShura: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
-      layout: "note",
       skills: [
         {
           name: "臨",
@@ -163,7 +162,7 @@ export const polyHanzoShura: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（スタミナ半分必要）",
+          command: "CD",
           skills: [
             {
               name: "",
@@ -171,7 +170,8 @@ export const polyHanzoShura: DataItem = {
               skills: [
                 {
                   name: "駆け引きポイント",
-                  command: "A（中段） or B（下段）",
+                  command: "A or B",
+                  notes: ["中段 or 下段"],
                   skills: [
                     {
                       name: "",
@@ -179,7 +179,8 @@ export const polyHanzoShura: DataItem = {
                       skills: [
                         {
                           name: "駆け引きポイント",
-                          command: "A（中段） or B（下段）",
+                          command: "A or B",
+                          notes: ["中段 or 下段"],
                           skills: [
                             {
                               name: "",
