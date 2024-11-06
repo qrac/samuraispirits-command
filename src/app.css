@@ -25,7 +25,7 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto auto 1fr auto;
-  max-width: 600px;
+  max-width: 680px;
   min-height: 100svh;
   margin: 0 auto;
   padding: 0 var(--theme-space);
