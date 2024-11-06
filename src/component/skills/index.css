@@ -191,12 +191,13 @@
 }
 
 .slim .skills .skills {
+  grid-template-columns: subgrid;
   grid-column: 1 / 3;
 }
 
 .slim .skill {
   grid-template-columns: subgrid;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   grid-column: 1 / 3;
 }
 
