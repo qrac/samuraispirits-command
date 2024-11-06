@@ -1,5 +1,5 @@
 .content > * + * {
-  margin-top: calc(var(--theme-space) * 0.5);
+  margin-top: calc(var(--theme-space) * 1);
 }
 
 .content-name {
@@ -8,7 +8,7 @@
 }
 
 .content-groups > * + * {
-  margin-top: calc(var(--theme-space) * 0.5);
+  margin-top: calc(var(--theme-space) * 1);
 }
 
 .content-group-title {
