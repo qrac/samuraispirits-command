@@ -218,7 +218,7 @@ export const polyUkyoShura: DataItem = {
         },
         {
           name: "秘剣 天霜の構え",
-          command: "→↘↓↙←+A",
+          command: "→↘↓↙←+C",
         },
       ],
     },
