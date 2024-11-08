@@ -203,7 +203,7 @@
 
 .slim .skill-set {
   grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
+  grid-template-rows: auto;
   grid-column: 1 / 3;
 }
 
