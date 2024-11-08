@@ -1,5 +1,4 @@
 .skills {
-  display: grid;
   margin-right: calc(var(--theme-space) * -1);
   border-top-width: 2px;
   border-bottom-width: 2px;
@@ -178,6 +177,7 @@
 }
 
 .slim .skills {
+  display: grid;
   grid-template-columns: 44% 1fr;
   grid-template-rows: auto;
 }
