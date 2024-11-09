@@ -3,7 +3,7 @@ import type { DataNav } from "../../types"
 export const shinNav: DataNav = {
   shin: {
     name: "真サム",
-    fullName: "真サムライスピリッツ",
+    fullName: "真サムライスピリッツ 覇王丸地獄変",
     characters: {
       root: {
         name: "基本操作",
