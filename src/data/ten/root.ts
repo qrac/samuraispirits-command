@@ -26,7 +26,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "上段蹴り",
-          command: "レバーニュートラル or ←+D",
+          command: "N or ←+D",
         },
         {
           name: "下段狙い蹴り",

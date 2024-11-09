@@ -49,6 +49,7 @@ export const shinEarthquake: DataItem = {
         {
           name: "アースガッデム",
           command: "→←↙↓↘→+CD",
+          notes: ["レバー左右で移動"],
         },
       ],
     },

@@ -29,7 +29,7 @@ export const shinGalford: DataItem = {
         },
         {
           name: "ヘッド・レプリカアタック",
-          command: "被ダメージ中BCD",
+          command: "被ダメージ中にBCD",
         },
         {
           name: "シャドーコピー",

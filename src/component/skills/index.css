@@ -207,6 +207,10 @@
   grid-column: 1 / 3;
 }
 
+.slim .skill-set > .skill-name + .skill-command + .skill-notes {
+  grid-column: 1 / 3;
+}
+
 @media (width < 540px) {
   .slim .skill-set.is-short {
     grid-template-columns: auto 1fr;

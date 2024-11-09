@@ -17,7 +17,8 @@ export const zanGenjuroShura: DataItem = {
         },
         {
           name: "三連殺",
-          command: "↓↘→+斬（3回まで）",
+          command: "↓↘→+斬",
+          notes: ["3回まで連続入力可能"],
           skills: [
             {
               name: "返し刃",

@@ -35,7 +35,7 @@ export const tenNakoruruRasetsu: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },
@@ -45,7 +45,7 @@ export const tenNakoruruRasetsu: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },
@@ -55,7 +55,7 @@ export const tenNakoruruRasetsu: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },

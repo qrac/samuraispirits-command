@@ -25,7 +25,7 @@ export const kenRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+D",
+                  command: "レバー上下以外+D",
                 },
                 {
                   name: "ホロケウ ポック",
@@ -39,7 +39,7 @@ export const kenRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+D",
+                  command: "レバー上下以外+D",
                 },
                 {
                   name: "ホロケウ ポック",
@@ -53,7 +53,7 @@ export const kenRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+D",
+                  command: "レバー上下以外+D",
                 },
                 {
                   name: "ホロケウ ポック",
@@ -132,7 +132,8 @@ export const kenRera: DataItem = {
       skills: [
         {
           name: "ヌペキ カムイ シキテ",
-          command: "↓↘→+AB（狼乗り中でも使用可能）",
+          command: "↓↘→+AB",
+          notes: ["狼乗り中でも使用可能"],
         },
       ],
     },

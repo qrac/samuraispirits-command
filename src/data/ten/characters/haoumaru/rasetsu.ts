@@ -17,7 +17,7 @@ export const tenHaoumaruRasetsu: DataItem = {
         },
         {
           name: "奥義 疾風弧月斬",
-          command: "踏み込み中→↓↘+斬",
+          command: "踏み込み中に→↓↘+斬",
         },
         {
           name: "旋風波",

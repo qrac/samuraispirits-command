@@ -25,7 +25,7 @@ export const zeroRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },
@@ -35,7 +35,7 @@ export const zeroRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },
@@ -45,7 +45,7 @@ export const zeroRera: DataItem = {
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },
@@ -76,7 +76,8 @@ export const zeroRera: DataItem = {
       skills: [
         {
           name: "ヌペキ カムイ シキテ",
-          command: "↓↘→+CD（狼乗り中でも使用可能）",
+          command: "↓↘→+CD",
+          notes: ["狼乗り中でも使用可能"],
         },
       ],
     },

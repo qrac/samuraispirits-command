@@ -21,7 +21,8 @@ export const zerospMina: DataItem = {
         },
         {
           name: "スンガンの誘い",
-          command: "←↓↙+A（3つまでストック）",
+          command: "←↓↙+A",
+          notes: ["3つまでストック可能"],
         },
         {
           name: "スンガンの迎え",
@@ -33,11 +34,13 @@ export const zerospMina: DataItem = {
         },
         {
           name: "チャンプル、こっちおいで",
-          command: "↓↙←+B（再入力で解除）",
+          command: "↓↙←+B",
+          notes: ["再入力で解除"],
         },
         {
           name: "チャンプル、おやすみなさい",
-          command: "↓↙←+C（再入力で解除）",
+          command: "↓↙←+C",
+          notes: ["再入力で解除"],
         },
       ],
     },

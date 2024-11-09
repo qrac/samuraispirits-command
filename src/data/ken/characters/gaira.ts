@@ -33,7 +33,8 @@ export const kenGaira: DataItem = {
         },
         {
           name: "円心殺",
-          command: "近距離で←↖↑↗→+C（レバー回転でダメージ増加）",
+          command: "近距離で←↖↑↗→+C",
+          notes: ["発動後レバー回転でダメージ増加"],
         },
       ],
     },

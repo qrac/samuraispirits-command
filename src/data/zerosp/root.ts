@@ -29,11 +29,12 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "瞑想",
-          command: "D押し継続（怒ゲージ消費）",
+          command: "D継続押し",
+          notes: ["怒ゲージを消費"],
         },
         {
           name: "上段蹴り",
-          command: "レバーニュートラル or ←+C",
+          command: "N or ←+C",
         },
         {
           name: "下段狙い蹴り",

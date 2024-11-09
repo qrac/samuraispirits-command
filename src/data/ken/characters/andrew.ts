@@ -43,7 +43,8 @@ export const kenAndrew: DataItem = {
           skills: [
             {
               name: "追加攻撃",
-              command: "斬（回数はブルーアイを当てた回数+3, 上限は16）",
+              command: "斬",
+              notes: ["回数はブルーアイを当てた回数+3 / 上限は16"],
             },
           ],
         },

@@ -66,7 +66,8 @@ export const kenEarthquake: DataItem = {
       skills: [
         {
           name: "アースガッデム",
-          command: "↓↘→+AB（左右で移動）",
+          command: "↓↘→+AB",
+          notes: ["レバー左右で移動"],
         },
       ],
     },

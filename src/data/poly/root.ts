@@ -54,7 +54,8 @@ export const polyRoot: DataItem = {
         },
         {
           name: "防御キャンセル",
-          command: "被ガード時に対応技コマンド（スタミナ半分必要）",
+          command: "被ガード時に対応技コマンド",
+          notes: ["スタミナ半分必要"],
         },
         {
           name: "ダッシュ",
@@ -142,7 +143,8 @@ export const polyRoot: DataItem = {
       skills: [
         {
           name: "",
-          command: "CD（スタミナ半分必要）",
+          command: "CD",
+          notes: ["スタミナ半分必要"],
           skills: [
             {
               name: "",

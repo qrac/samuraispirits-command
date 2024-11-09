@@ -37,7 +37,7 @@ export const zanGalfordRasetsu: DataItem = {
         },
         {
           name: "イミテイトレプリカ",
-          command: "被ダメージ中AC or BD",
+          command: "被ダメージ中にAC or BD",
         },
         {
           name: "シャドーコピー",

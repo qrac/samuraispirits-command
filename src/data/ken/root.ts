@@ -30,7 +30,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "上段蹴り",
-          command: "レバーニュートラル or ←+D",
+          command: "N or ←+D",
         },
         {
           name: "下段狙い蹴り",
@@ -136,7 +136,8 @@ export const kenRoot: DataItem = {
         },
         {
           name: "秘奥義",
-          command: "キャラ別コマンド ※1試合につき1回のみ使用可能",
+          command: "キャラ別コマンド",
+          notes: ["1試合につき1回のみ使用可能"],
         },
         {
           name: "怒り頂点ポーズ",
@@ -243,7 +244,8 @@ export const kenRoot: DataItem = {
         },
         {
           name: "瞑想",
-          command: "AB継続押し（零ゲージ消費）",
+          command: "AB継続押し",
+          notes: ["零ゲージを消費"],
         },
         {
           name: "跳び込み",
@@ -294,7 +296,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "ミキリスライド・スライド",
-          command: "レバーニュートラル+E",
+          command: "N+E",
         },
         {
           name: "ミキリスライド・下段避け",
@@ -306,7 +308,8 @@ export const kenRoot: DataItem = {
         },
         {
           name: "完全ガード",
-          command: "AB継続押し（剣ゲージ消費）",
+          command: "AB継続押し",
+          notes: ["剣ゲージを消費"],
         },
         {
           name: "秘奥義",

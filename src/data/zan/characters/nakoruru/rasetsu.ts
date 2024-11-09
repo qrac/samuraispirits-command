@@ -49,11 +49,11 @@ export const zanNakoruruRasetsu: DataItem = {
             },
             {
               name: "カント シキテ",
-              command: "↓↘→+C（↑ or ↓以外+Cで分離）",
+              command: "↓↘→+C",
               skills: [
                 {
                   name: "分離攻撃",
-                  command: "上下以外+C",
+                  command: "レバー上下以外+C",
                 },
               ],
             },

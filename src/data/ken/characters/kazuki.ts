@@ -9,7 +9,8 @@ export const kenKazuki: DataItem = {
       skills: [
         {
           name: "災炎",
-          command: "↓↙←+D（3つまでストック）",
+          command: "↓↙←+D",
+          notes: ["3つまでストック可能"],
         },
         {
           name: "焦熱魂",

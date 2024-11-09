@@ -8,8 +8,9 @@ export const tenShizumaruRasetsu: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "緋刀流 霧雨刃（怒り時 豪雨）",
+          name: "緋刀流 霧雨刃",
           command: "↓↘→+斬",
+          notes: ["怒り時 豪雨"],
         },
         {
           name: "緋刀流 梅雨円殺陣",

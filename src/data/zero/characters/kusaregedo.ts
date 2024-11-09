@@ -21,7 +21,7 @@ export const zeroKusaregedo: DataItem = {
         },
         {
           name: "外道の烙印押し",
-          command: "→←↓↑+C",
+          command: "近距離で→←↓↑+C",
         },
         {
           name: "泥投げ",
@@ -39,7 +39,7 @@ export const zeroKusaregedo: DataItem = {
         },
         {
           name: "外道の獲物狩り",
-          command: "→↗↑↖←↙↓↑+CD",
+          command: "近距離で→↗↑↖←↙↓↑+CD",
         },
       ],
     },

@@ -58,7 +58,7 @@ export const kenKusaregedo: DataItem = {
         },
         {
           name: "外道の獲物狩り",
-          command: "→↗↑↖←↙↓↑+AB",
+          command: "近距離で→↗↑↖←↙↓↑+AB",
         },
       ],
     },

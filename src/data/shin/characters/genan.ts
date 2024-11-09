@@ -25,7 +25,7 @@ export const shinGenan: DataItem = {
         },
         {
           name: "幻庵脱皮",
-          command: "被ダメージ中BCD",
+          command: "被ダメージ中にBCD",
         },
       ],
     },

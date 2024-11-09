@@ -34,6 +34,7 @@ export const kenJubei: DataItem = {
         {
           name: "柳生 双月陣・壱の太刀",
           command: "←↓↙+A",
+          notes: ["ガード崩し性能"],
           skills: [
             {
               name: "柳生 双月陣・弐の太刀",

@@ -25,7 +25,13 @@ export const zanShizumaruRasetsu: DataItem = {
         },
         {
           name: "緋刀流 小雨",
-          command: "空中で↑+C（斬 or Dで解除）",
+          command: "空中で↑+C",
+          skills: [
+            {
+              name: "解除",
+              command: "斬 or D",
+            },
+          ],
         },
       ],
     },

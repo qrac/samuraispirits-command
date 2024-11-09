@@ -9,7 +9,8 @@ export const zeroCharlotte: DataItem = {
       skills: [
         {
           name: "トライスラッシュ",
-          command: "↓↘→+斬（タメ可能）",
+          command: "↓↘→+斬",
+          notes: ["ボタン継続押しでタメ可能"],
         },
         {
           name: "パワーグラデーション",

@@ -9,7 +9,8 @@ export const tenKazukiShura: DataItem = {
       skills: [
         {
           name: "災炎",
-          command: "↓↙←+斬 or D（3つまでストック）",
+          command: "↓↙←+斬 or D",
+          notes: ["3つまでストック可能"],
         },
         {
           name: "焦熱魂",

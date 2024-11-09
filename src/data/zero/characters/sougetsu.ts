@@ -14,12 +14,7 @@ export const zeroSougetsu: DataItem = {
         {
           name: "浮月",
           command: "↓↘→+斬",
-          skills: [
-            {
-              name: "浮月操作",
-              command: "浮月後ボタンを押したままレバー操作",
-            },
-          ],
+          notes: ["ボタン継続押し+レバーで操作可能"],
         },
         {
           name: "月隠れ",

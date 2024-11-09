@@ -25,7 +25,7 @@ export const kenGenan: DataItem = {
           skills: [
             {
               name: "壁に張り付く",
-              command: "ボタン押しっぱなし",
+              command: "ボタン継続押し",
               skills: [
                 {
                   name: "壁から降りる",

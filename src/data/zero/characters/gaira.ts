@@ -33,7 +33,8 @@ export const zeroGaira: DataItem = {
         },
         {
           name: "円心殺",
-          command: "近距離で←↖↑↗→+AB（レバー回転でダメージ増加）",
+          command: "近距離で←↖↑↗→+AB",
+          notes: ["発動後レバー回転でダメージ増加"],
         },
       ],
     },

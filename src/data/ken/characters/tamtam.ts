@@ -9,7 +9,8 @@ export const kenTamtam: DataItem = {
       skills: [
         {
           name: "ムーラ・ムーラ",
-          command: "↓↘→+A or B（3回まで）",
+          command: "↓↘→+A or B",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "アハウ・ガブル",

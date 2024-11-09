@@ -21,7 +21,7 @@ export const shinHanzo: DataItem = {
         },
         {
           name: "忍法 うつせみ地斬",
-          command: "被ダメージ中BCD",
+          command: "被ダメージ中にBCD",
         },
         {
           name: "忍法 影分身",

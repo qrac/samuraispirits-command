@@ -17,7 +17,8 @@ export const kenMina: DataItem = {
         },
         {
           name: "スンガンの誘い",
-          command: "←↓↙+D（3つまでストック）",
+          command: "←↓↙+D",
+          notes: ["3つまでストック可能"],
         },
         {
           name: "スンガンの迎え",
@@ -29,7 +30,8 @@ export const kenMina: DataItem = {
         },
         {
           name: "ウミチムンの怒り",
-          command: "→↓↘+D（左右で落下制御）",
+          command: "→↓↘+D",
+          notes: ["レバー左右で落下制御"],
         },
         {
           name: "カジフチ",
@@ -37,11 +39,13 @@ export const kenMina: DataItem = {
         },
         {
           name: "チャンプル、こっちおいで",
-          command: "BE（再入力で解除）",
+          command: "BE",
+          notes: ["再入力で解除"],
         },
         {
           name: "チャンプル、おやすみなさい",
-          command: "CE（再入力で解除）",
+          command: "CE",
+          notes: ["再入力で解除"],
         },
       ],
     },

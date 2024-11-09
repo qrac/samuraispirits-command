@@ -21,7 +21,8 @@ export const kenZankuro: DataItem = {
         },
         {
           name: "無限流 無尽斬",
-          command: "←↓↙+斬（押しっぱなしでタメ）",
+          command: "←↓↙+斬",
+          notes: ["ボタン継続押しでタメ可能"],
           skills: [
             {
               name: "夜叉殺",

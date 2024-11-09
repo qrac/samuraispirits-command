@@ -17,7 +17,13 @@ export const zanRimururuShura: DataItem = {
         },
         {
           name: "コンル シラㇽ",
-          command: "空中で→↘↓+A（↑で終了）",
+          command: "空中で→↘↓+A",
+          skills: [
+            {
+              name: "終了",
+              command: "↑",
+            },
+          ],
         },
         {
           name: "カムイ シトゥキ",

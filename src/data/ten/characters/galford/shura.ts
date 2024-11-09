@@ -37,11 +37,11 @@ export const tenGalfordShura: DataItem = {
         },
         {
           name: "イミテイトレプリカ（ヘッド）",
-          command: "被ダメージ中AC",
+          command: "被ダメージ中にAC",
         },
         {
           name: "イミテイトレプリカ（リア）",
-          command: "被ダメージ中BD",
+          command: "被ダメージ中にBD",
         },
         {
           name: "シャドーコピー",

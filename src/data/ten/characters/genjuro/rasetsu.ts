@@ -9,7 +9,8 @@ export const tenGenjuroRasetsu: DataItem = {
       skills: [
         {
           name: "裏桜華・菖蒲",
-          command: "↓↙←+斬（与ガード時ボタン継続押しで跳ね返り）",
+          command: "↓↙←+斬",
+          notes: ["与ガード時ボタン継続押しで跳ね返り"],
         },
         {
           name: "桐覇 光翼刃",
@@ -17,7 +18,8 @@ export const tenGenjuroRasetsu: DataItem = {
         },
         {
           name: "三空殺",
-          command: "↓↘→+斬（3回まで）",
+          command: "↓↘→+斬",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "紫暮",

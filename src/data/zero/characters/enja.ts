@@ -23,11 +23,11 @@ export const zeroEnja: DataItem = {
           skills: [
             {
               name: "六道烈火・餓鬼道",
-              command: "地獄道中に↓↘→+B",
+              command: "↓↘→+B",
               skills: [
                 {
                   name: "六道烈火・天道",
-                  command: "餓鬼道中に↓↘→+C",
+                  command: "↓↘→+C",
                 },
               ],
             },

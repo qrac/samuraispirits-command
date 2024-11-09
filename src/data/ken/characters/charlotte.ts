@@ -9,7 +9,8 @@ export const kenCharlotte: DataItem = {
       skills: [
         {
           name: "トライスラッシュ",
-          command: "←タメ→+斬（タメ可能）",
+          command: "←タメ→+斬",
+          notes: ["ボタン継続押しでタメ可能"],
         },
         {
           name: "バイオネットラージュ",

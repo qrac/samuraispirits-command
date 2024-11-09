@@ -26,7 +26,7 @@ export const zanRoot: DataItem = {
         },
         {
           name: "上段蹴り",
-          command: "レバーニュートラル or ←+D",
+          command: "N or ←+D",
         },
         {
           name: "下段狙い蹴り",
@@ -95,7 +95,8 @@ export const zanRoot: DataItem = {
       skills: [
         {
           name: "オートガード",
-          command: "自動発動 ※1試合5回まで",
+          command: "自動発動",
+          notes: ["1試合につき5回まで"],
         },
         {
           name: "怒ゲージ常時最大",

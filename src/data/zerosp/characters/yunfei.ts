@@ -21,27 +21,33 @@ export const zerospYunfei: DataItem = {
         },
         {
           name: "天機七曜 月",
-          command: "↓↙←+A（3回まで）",
+          command: "↓↙←+A",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 火",
-          command: "↓↙←+B（3回まで）",
+          command: "↓↙←+B",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 水",
-          command: "空中で↓↘→ or ↓↙←+A（3回まで）",
+          command: "空中で↓↘→ or ↓↙←+A",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 木",
-          command: "空中で↓↘→ or ↓↙←+B（3回まで）",
+          command: "空中で↓↘→ or ↓↙←+B",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 金",
-          command: "空中で↓↘→ or ↓↙←+C（3回まで）",
+          command: "空中で↓↘→ or ↓↙←+C",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 土",
-          command: "空中で↓↘→ or ↓↙←+D（3回まで）",
+          command: "空中で↓↘→ or ↓↙←+D",
+          notes: ["3回まで連続入力可能"],
         },
         {
           name: "天機七曜 日",

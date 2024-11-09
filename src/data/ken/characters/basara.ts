@@ -33,7 +33,8 @@ export const kenBasara: DataItem = {
         },
         {
           name: "影吸い",
-          command: "↓↙←+D（左右で移動）",
+          command: "↓↙←+D",
+          notes: ["レバー左右で移動"],
         },
         {
           name: "影煩い",

@@ -25,11 +25,11 @@ export const tenHanzoShura: DataItem = {
         },
         {
           name: "忍法 身代わりの術・仏",
-          command: "被ダメージ中AC",
+          command: "被ダメージ中にAC",
         },
         {
           name: "忍法 身代わりの術・鬼",
-          command: "被ダメージ中BD",
+          command: "被ダメージ中にBD",
         },
         {
           name: "モズ落とし",

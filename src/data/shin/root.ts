@@ -77,8 +77,8 @@ export const shinRoot: DataItem = {
         },
         {
           name: "秘奥義",
-          command:
-            "キャラ別コマンド（覇王丸,ナコルル,服部半蔵,ガルフォードのみ）",
+          command: "キャラ別コマンド",
+          notes: ["覇王丸・ナコルル・服部半蔵・ガルフォードのみ"],
         },
         {
           name: "怒り頂点ポーズ",

@@ -21,7 +21,8 @@ export const kenSankuro: DataItem = {
         },
         {
           name: "俺の生き様を見さらせ！！",
-          command: "→+斬連打（連打で技継続・左右移動可）",
+          command: "→+斬連打",
+          notes: ["連打で技継続 / 左右移動可"],
         },
         {
           name: "俺の種子島",
