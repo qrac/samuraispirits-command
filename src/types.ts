@@ -21,7 +21,7 @@ export type Skill = {
   name: string
   command: string
   notes?: string[]
-  isShort?: boolean
+  layout?: string
   skills?: Skill[]
 }
 

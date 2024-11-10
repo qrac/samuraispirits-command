@@ -211,15 +211,31 @@
   grid-column: 1 / 3;
 }
 
-@media (width < 540px) {
-  .slim .skill-set.is-short {
-    grid-template-columns: auto 1fr;
-  }
-}
-
 .slim .skill-name {
   font-feature-settings: "palt";
   letter-spacing: 0.025em;
+}
+
+.slim .unslim {
+  grid-template-columns: auto;
+}
+
+.slim .unslim .skill-name,
+.slim .unslim .skill-command,
+.slim .unslim .skill-notes,
+.slim .unslim ~ .skills .skill-name,
+.slim .unslim ~ .skills .skill-command,
+.slim .unslim ~ .skills .skill-notes {
+  grid-column: 1 / 3;
+}
+
+.slim .default ~ .skills,
+.slim .default ~ .skills .skills {
+  display: block;
+}
+
+.slim .default ~ .skills .skill {
+  grid-template-columns: auto;
 }
 
 .note .skill-set {

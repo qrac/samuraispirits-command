@@ -8,7 +8,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
     <div className="skills">
       {skills.map((item, itemIndex) => (
         <div key={itemIndex} className="skill">
-          <div className={clsx("skill-set", item.isShort && "is-short")}>
+          <div className={clsx("skill-set", item.layout && item.layout)}>
             {item.name && <div className="skill-name">{item.name}</div>}
             {item.command && (
               <div className="skill-command">
