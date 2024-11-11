@@ -241,7 +241,7 @@ export const asuraHaoumaruRasetsu: DataItem = {
         {
           name: "怒涛断",
           command: "←↙↓↘→+C",
-          notes: ["投げ抜け:C"],
+          notes: ["投げ技 / 投げ抜け:C"],
         },
       ],
     },

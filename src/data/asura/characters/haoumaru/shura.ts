@@ -217,7 +217,7 @@ export const asuraHaoumaruShura: DataItem = {
         {
           name: "豪傑投げ",
           command: "→↓↘+C",
-          notes: ["投げ抜け:C"],
+          notes: ["投げ技 / 投げ抜け:C"],
         },
       ],
     },

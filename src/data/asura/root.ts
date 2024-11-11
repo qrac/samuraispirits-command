@@ -31,7 +31,7 @@ export const asuraRoot: DataItem = {
             {
               name: "基本投げ",
               command: "",
-              notes: ["自動（正面）｜投げ抜け:C"],
+              notes: ["自動（正面） / 投げ抜け:C"],
             },
             {
               name: "背後投げ",
