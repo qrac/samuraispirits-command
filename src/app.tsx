@@ -1,3 +1,4 @@
+import { useRef } from "react"
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
 import type { NavItem } from "./types"
@@ -23,6 +24,7 @@ import {
 export default function App() {
   const location = useLocation()
   const navigate = useNavigate()
+  const scrollRef = useRef<HTMLDivElement>(null)
 
   let pathArray = location.pathname.split("/")
   let gameId = pathArray[1] || "root"
@@ -39,11 +41,13 @@ export default function App() {
     navigate(routePath)
     gameId = id
     window.scrollTo({ top: 0 })
+    scrollRef?.current && (scrollRef.current.scrollLeft = 0)
   }
   function handleClickGame(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
     gameId = id
+    scrollRef?.current && (scrollRef.current.scrollLeft = 0)
   }
   function handleClickChara(id: string) {
     const routePath = getNavigatePath(dataNav, gameId, id, "shura")
@@ -69,6 +73,7 @@ export default function App() {
             navItems: characters,
             activeId: characterId,
             onClickAction: handleClickChara,
+            scrollRef: scrollRef,
           },
           {
             navItems: types,

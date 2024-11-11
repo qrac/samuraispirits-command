@@ -33,10 +33,41 @@
 }
 
 .skill-name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding-right: calc(var(--theme-space) * 0.5);
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.25;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.skill-tag {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 0.125rem 0.1825rem;
+  border-width: 2px;
+  border-radius: 2px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.skill-tag.is-ac-2 {
+  border-color: var(--theme-ac-2);
+  color: var(--theme-ac-2);
+}
+
+.skill-tag.is-ac-3 {
+  border-color: var(--theme-ac-3);
+  color: var(--theme-ac-3);
 }
 
 .skill-command {
@@ -239,7 +270,7 @@
 }
 
 .note .skill-set {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr min(42vw, 280px);
   grid-template-rows: auto;
   align-items: center;
 }

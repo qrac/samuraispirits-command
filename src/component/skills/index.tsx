@@ -9,7 +9,14 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
       {skills.map((item, itemIndex) => (
         <div key={itemIndex} className="skill">
           <div className={clsx("skill-set", item.layout && item.layout)}>
-            {item.name && <div className="skill-name">{item.name}</div>}
+            {item.name && (
+              <div className="skill-name">
+                {item.name}
+                {item.tags && item?.tags.length > 0 && (
+                  <ComponentTags tags={item.tags} />
+                )}
+              </div>
+            )}
             {item.command && (
               <div className="skill-command">
                 <ComponentCommand chars={item.command} />
@@ -26,6 +33,21 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
             )}
           </div>
           {item.skills && <ComponentSkills skills={item.skills} />}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function ComponentTags({ tags }: { tags: Skill["tags"] }) {
+  return (
+    <div className="skill-tags">
+      {tags.map((tag, tagIndex) => (
+        <div
+          key={tagIndex}
+          className={clsx("skill-tag", tag.color && `is-ac-${tag.color}`)}
+        >
+          {tag.name}
         </div>
       ))}
     </div>

@@ -17,8 +17,14 @@ export type DataNav = {
 
 export type NavItem = [id: string, { name: string; fullName?: string }]
 
+export type Tag = {
+  name: string
+  color?: number
+}
+
 export type Skill = {
   name: string
+  tags?: Tag[]
   command: string
   notes?: string[]
   layout?: string

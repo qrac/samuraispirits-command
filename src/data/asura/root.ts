@@ -31,7 +31,7 @@ export const asuraRoot: DataItem = {
             {
               name: "基本投げ",
               command: "",
-              notes: ["自動（正面） / 投げ抜け:C"],
+              notes: ["自動（正面）｜投げ抜け:C"],
             },
             {
               name: "背後投げ",
@@ -111,8 +111,8 @@ export const asuraRoot: DataItem = {
         },
         {
           name: "S・C・S",
-          command: "CD / →+CD / ↓ or ↘+CD",
-          notes: ["攻撃型 / 弾き型（上・中・投・G不） / 下段弾き型"],
+          command: "CD ｜ →+CD ｜ ↓or↘+CD",
+          notes: ["攻撃型 ｜ 弾き型（上・中・投・G不） ｜ 下段弾き型"],
           layout: "unslim",
           skills: [
             {

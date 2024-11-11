@@ -1,3 +1,4 @@
+import type { RefObject } from "react"
 import { clsx } from "clsx"
 
 import type { NavItem } from "../../types"
@@ -7,6 +8,7 @@ type NavGroup = {
   navItems: NavItem[]
   activeId: string
   onClickAction: (id: string) => void
+  scrollRef?: RefObject<HTMLDivElement>
 }
 
 export function ComponentNav({ navGroups }: { navGroups: NavGroup[] }) {
@@ -16,7 +18,7 @@ export function ComponentNav({ navGroups }: { navGroups: NavGroup[] }) {
   return (
     <nav className="nav">
       {filterdNavGroups.map((navGroup, navGroupIndex) => (
-        <div className="nav-group" key={navGroupIndex}>
+        <div className="nav-group" key={navGroupIndex} ref={navGroup.scrollRef}>
           <div className="nav-group-grid">
             {navGroup.navItems.map(([id, item], itemIndex) => (
               <button
