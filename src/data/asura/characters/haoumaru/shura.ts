@@ -127,6 +127,11 @@ export const asuraHaoumaruShura: DataItem = {
           notes: ["中段", "○"],
         },
         {
+          name: "豪柄",
+          command: "↘+C",
+          notes: ["中段", "×"],
+        },
+        {
           name: "薙ぎ払い",
           command: "B中にB",
           notes: ["上段", "×"],
@@ -134,6 +139,16 @@ export const asuraHaoumaruShura: DataItem = {
         {
           name: "飛燕返し",
           command: "屈B中にB",
+          notes: ["上段", "×"],
+        },
+        {
+          name: "背後薙ぎ払い",
+          command: "（背面）B中にB",
+          notes: ["上段", "×"],
+        },
+        {
+          name: "背後飛燕返し",
+          command: "（背面）屈B中にB",
           notes: ["上段", "×"],
         },
         {
@@ -160,21 +175,6 @@ export const asuraHaoumaruShura: DataItem = {
             },
           ],
         },
-        {
-          name: "背後薙ぎ払い",
-          command: "（背面）B中にB",
-          notes: ["上段", "×"],
-        },
-        {
-          name: "背後飛燕返し",
-          command: "（背面）屈B中にB",
-          notes: ["上段", "×"],
-        },
-        {
-          name: "豪柄",
-          command: "↘+C",
-          notes: ["中段", "×"],
-        },
       ],
     },
     {
@@ -182,29 +182,11 @@ export const asuraHaoumaruShura: DataItem = {
       skills: [
         {
           name: "旋風裂斬",
-          tags: [{ name: "防御キャンセル", color: 3 }],
-          command: "↓↘→+A or B",
-        },
-        {
-          name: "旋風裂斬",
-          tags: [
-            { name: "怒り限定", color: 2 },
-            { name: "防御キャンセル", color: 3 },
-          ],
-          command: "↓↘→+AB",
+          command: "↓↘→+A or B or 怒AB",
         },
         {
           name: "弧月斬",
-          tags: [{ name: "防御キャンセル", color: 3 }],
-          command: "→↓↘+A or B",
-        },
-        {
-          name: "弧月斬",
-          tags: [
-            { name: "怒り限定", color: 2 },
-            { name: "防御キャンセル", color: 3 },
-          ],
-          command: "→↓↘+AB",
+          command: "→↓↘+A or B or 怒AB",
         },
         {
           name: "烈震斬",
@@ -227,7 +209,6 @@ export const asuraHaoumaruShura: DataItem = {
       skills: [
         {
           name: "天覇封神斬",
-          tags: [{ name: "怒り限定", color: 2 }],
           command: "→↓↘+BC",
         },
       ],
