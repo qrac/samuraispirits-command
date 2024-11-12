@@ -2,7 +2,7 @@ import type { DataNav } from "../../types"
 
 export const zeroNav: DataNav = {
   zero: {
-    name: "零サム",
+    name: "零（無印）",
     fullName: "サムライスピリッツ零",
     characters: {
       root: {
