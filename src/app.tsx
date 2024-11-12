@@ -46,7 +46,7 @@ export default function App() {
   function handleClickGame(id: string) {
     let routePath = getNavigatePath(dataNav, id, characterId, typeId)
 
-    if (routePath.includes(characterId)) {
+    if (routePath.split("/")[1] === characterId) {
       navigate(routePath)
     } else {
       routePath = getNavigatePath(dataNav, id, "root", "shura")
