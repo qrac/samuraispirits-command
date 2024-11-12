@@ -1,3 +1,4 @@
+import { useRef } from "react"
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
 import type { NavItem } from "./types"
@@ -23,6 +24,7 @@ import {
 export default function App() {
   const location = useLocation()
   const navigate = useNavigate()
+  const scrollRef = useRef<HTMLDivElement>(null)
 
   let pathArray = location.pathname.split("/")
   let gameId = pathArray[1] || "root"
@@ -37,12 +39,20 @@ export default function App() {
   function handleClickGameWithGoTop(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
-    gameId = id
     window.scrollTo({ top: 0 })
+    scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+    gameId = id
   }
   function handleClickGame(id: string) {
-    const routePath = getNavigatePath(dataNav, id, "root", "shura")
-    navigate(routePath)
+    let routePath = getNavigatePath(dataNav, id, characterId, typeId)
+
+    if (routePath.split("/")[1] === characterId) {
+      navigate(routePath)
+    } else {
+      routePath = getNavigatePath(dataNav, id, "root", "shura")
+      navigate(routePath)
+      scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+    }
     gameId = id
   }
   function handleClickChara(id: string) {
@@ -69,6 +79,7 @@ export default function App() {
             navItems: characters,
             activeId: characterId,
             onClickAction: handleClickChara,
+            scrollRef: scrollRef,
           },
           {
             navItems: types,
