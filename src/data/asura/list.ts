@@ -2,8 +2,8 @@ import type { DataItem } from "../../types"
 import { asuraRoot } from "./root"
 import { asuraHaoumaruShura } from "./characters/haoumaru/shura"
 import { asuraHaoumaruRasetsu } from "./characters/haoumaru/rasetsu"
-//import { asuraNakoruruShura } from "./characters/nakoruru/shura"
-//import { asuraNakoruruRasetsu } from "./characters/nakoruru/rasetsu"
+import { asuraNakoruruShura } from "./characters/nakoruru/shura"
+import { asuraNakoruruRasetsu } from "./characters/nakoruru/rasetsu"
 //import { asuraRimururuShura } from "./characters/rimururu/shura"
 //import { asuraRimururuRasetsu } from "./characters/rimururu/rasetsu"
 //import { asuraGenjuroShura } from "./characters/genjuro/shura"
@@ -31,8 +31,8 @@ export const asuraList = [
   asuraRoot,
   asuraHaoumaruShura,
   asuraHaoumaruRasetsu,
-  //asuraNakoruruShura,
-  //asuraNakoruruRasetsu,
+  asuraNakoruruShura,
+  asuraNakoruruRasetsu,
   //asuraRimururuShura,
   //asuraRimururuRasetsu,
   //asuraGenjuroShura,
