@@ -182,11 +182,11 @@ export const asuraHaoumaruRasetsu: DataItem = {
       skills: [
         {
           name: "旋風裂斬",
-          command: "↓↘→+A or B or 怒AB",
+          command: "↓↘→+A or B or 怒時AB",
         },
         {
           name: "弧月斬",
-          command: "→↓↘+A or B or 怒AB",
+          command: "→↓↘+A or B or 怒時AB",
         },
         {
           name: "烈震斬",
