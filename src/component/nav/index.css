@@ -38,6 +38,8 @@
   padding: 6px 12px;
   font-size: 0.875rem;
   font-weight: 600;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
 
 @media (hover: hover) and (pointer: fine) {
