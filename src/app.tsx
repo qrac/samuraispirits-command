@@ -39,15 +39,21 @@ export default function App() {
   function handleClickGameWithGoTop(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
-    gameId = id
     window.scrollTo({ top: 0 })
     scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+    gameId = id
   }
   function handleClickGame(id: string) {
-    const routePath = getNavigatePath(dataNav, id, "root", "shura")
-    navigate(routePath)
+    let routePath = getNavigatePath(dataNav, id, characterId, typeId)
+
+    if (routePath.includes(characterId)) {
+      navigate(routePath)
+    } else {
+      routePath = getNavigatePath(dataNav, id, "root", "shura")
+      navigate(routePath)
+      scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+    }
     gameId = id
-    scrollRef?.current && (scrollRef.current.scrollLeft = 0)
   }
   function handleClickChara(id: string) {
     const routePath = getNavigatePath(dataNav, gameId, id, "shura")
