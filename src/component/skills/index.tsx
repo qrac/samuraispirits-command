@@ -54,7 +54,7 @@ function ComponentTags({ tags }: { tags: Skill["tags"] }) {
   )
 }
 
-function ComponentCommand({ chars }: { chars: string }) {
+export function ComponentCommand({ chars }: { chars: string }) {
   const elements: JSX.Element[] = []
   const items: { group: string; values: string }[] = []
   const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴○×]/
