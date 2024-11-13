@@ -11,6 +11,7 @@ import { ComponentNav } from "./component/nav"
 import { ComponentDocs } from "./component/docs"
 import { ComponentLineup } from "./component/lineup"
 import { ComponentContent } from "./component/content"
+import { ComponentInfo } from "./component/info"
 import { ComponentFooter } from "./component/footer"
 import {
   getCharacters,
@@ -108,6 +109,7 @@ export default function App() {
               currentDataItem ? (
                 <div className="page">
                   <ComponentContent dataItem={currentDataItem} />
+                  <ComponentInfo />
                 </div>
               ) : (
                 <div className="page">

@@ -32,7 +32,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
   )
 }
 
-function ComponentCommand({ chars }: { chars: string }) {
+export function ComponentCommand({ chars }: { chars: string }) {
   const elements: JSX.Element[] = []
   const items: { group: string; values: string }[] = []
   const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴○×]/
