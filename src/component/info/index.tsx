@@ -26,7 +26,7 @@ export function ComponentInfo() {
           <dt className="info-item-head">
             <ComponentCommand chars="N" />
           </dt>
-          <dd className="info-item-body">レバーをニュートラルに戻す</dd>
+          <dd className="info-item-body">レバーニュートラル</dd>
         </div>
         <div className="info-item">
           <dt className="info-item-head">G不能</dt>
