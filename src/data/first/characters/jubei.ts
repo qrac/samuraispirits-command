@@ -17,7 +17,7 @@ export const firstJubei: DataItem = {
         },
         {
           name: "八相発破",
-          command: "→+斬連打",
+          command: "斬連打",
         },
       ],
     },
