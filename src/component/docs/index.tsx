@@ -1,5 +1,37 @@
+import type { MDXProps } from "mdx/types"
+import { Link as RouterLink } from "react-router-dom"
+
 import "./index.css"
 
-export function ComponentDocs({ children }: { children: React.ReactNode }) {
-  return <div className="docs">{children}</div>
+const components = {
+  a: ComponentDocsLink,
+}
+
+export function ComponentDocs({
+  MdxData,
+}: {
+  MdxData: (props: MDXProps) => JSX.Element
+}) {
+  return (
+    <div className="docs">
+      <MdxData components={components} />
+    </div>
+  )
+}
+
+export function ComponentDocsLink({
+  href,
+  children,
+}: {
+  href: string
+  children: React.ReactNode
+}) {
+  if (/^https?:\/\//.test(href)) {
+    return (
+      <a href={href} target="_blank">
+        {children}
+      </a>
+    )
+  }
+  return <RouterLink to={href}>{children}</RouterLink>
 }

@@ -98,9 +98,7 @@ export default function App() {
                   navItems={games}
                   onClickAction={handleClickGameWithGoTop}
                 />
-                <ComponentDocs>
-                  <DataRoot />
-                </ComponentDocs>
+                <ComponentDocs MdxData={DataRoot} />
               </div>
             }
           />
@@ -113,9 +111,9 @@ export default function App() {
                 </div>
               ) : (
                 <div className="page">
-                  <ComponentDocs>
+                  <div>
                     <p>No data</p>
-                  </ComponentDocs>
+                  </div>
                   <ComponentLineup
                     navItems={games}
                     onClickAction={handleClickGame}
@@ -128,9 +126,9 @@ export default function App() {
             path="*"
             element={
               <div className="page">
-                <ComponentDocs>
+                <div>
                   <p>Not found</p>
-                </ComponentDocs>
+                </div>
                 <ComponentLineup
                   navItems={games}
                   onClickAction={handleClickGame}
