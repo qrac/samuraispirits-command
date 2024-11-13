@@ -17,7 +17,7 @@ export const zeroJubei: DataItem = {
         },
         {
           name: "八相発破",
-          command: "→+斬連打",
+          command: "斬連打",
         },
         {
           name: "柳生 心眼刀・水月",

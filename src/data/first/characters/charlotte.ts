@@ -13,7 +13,7 @@ export const firstCharlotte: DataItem = {
         },
         {
           name: "スプラッシュファーント",
-          command: "→+斬連打",
+          command: "斬連打",
         },
       ],
     },
