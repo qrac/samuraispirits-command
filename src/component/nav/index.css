@@ -32,6 +32,14 @@
   }
 }
 
+@media (width < 540px) {
+  .nav-group-grid::after {
+    content: "";
+    flex: none;
+    width: calc(var(--theme-space) * 0.25);
+  }
+}
+
 .nav-button {
   display: flex;
   flex: none;
