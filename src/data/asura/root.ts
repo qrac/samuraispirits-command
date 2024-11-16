@@ -22,7 +22,7 @@ export const asuraRoot: DataItem = {
         },
         {
           name: "軸移動",
-          command: "D or ↓+D",
+          command: "N+D or ↓+D",
         },
         {
           name: "つかみ",
