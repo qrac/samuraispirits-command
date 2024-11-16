@@ -75,7 +75,7 @@ export const asuraRoot: DataItem = {
         {
           name: "防御キャンセル",
           command: "被ガード時に対応技コマンド",
-          notes: ["怒ゲージ50%必要"],
+          notes: ["怒ゲージ50%必要 / 25%消費"],
         },
         {
           name: "弾き返し",
