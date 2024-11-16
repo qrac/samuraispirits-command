@@ -52,7 +52,7 @@
 
 @media (hover: hover) and (pointer: fine) {
   .nav-button:hover {
-    background: color-mix(in srgb, var(--theme-tx-2) 7%, transparent 93%);
+    background: var(--theme-bg-3);
   }
 }
 
