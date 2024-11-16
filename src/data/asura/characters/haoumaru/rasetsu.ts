@@ -177,6 +177,26 @@ export const asuraHaoumaruRasetsu: DataItem = {
             },
           ],
         },
+        {
+          name: "",
+          command: "起き上がり時↓+B・B・B・B",
+          notes: ["上・上・上・構え", "×・×・×・×"],
+        },
+        {
+          name: "",
+          command: "起き上がり時↘+B・B・B",
+          notes: ["中・中・構え", "×・×・×"],
+        },
+        {
+          name: "",
+          command: "起き上がり時→→+B・B",
+          notes: ["上・構え", "×・×"],
+        },
+        {
+          name: "",
+          command: "（背面）起き上がり時↓+B・B",
+          notes: ["下・下", "×・×"],
+        },
       ],
     },
     {
@@ -225,7 +245,7 @@ export const asuraHaoumaruRasetsu: DataItem = {
         {
           name: "怒涛断",
           command: "←↙↓↘→+C",
-          notes: ["投げ技 / 投げ抜け:C"],
+          notes: ["上段投げ / 投げ抜け:C"],
         },
       ],
     },

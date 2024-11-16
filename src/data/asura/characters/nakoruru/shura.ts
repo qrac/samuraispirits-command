@@ -208,10 +208,10 @@ export const asuraNakoruruShura: DataItem = {
         {
           name: "レラ オ チキリ",
           command: "→↓↘+C",
-          notes: ["投げ技 / 投げ抜け:C"],
+          notes: ["上段投げ / 投げ抜け:C"],
         },
         {
-          name: "ママハハにつかまる",
+          name: "ママハハに掴まる",
           command: "↓↙←+D",
           skills: [
             {
@@ -223,7 +223,7 @@ export const asuraNakoruruShura: DataItem = {
               command: "↑ or ↓+D",
             },
             {
-              name: "つかまり攻撃",
+              name: "鷹掴まり攻撃",
               command: "A or B or C",
             },
             {

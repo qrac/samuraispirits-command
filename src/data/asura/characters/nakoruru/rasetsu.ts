@@ -266,12 +266,12 @@ export const asuraNakoruruRasetsu: DataItem = {
         {
           name: "円舞剛脚",
           command: "→↓↘+C",
-          notes: ["投げ技 / 男性限定 / 投げ抜け:C"],
+          notes: ["上段投げ / 男性限定 / 投げ抜け:C"],
         },
         {
           name: "円舞双掌",
           command: "→↓↘+C",
-          notes: ["投げ技 / 女性限定 / 投げ抜け:C"],
+          notes: ["上段投げ / 女性限定 / 投げ抜け:C"],
         },
         {
           name: "シクルゥに乗る",
