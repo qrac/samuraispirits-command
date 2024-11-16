@@ -1,7 +1,7 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
-import type { NavItem } from "./types"
+import type { Accordion, AccordionId, NavItem } from "./types"
 import "./app.css"
 import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
@@ -26,7 +26,11 @@ export default function App() {
   const location = useLocation()
   const navigate = useNavigate()
   const scrollRef = useRef<HTMLDivElement>(null)
-
+  const [accordion, setAccordion] = useState<Accordion>({
+    normal: false,
+    combination: false,
+    scs: false,
+  })
   let pathArray = location.pathname.split("/")
   let gameId = pathArray[1] || "root"
   let characterId = pathArray[2] || "root"
@@ -65,6 +69,10 @@ export default function App() {
     const routePath = getNavigatePath(dataNav, gameId, characterId, id)
     navigate(routePath)
     typeId = id
+  }
+  function handleClickAccordion(id: AccordionId) {
+    const newAccordionState = { [id]: !accordion[id] }
+    setAccordion({ ...accordion, ...newAccordionState })
   }
   return (
     <div className="app">
@@ -108,7 +116,11 @@ export default function App() {
             element={
               currentDataItem ? (
                 <div className="page">
-                  <ComponentContent dataItem={currentDataItem} />
+                  <ComponentContent
+                    dataItem={currentDataItem}
+                    accordion={accordion}
+                    onClickAccordion={handleClickAccordion}
+                  />
                   <ComponentInfo />
                 </div>
               ) : (

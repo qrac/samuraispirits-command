@@ -12,18 +12,27 @@
 }
 
 .content-group-title {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 6px;
+  margin-right: calc(var(--theme-space) * -1);
+}
+
+@media (width >= 540px) {
+  .content-group-title {
+    margin-right: 0;
+  }
 }
 
 .content-group-title-label {
+  position: relative;
   display: flex;
   width: fit-content;
   padding: 2px 6px;
   background: var(--theme-tx-2);
   color: var(--theme-tx-lk);
   font-weight: 600;
+  z-index: 2;
 }
 
 .content-group-title-label.is-ac-2 {
@@ -35,6 +44,103 @@
 }
 
 .content-group-title-note {
+  padding: 0 6px;
   font-size: 0.75rem;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+.content-group-title-note.is-accordion {
+  pointer-events: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.content-group-title-note.is-accordion > * {
+  translate: calc(-100% - 12px);
+  transition: 0.24s translate ease;
+}
+
+.content-group-title-note.is-accordion.is-open > * {
+  translate: 0 0;
+}
+
+.content-group-title-button {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .content-group-title-button:hover {
+    background: var(--theme-bg-3);
+  }
+}
+
+.content-group-title-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid var(--theme-bd-1);
+  border-right: 2px solid var(--theme-bd-1);
+  translate: 0 -50%;
+  rotate: 135deg;
+  transition: 0.24s rotate ease;
+}
+
+.content-group-title-button.is-open::after {
+  rotate: -45deg;
+}
+
+.content-group-body {
+  margin-right: calc(var(--theme-space) * -1);
+}
+
+@media (width >= 540px) {
+  .content-group-body {
+    margin-right: 0;
+  }
+}
+
+.content-group-body.is-accordion {
+  position: relative;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.24s grid-template-rows ease;
+}
+
+.content-group-body.is-accordion > * {
+  overflow: hidden;
+}
+
+.content-group-body.is-accordion::before,
+.content-group-body.is-accordion::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 2px;
+  background: var(--theme-bd-1);
+}
+
+.content-group-body.is-accordion::before {
+  top: 0;
+  width: 100%;
+}
+
+.content-group-body.is-accordion::after {
+  top: 4px;
+  width: 100%;
+  transition: 0.24s top ease;
+}
+
+.content-group-body.is-accordion.is-open {
+  grid-template-rows: 1fr;
+}
+
+.content-group-body.is-accordion.is-open::after {
+  top: calc(100% - 2px);
 }

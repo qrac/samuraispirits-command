@@ -21,6 +21,12 @@ export type Tag = {
   name: string
   color?: number
 }
+export type Accordion = {
+  normal: boolean
+  combination: boolean
+  scs: boolean
+}
+export type AccordionId = "normal" | "combination" | "scs"
 
 export type Skill = {
   name: string
@@ -40,6 +46,7 @@ export type DataItem = {
     titleColor?: number
     titleNote?: string
     layout?: string
+    accordion?: AccordionId
     skills: Skill[]
   }[]
 }

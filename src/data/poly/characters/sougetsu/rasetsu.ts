@@ -8,6 +8,7 @@ export const polySougetsuRasetsu: DataItem = {
       title: "通常技",
       titleNote: "入力 / 属性 / キャンセル",
       layout: "note",
+      accordion: "normal",
       skills: [
         {
           name: "",
@@ -119,6 +120,7 @@ export const polySougetsuRasetsu: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
+      accordion: "combination",
       skills: [
         {
           name: "蒼連水・睦月",
@@ -204,6 +206,7 @@ export const polySougetsuRasetsu: DataItem = {
     },
     {
       title: "S・C・S",
+      accordion: "scs",
       skills: [
         {
           name: "",

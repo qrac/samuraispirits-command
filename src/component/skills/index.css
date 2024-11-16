@@ -1,13 +1,6 @@
 .skills {
-  margin-right: calc(var(--theme-space) * -1);
   border-top-width: 2px;
   border-bottom-width: 2px;
-}
-
-@media (width >= 540px) {
-  .skills {
-    margin-right: 0;
-  }
 }
 
 .skills > * + * {
@@ -166,7 +159,6 @@
 .skills .skills {
   position: relative;
   margin-top: calc(var(--theme-space) * 0.5);
-  margin-right: 0;
   margin-bottom: calc(var(--theme-space) * -0.5);
   margin-left: calc(var(--theme-space) * 1);
   border-bottom-width: 0;
