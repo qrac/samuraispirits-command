@@ -52,18 +52,15 @@
 
 .content-group-title-note.is-accordion {
   pointer-events: none;
-  position: relative;
-  overflow: hidden;
   z-index: 2;
 }
 
 .content-group-title-note.is-accordion > * {
-  translate: calc(-100% - 12px);
-  transition: 0.24s translate ease;
+  display: none;
 }
 
 .content-group-title-note.is-accordion.is-open > * {
-  translate: 0 0;
+  display: block;
 }
 
 .content-group-title-button {
