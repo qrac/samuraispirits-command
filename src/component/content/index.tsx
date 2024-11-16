@@ -1,10 +1,18 @@
 import { clsx } from "clsx"
 
-import type { DataItem } from "../../types"
+import type { DataItem, Accordion, AccordionId } from "../../types"
 import "./index.css"
 import { ComponentSkills } from "../skills"
 
-export function ComponentContent({ dataItem }: { dataItem: DataItem }) {
+export function ComponentContent({
+  dataItem,
+  accordion,
+  onClickAccordion,
+}: {
+  dataItem: DataItem
+  accordion: Accordion
+  onClickAccordion: (id: AccordionId) => void
+}) {
   return (
     <div className={clsx("content", dataItem?.layout && dataItem?.layout)}>
       <h2 className="content-name">{dataItem.name}</h2>
@@ -25,11 +33,41 @@ export function ComponentContent({ dataItem }: { dataItem: DataItem }) {
                   {group.title}
                 </h3>
                 {group.titleNote && (
-                  <p className="content-group-title-note">{group.titleNote}</p>
+                  <div
+                    className={clsx(
+                      "content-group-title-note",
+                      group.accordion && "is-accordion",
+                      group.accordion && accordion[group.accordion] && "is-open"
+                    )}
+                  >
+                    <div>
+                      <p>{group.titleNote}</p>
+                    </div>
+                  </div>
+                )}
+                {group.accordion && (
+                  <button
+                    type="button"
+                    className={clsx(
+                      "content-group-title-button",
+                      accordion[group.accordion] && "is-open"
+                    )}
+                    onClick={() => onClickAccordion(group.accordion)}
+                  />
                 )}
               </div>
             )}
-            <ComponentSkills skills={group.skills} />
+            <div
+              className={clsx(
+                "content-group-body",
+                group.accordion && "is-accordion",
+                group.accordion && accordion[group.accordion] && "is-open"
+              )}
+            >
+              <div>
+                <ComponentSkills skills={group.skills} />
+              </div>
+            </div>
           </div>
         ))}
       </div>

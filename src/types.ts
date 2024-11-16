@@ -17,6 +17,13 @@ export type DataNav = {
 
 export type NavItem = [id: string, { name: string; fullName?: string }]
 
+export type Accordion = {
+  normal: boolean
+  combination: boolean
+  scs: boolean
+}
+export type AccordionId = "normal" | "combination" | "scs"
+
 export type Skill = {
   name: string
   command: string
@@ -34,6 +41,7 @@ export type DataItem = {
     titleColor?: number
     titleNote?: string
     layout?: string
+    accordion?: AccordionId
     skills: Skill[]
   }[]
 }

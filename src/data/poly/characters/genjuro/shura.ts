@@ -8,6 +8,7 @@ export const polyGenjuroShura: DataItem = {
       title: "通常技",
       titleNote: "入力 / 属性 / キャンセル",
       layout: "note",
+      accordion: "normal",
       skills: [
         {
           name: "",
@@ -119,6 +120,7 @@ export const polyGenjuroShura: DataItem = {
     {
       title: "コンビネーション技",
       titleNote: "入力 / 属性 / キャンセル",
+      accordion: "combination",
       skills: [
         {
           name: "快刀連刃",
@@ -174,6 +176,7 @@ export const polyGenjuroShura: DataItem = {
     },
     {
       title: "S・C・S",
+      accordion: "scs",
       skills: [
         {
           name: "",
