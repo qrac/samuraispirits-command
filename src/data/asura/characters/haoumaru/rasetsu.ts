@@ -8,6 +8,7 @@ export const asuraHaoumaruRasetsu: DataItem = {
       title: "通常技",
       titleNote: "入力 / 属性 / キャンセル",
       layout: "note",
+      accordion: "normal",
       skills: [
         {
           name: "",
@@ -110,6 +111,7 @@ export const asuraHaoumaruRasetsu: DataItem = {
       title: "固有技",
       titleNote: "入力 / 属性 / キャンセル",
       layout: "note",
+      accordion: "unique",
       skills: [
         {
           name: "踏み込み下段斬り",

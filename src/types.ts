@@ -25,8 +25,9 @@ export type Accordion = {
   normal: boolean
   combination: boolean
   scs: boolean
+  unique: boolean
 }
-export type AccordionId = "normal" | "combination" | "scs"
+export type AccordionId = "normal" | "combination" | "scs" | "unique"
 
 export type Skill = {
   name: string
