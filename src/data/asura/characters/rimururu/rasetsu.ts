@@ -342,7 +342,7 @@ export const asuraRimururuRasetsu: DataItem = {
         },
         {
           name: "エプンキネ コンル",
-          command: "吹っ飛び中にABCD",
+          command: "被吹っ飛び中にABCD",
           notes: ["ガード不能"],
         },
       ],
