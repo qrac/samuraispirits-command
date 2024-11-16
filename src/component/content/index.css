@@ -78,7 +78,7 @@
 .content-group-title-button::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: calc(50% - 2px);
   right: 10px;
   width: 8px;
   height: 8px;
@@ -86,10 +86,11 @@
   border-right: 2px solid var(--theme-bd-1);
   translate: 0 -50%;
   rotate: 135deg;
-  transition: 0.24s rotate ease;
+  transition: 0.24s rotate ease, 0.24s top ease;
 }
 
 .content-group-title-button.is-open::after {
+  top: calc(50% + 2px);
   rotate: -45deg;
 }
 
