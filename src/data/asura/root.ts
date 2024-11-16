@@ -141,6 +141,7 @@ export const asuraRoot: DataItem = {
             {
               name: "一閃",
               command: "ABC or BCD",
+              notes: ["相手体力が赤より多いとKOできない"],
             },
             {
               name: "スーパーキャンセル",
