@@ -114,11 +114,6 @@ export const asuraHaoumaruShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "踏み込み下段斬り",
-          command: "→→+A",
-          notes: ["下段", "×"],
-        },
-        {
           name: "下段柄打ち",
           command: "↓+A",
           notes: ["下段", "×"],
@@ -127,6 +122,18 @@ export const asuraHaoumaruShura: DataItem = {
           name: "中段柄打ち",
           command: "↘+A",
           notes: ["中段", "○"],
+        },
+        {
+          name: "突き",
+          command: "↘+B",
+          notes: ["中段", "×"],
+          skills: [
+            {
+              name: "斬り下ろし",
+              command: "B",
+              notes: ["上段", "×"],
+            },
+          ],
         },
         {
           name: "豪柄",
@@ -154,24 +161,17 @@ export const asuraHaoumaruShura: DataItem = {
           notes: ["上段", "×"],
         },
         {
+          name: "踏み込み下段斬り",
+          command: "→→+A",
+          notes: ["下段", "×"],
+        },
+        {
           name: "踏み込み縦斬り",
           command: "→→+B",
           notes: ["上段", "×"],
           skills: [
             {
               name: "斬り上げ",
-              command: "B",
-              notes: ["上段", "×"],
-            },
-          ],
-        },
-        {
-          name: "突き",
-          command: "↘+B",
-          notes: ["中段", "×"],
-          skills: [
-            {
-              name: "斬り下ろし",
               command: "B",
               notes: ["上段", "×"],
             },
