@@ -6,8 +6,8 @@ import { asuraNakoruruShura } from "./characters/nakoruru/shura"
 import { asuraNakoruruRasetsu } from "./characters/nakoruru/rasetsu"
 import { asuraRimururuShura } from "./characters/rimururu/shura"
 import { asuraRimururuRasetsu } from "./characters/rimururu/rasetsu"
-//import { asuraGenjuroShura } from "./characters/genjuro/shura"
-//import { asuraGenjuroRasetsu } from "./characters/genjuro/rasetsu"
+import { asuraGenjuroShura } from "./characters/genjuro/shura"
+import { asuraGenjuroRasetsu } from "./characters/genjuro/rasetsu"
 //import { asuraUkyoShura } from "./characters/ukyo/shura"
 //import { asuraUkyoRasetsu } from "./characters/ukyo/rasetsu"
 //import { asuraGalfordShura } from "./characters/galford/shura"
@@ -35,8 +35,8 @@ export const asuraList = [
   asuraNakoruruRasetsu,
   asuraRimururuShura,
   asuraRimururuRasetsu,
-  //asuraGenjuroShura,
-  //asuraGenjuroRasetsu,
+  asuraGenjuroShura,
+  asuraGenjuroRasetsu,
   //asuraUkyoShura,
   //asuraUkyoRasetsu,
   //asuraGalfordShura,
