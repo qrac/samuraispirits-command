@@ -204,7 +204,7 @@ export const asuraGenjuroRasetsu: DataItem = {
         {
           name: "賭場荒らし",
           command: "←↓↙+C",
-          notes: ["上段ガード崩し"],
+          notes: ["上段ガード崩し投げ / 投げ抜け不可"],
         },
       ],
     },
