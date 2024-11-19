@@ -296,7 +296,8 @@ export const polySougetsuShura: DataItem = {
         },
         {
           name: "召還",
-          command: "←↓↙+A（3つまでストック）",
+          command: "←↓↙+A",
+          notes: ["3つまでストック可能"],
         },
       ],
     },

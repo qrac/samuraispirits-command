@@ -386,7 +386,8 @@ export const polyKazukiShura: DataItem = {
         },
         {
           name: "災炎",
-          command: "←↓↙+A（3つまでストック）",
+          command: "←↓↙+A",
+          notes: ["3つまでストック可能"],
         },
       ],
     },
