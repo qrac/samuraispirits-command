@@ -30,6 +30,8 @@ export default function App() {
     normal: false,
     combination: false,
     scs: false,
+    unique: false,
+    mode: false,
   })
   let pathArray = location.pathname.split("/")
   let gameId = pathArray[1] || "root"
