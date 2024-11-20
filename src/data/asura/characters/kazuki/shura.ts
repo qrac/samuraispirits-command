@@ -155,14 +155,17 @@ export const asuraKazukiShura: DataItem = {
         {
           name: "不動撃",
           command: "↓↘→+A or B or 怒時AB",
+          notes: ["災炎全消費 / 災炎数で巨大化"],
         },
         {
           name: "大爆殺",
           command: "→↓↘+A or B or 怒時AB",
+          notes: ["ヒット時に災炎全消費"],
         },
         {
           name: "地龍炎",
           command: "→↘↓↙←+A or B or C",
+          notes: ["災炎全消費 / 災炎数で巨大化・時間増加"],
         },
         {
           name: "炎滅",
