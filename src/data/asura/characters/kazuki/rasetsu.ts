@@ -114,11 +114,6 @@ export const asuraKazukiRasetsu: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "踏み潰し",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "肘打",
           command: "↘+A",
           notes: ["中段", "×"],
@@ -132,6 +127,11 @@ export const asuraKazukiRasetsu: DataItem = {
           name: "飛炎拳",
           command: "↘+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "踏み潰し",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "焔突き",

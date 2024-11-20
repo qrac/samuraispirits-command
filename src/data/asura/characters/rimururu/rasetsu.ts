@@ -119,11 +119,6 @@ export const asuraRimururuRasetsu: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "速下段",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "跳蹴",
           command: "↘+C",
           notes: ["中段", "×"],
@@ -139,6 +134,11 @@ export const asuraRimururuRasetsu: DataItem = {
           name: "空円蹴",
           command: "↖+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "速下段",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "中段避け AT 屈伸打頭",

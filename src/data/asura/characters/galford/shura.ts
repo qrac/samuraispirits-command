@@ -114,11 +114,6 @@ export const asuraGalfordShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "スピニングローキック",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "ライジングシュート",
           command: "↘+C",
           notes: ["中段", "×"],
@@ -137,6 +132,11 @@ export const asuraGalfordShura: DataItem = {
           name: "ライトニングボレー",
           command: "↗+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "スピニングローキック",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "ローリングスラッシュ",

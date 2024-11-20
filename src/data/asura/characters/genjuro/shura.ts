@@ -114,16 +114,6 @@ export const asuraGenjuroShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "膝骨砕き",
-          command: "↓+A",
-          notes: ["下段", "×"],
-        },
-        {
-          name: "蹴り足博徒殺し",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "撲撃襲打",
           command: "↘+A",
           notes: ["中段", "×"],
@@ -134,13 +124,23 @@ export const asuraGenjuroShura: DataItem = {
           notes: ["中段", "×"],
         },
         {
-          name: "水月突き",
-          command: "屈↘+B",
+          name: "破落戸蹴り",
+          command: "↘+C",
           notes: ["中段", "×"],
         },
         {
-          name: "破落戸蹴り",
-          command: "↘+C",
+          name: "膝骨砕き",
+          command: "↓+A",
+          notes: ["下段", "×"],
+        },
+        {
+          name: "蹴り足博徒殺し",
+          command: "↓+C",
+          notes: ["下段", "×"],
+        },
+        {
+          name: "水月突き",
+          command: "屈↘+B",
           notes: ["中段", "×"],
         },
         {

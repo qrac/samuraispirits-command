@@ -114,11 +114,6 @@ export const asuraHaoumaruShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "下段柄打ち",
-          command: "↓+A",
-          notes: ["下段", "×"],
-        },
-        {
           name: "中段柄打ち",
           command: "↘+A",
           notes: ["中段", "○"],
@@ -139,6 +134,11 @@ export const asuraHaoumaruShura: DataItem = {
           name: "豪柄",
           command: "↘+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "下段柄打ち",
+          command: "↓+A",
+          notes: ["下段", "×"],
         },
         {
           name: "薙ぎ払い",

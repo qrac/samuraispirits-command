@@ -124,11 +124,6 @@ export const asuraGalfordRasetsu: DataItem = {
           notes: ["中段", "×"],
         },
         {
-          name: "スピニングローキック",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "スラッシュエルボー",
           command: "↘+C",
           notes: ["中段", "×"],
@@ -142,6 +137,11 @@ export const asuraGalfordRasetsu: DataItem = {
           name: "トルネードキック",
           command: "↗+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "スピニングローキック",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "ローリングスラッシュ",

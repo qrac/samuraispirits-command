@@ -114,14 +114,14 @@ export const asuraUkyoRasetsu: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "鞘打ち下段払い",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "こじり打突",
           command: "↘+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "鞘打ち下段払い",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "踏み込み斬り",

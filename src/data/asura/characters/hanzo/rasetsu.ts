@@ -114,6 +114,16 @@ export const asuraHanzoRasetsu: DataItem = {
       accordion: "unique",
       skills: [
         {
+          name: "衝",
+          command: "↘+A",
+          notes: ["中段", "×"],
+        },
+        {
+          name: "崩",
+          command: "↘+B",
+          notes: ["中段", "×"],
+        },
+        {
           name: "虚",
           command: "↓+A",
           notes: ["下段", "×"],
@@ -127,16 +137,6 @@ export const asuraHanzoRasetsu: DataItem = {
           name: "廻",
           command: "↓+C",
           notes: ["下段", "×"],
-        },
-        {
-          name: "衝",
-          command: "↘+A",
-          notes: ["中段", "×"],
-        },
-        {
-          name: "崩",
-          command: "↘+B",
-          notes: ["中段", "×"],
         },
         {
           name: "双",

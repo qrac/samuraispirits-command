@@ -114,11 +114,6 @@ export const asuraKazukiShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "踏み潰し",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "焔裁き",
           command: "↘+A",
           notes: ["中段", "×"],
@@ -132,6 +127,11 @@ export const asuraKazukiShura: DataItem = {
           name: "狂炎牙",
           command: "↖+B",
           notes: ["中段", "×"],
+        },
+        {
+          name: "踏み潰し",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "双炎牙",

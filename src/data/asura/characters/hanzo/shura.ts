@@ -114,16 +114,6 @@ export const asuraHanzoShura: DataItem = {
       accordion: "unique",
       skills: [
         {
-          name: "闇",
-          command: "↓+B",
-          notes: ["中段", "×"],
-        },
-        {
-          name: "幻",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "衝",
           command: "↘+A",
           notes: ["中段", "×"],
@@ -142,6 +132,16 @@ export const asuraHanzoShura: DataItem = {
           name: "燕",
           command: "↗+C",
           notes: ["中段", "×"],
+        },
+        {
+          name: "闇",
+          command: "↓+B",
+          notes: ["中段", "×"],
+        },
+        {
+          name: "幻",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "空",
