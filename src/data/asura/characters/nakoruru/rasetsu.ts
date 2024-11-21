@@ -189,14 +189,14 @@ export const asuraNakoruruRasetsu: DataItem = {
           notes: ["上段", "×"],
         },
         {
-          name: "急下蹴",
-          command: "↓+C",
-          notes: ["下段", "×"],
-        },
-        {
           name: "弧円蹴",
           command: "↖+C",
           notes: ["中・中", "×・×"],
+        },
+        {
+          name: "急下蹴",
+          command: "↓+C",
+          notes: ["下段", "×"],
         },
         {
           name: "流閃光風斬",

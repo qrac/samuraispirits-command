@@ -119,6 +119,11 @@ export const asuraUkyoRasetsu: DataItem = {
           notes: ["中段", "×"],
         },
         {
+          name: "飛びこみ斬り",
+          command: "↗+B",
+          notes: ["中段", "×"],
+        },
+        {
           name: "鞘打ち下段払い",
           command: "↓+C",
           notes: ["下段", "×"],
@@ -142,11 +147,6 @@ export const asuraUkyoRasetsu: DataItem = {
           name: "百日紅",
           command: "↘↘+C",
           notes: ["下段", "×"],
-        },
-        {
-          name: "飛びこみ斬り",
-          command: "↗+B",
-          notes: ["中段", "×"],
         },
       ],
     },
