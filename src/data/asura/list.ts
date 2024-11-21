@@ -18,14 +18,14 @@ import { asuraKazukiShura } from "./characters/kazuki/shura"
 import { asuraKazukiRasetsu } from "./characters/kazuki/rasetsu"
 import { asuraSougetsuShura } from "./characters/sougetsu/shura"
 import { asuraSougetsuRasetsu } from "./characters/sougetsu/rasetsu"
-//import { asuraAsuraShura } from "./characters/asura/shura"
-//import { asuraAsuraRasetsu } from "./characters/asura/rasetsu"
-//import { asuraShikiShura } from "./characters/shiki/shura"
-//import { asuraShikiRasetsu } from "./characters/shiki/rasetsu"
-//import { asuraHanmaShura } from "./characters/hanma/shura"
-//import { asuraHanmaRasetsu } from "./characters/hanma/rasetsu"
-//import { asuraMorosumiShura } from "./characters/morosumi/shura"
-//import { asuraMorosumiRasetsu } from "./characters/morosumi/rasetsu"
+import { asuraAsuraShura } from "./characters/asura/shura"
+import { asuraAsuraRasetsu } from "./characters/asura/rasetsu"
+import { asuraShikiShura } from "./characters/shiki/shura"
+import { asuraShikiRasetsu } from "./characters/shiki/rasetsu"
+import { asuraHanmaShura } from "./characters/hanma/shura"
+import { asuraHanmaRasetsu } from "./characters/hanma/rasetsu"
+import { asuraMorosumiShura } from "./characters/morosumi/shura"
+import { asuraMorosumiRasetsu } from "./characters/morosumi/rasetsu"
 
 export const asuraList = [
   asuraRoot,
@@ -47,12 +47,12 @@ export const asuraList = [
   asuraKazukiRasetsu,
   asuraSougetsuShura,
   asuraSougetsuRasetsu,
-  //asuraAsuraShura,
-  //asuraAsuraRasetsu,
-  //asuraShikiShura,
-  //asuraShikiRasetsu,
-  //asuraHanmaShura,
-  //asuraHanmaRasetsu,
-  //asuraMorosumiShura,
-  //asuraMorosumiRasetsu,
+  asuraAsuraShura,
+  asuraAsuraRasetsu,
+  asuraShikiShura,
+  asuraShikiRasetsu,
+  asuraHanmaShura,
+  asuraHanmaRasetsu,
+  asuraMorosumiShura,
+  asuraMorosumiRasetsu,
 ] as DataItem[]
