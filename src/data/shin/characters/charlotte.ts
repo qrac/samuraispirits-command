@@ -22,6 +22,19 @@ export const shinCharlotte: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "リオン・ランセ",
+          command: "近距離で→ or ←+中 or 強攻撃",
+        },
+        {
+          name: "ドゥブル・ピエ・サンクシオン",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

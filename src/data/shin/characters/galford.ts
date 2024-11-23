@@ -42,15 +42,36 @@ export const shinGalford: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "ローリングドロップ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "エグゼキューショナー",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "レッグスルー",
+          command: "素手時に近距離で→ or ←+D or CD",
+        },
+        {
+          name: "スターダストドロップ",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
+        },
+        {
+          name: "ライトニングキック",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {
           name: "トライアングルジャンプ",
           command: "空中画面端で↗ or → or ↘",
-        },
-        {
-          name: "スターダストドロップ",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
         {
           name: "ぬいぐるみ変化",

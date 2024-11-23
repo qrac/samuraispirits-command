@@ -54,12 +54,29 @@ export const shinSieger: DataItem = {
       ],
     },
     {
-      title: "特殊",
+      title: "投げ",
       skills: [
+        {
+          name: "シューデル・エアオーベルング",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "レーベ・シュトースツァーン・シュトゥルムアングリフ",
+          command: "近距離で→ or ←+D or CD",
+        },
         {
           name: "フォアスト・ツヴァングスマースナーメ",
           command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
+        {
+          name: "プロカーデ・バイン",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
+      title: "特殊",
+      skills: [
         {
           name: "ぬいぐるみ変化",
           command: "→↘↓↙←→←+A",

@@ -34,6 +34,19 @@ export const shinChamcham: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "ムルタ・グラディウス・インクルシオー",
+          command: "近距離で→ or ←+中 or 強攻撃",
+        },
+        {
+          name: "ドゥオ・フェムル・インベトゥス",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

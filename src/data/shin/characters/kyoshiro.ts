@@ -30,6 +30,27 @@ export const shinKyoshiro: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "槍殺投舞",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "髪転投",
+          command: "近距離で→ or ←+D（or 素手時に近距離で→ or ←+B）",
+        },
+        {
+          name: "絞髪演舞",
+          command: "近距離で→ or ←+CD（or 素手時に近距離で→ or ←+AB）",
+        },
+        {
+          name: "獅子連舞脚",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

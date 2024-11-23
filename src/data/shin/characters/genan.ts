@@ -30,6 +30,19 @@ export const shinGenan: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "ヒザ蹴り",
+          command: "近距離で→ or ←+中 or 強攻撃",
+        },
+        {
+          name: "ケケ二段蹴り",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

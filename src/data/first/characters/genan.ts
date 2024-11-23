@@ -18,6 +18,19 @@ export const firstGenan: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "幻庵殺爪陣",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "ヒザ蹴り",
+          command: "近距離で→ or ←+D or CD",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

@@ -17,5 +17,18 @@ export const firstHaoumaru: DataItem = {
         },
       ],
     },
+    {
+      title: "投げ",
+      skills: [
+        {
+          name: "横投げ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "真空巴投げ",
+          command: "近距離で→ or ←+D or CD",
+        },
+      ],
+    },
   ],
 }

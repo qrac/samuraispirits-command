@@ -26,6 +26,35 @@ export const shinWanfu: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "殺連撃",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "尾骨撃砕",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "壁打撃",
+          command: "素手時に近距離で→ or ←+B",
+        },
+        {
+          name: "頭蓋落砕",
+          command: "素手時に近距離で→ or ←+AB",
+        },
+        {
+          name: "尻潰し",
+          command: "素手時に近距離で→ or ←+CD",
+        },
+        {
+          name: "気功二段蹴",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

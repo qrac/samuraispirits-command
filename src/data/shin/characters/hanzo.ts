@@ -34,15 +34,36 @@ export const shinHanzo: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "空転投げ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "首投げ斬り",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "首投げ",
+          command: "素手時に近距離で→ or ←+D or CD",
+        },
+        {
+          name: "空転撃",
+          command: "空中近距離で↙ or ↓ or ↘+B or AB",
+        },
+        {
+          name: "烈風空裂脚",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
-        },
-        {
-          name: "空転撃",
-          command: "空中近距離で↙ or ↓ or ↘+B or AB",
         },
         {
           name: "ぬいぐるみ変化",

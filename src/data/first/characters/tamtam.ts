@@ -25,5 +25,18 @@ export const firstTamtam: DataItem = {
         },
       ],
     },
+    {
+      title: "投げ",
+      skills: [
+        {
+          name: "ムルタ・カプト・インクルシオー",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "ムルタ・グラディウス・インクルシオー",
+          command: "近距離で→ or ←+D or CD",
+        },
+      ],
+    },
   ],
 }

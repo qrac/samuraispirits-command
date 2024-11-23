@@ -26,6 +26,23 @@ export const shinJubei: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "背負い投げ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "風車投げ",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "二段骨法脚",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

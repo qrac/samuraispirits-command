@@ -30,6 +30,23 @@ export const shinHaoumaru: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "横投げ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "真空巴投げ",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "覇王二連脚",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

@@ -23,6 +23,19 @@ export const shinGenjuro: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "不動鬼返し",
+          command: "近距離で→ or ←+中 or 強攻撃",
+        },
+        {
+          name: "桐覇二段蹴り",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

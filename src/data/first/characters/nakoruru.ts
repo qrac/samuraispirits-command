@@ -40,6 +40,27 @@ export const firstNakoruru: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "空裂投",
+          command: "近距離で→ or ←+B",
+        },
+        {
+          name: "流転胸激刃",
+          command: "近距離で→ or ←+AB",
+        },
+        {
+          name: "地天三連脚",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "裂殺爪",
+          command: "素手時に近距離で→ or ←+AB",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

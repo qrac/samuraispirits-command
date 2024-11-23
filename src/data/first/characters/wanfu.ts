@@ -18,6 +18,35 @@ export const firstWanfu: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "重激斬",
+          command: "近距離で→ or ←+B",
+        },
+        {
+          name: "殺連刃",
+          command: "近距離で→ or ←+AB",
+        },
+        {
+          name: "尾骨撃砕",
+          command: "近距離で→ or ←+D",
+        },
+        {
+          name: "尻潰し",
+          command: "近距離で→ or ←+CD",
+        },
+        {
+          name: "壁打投",
+          command: "素手時に近距離で→ or ←+B",
+        },
+        {
+          name: "頭蓋落砕",
+          command: "素手時に近距離で→ or ←+AB",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

@@ -30,6 +30,23 @@ export const shinEarthquake: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "デススルー",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "スカンクバースト",
+          command: "近距離で→ or ←+D or CD",
+        },
+        {
+          name: "ファットダブルボム",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {

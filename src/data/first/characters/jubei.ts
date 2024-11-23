@@ -21,5 +21,18 @@ export const firstJubei: DataItem = {
         },
       ],
     },
+    {
+      title: "投げ",
+      skills: [
+        {
+          name: "背負い投げ",
+          command: "近距離で→ or ←+B or AB",
+        },
+        {
+          name: "風車投げ",
+          command: "近距離で→ or ←+D or CD",
+        },
+      ],
+    },
   ],
 }

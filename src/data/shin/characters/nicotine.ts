@@ -30,6 +30,28 @@ export const shinNicotine: DataItem = {
       ],
     },
     {
+      title: "投げ",
+      skills: [
+        {
+          name: "専修念仏殺",
+          command: "近距離で→ or ←+B",
+        },
+        {
+          name: "往生極楽撃",
+          command: "近距離で→ or ←+AB",
+        },
+        {
+          name: "因果大焦熱",
+          command:
+            "近距離で→ or ←+D or CD（or 素手時に近距離で→ or ←+中 or 強攻撃）",
+        },
+        {
+          name: "地獄極楽蹴り",
+          command: "アースクェイクに対して投げ",
+        },
+      ],
+    },
+    {
       title: "特殊",
       skills: [
         {
