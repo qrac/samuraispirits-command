@@ -59,6 +59,10 @@ export const kenNakoruru: DataItem = {
             },
           ],
         },
+        {
+          name: "トゥルセ サンペ キク ムツベ",
+          command: "近距離で→↘↓↙←→+C",
+        },
       ],
     },
     {
