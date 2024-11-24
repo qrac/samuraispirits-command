@@ -8,11 +8,10 @@ export function ComponentLineup({
   navItems: NavItem[]
   onClickAction: (id: string) => void
 }) {
-  const filteredItems = navItems.filter((item) => item[0] !== "root")
   return (
     <div className="lineup">
       <ul className="lineup-list">
-        {filteredItems.map(([id, game], index) => {
+        {navItems.map(([id, game], index) => {
           const title = game?.fullName || game.name
           return (
             <li className="lineup-item" key={index}>
