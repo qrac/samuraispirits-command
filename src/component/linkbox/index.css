@@ -8,6 +8,10 @@
   letter-spacing: 0.025em;
 }
 
+.linkbox > * + * {
+  margin-top: 0.75em;
+}
+
 .linkbox-group > * + * {
   margin-top: 0.5em;
 }

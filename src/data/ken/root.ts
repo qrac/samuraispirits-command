@@ -322,4 +322,27 @@ export const kenRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "サムライスピリッツ天下一剣客伝 初心者向け攻略ページ | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/index.htm",
+        },
+        {
+          name: "サムライスピリッツ天下一剣客伝 - Gamer's Hermitage",
+          href: "http://homepage3gore.game.coocan.jp/kenkakuden/",
+        },
+      ],
+    },
+    {
+      title: "検証環境",
+      links: [
+        {
+          name: "サムライスピリッツ 六番勝負 / PS2",
+        },
+      ],
+    },
+  ],
 }

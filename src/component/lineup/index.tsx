@@ -44,7 +44,13 @@ export function ComponentLineupOther({
         {items.map((item, index) => {
           return (
             <li className="lineup-item" key={index}>
-              <RouterLink className="lineup-button" to={`/${item.id}`}>
+              <RouterLink
+                className="lineup-button"
+                to={`/${item.id}`}
+                onClick={() => {
+                  window.scrollTo({ top: 0 })
+                }}
+              >
                 <span className="lineup-button-title">{item.fullName}</span>
               </RouterLink>
             </li>

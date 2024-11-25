@@ -127,4 +127,29 @@ export const zanRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "サムライスピリッツ斬紅郎無双剣 ファーストステップガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/index.htm",
+        },
+      ],
+    },
+    {
+      title: "検証環境",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション / Steam",
+        },
+        {
+          name: "サムライスピリッツ 六番勝負 / PS2",
+        },
+      ],
+    },
+  ],
 }

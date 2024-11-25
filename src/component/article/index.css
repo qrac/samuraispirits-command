@@ -16,6 +16,10 @@
   font-weight: 600;
 }
 
+.article-content-box + .article-content-box > .article-heading {
+  margin-top: 1.5em;
+}
+
 .article-content-box > * + * {
   margin-top: 0.5em;
 }

@@ -185,4 +185,18 @@ export const polyRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "侍魂～サムライスピリッツ～ 完全攻略マニュアル（ネオジオフリークのムック）",
+        },
+        {
+          name: "侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/",
+        },
+      ],
+    },
+  ],
 }

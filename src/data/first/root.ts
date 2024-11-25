@@ -46,4 +46,33 @@ export const firstRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "サムライスピリッツINDEX -SNK PERFECT DATABASE-",
+          href: "https://snkpd.2-d.jp/samurai/samurai-index.html",
+        },
+        {
+          name: "侍•真侍(SNK) - kakugame @ ウィキ - atwiki",
+          href: "https://w.atwiki.jp/kakugame/pages/1730.html",
+        },
+      ],
+    },
+    {
+      title: "検証環境",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション / Steam",
+        },
+        {
+          name: "サムライスピリッツ 六番勝負 / PS2",
+        },
+      ],
+    },
+  ],
 }

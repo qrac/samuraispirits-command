@@ -164,6 +164,14 @@ export const asuraRoot: DataItem = {
           name: "アスラ斬魔伝 / コマンド一覧 - 数字置き場",
           href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%b3%a5%de%a5%f3%a5%c9%b0%ec%cd%f7",
         },
+        {
+          name: "ワイタの仮雑記 サムライスピリッツ2アスラ斬魔伝＋侍魂-Samurai Spirits-(ポリサム)関連リンク集",
+          href: "http://waitanokari.blog38.fc2.com/blog-entry-364.html",
+        },
+        {
+          name: "ワイタの仮 - YouTube",
+          href: "https://www.youtube.com/@Maniwaita-YTA",
+        },
       ],
     },
   ],

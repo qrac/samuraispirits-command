@@ -149,4 +149,30 @@ export const zerospRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/zerosp/zerosp_index.htm",
+        },
+        {
+          name: "サムライスピリッツ零スペシャル | OcchiGames",
+          href: "https://occhi-games.com/category/ss6/",
+        },
+      ],
+    },
+    {
+      title: "検証環境",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション / Steam",
+        },
+      ],
+    },
+  ],
 }

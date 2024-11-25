@@ -170,4 +170,29 @@ export const tenRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "天草降臨をやろうじゃないか！！ - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/amakusa.htm",
+        },
+      ],
+    },
+    {
+      title: "検証環境",
+      links: [
+        {
+          name: "サムライスピリッツ ネオジオコレクション / Steam",
+        },
+        {
+          name: "サムライスピリッツ 六番勝負 / PS2",
+        },
+      ],
+    },
+  ],
 }
