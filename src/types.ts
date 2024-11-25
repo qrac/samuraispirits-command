@@ -21,6 +21,7 @@ export type Tag = {
   name: string
   color?: number
 }
+
 export type Accordion = {
   normal: boolean
   combination: boolean
@@ -28,6 +29,7 @@ export type Accordion = {
   unique: boolean
   mode: boolean
 }
+
 export type AccordionId = "normal" | "combination" | "scs" | "unique" | "mode"
 
 export type Skill = {
@@ -39,16 +41,28 @@ export type Skill = {
   skills?: Skill[]
 }
 
+export type Group = {
+  title?: string
+  titleColor?: number
+  titleNote?: string
+  layout?: string
+  accordion?: AccordionId
+  skills: Skill[]
+}
+
+export type Source = {
+  title?: string
+  links: {
+    head?: string
+    name: string
+    href?: string
+  }[]
+}
+
 export type DataItem = {
   id: string
   name: string
   layout?: string
-  groups: {
-    title?: string
-    titleColor?: number
-    titleNote?: string
-    layout?: string
-    accordion?: AccordionId
-    skills: Skill[]
-  }[]
+  groups: Group[]
+  sources?: Source[]
 }

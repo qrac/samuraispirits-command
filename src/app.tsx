@@ -3,15 +3,15 @@ import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
 import type { Accordion, AccordionId, NavItem } from "./types"
 import "./app.css"
-import { dataNav } from "./data/nav"
+import { dataNav, dataNavOther } from "./data/nav"
 import { dataList } from "./data/list"
-import DataRoot from "./data/root.md"
+//import DataRoot from "./data/root.md"
 import { ComponentHeader } from "./component/header"
 import { ComponentNav } from "./component/nav"
-import { ComponentDocs } from "./component/docs"
-import { ComponentLineup } from "./component/lineup"
+import { ComponentLineup, ComponentLineupOther } from "./component/lineup"
+//import { ComponentDocs } from "./component/docs"
+import { ComponentArticle } from "./component/article"
 import { ComponentContent } from "./component/content"
-import { ComponentInfo } from "./component/info"
 import { ComponentFooter } from "./component/footer"
 import {
   getCharacters,
@@ -106,11 +106,16 @@ export default function App() {
             path="/"
             element={
               <div className="page">
-                <ComponentLineup
-                  navItems={lineupNavItems}
-                  onClickAction={handleClickGameWithGoTop}
-                />
-                <ComponentDocs MdxData={DataRoot} />
+                <div className="page-main">
+                  <div className="page-links">
+                    <ComponentLineup
+                      navItems={lineupNavItems}
+                      onClickAction={handleClickGameWithGoTop}
+                    />
+                    <ComponentLineupOther items={dataNavOther} />
+                  </div>
+                  <ComponentArticle pageId="root" />
+                </div>
               </div>
             }
           />
@@ -119,37 +124,54 @@ export default function App() {
             element={
               currentDataItem ? (
                 <div className="page">
-                  <ComponentContent
-                    dataItem={currentDataItem}
-                    accordion={accordion}
-                    onClickAccordion={handleClickAccordion}
-                  />
-                  <ComponentInfo />
+                  <div className="page-main">
+                    <ComponentContent
+                      dataItem={currentDataItem}
+                      accordion={accordion}
+                      onClickAccordion={handleClickAccordion}
+                    />
+                  </div>
                 </div>
               ) : (
                 <div className="page">
-                  <div>
+                  <div className="page-main">
                     <p>No data</p>
                   </div>
-                  <ComponentLineup
-                    navItems={games}
-                    onClickAction={handleClickGame}
-                  />
+                  <div className="page-links">
+                    <ComponentLineup
+                      navItems={lineupNavItems}
+                      onClickAction={handleClickGameWithGoTop}
+                    />
+                    <ComponentLineupOther items={dataNavOther} />
+                  </div>
                 </div>
               )
+            }
+          />
+          <Route
+            path="/source"
+            element={
+              <div className="page">
+                <div className="page-main">
+                  <ComponentArticle pageId="source" />
+                </div>
+              </div>
             }
           />
           <Route
             path="*"
             element={
               <div className="page">
-                <div>
+                <div className="page-main">
                   <p>Not found</p>
                 </div>
-                <ComponentLineup
-                  navItems={games}
-                  onClickAction={handleClickGame}
-                />
+                <div className="page-links">
+                  <ComponentLineup
+                    navItems={lineupNavItems}
+                    onClickAction={handleClickGameWithGoTop}
+                  />
+                  <ComponentLineupOther items={dataNavOther} />
+                </div>
               </div>
             }
           />

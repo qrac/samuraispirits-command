@@ -37,5 +37,14 @@
 }
 
 .page > * + * {
+  margin-top: calc(var(--theme-space) * 1);
   margin-top: 1em;
+}
+
+.page-main > * + * {
+  margin-top: 1em;
+}
+
+.page-links > * + * {
+  margin-top: 8px;
 }

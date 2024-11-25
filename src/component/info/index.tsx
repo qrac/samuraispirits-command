@@ -10,17 +10,13 @@ export function ComponentInfo() {
           <dt className="info-item-head">
             <ComponentCommand chars="斬" />
           </dt>
-          <dd className="info-item-body">
-            斬りにあたるボタンどれでも（同時押しも含む）
-          </dd>
+          <dd className="info-item-body">斬りボタンどれでも（同時押し含む）</dd>
         </div>
         <div className="info-item">
           <dt className="info-item-head">
             <ComponentCommand chars="蹴" />
           </dt>
-          <dd className="info-item-body">
-            蹴りにあたるボタンどれでも（同時押しも含む）
-          </dd>
+          <dd className="info-item-body">蹴りボタンどれでも（同時押し含む）</dd>
         </div>
         <div className="info-item">
           <dt className="info-item-head">

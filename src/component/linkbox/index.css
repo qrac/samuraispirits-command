@@ -1,0 +1,47 @@
+.linkbox {
+  padding: calc(var(--theme-space) * 0.5);
+  background: var(--theme-bg-3);
+  border-width: 1px;
+  border-style: dashed;
+  font-size: 0.875rem;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
+}
+
+.linkbox-group > * + * {
+  margin-top: 0.5em;
+}
+
+.linkbox-group-title {
+  font-weight: 600;
+}
+
+.linkbox-list {
+  margin-left: 1.25em;
+}
+
+.linkbox-item {
+  display: list-item;
+  list-style: circle outside;
+}
+
+.linkbox-item:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+.linkbox-item a {
+  text-decoration: underline;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .linkbox-item a:hover {
+    text-decoration: none;
+  }
+}
+
+/*.linkbox-link-icon.is-external {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.25em;
+}*/

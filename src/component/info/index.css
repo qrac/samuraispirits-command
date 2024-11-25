@@ -3,21 +3,21 @@
   background: var(--theme-bg-3);
   border-width: 1px;
   border-style: dashed;
-}
-
-.info > * + * {
-  margin-top: 8px;
-}
-
-.info-title {
-  font-size: 0.75rem;
-  font-weight: 600;
+  font-size: 0.875rem;
   font-feature-settings: "palt";
   letter-spacing: 0.025em;
 }
 
+.info > * + * {
+  margin-top: 0.5em;
+}
+
+.info-title {
+  font-weight: 600;
+}
+
 .info-content > * + * {
-  margin-top: 4px;
+  margin-top: 0.5em;
 }
 
 .info-item {
@@ -25,25 +25,13 @@
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
   gap: 4px;
-  font-size: 0.75rem;
-  font-feature-settings: "palt";
-  letter-spacing: 0.025em;
 }
 
 .info-item-head {
-  font-size: 0.75rem;
   font-weight: 600;
-  font-feature-settings: "palt";
-  letter-spacing: 0.025em;
 }
 
 .info-item-head .skill-command-icon {
-  width: 1.125rem;
-  height: 1.125rem;
-}
-
-.info-item-body {
-  font-size: 0.75rem;
-  font-feature-settings: "palt";
-  letter-spacing: 0.025em;
+  width: 1.25rem;
+  height: 1.25rem;
 }

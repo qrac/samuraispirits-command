@@ -1,0 +1,31 @@
+.article > * + * {
+  margin-top: calc(var(--theme-space) * 1);
+}
+
+.article-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.article-content > * + * {
+  margin-top: 1em;
+}
+
+.article-heading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.article-content-box > * + * {
+  margin-top: 0.5em;
+}
+
+.article-text-link {
+  text-decoration: underline;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .article-text-link:hover {
+    text-decoration: none;
+  }
+}

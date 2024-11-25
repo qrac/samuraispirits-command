@@ -152,4 +152,19 @@ export const asuraRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "参考資料",
+      links: [
+        {
+          name: "アスラ斬魔伝コマンドブック（詳細版）",
+          href: "https://drive.google.com/drive/folders/1dMubK6-69pWR471Py4rUT3j-dAo4pp1e",
+        },
+        {
+          name: "アスラ斬魔伝 / コマンド一覧 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%b3%a5%de%a5%f3%a5%c9%b0%ec%cd%f7",
+        },
+      ],
+    },
+  ],
 }
