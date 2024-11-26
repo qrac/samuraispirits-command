@@ -264,4 +264,24 @@ export const asuraShikiRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 色 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%bf%a7",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹色（半陰となりし色）技一覧 - YouTube",
+          href: "https://youtu.be/q1iXE51Y_ck",
+        },
+      ],
+    },
+  ],
 }

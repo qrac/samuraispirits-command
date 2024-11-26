@@ -202,4 +202,24 @@ export const asuraMorosumiShura: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 八角泰山 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%c8%ac%b3%d1",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 修羅八角泰山技一覧 - YouTube",
+          href: "https://youtu.be/P8-PEA_pXTA",
+        },
+      ],
+    },
+  ],
 }

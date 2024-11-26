@@ -256,4 +256,24 @@ export const asuraGalfordRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / ガルフォード - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%a5%ac%a5%eb%a5%d5%a5%a9%a1%bc%a5%c9",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹ガルフォード技一覧 - YouTube",
+          href: "https://youtu.be/lPX31nH_tJg",
+        },
+      ],
+    },
+  ],
 }

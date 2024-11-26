@@ -422,4 +422,24 @@ export const asuraHanzoRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 服部半蔵 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%c8%be%c2%a2",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹服部半蔵技一覧 - YouTube",
+          href: "https://youtu.be/uLkOOGL8FVA",
+        },
+      ],
+    },
+  ],
 }

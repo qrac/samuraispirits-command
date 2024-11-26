@@ -209,4 +209,24 @@ export const asuraHanmaRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 柳生磐馬 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%c8%d8%c7%cf",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "Samurai Spirits2 アスラ斬魔伝 羅刹磐馬/柳生からくり磐馬 全技 - YouTube",
+          href: "https://youtu.be/ZdxFnikMefs",
+        },
+      ],
+    },
+  ],
 }

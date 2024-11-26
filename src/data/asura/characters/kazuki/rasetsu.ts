@@ -728,4 +728,24 @@ export const asuraKazukiRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 風間火月 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%b2%d0%b7%ee",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹風間火月(炎邪火月)技一覧 - YouTube",
+          href: "https://youtu.be/WT0KRe-FSkA",
+        },
+      ],
+    },
+  ],
 }

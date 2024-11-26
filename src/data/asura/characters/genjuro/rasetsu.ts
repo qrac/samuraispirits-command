@@ -219,4 +219,24 @@ export const asuraGenjuroRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 牙神幻十郎 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%b8%b8%bd%bd%cf%ba",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹牙神幻十郎技一覧 - YouTube",
+          href: "https://youtu.be/3q7JYOx3G7k",
+        },
+      ],
+    },
+  ],
 }

@@ -260,4 +260,24 @@ export const asuraHaoumaruRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 覇王丸 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%c7%c6%b2%a6%b4%dd",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 羅刹覇王丸技一覧 - YouTube",
+          href: "https://youtu.be/H3itNRbnIrE",
+        },
+      ],
+    },
+  ],
 }

@@ -254,4 +254,24 @@ export const asuraHanmaShura: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アスラ斬魔伝 / 柳生磐馬 - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%c8%d8%c7%cf",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ2アスラ斬魔伝 修羅柳生磐馬技一覧 - YouTube",
+          href: "https://youtu.be/GwfMwJyFziU",
+        },
+      ],
+    },
+  ],
 }
