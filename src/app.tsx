@@ -31,7 +31,8 @@ import {
 export default function App() {
   const location = useLocation()
   const navigate = useNavigate()
-  const scrollRef = useRef<HTMLDivElement>(null)
+  const gameNavRef = useRef<HTMLDivElement>(null)
+  const characterNavRef = useRef<HTMLDivElement>(null)
   const [accordion, setAccordion] = useState<Accordion>({
     normal: false,
     combination: false,
@@ -55,8 +56,20 @@ export default function App() {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
     navigate(routePath)
     window.scrollTo({ top: 0 })
-    scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+    characterNavRef?.current && (characterNavRef.current.scrollLeft = 0)
     gameId = id
+
+    if (gameNavRef.current) {
+      const activeButton = gameNavRef.current.querySelector<HTMLButtonElement>(
+        `button[data-id="${gameId}"]`
+      )
+      if (activeButton) {
+        activeButton.scrollIntoView({
+          block: "nearest",
+          inline: "center",
+        })
+      }
+    }
   }
   function handleClickGame(id: string) {
     let routePath = getNavigatePath(dataNav, id, characterId, typeId)
@@ -66,7 +79,7 @@ export default function App() {
     } else {
       routePath = getNavigatePath(dataNav, id, "root", "shura")
       navigate(routePath)
-      scrollRef?.current && (scrollRef.current.scrollLeft = 0)
+      characterNavRef?.current && (characterNavRef.current.scrollLeft = 0)
     }
     gameId = id
   }
@@ -93,12 +106,13 @@ export default function App() {
             navItems: games,
             activeId: gameId,
             onClickAction: handleClickGame,
+            scrollRef: gameNavRef,
           },
           {
             navItems: characters,
             activeId: characterId,
             onClickAction: handleClickChara,
-            scrollRef: scrollRef,
+            scrollRef: characterNavRef,
           },
           {
             navItems: types,

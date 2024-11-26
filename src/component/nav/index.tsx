@@ -28,6 +28,7 @@ export function ComponentNav({ navGroups }: { navGroups: NavGroup[] }) {
                   "nav-button",
                   navGroup.activeId === id && "is-active"
                 )}
+                data-id={id}
                 onClick={() => navGroup.onClickAction(id)}
               >
                 {item.name}
