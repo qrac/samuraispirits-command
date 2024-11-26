@@ -2,6 +2,7 @@ export type DataNav = {
   [id: string]: {
     name: string
     fullName?: string
+    category?: string
     characters?: {
       [id: string]: {
         name: string
@@ -15,7 +16,10 @@ export type DataNav = {
   }
 }
 
-export type NavItem = [id: string, { name: string; fullName?: string }]
+export type NavItem = [
+  id: string,
+  { name: string; fullName?: string; category?: string }
+]
 
 export type Tag = {
   name: string

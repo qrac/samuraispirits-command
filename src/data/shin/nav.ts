@@ -4,6 +4,7 @@ export const shinNav: DataNav = {
   shin: {
     name: "真サム",
     fullName: "真サムライスピリッツ 覇王丸地獄変",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

@@ -4,6 +4,7 @@ export const asuraNav: DataNav = {
   asura: {
     name: "アスラ",
     fullName: "SAMURAI SPIRITS 2 〜アスラ斬魔伝〜",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

@@ -24,11 +24,11 @@ export const dataNav: DataNav = {
   ...kenNav,
   ...polyNav,
   ...asuraNav,
-}
-
-export const dataNavOther = [
-  {
-    id: "source",
-    fullName: "参考資料・検証環境など",
+  ...{
+    source: {
+      name: "参考資料",
+      fullName: "参考資料・検証環境など",
+      category: "Source Materials",
+    },
   },
-]
+}

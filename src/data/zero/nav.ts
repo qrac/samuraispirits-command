@@ -4,6 +4,7 @@ export const zeroNav: DataNav = {
   zero: {
     name: "零（無印）",
     fullName: "サムライスピリッツ零",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

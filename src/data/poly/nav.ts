@@ -4,6 +4,7 @@ export const polyNav: DataNav = {
   poly: {
     name: "ポリサム",
     fullName: "SAMURAI SPIRITS 〜侍魂〜",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

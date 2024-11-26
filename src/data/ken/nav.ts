@@ -4,6 +4,7 @@ export const kenNav: DataNav = {
   ken: {
     name: "剣サム",
     fullName: "サムライスピリッツ天下一剣客伝",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

@@ -4,6 +4,7 @@ export const firstNav: DataNav = {
   first: {
     name: "初サム",
     fullName: "サムライスピリッツ",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

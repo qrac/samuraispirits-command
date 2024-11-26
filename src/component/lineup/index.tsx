@@ -1,5 +1,3 @@
-import { Link as RouterLink } from "react-router-dom"
-
 import { NavItem } from "../../types"
 import "./index.css"
 
@@ -23,36 +21,12 @@ export function ComponentLineup({
                 onClick={() => onClickAction(id)}
               >
                 <span className="lineup-button-title">{title}</span>
-                <span className="lineup-button-subtitle">Command List</span>
+                {item.category && (
+                  <span className="lineup-button-category">
+                    {item.category}
+                  </span>
+                )}
               </button>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
-  )
-}
-
-export function ComponentLineupOther({
-  items,
-}: {
-  items: { id: string; fullName: string }[]
-}) {
-  return (
-    <div className="lineup">
-      <ul className="lineup-list">
-        {items.map((item, index) => {
-          return (
-            <li className="lineup-item" key={index}>
-              <RouterLink
-                className="lineup-button"
-                to={`/${item.id}`}
-                onClick={() => {
-                  window.scrollTo({ top: 0 })
-                }}
-              >
-                <span className="lineup-button-title">{item.fullName}</span>
-              </RouterLink>
             </li>
           )
         })}

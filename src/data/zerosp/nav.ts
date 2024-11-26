@@ -4,6 +4,7 @@ export const zerospNav: DataNav = {
   zerosp: {
     name: "零SP",
     fullName: "サムライスピリッツ零SPECIAL",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

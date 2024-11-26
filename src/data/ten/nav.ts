@@ -4,6 +4,7 @@ export const tenNav: DataNav = {
   ten: {
     name: "天サム",
     fullName: "サムライスピリッツ天草降臨",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",

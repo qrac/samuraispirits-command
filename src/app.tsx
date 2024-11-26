@@ -8,7 +8,7 @@ import { dataList } from "./data/list"
 //import DataRoot from "./data/root.md"
 import { ComponentHeader } from "./component/header"
 import { ComponentNav } from "./component/nav"
-import { ComponentLineup, ComponentLineupOther } from "./component/lineup"
+import { ComponentLineup } from "./component/lineup"
 //import { ComponentDocs } from "./component/docs"
 import { ComponentArticle } from "./component/article"
 import { ComponentContent } from "./component/content"
@@ -112,7 +112,6 @@ export default function App() {
                       navItems={lineupNavItems}
                       onClickAction={handleClickGameWithGoTop}
                     />
-                    <ComponentLineupOther items={dataNavOther} />
                   </div>
                   <ComponentArticle pageId="root" />
                 </div>
@@ -142,7 +141,6 @@ export default function App() {
                       navItems={lineupNavItems}
                       onClickAction={handleClickGameWithGoTop}
                     />
-                    <ComponentLineupOther items={dataNavOther} />
                   </div>
                 </div>
               )
@@ -170,7 +168,6 @@ export default function App() {
                     navItems={lineupNavItems}
                     onClickAction={handleClickGameWithGoTop}
                   />
-                  <ComponentLineupOther items={dataNavOther} />
                 </div>
               </div>
             }

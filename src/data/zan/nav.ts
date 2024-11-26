@@ -4,6 +4,7 @@ export const zanNav: DataNav = {
   zan: {
     name: "斬サム",
     fullName: "サムライスピリッツ斬紅郎無双剣",
+    category: "Command List",
     characters: {
       root: {
         name: "基本操作",
