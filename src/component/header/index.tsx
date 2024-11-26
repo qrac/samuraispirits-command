@@ -24,7 +24,7 @@ function Cover({ gameId }: { gameId: string }) {
     "rei",
     "source",
   ]
-  const symbolId = coverList.includes(gameId) ? gameId : "qmark"
+  const symbolId = coverList.includes(gameId) ? gameId : "home"
   return (
     <svg className="header-cover" role="img">
       <use href={"/assets/covers.svg#" + symbolId}></use>
