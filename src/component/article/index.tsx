@@ -1,6 +1,39 @@
-import type { DataNav, DataItem } from "../../types"
+import type { DataNav, DataItem, Source } from "../../types"
 import "./index.css"
 import { ComponentLinkbox } from "../linkbox"
+
+const sourcesOther: Source[] = [
+  {
+    links: [
+      {
+        name: "アイヌ語（小書き） - Wikipedia",
+        href: "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%83%8C%E8%AA%9E%E4%BB%AE%E5%90%8D",
+      },
+    ],
+  },
+]
+
+const sourcesDev: Source[] = [
+  {
+    links: [
+      {
+        head: "開発者",
+        name: "クラク",
+        href: "https://x.com/Qrac_JP",
+      },
+      {
+        head: "更新情報",
+        name: "GitHub Releases",
+        href: "https://github.com/qrac/samuraispirits-command/releases",
+      },
+      {
+        head: "ソースコード",
+        name: "GitHub Repository",
+        href: "https://github.com/qrac/samuraispirits-command",
+      },
+    ],
+  },
+]
 
 export function ComponentArticleRoot() {
   return (
@@ -28,29 +61,7 @@ export function ComponentArticleRoot() {
           </a>
           までお知らせください。なるべく早く修正します。
         </p>
-        <ComponentLinkbox
-          sources={[
-            {
-              links: [
-                {
-                  head: "開発者",
-                  name: "クラク",
-                  href: "https://x.com/Qrac_JP",
-                },
-                {
-                  head: "更新情報",
-                  name: "GitHub Releases",
-                  href: "https://github.com/qrac/samuraispirits-command/releases",
-                },
-                {
-                  head: "ソースコード",
-                  name: "GitHub Repository",
-                  href: "https://github.com/qrac/samuraispirits-command",
-                },
-              ],
-            },
-          ]}
-        />
+        <ComponentLinkbox sources={sourcesDev} />
       </div>
     </article>
   )
@@ -84,18 +95,11 @@ export function ComponentArticleSource({
         })}
         <div className="article-content-box">
           <h3 className="article-heading">その他</h3>
-          <ComponentLinkbox
-            sources={[
-              {
-                links: [
-                  {
-                    name: "アイヌ語（小書き） - Wikipedia",
-                    href: "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%83%8C%E8%AA%9E%E4%BB%AE%E5%90%8D",
-                  },
-                ],
-              },
-            ]}
-          />
+          <ComponentLinkbox sources={sourcesOther} />
+        </div>
+        <div className="article-content-box">
+          <h3 className="article-heading">開発情報</h3>
+          <ComponentLinkbox sources={sourcesDev} />
         </div>
       </div>
     </article>
