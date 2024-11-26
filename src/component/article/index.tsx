@@ -1,18 +1,8 @@
+import type { DataNav, DataItem } from "../../types"
 import "./index.css"
-import { dataNav, dataNavOther } from "../../data/nav"
-import { dataList } from "../../data/list"
 import { ComponentLinkbox } from "../linkbox"
 
-export function ComponentArticle({ pageId }: { pageId: "root" | "source" }) {
-  return (
-    <>
-      {pageId === "root" && <ComponentArticleRoot />}
-      {pageId === "source" && <ComponentArticleSource />}
-    </>
-  )
-}
-
-function ComponentArticleRoot() {
+export function ComponentArticleRoot() {
   return (
     <article className="article">
       <div className="article-content">
@@ -66,9 +56,14 @@ function ComponentArticleRoot() {
   )
 }
 
-function ComponentArticleSource() {
-  const title =
-    dataNavOther.find((item) => item.id === "source")?.fullName || ""
+export function ComponentArticleSource({
+  dataNav,
+  dataList,
+}: {
+  dataNav: DataNav
+  dataList: DataItem[]
+}) {
+  const title = dataNav.source?.fullName || ""
   const filterdDataList = dataList.filter((item) => {
     const parts = item.id.split("-")
     return parts[1] === "root" && item.sources

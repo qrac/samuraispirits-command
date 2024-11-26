@@ -10,7 +10,10 @@ import { ComponentHeader } from "./component/header"
 import { ComponentNav } from "./component/nav"
 import { ComponentLineup } from "./component/lineup"
 //import { ComponentDocs } from "./component/docs"
-import { ComponentArticle } from "./component/article"
+import {
+  ComponentArticleRoot,
+  ComponentArticleSource,
+} from "./component/article"
 import { ComponentContent } from "./component/content"
 import { ComponentFooter } from "./component/footer"
 import {
@@ -113,7 +116,7 @@ export default function App() {
                       onClickAction={handleClickGameWithGoTop}
                     />
                   </div>
-                  <ComponentArticle pageId="root" />
+                  <ComponentArticleRoot />
                 </div>
               </div>
             }
@@ -151,7 +154,10 @@ export default function App() {
             element={
               <div className="page">
                 <div className="page-main">
-                  <ComponentArticle pageId="source" />
+                  <ComponentArticleSource
+                    dataNav={dataNav}
+                    dataList={dataList}
+                  />
                 </div>
               </div>
             }
