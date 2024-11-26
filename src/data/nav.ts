@@ -26,7 +26,7 @@ export const dataNav: DataNav = {
   ...asuraNav,
   ...{
     source: {
-      name: "参考資料",
+      name: "資料",
       fullName: "参考資料・検証環境など",
       category: "Source Materials",
     },

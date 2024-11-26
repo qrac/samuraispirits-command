@@ -21,7 +21,8 @@ function Cover({ gameId }: { gameId: string }) {
     "poly",
     "asura",
     "sen",
-    "soukou",
+    "rei",
+    "source",
   ]
   const symbolId = coverList.includes(gameId) ? gameId : "qmark"
   return (
