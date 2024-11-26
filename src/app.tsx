@@ -44,7 +44,7 @@ export default function App() {
   let games = Object.entries(dataNav) as NavItem[]
   let characters = getCharacters(dataNav, gameId)
   let types = getTypes(dataNav, gameId, characterId)
-  let lineupNavItems = games.filter((item) => item[0] !== "root")
+  let lineupItems = games.filter((item) => item[0] !== "root")
   let currentDataItem = getCurrentDataItem(dataList, dataId)
 
   function handleClickGameWithGoTop(id: string) {
@@ -112,7 +112,7 @@ export default function App() {
                 <div className="page-main">
                   <div className="page-links">
                     <ComponentLineup
-                      navItems={lineupNavItems}
+                      navItems={lineupItems}
                       onClickAction={handleClickGameWithGoTop}
                     />
                   </div>
@@ -141,7 +141,7 @@ export default function App() {
                   </div>
                   <div className="page-links">
                     <ComponentLineup
-                      navItems={lineupNavItems}
+                      navItems={lineupItems}
                       onClickAction={handleClickGameWithGoTop}
                     />
                   </div>
@@ -171,7 +171,7 @@ export default function App() {
                 </div>
                 <div className="page-links">
                   <ComponentLineup
-                    navItems={lineupNavItems}
+                    navItems={lineupItems}
                     onClickAction={handleClickGameWithGoTop}
                   />
                 </div>
