@@ -3,7 +3,7 @@ import { Route, Routes, useLocation, useNavigate } from "react-router-dom"
 
 import type { Accordion, AccordionId, NavItem } from "./types"
 import "./app.css"
-import { dataNav, dataNavOther } from "./data/nav"
+import { dataNav } from "./data/nav"
 import { dataList } from "./data/list"
 //import DataRoot from "./data/root.md"
 import { ComponentHeader } from "./component/header"
