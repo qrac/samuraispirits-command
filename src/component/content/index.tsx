@@ -3,7 +3,6 @@ import { clsx } from "clsx"
 import type { DataItem, Accordion, AccordionId } from "../../types"
 import "./index.css"
 import { ComponentSkills } from "../skills"
-import { ComponentInfo } from "../info"
 import { ComponentLinkbox } from "../linkbox"
 
 export function ComponentContent({
@@ -77,7 +76,6 @@ export function ComponentContent({
           ))}
         </div>
         {dataItem.sources && <ComponentLinkbox sources={dataItem.sources} />}
-        <ComponentInfo />
       </div>
     </div>
   )

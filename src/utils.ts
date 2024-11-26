@@ -52,8 +52,14 @@ export function getDataId(
 }
 
 export function getCurrentDataItem(dataList: DataItem[], dataId: string) {
-  const currentDataItem = dataList.find((data) => data.id === dataId)
-  return currentDataItem
+  return dataList.find((data) => data.id === dataId)
+}
+
+export function getParentDataItem(dataList: DataItem[], dataId: string) {
+  const isRoot = dataId === "root" || dataId.split("-")[1] === "root"
+  if (isRoot) return
+  const parrentId = dataId.split("-")[0] + "-root"
+  return dataList.find((data) => data.id === parrentId)
 }
 
 export function getNavigatePath(

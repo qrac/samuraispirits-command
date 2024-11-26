@@ -15,12 +15,15 @@ import {
   ComponentArticleSource,
 } from "./component/article"
 import { ComponentContent } from "./component/content"
+import { ComponentLinkbox } from "./component/linkbox"
+import { ComponentInfo } from "./component/info"
 import { ComponentFooter } from "./component/footer"
 import {
   getCharacters,
   getTypes,
   getDataId,
   getCurrentDataItem,
+  getParentDataItem,
   getNavigatePath,
   getRoutePath,
 } from "./utils"
@@ -46,6 +49,7 @@ export default function App() {
   let types = getTypes(dataNav, gameId, characterId)
   let lineupItems = games.filter((item) => item[0] !== "root")
   let currentDataItem = getCurrentDataItem(dataList, dataId)
+  let parentDataItem = getParentDataItem(dataList, dataId)
 
   function handleClickGameWithGoTop(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
@@ -132,6 +136,10 @@ export default function App() {
                       accordion={accordion}
                       onClickAccordion={handleClickAccordion}
                     />
+                    {parentDataItem && parentDataItem.sources && (
+                      <ComponentLinkbox sources={parentDataItem.sources} />
+                    )}
+                    <ComponentInfo />
                   </div>
                 </div>
               ) : (
