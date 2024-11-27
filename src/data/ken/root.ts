@@ -331,6 +331,10 @@ export const kenRoot: DataItem = {
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/index.htm",
         },
         {
+          name: "サムライスピリッツ天下一剣客伝 攻略サイト",
+          href: "https://kensamu.web.fc2.com/index.html",
+        },
+        {
           name: "サムライスピリッツ天下一剣客伝 - Gamer's Hermitage",
           href: "http://homepage3gore.game.coocan.jp/kenkakuden/",
         },
