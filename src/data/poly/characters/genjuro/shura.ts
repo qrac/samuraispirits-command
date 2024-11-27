@@ -286,4 +286,24 @@ export const polyGenjuroShura: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "牙神幻十郎 - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/28.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）牙神幻十郎（修羅/羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/PlOGFxiO65Y",
+        },
+      ],
+    },
+  ],
 }

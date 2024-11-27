@@ -282,4 +282,24 @@ export const polyGalfordRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "ガルフォード - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/25.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）ガルフォード（修羅/羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/ufHH7I5BvKs",
+        },
+      ],
+    },
+  ],
 }

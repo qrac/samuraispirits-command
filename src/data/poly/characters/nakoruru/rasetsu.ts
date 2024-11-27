@@ -236,4 +236,24 @@ export const polyNakoruruRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "ナコルル - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/21.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）ナコルル（羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/WycXlPTUVQ4",
+        },
+      ],
+    },
+  ],
 }

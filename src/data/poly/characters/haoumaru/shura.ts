@@ -255,4 +255,24 @@ export const polyHaoumaruShura: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "覇王丸 - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/19.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）覇王丸（修羅/羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/3WvifkkPXHw",
+        },
+      ],
+    },
+  ],
 }

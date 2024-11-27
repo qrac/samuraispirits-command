@@ -384,4 +384,24 @@ export const polyShikiRasetsu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "色 - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/29.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）色（修羅/羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/LUjB8oRMQo4",
+        },
+      ],
+    },
+  ],
 }

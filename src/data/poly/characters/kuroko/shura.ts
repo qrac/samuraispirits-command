@@ -415,4 +415,24 @@ export const polyKurokoShura: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "黒子 - 侍魂～SAMURAI SPIRITS～ 攻略wiki - atwiki",
+          href: "https://w.atwiki.jp/samuraispirits64/pages/31.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "SAMURAI SPIRITS 〜侍魂〜（ポリサム）黒子（修羅/羅刹）全技一覧 - YouTube",
+          href: "https://youtu.be/X7KiH-5eDHM",
+        },
+      ],
+    },
+  ],
 }
