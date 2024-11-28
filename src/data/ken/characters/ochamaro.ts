@@ -179,4 +179,28 @@ export const kenoOhamaro: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "機功おちゃ麻呂 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
+        },
+        {
+          name: "機功おちゃ麻呂攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",
+          href: "https://kensamu.web.fc2.com/otyamaro/otyamaro.html",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

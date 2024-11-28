@@ -65,4 +65,28 @@ export const kenGenjuro: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "牙神幻十郎 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
+        },
+        {
+          name: "牙神幻十郎攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",
+          href: "https://kensamu.web.fc2.com/genzyuro/genzyuro.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ天下一剣客伝 連続技動画 ～牙神幻十郎～ - YouTube",
+          href: "https://youtu.be/Q-NNbZ_l1ik",
+        },
+      ],
+    },
+  ],
 }

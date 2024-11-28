@@ -75,4 +75,28 @@ export const kenHaoumaru: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "覇王丸 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
+        },
+        {
+          name: "覇王丸攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",
+          href: "https://kensamu.web.fc2.com/haomaru/haomaru.html",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ天下一剣客伝 連続技動画 ～覇王丸～ - YouTube",
+          href: "https://youtu.be/XVc1o69V-o0",
+        },
+      ],
+    },
+  ],
 }
