@@ -29,6 +29,9 @@ export function ComponentInfo() {
           <dd className="info-item-body">ガード不能攻撃</dd>
         </div>
       </dl>
+      <p className="info-note">
+        ※コマンドはすべてキャラクターが右向きの場合です
+      </p>
     </div>
   )
 }
