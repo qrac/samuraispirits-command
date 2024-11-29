@@ -75,4 +75,32 @@ export const zerospRimururu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "【遺跡】リムルル攻略 まとめサイト｡◇ﾟ 零SP編",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/rimururu/index.htm",
+        },
+        {
+          name: "キャラ別攻略 リムルル | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/12rimu.htm",
+        },
+        {
+          name: "変更点～リムルル～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/zerosp/02_rimu.htm",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

@@ -46,4 +46,28 @@ export const zerospUkyo: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "キャラ別攻略 橘右京 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/05ukyo.htm",
+        },
+        {
+          name: "変更点～橘右京～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/zerosp/06_ukyou.htm",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

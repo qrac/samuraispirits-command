@@ -92,4 +92,28 @@ export const zerospRera: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "キャラ別攻略 レラ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/22rera.htm",
+        },
+        {
+          name: "変更点～レラ～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/22rera.htm",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

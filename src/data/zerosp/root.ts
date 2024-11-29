@@ -157,6 +157,10 @@ export const zerospRoot: DataItem = {
           name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
         },
         {
+          name: "サムライスピリッツ零SPECIAL 初心者向け攻略ページ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/index.htm",
+        },
+        {
           name: "サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
           href: "https://www5b.biglobe.ne.jp/~hitokiri/zerosp/zerosp_index.htm",
         },
@@ -169,6 +173,9 @@ export const zerospRoot: DataItem = {
     {
       title: "検証環境",
       links: [
+        {
+          name: "サムライスピリッツ零スペシャル / Steam",
+        },
         {
           name: "サムライスピリッツ ネオジオコレクション / Steam",
         },
