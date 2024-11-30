@@ -147,6 +147,7 @@ export const tenRoot: DataItem = {
         {
           name: "怒り爆発",
           command: "ABC",
+          notes: ["1試合につき1回のみ使用可能 ※怒ゲージ消失"],
           skills: [
             {
               name: "連ね斬り",

@@ -124,6 +124,7 @@ export const polyRoot: DataItem = {
         {
           name: "怒り爆発",
           command: "怒ゲージ最大時ABC",
+          notes: ["1試合につき1回のみ使用可能 ※怒ゲージ消失"],
           skills: [
             {
               name: "一閃",

@@ -30,7 +30,7 @@ export const zerospRoot: DataItem = {
         {
           name: "瞑想",
           command: "D継続押し",
-          notes: ["怒ゲージを消費"],
+          notes: ["怒ゲージを消費して境地ゲージを増加"],
         },
         {
           name: "上段蹴り",
@@ -129,6 +129,7 @@ export const zerospRoot: DataItem = {
         {
           name: "怒り爆発",
           command: "ABC",
+          notes: ["1試合につき1回のみ使用可能 ※怒ゲージ消失"],
           skills: [
             {
               name: "絶命奥義",
@@ -139,6 +140,9 @@ export const zerospRoot: DataItem = {
         {
           name: "無の境地",
           command: "体力青でBCD",
+          notes: [
+            "負けが決まるラウンド・体力が境地ゲージ以下・1試合1回のみ ※怒ゲージ消失",
+          ],
           skills: [
             {
               name: "一閃",
