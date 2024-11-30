@@ -47,7 +47,7 @@ export const zanRoot: DataItem = {
         {
           name: "見切り",
           command: "AB",
-          notes: ["近距離で出す場合は← or ↙+AB"],
+          notes: ["近距離で出す場合はレバー← or ↙が必要"],
         },
         {
           name: "回り込み",
