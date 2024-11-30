@@ -50,7 +50,7 @@ export const tenRoot: DataItem = {
         },
         {
           name: "回り込み",
-          command: "近距離でAB",
+          command: "近距離で→+AB",
         },
         {
           name: "不意打ち",
