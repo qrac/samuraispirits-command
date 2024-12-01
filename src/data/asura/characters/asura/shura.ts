@@ -212,6 +212,10 @@ export const asuraAsuraShura: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "アスラ斬魔伝 / キャラ雑感 アスラ（修羅） - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%ad%a5%e3%a5%e9%bb%a8%b4%b6%a4%ca%a4%c9#asrA",
+        },
+        {
           name: "アスラ斬魔伝 / アスラ - 数字置き場",
           href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%a5%a2%a5%b9%a5%e9",
         },

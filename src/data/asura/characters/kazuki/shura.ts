@@ -200,6 +200,10 @@ export const asuraKazukiShura: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "アスラ斬魔伝 / キャラ雑感 風間火月（修羅） - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%ad%a5%e3%a5%e9%bb%a8%b4%b6%a4%ca%a4%c9#kdkA",
+        },
+        {
           name: "アスラ斬魔伝 / 風間火月 - 数字置き場",
           href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1/%b2%d0%b7%ee",
         },

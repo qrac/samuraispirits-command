@@ -153,6 +153,34 @@ export const zerospRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "サムライスピリッツ零SPECIAL 初心者向け攻略ページ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/index.htm",
+        },
+        {
+          name: "サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/zerosp/zerosp_index.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "サムライスピリッツ零SPECIAL システム解説動画 ver1 - YouTube",
+          href: "https://youtu.be/RGcqzxrSTn8",
+        },
+        {
+          name: "サムライスピリッツ零SPECIAL システム解説動画その2 - YouTube",
+          href: "https://youtu.be/VvgMRps4V3Y",
+        },
+      ],
+    },
+  ],
   rootSources: [
     {
       title: "参考資料",
