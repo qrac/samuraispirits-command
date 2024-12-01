@@ -70,8 +70,12 @@ export const zanHanzoRasetsu: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "服部半蔵 - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "服部半蔵 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#han",
+        },
+        {
+          name: "服部半蔵 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#han",
         },
       ],
     },

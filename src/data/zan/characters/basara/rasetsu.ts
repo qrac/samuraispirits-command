@@ -62,8 +62,12 @@ export const zanBasaraRasetsu: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "首斬り破沙羅 - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "首斬り破沙羅 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#bas",
+        },
+        {
+          name: "首斬り破沙羅 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#bas",
         },
       ],
     },

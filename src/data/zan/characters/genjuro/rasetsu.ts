@@ -47,8 +47,12 @@ export const zanGenjuroRasetsu: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "牙神幻十郎 - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "牙神幻十郎 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#kib",
+        },
+        {
+          name: "牙神幻十郎 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#kib",
         },
       ],
     },

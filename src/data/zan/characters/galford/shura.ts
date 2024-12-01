@@ -78,8 +78,12 @@ export const zanGalfordShura: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "ガルフォード - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "ガルフォード - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#gal",
+        },
+        {
+          name: "ガルフォード - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#gal",
         },
       ],
     },

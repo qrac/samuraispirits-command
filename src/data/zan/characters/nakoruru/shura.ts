@@ -90,8 +90,12 @@ export const zanNakoruruShura: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "ナコルル - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "ナコルル - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#nak",
+        },
+        {
+          name: "ナコルル - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#nak",
         },
       ],
     },

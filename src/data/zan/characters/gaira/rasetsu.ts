@@ -49,8 +49,12 @@ export const zanGairaRasetsu: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "花諷院骸羅 - サムライスピリッツ斬紅郎無双剣 キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          name: "花諷院骸羅 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#gai",
+        },
+        {
+          name: "花諷院骸羅 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
+          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#gai",
         },
       ],
     },
