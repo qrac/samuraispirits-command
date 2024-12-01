@@ -54,4 +54,28 @@ export const shinCharlotte: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "シャルロット - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/char/char_mainframe.htm",
+        },
+        {
+          name: "シャルロットの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/char/char_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第4回 その2(シャルロット) - YouTube",
+          href: "https://youtu.be/zEorSCm42-E",
+        },
+      ],
+    },
+  ],
 }

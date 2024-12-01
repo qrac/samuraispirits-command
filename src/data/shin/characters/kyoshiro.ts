@@ -74,4 +74,28 @@ export const shinKyoshiro: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "千両狂死郎 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/kyou/kyou_mainframe.htm",
+        },
+        {
+          name: "千両狂死郎の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/kyou/kyou_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第1回 その3（千両 狂死郎） - YouTube",
+          href: "https://youtu.be/9tHZqX940ng",
+        },
+      ],
+    },
+  ],
 }

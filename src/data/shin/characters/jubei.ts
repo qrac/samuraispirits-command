@@ -62,4 +62,28 @@ export const shinJubei: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "柳生十兵衛 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/jyubei/jyubei_mainframe.htm",
+        },
+        {
+          name: "柳生十兵衛の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/jyubei/jyubei_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第1回 その4（柳生 十兵衛） - YouTube",
+          href: "https://youtu.be/AsCcDOAYAQc",
+        },
+      ],
+    },
+  ],
 }

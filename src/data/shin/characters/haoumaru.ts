@@ -76,4 +76,28 @@ export const shinHaoumaru: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "覇王丸 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/haou/haou_mainframe.htm",
+        },
+        {
+          name: "覇王丸の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/haou/haou_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第1回 その2（覇王丸） - YouTube",
+          href: "https://youtu.be/rGChTzPo__U",
+        },
+      ],
+    },
+  ],
 }

@@ -94,4 +94,28 @@ export const shinSieger: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "ナインハルト・ズィーガー - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/sie/sie_mainframe.htm",
+        },
+        {
+          name: "ナインハルト・ズィーガーの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/sie/sie_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第2回 その2(ナインハルト・ズィーガー) - YouTube",
+          href: "https://youtu.be/8xWbe8CcaOg",
+        },
+      ],
+    },
+  ],
 }

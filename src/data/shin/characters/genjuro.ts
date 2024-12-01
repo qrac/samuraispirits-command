@@ -55,4 +55,28 @@ export const shinGenjuro: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "牙神幻十郎 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/genjyu/genjyu_mainframe.htm",
+        },
+        {
+          name: "牙神幻十郎の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/genjyu/genjyu_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第2回 その1(牙神幻十郎) - YouTube",
+          href: "https://youtu.be/1x0HETKDBTg",
+        },
+      ],
+    },
+  ],
 }

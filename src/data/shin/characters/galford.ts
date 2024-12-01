@@ -100,4 +100,28 @@ export const shinGalford: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "ガルフォード - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/gal/gal_mainframe.htm",
+        },
+        {
+          name: "ガルフォードの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/gal/gal_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第2回 その4（ガルフォード） - YouTube",
+          href: "https://youtu.be/ObC245X18yE",
+        },
+      ],
+    },
+  ],
 }

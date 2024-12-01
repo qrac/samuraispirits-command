@@ -70,4 +70,28 @@ export const shinGenan: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "不知火幻庵 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/genan/genan_mainframe.htm",
+        },
+        {
+          name: "不知火幻庵の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/genan/genan_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第4回 その1（不知火幻庵） - YouTube",
+          href: "https://youtu.be/c1dZ_a8Gk4o",
+        },
+      ],
+    },
+  ],
 }

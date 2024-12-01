@@ -110,4 +110,28 @@ export const shinNakoruru: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "ナコルル - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/nako/nako_mainframe.htm",
+        },
+        {
+          name: "ナコルルの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/nako/nako_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第4回 その4(ナコルル) - YouTube",
+          href: "https://youtu.be/iW3jqgsNNfQ",
+        },
+      ],
+    },
+  ],
 }

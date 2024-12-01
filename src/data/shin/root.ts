@@ -91,12 +91,36 @@ export const shinRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "真刃繚乱 - 真侍魂の解析・攻略専門サイト",
+          href: "http://shinjin.starfree.jp/SinSamurai_Main.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第1回 その1（基本行動） - YouTube",
+          href: "https://youtu.be/22IUvThTNqM",
+        },
+      ],
+    },
+  ],
   rootSources: [
     {
       title: "参考資料",
       links: [
         {
           name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "真刃繚乱 - 真侍魂の解析・攻略専門サイト",
+          href: "http://shinjin.starfree.jp/SinSamurai_Main.htm",
         },
         {
           name: "真サムライスピリッツ 覇王丸地獄変 -SNK PERFECT DATABASE-",

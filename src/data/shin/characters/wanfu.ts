@@ -78,4 +78,28 @@ export const shinWanfu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "王虎 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/earth/earth_mainframe.htm",
+        },
+        {
+          name: "王虎の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/wanhu/wanhu_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第3回 その2(王虎 ワンフー) - YouTube",
+          href: "https://youtu.be/b9wHL-K9f4c",
+        },
+      ],
+    },
+  ],
 }

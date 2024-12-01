@@ -71,4 +71,28 @@ export const shinNicotine: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "花諷院和狆 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/niko/niko_mainframe.htm",
+        },
+        {
+          name: "花諷院和狆の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/niko/niko_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第3回 その1(花諷院和狆) - YouTube",
+          href: "https://youtu.be/oIFbxYyVCl4",
+        },
+      ],
+    },
+  ],
 }

@@ -71,4 +71,28 @@ export const shinEarthquake: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アースクェイク - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/earth/earth_mainframe.htm",
+        },
+        {
+          name: "アースクェイクの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/earth/earth_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第3回 その3(アースクェイク) - YouTube",
+          href: "https://youtu.be/vJmjArF3xJA",
+        },
+      ],
+    },
+  ],
 }

@@ -70,4 +70,28 @@ export const shinChamcham: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "チャムチャム - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/cham/cham_mainframe.htm",
+        },
+        {
+          name: "チャムチャムの連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/cham/cham_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第3回 その4(チャムチャム) - YouTube",
+          href: "https://youtu.be/uebOufPoW-M",
+        },
+      ],
+    },
+  ],
 }

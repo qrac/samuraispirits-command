@@ -92,4 +92,28 @@ export const shinHanzo: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "服部半蔵 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/hanzo/hanzo_mainframe.htm",
+        },
+        {
+          name: "服部半蔵の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/hanzo/hanzo_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第2回 その3（服部半蔵） - YouTube",
+          href: "https://youtu.be/Sl-s-052Cf4",
+        },
+      ],
+    },
+  ],
 }

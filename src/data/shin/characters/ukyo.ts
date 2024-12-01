@@ -71,4 +71,28 @@ export const shinUkyo: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "橘右京 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/chara_data/ukyo/ukyo_mainframe.htm",
+        },
+        {
+          name: "橘右京の連続技 - 真刃繚乱",
+          href: "http://shinjin.starfree.jp/combo/ukyo/ukyo_comboframe.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "真サムライスピリッツ(SAMURAI SHODOWN 2)初心者講習会 第4回 その3(橘右京) - YouTube",
+          href: "https://youtu.be/_aDFVi7fAV4",
+        },
+      ],
+    },
+  ],
 }
