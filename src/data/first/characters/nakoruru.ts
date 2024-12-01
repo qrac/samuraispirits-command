@@ -75,7 +75,7 @@ export const firstNakoruru: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "ナコルル - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          name: "ナコルル - 初代サムライスピリッツ 攻略Wiki - atwiki",
           href: "https://w.atwiki.jp/samurai1/pages/11.html",
         },
       ],

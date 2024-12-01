@@ -44,7 +44,7 @@ export const firstUkyo: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "橘右京 - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          name: "橘右京 - 初代サムライスピリッツ 攻略Wiki - atwiki",
           href: "https://w.atwiki.jp/samurai1/pages/17.html",
         },
       ],

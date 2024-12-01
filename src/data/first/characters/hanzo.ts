@@ -65,7 +65,7 @@ export const firstHanzo: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "服部半蔵 - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          name: "服部半蔵 - 初代サムライスピリッツ 攻略Wiki - atwiki",
           href: "https://w.atwiki.jp/samurai1/pages/30.html",
         },
       ],

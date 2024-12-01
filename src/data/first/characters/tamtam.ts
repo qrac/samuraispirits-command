@@ -44,7 +44,7 @@ export const firstTamtam: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "タムタム - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          name: "タムタム - 初代サムライスピリッツ 攻略Wiki - atwiki",
           href: "https://w.atwiki.jp/samurai1/pages/28.html",
         },
       ],

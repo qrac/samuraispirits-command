@@ -32,7 +32,7 @@ export const firstCharlotte: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "シャルロット - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          name: "シャルロット - 初代サムライスピリッツ 攻略Wiki - atwiki",
           href: "https://w.atwiki.jp/samurai1/pages/8.html",
         },
       ],
