@@ -77,7 +77,7 @@ export function ComponentArticleSource({
   const title = dataNav.source?.fullName || ""
   const filterdDataList = dataList.filter((item) => {
     const parts = item.id.split("-")
-    return parts[1] === "root" && item.sources
+    return parts[1] === "root" && item.rootSources
   })
   return (
     <article className="article">
@@ -89,7 +89,7 @@ export function ComponentArticleSource({
           return (
             <div className="article-content-box" key={index}>
               {fullName && <h3 className="article-heading">{fullName}</h3>}
-              <ComponentLinkbox sources={item.sources} />
+              <ComponentLinkbox sources={item.rootSources} />
             </div>
           )
         })}

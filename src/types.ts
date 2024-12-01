@@ -69,4 +69,5 @@ export type DataItem = {
   layout?: string
   groups: Group[]
   sources?: Source[]
+  rootSources?: Source[]
 }

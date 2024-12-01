@@ -23,7 +23,7 @@ import {
   getTypes,
   getDataId,
   getCurrentDataItem,
-  getParentDataItem,
+  getRootDataItem,
   getNavigatePath,
   getRoutePath,
 } from "./utils"
@@ -50,7 +50,7 @@ export default function App() {
   let types = getTypes(dataNav, gameId, characterId)
   let lineupItems = games.filter((item) => item[0] !== "root")
   let currentDataItem = getCurrentDataItem(dataList, dataId)
-  let parentDataItem = getParentDataItem(dataList, dataId)
+  let rootDataItem = getRootDataItem(dataList, dataId)
 
   function handleClickGameWithGoTop(id: string) {
     const routePath = getNavigatePath(dataNav, id, "root", "shura")
@@ -150,8 +150,8 @@ export default function App() {
                       accordion={accordion}
                       onClickAccordion={handleClickAccordion}
                     />
-                    {parentDataItem && parentDataItem.sources && (
-                      <ComponentLinkbox sources={parentDataItem.sources} />
+                    {rootDataItem && rootDataItem.rootSources && (
+                      <ComponentLinkbox sources={rootDataItem.rootSources} />
                     )}
                     <ComponentInfo />
                   </div>

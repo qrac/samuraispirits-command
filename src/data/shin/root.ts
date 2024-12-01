@@ -91,7 +91,7 @@ export const shinRoot: DataItem = {
       ],
     },
   ],
-  sources: [
+  rootSources: [
     {
       title: "参考資料",
       links: [

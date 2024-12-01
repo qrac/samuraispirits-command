@@ -128,7 +128,7 @@ export const zanRoot: DataItem = {
       ],
     },
   ],
-  sources: [
+  rootSources: [
     {
       title: "参考資料",
       links: [

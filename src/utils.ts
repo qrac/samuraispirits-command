@@ -55,11 +55,14 @@ export function getCurrentDataItem(dataList: DataItem[], dataId: string) {
   return dataList.find((data) => data.id === dataId)
 }
 
-export function getParentDataItem(dataList: DataItem[], dataId: string) {
-  const isRoot = dataId === "root" || dataId.split("-")[1] === "root"
-  if (isRoot) return
-  const parrentId = dataId.split("-")[0] + "-root"
-  return dataList.find((data) => data.id === parrentId)
+export function getRootDataItem(dataList: DataItem[], dataId: string) {
+  const splitedDataId = dataId.split("-")
+  if (splitedDataId.length === 1) return
+  if (splitedDataId[1] === "root") {
+    return dataList.find((data) => data.id === dataId)
+  }
+  const parrentRootId = dataId.split("-")[0] + "-root"
+  return dataList.find((data) => data.id === parrentRootId)
 }
 
 export function getNavigatePath(
