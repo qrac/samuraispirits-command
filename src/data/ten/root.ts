@@ -171,6 +171,26 @@ export const tenRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "天草降臨をやろうじゃないか！！ - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/amakusa.htm",
+        },
+      ],
+    },
+    {
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "〔天サム〕サムスピ天草降臨【連ね斬り】説明 - YouTube",
+          href: "https://youtu.be/BPuTGJ8jeP8",
+        },
+      ],
+    },
+  ],
   rootSources: [
     {
       title: "参考資料",
