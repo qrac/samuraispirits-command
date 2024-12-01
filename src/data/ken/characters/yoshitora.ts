@@ -76,6 +76,10 @@ export const kenYoshitora: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "徳川慶寅 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c6%c1%c0%ee%b7%c4%c6%d2",
+        },
+        {
           name: "徳川慶寅 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

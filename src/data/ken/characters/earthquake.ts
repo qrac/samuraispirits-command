@@ -77,6 +77,10 @@ export const kenEarthquake: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "アースクェイク - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%a2%a1%bc%a5%b9%a5%af%a5%a8%a5%a4%a5%af",
+        },
+        {
           name: "アースクェイク - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

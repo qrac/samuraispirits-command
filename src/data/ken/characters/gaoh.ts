@@ -92,6 +92,10 @@ export const kenGaoh: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "兇國日輪守我旺 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b6%a4%d4%a2%c6%fc%ce%d8%bc%e9%b2%e6%b2%a2",
+        },
+        {
           name: "兇國日輪守我旺 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

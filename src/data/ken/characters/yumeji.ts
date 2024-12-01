@@ -96,6 +96,10 @@ export const kenYumeji: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "黒河内夢路 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b9%f5%b2%cf%c6%e2%cc%b4%cf%a9",
+        },
+        {
           name: "黒河内夢路 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

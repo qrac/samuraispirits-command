@@ -93,6 +93,10 @@ export const kenAndrew: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "アンドリュー - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%a2%a5%f3%a5%c9%a5%ea%a5%e5%a1%bc",
+        },
+        {
           name: "アンドリュー - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
         },

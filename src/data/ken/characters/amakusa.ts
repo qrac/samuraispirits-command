@@ -126,6 +126,10 @@ export const kenAmakusa: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "天草四郎時貞 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c5%b7%c1%f0%bb%cd%cf%ba%bb%fe%c4%e7",
+        },
+        {
           name: "天草四郎時貞 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

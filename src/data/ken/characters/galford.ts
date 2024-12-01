@@ -140,6 +140,10 @@ export const kenGalford: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "ガルフォード - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%ac%a5%eb%a5%d5%a5%a9%a1%bc%a5%c9",
+        },
+        {
           name: "ガルフォード - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

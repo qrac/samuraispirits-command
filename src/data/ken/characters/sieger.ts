@@ -88,6 +88,10 @@ export const kenSieger: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "ナインハルト・ズィーガー - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%ca%a5%a4%a5%f3%a5%cf%a5%eb%a5%c8%a1%a6%a5%ba%a5%a3%a1%bc%a5%ac%a1%bc",
+        },
+        {
           name: "ナインハルト・ズィーガー - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
         },

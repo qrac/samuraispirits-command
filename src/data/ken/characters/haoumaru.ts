@@ -80,6 +80,10 @@ export const kenHaoumaru: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "覇王丸 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c7%c6%b2%a6%b4%dd",
+        },
+        {
           name: "覇王丸 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

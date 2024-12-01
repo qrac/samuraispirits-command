@@ -69,6 +69,10 @@ export const kenTamtam: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "タムタム - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%bf%a5%e0%a5%bf%a5%e0",
+        },
+        {
           name: "タムタム - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

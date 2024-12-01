@@ -106,6 +106,10 @@ export const kenYunfei: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "劉雲飛 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%ce%ad%b1%c0%c8%f4",
+        },
+        {
           name: "劉雲飛 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

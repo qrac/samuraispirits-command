@@ -147,6 +147,26 @@ export const zeroRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "侍魂零 - ぽんしゃぶ弐号",
+          href: "https://www5b.biglobe.ne.jp/~hitokiri/z_index.htm",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
   rootSources: [
     {
       title: "参考資料",

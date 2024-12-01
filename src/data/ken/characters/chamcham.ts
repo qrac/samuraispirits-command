@@ -90,6 +90,10 @@ export const kenChamcham: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "チャムチャム - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%c1%a5%e3%a5%e0%a5%c1%a5%e3%a5%e0",
+        },
+        {
           name: "チャムチャム - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
         },

@@ -72,6 +72,10 @@ export const kenMizuki: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "羅将神ミヅキ - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%cd%e5%be%ad%bf%c0%a5%df%a5%c5%a5%ad",
+        },
+        {
           name: "羅将神ミヅキ - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
         },

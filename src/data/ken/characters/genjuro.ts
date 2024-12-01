@@ -70,6 +70,10 @@ export const kenGenjuro: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "牙神幻十郎 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b2%e7%bf%c0%b8%b8%bd%bd%cf%ba",
+        },
+        {
           name: "牙神幻十郎 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
         },

@@ -87,6 +87,10 @@ export const kenJubei: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "柳生十兵衛 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%cc%f8%c0%b8%bd%bd%ca%bc%b1%d2",
+        },
+        {
           name: "柳生十兵衛 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

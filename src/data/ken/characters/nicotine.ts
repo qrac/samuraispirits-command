@@ -80,6 +80,10 @@ export const kenNicotine: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "花諷院和狆 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b2%d6%eb%e5%b1%a1%cf%c2%e0%be",
+        },
+        {
           name: "花諷院和狆 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin",
         },

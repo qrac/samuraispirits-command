@@ -81,6 +81,10 @@ export const kenGaira: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "花諷院骸羅 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b2%d6%eb%e5%b1%a1%b3%bc%cd%e5",
+        },
+        {
           name: "花諷院骸羅 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
         },

@@ -108,6 +108,10 @@ export const kenMina: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "真鏡名ミナ - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%bf%bf%b6%c0%cc%be%a5%df%a5%ca",
+        },
+        {
           name: "真鏡名ミナ - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

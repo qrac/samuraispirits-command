@@ -80,6 +80,10 @@ export const kenIroha: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "いろは - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a4%a4%a4%ed%a4%cf",
+        },
+        {
           name: "いろは - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
         },

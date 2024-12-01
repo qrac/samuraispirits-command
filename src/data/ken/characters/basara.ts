@@ -101,6 +101,10 @@ export const kenBasara: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "首斬り破沙羅 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%bc%f3%bb%c2%a4%ea%c7%cb%ba%bb%cd%e5",
+        },
+        {
           name: "首斬り破沙羅 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
         },

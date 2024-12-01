@@ -78,6 +78,10 @@ export const kenSugoroku: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "祭囃子双六 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%ba%d7%d3%f2%bb%d2%c1%d0%cf%bb",
+        },
+        {
           name: "祭囃子双六 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
         },

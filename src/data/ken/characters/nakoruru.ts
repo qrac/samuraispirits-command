@@ -120,6 +120,10 @@ export const kenNakoruru: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "ナコルル - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%a5%ca%a5%b3%a5%eb%a5%eb",
+        },
+        {
           name: "ナコルル - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

@@ -102,6 +102,10 @@ export const kenGenan: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "不知火幻庵 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c9%d4%c3%ce%b2%d0%b8%b8%b0%c3",
+        },
+        {
           name: "不知火幻庵 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

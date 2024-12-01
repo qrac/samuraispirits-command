@@ -96,6 +96,10 @@ export const kenEnja: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "炎邪 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b1%ea%bc%d9",
+        },
+        {
           name: "炎邪 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
         },

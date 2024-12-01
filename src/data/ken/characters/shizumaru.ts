@@ -108,6 +108,10 @@ export const kenShizumaru: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "緋雨閑丸 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c8%ec%b1%ab%b4%d7%b4%dd",
+        },
+        {
           name: "緋雨閑丸 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
         },

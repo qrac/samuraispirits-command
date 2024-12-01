@@ -87,6 +87,10 @@ export const kenZankuro: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "壬無月斬紅郎 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%bf%d1%cc%b5%b7%ee%bb%c2%b9%c8%cf%ba",
+        },
+        {
           name: "壬無月斬紅郎 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
         },

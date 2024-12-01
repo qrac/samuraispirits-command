@@ -76,6 +76,10 @@ export const kenUkyo: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "橘右京 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b5%cc%b1%a6%b5%fe",
+        },
+        {
           name: "橘右京 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
         },

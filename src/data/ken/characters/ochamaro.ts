@@ -184,6 +184,10 @@ export const kenoOhamaro: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "機功おちゃ麻呂 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%b5%a1%b9%aa%a4%aa%a4%c1%a4%e3%cb%e3%cf%a4",
+        },
+        {
           name: "機功おちゃ麻呂 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
         },

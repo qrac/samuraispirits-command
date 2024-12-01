@@ -90,6 +90,10 @@ export const kenSougetsu: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
+          name: "風間蒼月 - サムライスピリッツ天下一剣客伝攻略 - Seesaa Wiki",
+          href: "https://seesaawiki.jp/w/givingleaf/d/%c9%f7%b4%d6%c1%f3%b7%ee",
+        },
+        {
           name: "風間蒼月 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
           href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ten",
         },
