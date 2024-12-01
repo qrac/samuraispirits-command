@@ -46,12 +46,36 @@ export const firstRoot: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "初心者向け対戦基礎 - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          href: "https://w.atwiki.jp/samurai1/pages/36.html",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
   rootSources: [
     {
       title: "参考資料",
       links: [
         {
           name: "サムライスピリッツ ネオジオコレクション 対戦攻略ガイド",
+        },
+        {
+          name: "初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          href: "https://w.atwiki.jp/samurai1/pages/1.html",
         },
         {
           name: "サムライスピリッツINDEX -SNK PERFECT DATABASE-",

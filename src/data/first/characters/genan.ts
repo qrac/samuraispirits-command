@@ -40,4 +40,24 @@ export const firstGenan: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "不知火幻庵 - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          href: "https://w.atwiki.jp/samurai1/pages/25.html",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

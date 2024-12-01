@@ -40,4 +40,24 @@ export const firstEarthquake: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "アースクェイク - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          href: "https://w.atwiki.jp/samurai1/pages/18.html",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }

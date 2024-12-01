@@ -56,4 +56,24 @@ export const firstWanfu: DataItem = {
       ],
     },
   ],
+  sources: [
+    {
+      title: "もっと詳しいサイト",
+      links: [
+        {
+          name: "王虎 - 初代サムライスピリッツ 攻略Wiki - atwiki（アットウィキ）",
+          href: "https://w.atwiki.jp/samurai1/pages/15.html",
+        },
+      ],
+    },
+    /*{
+      title: "もっと詳しい動画",
+      links: [
+        {
+          name: "",
+          href: "https://youtu.be/xxx",
+        },
+      ],
+    },*/
+  ],
 }
