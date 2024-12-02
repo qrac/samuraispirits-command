@@ -110,6 +110,7 @@ export const kenoOhamaro: DataItem = {
         {
           name: "泰山舞",
           command: "→↓↘+D",
+          notes: ["対投げ技用の当て身"],
         },
         {
           name: "傀儡回し 壱の幕",
