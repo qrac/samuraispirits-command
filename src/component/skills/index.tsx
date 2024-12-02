@@ -39,7 +39,7 @@ export function ComponentSkills({ skills }: { skills: Skill[] }) {
   )
 }
 
-function ComponentTags({ tags }: { tags: Skill["tags"] }) {
+export function ComponentTags({ tags }: { tags: Skill["tags"] }) {
   return (
     <div className="skill-tags">
       {tags.map((tag, tagIndex) => (

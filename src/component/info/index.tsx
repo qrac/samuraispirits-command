@@ -25,6 +25,14 @@ export function ComponentInfo() {
           <dd className="info-item-body">レバーニュートラル</dd>
         </div>
         <div className="info-item">
+          <dt className="info-item-head">【真】</dt>
+          <dd className="info-item-body">真スピリッツ専用</dd>
+        </div>
+        <div className="info-item">
+          <dt className="info-item-head">【剣】</dt>
+          <dd className="info-item-body">剣スピリッツ専用</dd>
+        </div>
+        <div className="info-item">
           <dt className="info-item-head">G不能</dt>
           <dd className="info-item-body">ガード不能攻撃</dd>
         </div>
