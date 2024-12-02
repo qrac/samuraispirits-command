@@ -10,6 +10,7 @@ export const kenAmakusa: DataItem = {
         {
           name: "魔力変質",
           command: "CE",
+          notes: ["遠距離モード・近距離モードを切り替える"],
         },
         {
           name: "逢魔刻（前）",
