@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const polyRoot: DataItem = {
   id: "poly-root",
-  name: "基本操作（ポリサム）",
+  name: "基本操作",
   groups: [
     {
       title: "共通",

@@ -1,5 +1,5 @@
 import type { MDXProps } from "mdx/types"
-import { Link as RouterLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 import "./index.css"
 
@@ -33,5 +33,5 @@ export function ComponentDocsLink({
       </a>
     )
   }
-  return <RouterLink to={href}>{children}</RouterLink>
+  return <Link to={href}>{children}</Link>
 }

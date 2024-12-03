@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const zerospRoot: DataItem = {
   id: "zerosp-root",
-  name: "基本操作（零SP）",
+  name: "基本操作",
   layout: "slim",
   groups: [
     {

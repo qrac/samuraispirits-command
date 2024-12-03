@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const asuraRoot: DataItem = {
   id: "asura-root",
-  name: "基本操作（アスラ斬魔伝）",
+  name: "基本操作",
   groups: [
     {
       title: "共通",

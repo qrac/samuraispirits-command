@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const tenRoot: DataItem = {
   id: "ten-root",
-  name: "基本操作（天サム）",
+  name: "基本操作",
   layout: "slim",
   groups: [
     {

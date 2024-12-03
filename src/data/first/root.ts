@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const firstRoot: DataItem = {
   id: "first-root",
-  name: "基本操作（初サム）",
+  name: "基本操作",
   layout: "slim",
   groups: [
     {

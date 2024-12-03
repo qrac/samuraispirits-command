@@ -65,6 +65,14 @@ export function getRootDataItem(dataList: DataItem[], dataId: string) {
   return dataList.find((data) => data.id === parrentRootId)
 }
 
+export function getSlashPath(pathArray: string[]) {
+  let newPath = pathArray.filter((str) => str).join("/")
+  if (!newPath.endsWith("/")) {
+    newPath = newPath + "/"
+  }
+  return newPath
+}
+
 export function getNavigatePath(
   dataNav: DataNav,
   gameId: string = "root",
@@ -84,9 +92,7 @@ export function getNavigatePath(
       : characterId
     : ""
   const typeIdStr = hasTypes ? typeId : ""
-  const pathArray = [gameIdStr, characterIdStr, typeIdStr]
-  const newPath = pathArray.filter((str) => str).join("/")
-  return newPath
+  return getSlashPath([gameIdStr, characterIdStr, typeIdStr])
 }
 
 export function getRoutePath(
@@ -108,7 +114,5 @@ export function getRoutePath(
       : ":characterId"
     : ""
   const typeIdStr = hasTypes ? ":typeId" : ""
-  const pathArray = ["/", gameIdStr, characterIdStr, typeIdStr]
-  const newPath = pathArray.filter((str) => str).join("/")
-  return newPath
+  return getSlashPath([gameIdStr, characterIdStr, typeIdStr])
 }

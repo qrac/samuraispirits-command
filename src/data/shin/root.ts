@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const shinRoot: DataItem = {
   id: "shin-root",
-  name: "基本操作（真サム）",
+  name: "基本操作",
   layout: "slim",
   groups: [
     {

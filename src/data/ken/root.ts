@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 
 export const kenRoot: DataItem = {
   id: "ken-root",
-  name: "基本操作（剣サム）",
+  name: "基本操作",
   layout: "slim",
   groups: [
     {

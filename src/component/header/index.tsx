@@ -1,9 +1,32 @@
-import "./index.css"
+import { Link } from "react-router-dom"
 
-export function ComponentHeader({ gameId }: { gameId: string }) {
+import "./index.css"
+import { metaData } from "../../data/meta"
+
+export function ComponentHeader({
+  gameId,
+  onClickAction,
+}: {
+  gameId: string
+  onClickAction: () => void
+}) {
   return (
     <div className="header">
-      <h1 className="header-title">Samurai Spirits Series Command List</h1>
+      <div className="header-content">
+        <h1 className="header-title">
+          {metaData.siteName + " - " + metaData.subName}
+        </h1>
+        <div className="header-logo">
+          <Link to="/" onClick={() => onClickAction()}>
+            <img
+              src="/assets/logo.svg"
+              width={1200}
+              height={154}
+              alt="Samurai Spirits Series Command List"
+            />
+          </Link>
+        </div>
+      </div>
       <Cover gameId={gameId} />
     </div>
   )

@@ -2,9 +2,22 @@
   margin-top: calc(var(--theme-space) * 1);
 }
 
-.content-name {
-  font-size: 1.25rem;
+.content-header > * + * {
+  margin-top: 0.375em;
+}
+
+.content-game {
+  font-size: 0.875rem;
   font-weight: 600;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
+}
+
+.content-name {
+  font-size: 1.375rem;
+  font-weight: 600;
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
 
 .content-main > * + * {
