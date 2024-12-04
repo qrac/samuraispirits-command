@@ -28,24 +28,7 @@ jobs:
       - name: ビルド
         run: npm run build
 
-      - name: アーティファクトをアップロード
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-output
-          path: dist/
-
-  deploy:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    steps:
-      - name: アーティファクトをダウンロード
-        uses: actions/download-artifact@v3
-        with:
-          name: build-output
-
-      - name: GitHub Pages にデプロイ
+      - name: デプロイ
         uses: actions/deploy-pages@v2
+        with:
+          folder: ./dist
