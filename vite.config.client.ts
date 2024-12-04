@@ -27,6 +27,6 @@ export default defineConfig({
   },
   plugins: [],
   resolve: {
-    alias: process.env.NODE_ENV === "production" ? preactAlias : [],
+    //alias: process.env.NODE_ENV === "production" ? preactAlias : [],
   },
 })
