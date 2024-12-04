@@ -23,10 +23,22 @@ export default defineConfig({
       input: {
         client: path.resolve(__dirname, "src/client.tsx"),
       },
+      output: {
+        manualChunks: {
+          vendor: [
+            "preact",
+            "react",
+            "react-dom",
+            "react-router-dom",
+            "react-helmet-async",
+            "clsx",
+          ],
+        },
+      },
     },
   },
   plugins: [],
   resolve: {
-    //alias: process.env.NODE_ENV === "production" ? preactAlias : [],
+    alias: process.env.NODE_ENV === "production" ? preactAlias : [],
   },
 })
