@@ -71,3 +71,22 @@ export type DataItem = {
   sources?: Source[]
   rootSources?: Source[]
 }
+
+export type Breadcrumb = {
+  name: string
+  item: string
+}
+
+export type Route = {
+  robots: boolean
+  path: string
+  url: string
+  fileName: string
+  type: string
+  name: string
+  description: string
+  breadcrumbs: Breadcrumb[]
+}
+
+export type GetRoutes = () => Route[]
+export type Render = (url: string) => Promise<string>

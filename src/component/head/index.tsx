@@ -28,7 +28,7 @@ export function ComponentHead({
     }
     if (currentDataItem && game) {
       const { name } = currentDataItem
-      const gameName = game[1]?.fullName || ""
+      const gameName = game[1]?.fullName || game[1].name
       return `${name} コマンド表 / ${gameName}${withName}`
     }
     return `404${withName}`
@@ -42,8 +42,8 @@ export function ComponentHead({
     }
     if (currentDataItem && game) {
       const { name } = currentDataItem
-      const gameName = game[1]?.fullName || ""
-      return `${gameName}に登場する${name}の${description.command}`
+      const gameName = game[1]?.fullName || game[1].name
+      return `${gameName} - ${name}の${description.command}`
     }
     return description.default
   }
@@ -72,6 +72,7 @@ export function ComponentHead({
       <meta property="og:type" content={getOgType()} />
       <meta name="twitter:card" content={twitterCard} />
       <meta name="twitter:creator" content={twitterCreator} />
+      {pathname === "/404" && <meta name="robots" content="noindex,follow" />}
       <link rel="canonical" href={getUrl()} />
       <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
