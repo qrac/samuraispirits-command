@@ -116,3 +116,33 @@ export function getRoutePath(
   const typeIdStr = hasTypes ? ":typeId" : ""
   return getSlashPath([gameIdStr, characterIdStr, typeIdStr])
 }
+
+export function getNavItemCount(navItem: NavItem) {
+  if (!Object.hasOwn(navItem[1], "characters")) {
+    return {
+      charactersCount: 0,
+      typesCount: { min: 0, max: 0 },
+    }
+  }
+  const characters = Object.entries(navItem[1].characters)
+    .filter((item) => item[0] !== "root")
+    .map((item) => item[1])
+  const charactersCount = characters.length || 0
+  const typesCounts: number[] = [0]
+
+  if (charactersCount > 0) {
+    for (const character of characters) {
+      if (Object.hasOwn(character, "types")) {
+        const types = Object.values(character.types)
+        typesCounts.push(types.length)
+      }
+    }
+  }
+  const minCount = Math.min(...typesCounts)
+  const maxCount = Math.max(...typesCounts)
+
+  return {
+    charactersCount,
+    typesCount: { min: minCount, max: maxCount },
+  }
+}

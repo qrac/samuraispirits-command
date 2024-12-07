@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { NavItem } from "../../types"
 import "./index.css"
 import { dataNav } from "../../data/nav"
-import { getNavigatePath } from "../../utils"
+import { getNavigatePath, getNavItemCount } from "../../utils"
 
 export function ComponentLineup({
   navItems,
@@ -14,6 +14,15 @@ export function ComponentLineup({
 }) {
   function getLinkPath(id: string) {
     return getNavigatePath(dataNav, id, "root", "shura")
+  }
+  function getCountText(navItem: NavItem) {
+    const { charactersCount, typesCount } = getNavItemCount(navItem)
+    const charactersText = charactersCount
+      ? `${charactersCount} characters`
+      : ""
+    const typesText = typesCount.max ? `${typesCount.max} types` : ""
+    const texts = [charactersText, typesText].filter((text) => text)
+    return texts.join(" x ")
   }
   return (
     <div className="lineup">
@@ -29,8 +38,10 @@ export function ComponentLineup({
               >
                 <span className="lineup-button-title">{title}</span>
                 {item.category && (
-                  <span className="lineup-button-category">
-                    {item.category}
+                  <span className="lineup-button-subtext">
+                    {item.category === "Command List"
+                      ? getCountText([id, item])
+                      : item.category}
                   </span>
                 )}
               </Link>

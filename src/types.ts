@@ -18,7 +18,21 @@ export type DataNav = {
 
 export type NavItem = [
   id: string,
-  { name: string; fullName?: string; category?: string }
+  {
+    name: string
+    fullName?: string
+    category?: string
+    characters?: {
+      [id: string]: {
+        name: string
+        types?: {
+          [id: string]: {
+            name: string
+          }
+        }
+      }
+    }
+  }
 ]
 
 export type Tag = {
