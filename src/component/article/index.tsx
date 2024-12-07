@@ -40,7 +40,7 @@ export function ComponentArticleRoot() {
     <article className="article">
       <div className="article-content">
         <p>
-          このサイトは、サムスピシリーズのコマンドをスマホで素早く確認するために作りました！ゲーセンでインスト代わりに使ってもらえると幸いです。
+          サムコマは、サムスピシリーズのコマンドをスマホで素早く確認するために作ったサイトです！ゲーセンでインスト代わりに使ってみてください。
         </p>
         <p>
           間違いが見つかった場合は、お手数ですが開発者の
