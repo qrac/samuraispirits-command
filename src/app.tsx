@@ -56,16 +56,16 @@ export default function App() {
     }
     gameNavRef?.current && (gameNavRef.current.scrollLeft = 0)
     characterNavRef?.current && (characterNavRef.current.scrollLeft = 0)
-    gameId = "root"
-    characterId = "root"
-    typeId = "shura"
+    //gameId = "root"
+    //characterId = "root"
+    //typeId = "shura"
   }
   function handleClickLineup(id: string) {
     if (typeof window !== "undefined") {
       window.scrollTo({ top: 0 })
     }
     characterNavRef?.current && (characterNavRef.current.scrollLeft = 0)
-    gameId = id
+    //gameId = id
 
     if (gameNavRef?.current) {
       const activeButton = gameNavRef.current.querySelector<HTMLButtonElement>(
@@ -84,13 +84,13 @@ export default function App() {
     if (routePath.split("/")[1] !== characterId) {
       characterNavRef?.current && (characterNavRef.current.scrollLeft = 0)
     }
-    gameId = id
+    //gameId = id
   }
   function handleClickCharacter(id: string) {
-    characterId = id
+    //characterId = id
   }
   function handleClickType(id: string) {
-    typeId = id
+    //typeId = id
   }
   function handleClickAccordion(id: AccordionId) {
     const newAccordionState = { [id]: !accordion[id] }
