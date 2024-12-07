@@ -113,7 +113,7 @@ export const kenHanzo: DataItem = {
         },
         {
           name: "服部半蔵 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo-hanzo",
         },
         {
           name: "服部半蔵攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",

@@ -92,7 +92,7 @@ export const kenZankuro: DataItem = {
         },
         {
           name: "壬無月斬紅郎 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan-zankuro",
         },
       ],
     },

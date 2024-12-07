@@ -113,7 +113,7 @@ export const kenMina: DataItem = {
         },
         {
           name: "真鏡名ミナ - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero-mina",
         },
       ],
     },

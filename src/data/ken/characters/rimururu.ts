@@ -101,7 +101,7 @@ export const kenRimururu: DataItem = {
         },
         {
           name: "リムルル - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zan-rimururu",
         },
       ],
     },

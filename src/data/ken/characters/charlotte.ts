@@ -78,7 +78,7 @@ export const kenCharlotte: DataItem = {
         },
         {
           name: "シャルロット - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo-charlotte",
         },
       ],
     },

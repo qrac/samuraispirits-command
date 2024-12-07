@@ -85,7 +85,7 @@ export const kenIroha: DataItem = {
         },
         {
           name: "いろは - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken",
+          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken-iroha",
         },
       ],
     },
