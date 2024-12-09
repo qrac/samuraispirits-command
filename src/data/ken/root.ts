@@ -45,8 +45,24 @@ export const kenRoot: DataItem = {
           command: "↘+D",
         },
         {
-          name: "防御崩し",
-          command: "近距離で→+BC or ←+BC",
+          name: "防御崩し（突き放し）",
+          command: "近距離で→+BC",
+          skills: [
+            {
+              name: "崩し斬り",
+              command: "斬",
+            },
+          ],
+        },
+        {
+          name: "防御崩し（引っ張り）",
+          command: "近距離で←+BC",
+          skills: [
+            {
+              name: "崩し斬り",
+              command: "斬",
+            },
+          ],
         },
         {
           name: "追い打ち",

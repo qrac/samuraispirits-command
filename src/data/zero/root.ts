@@ -49,8 +49,18 @@ export const zeroRoot: DataItem = {
           command: "↘+C",
         },
         {
-          name: "防御崩し",
-          command: "近距離で→+C or ←+C",
+          name: "防御崩し（突き放し）",
+          command: "近距離で→+C",
+          skills: [
+            {
+              name: "崩し斬り",
+              command: "斬",
+            },
+          ],
+        },
+        {
+          name: "防御崩し（引っ張り）",
+          command: "近距離で←+C",
           skills: [
             {
               name: "崩し斬り",

@@ -23,6 +23,7 @@ export const polyRoot: DataItem = {
             {
               name: "地面転がし投げ",
               command: "",
+              notes: ["入力なしで自動派生"],
             },
             {
               name: "突き放し",
@@ -35,6 +36,7 @@ export const polyRoot: DataItem = {
                 {
                   name: "地面転がし投げ",
                   command: "",
+                  notes: ["入力なしで自動派生"],
                 },
                 {
                   name: "突き放し",
@@ -135,6 +137,9 @@ export const polyRoot: DataItem = {
         {
           name: "初心者モード",
           command: "スタートを押しながら剣質を決定",
+          notes: [
+            "立ち中はオート立ちガード・屈中はオート屈ガード / 通常技と非削り技をガードしても削られるデメリットあり（KOにはならず） / 登場演出が変化 / 対戦で1勝（初心者モード相手では2勝）すると解除",
+          ],
         },
       ],
     },

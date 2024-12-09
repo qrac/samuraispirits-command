@@ -41,8 +41,12 @@ export const tenRoot: DataItem = {
           command: "↘+D",
         },
         {
-          name: "防御崩し",
-          command: "近距離で→+C or ←+C",
+          name: "防御崩し（突き放し）",
+          command: "近距離で→+C",
+        },
+        {
+          name: "防御崩し（引っ張り）",
+          command: "近距離で←+C",
         },
         {
           name: "見切り",
