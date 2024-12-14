@@ -57,7 +57,7 @@ export function ComponentTags({ tags }: { tags: Skill["tags"] }) {
 export function ComponentCommand({ chars }: { chars: string }) {
   const elements: JSX.Element[] = []
   const items: { group: string; values: string }[] = []
-  const regCommand = /[↙↓↘←→↖↑↗NABCDE斬蹴○×]/
+  const regCommand = /[↙↓↘←→↖↑↗NABCDERLMH斬蹴○×]/
   const commandMap: { [key: string]: string } = {
     "↙": "arrow-1",
     "↓": "arrow-2",

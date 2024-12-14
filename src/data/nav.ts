@@ -8,6 +8,7 @@ import { zerospNav } from "./zerosp/nav"
 import { kenNav } from "./ken/nav"
 import { polyNav } from "./poly/nav"
 import { asuraNav } from "./asura/nav"
+import { senNav } from "./sen/nav"
 
 export const dataNav: DataNav = {
   ...{
@@ -24,6 +25,7 @@ export const dataNav: DataNav = {
   ...kenNav,
   ...polyNav,
   ...asuraNav,
+  ...senNav,
   ...{
     source: {
       name: "資料",
