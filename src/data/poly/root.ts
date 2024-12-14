@@ -5,7 +5,7 @@ export const polyRoot: DataItem = {
   name: "基本操作",
   groups: [
     {
-      title: "共通",
+      title: "ボタン説明",
       layout: "slim",
       skills: [
         {
@@ -16,6 +16,20 @@ export const polyRoot: DataItem = {
           name: "強攻撃",
           command: "B",
         },
+        {
+          name: "投げ",
+          command: "C",
+        },
+        {
+          name: "移動",
+          command: "D",
+        },
+      ],
+    },
+    {
+      title: "共通動作",
+      layout: "slim",
+      skills: [
         {
           name: "基本組み技",
           command: "C",
@@ -60,24 +74,24 @@ export const polyRoot: DataItem = {
           notes: ["スタミナ半分必要"],
         },
         {
-          name: "ダッシュ",
-          command: "→→継続 or D+→継続",
-        },
-        {
           name: "ステップ（前）",
-          command: "→→ or D+→",
+          command: "→→ or →+D",
         },
         {
           name: "ステップ（後）",
-          command: "←← or D+←",
+          command: "←← or ←+D",
         },
         {
           name: "ステップ（奥）",
-          command: "D+↖ or ↑ or ↗",
+          command: "↖ or ↑ or ↗+D",
         },
         {
           name: "ステップ（手前）",
-          command: "D+↙ or ↓ or ↘",
+          command: "↙ or ↓ or ↘+D",
+        },
+        {
+          name: "ダッシュ",
+          command: "→→継続 or →継続+D",
         },
         {
           name: "走り込み",

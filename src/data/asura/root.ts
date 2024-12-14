@@ -5,7 +5,7 @@ export const asuraRoot: DataItem = {
   name: "基本操作",
   groups: [
     {
-      title: "共通",
+      title: "ボタン説明",
       layout: "slim",
       skills: [
         {
@@ -21,9 +21,15 @@ export const asuraRoot: DataItem = {
           command: "C",
         },
         {
-          name: "軸移動",
-          command: "N+D or ↓+D",
+          name: "ステップ移動",
+          command: "D",
         },
+      ],
+    },
+    {
+      title: "共通動作",
+      layout: "slim",
+      skills: [
         {
           name: "つかみ",
           command: "→+C",
@@ -53,16 +59,30 @@ export const asuraRoot: DataItem = {
           command: "投げられ直後にC",
         },
         {
-          name: "踏み込み",
+          name: "軸移動（奥）",
+          command: "N+D",
+        },
+        {
+          name: "軸移動（手前）",
+          command: "↙ or ↓ or ↘+D",
+        },
+        {
+          name: "ステップ（前）",
           command: "→→ or →+D",
         },
         {
-          name: "引き込み",
+          name: "ステップ（後）",
           command: "←← or ←+D",
+          notes: ["2回連続で行うと尻餅をついてしまう"],
+        },
+        {
+          name: "ダッシュ",
+          command: "→→継続 or →継続+D",
         },
         {
           name: "ダッシュジャンプ",
-          command: "踏み込み中に↑ or ↗",
+          command: "ステップ（前）中に↗",
+          notes: ["↖ or ↑を入力しても前方に飛ぶ"],
         },
         {
           name: "目ジャンプ",
@@ -112,7 +132,7 @@ export const asuraRoot: DataItem = {
         {
           name: "S・C・S",
           command: "CD ｜ →+CD ｜ ↓or↘+CD",
-          notes: ["攻撃型 ｜ 弾き型（上・中・投・G不） ｜ 下段弾き型"],
+          notes: ["攻撃型 ｜ 弾き型（上・中・投・G不能） ｜ 下段弾き型"],
           layout: "unslim",
           skills: [
             {
@@ -157,8 +177,8 @@ export const asuraRoot: DataItem = {
       title: "もっと詳しいサイト",
       links: [
         {
-          name: "アスラ斬魔伝 / コマンド一覧 - 数字置き場",
-          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%b3%a5%de%a5%f3%a5%c9%b0%ec%cd%f7",
+          name: "アスラ斬魔伝 / システムなど - 数字置き場",
+          href: "https://seesaawiki.jp/kakugesouko/d/%a5%a2%a5%b9%a5%e9%bb%c2%cb%e2%c5%c1%20/%20%a5%b7%a5%b9%a5%c6%a5%e0%a4%ca%a4%c9",
         },
         {
           name: "アスラ斬魔伝 / キャラ雑感など - 数字置き場",

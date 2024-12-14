@@ -6,6 +6,7 @@ export const firstRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "ボタン説明",
       skills: [
         {
           name: "弱斬り",
@@ -31,6 +32,11 @@ export const firstRoot: DataItem = {
           name: "強蹴り",
           command: "CD",
         },
+      ],
+    },
+    {
+      title: "共通動作",
+      skills: [
         {
           name: "投げ",
           command: "近距離で→ or ←+中 or 強攻撃",

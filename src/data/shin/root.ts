@@ -6,6 +6,7 @@ export const shinRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "ボタン説明",
       skills: [
         {
           name: "弱斬り",
@@ -31,6 +32,11 @@ export const shinRoot: DataItem = {
           name: "強蹴り",
           command: "CD",
         },
+      ],
+    },
+    {
+      title: "共通動作",
+      skills: [
         {
           name: "投げ",
           command: "近距離で→ or ←+中 or 強攻撃",
@@ -72,6 +78,19 @@ export const shinRoot: DataItem = {
           command: "AC or BD",
         },
         {
+          name: "怒り頂点ポーズ",
+          command: "怒ゲージ最大化後の行動可能時に自動発動",
+        },
+        {
+          name: "武器破壊技",
+          command: "怒ゲージ最大時にキャラ別コマンド",
+        },
+      ],
+    },
+    {
+      title: "隠し動作",
+      skills: [
+        {
           name: "ぬいぐるみ変化",
           command: "キャラ別コマンド",
         },
@@ -79,14 +98,6 @@ export const shinRoot: DataItem = {
           name: "秘奥義",
           command: "キャラ別コマンド",
           notes: ["覇王丸・ナコルル・服部半蔵・ガルフォードのみ"],
-        },
-        {
-          name: "怒り頂点ポーズ",
-          command: "怒ゲージ最大化後の行動可能時に自動発動",
-        },
-        {
-          name: "武器破壊技",
-          command: "怒ゲージ最大時にキャラ別コマンド",
         },
       ],
     },
