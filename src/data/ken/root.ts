@@ -6,7 +6,7 @@ export const kenRoot: DataItem = {
   layout: "slim",
   groups: [
     {
-      title: "共通",
+      title: "ボタン説明",
       skills: [
         {
           name: "弱斬り",
@@ -28,6 +28,11 @@ export const kenRoot: DataItem = {
           name: "特殊動作",
           command: "E",
         },
+      ],
+    },
+    {
+      title: "共通動作",
+      skills: [
         {
           name: "上段蹴り",
           command: "N or ←+D",

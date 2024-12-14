@@ -6,6 +6,7 @@ export const zerospRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "ボタン説明",
       skills: [
         {
           name: "弱斬り",
@@ -27,6 +28,11 @@ export const zerospRoot: DataItem = {
           name: "特殊動作",
           command: "D",
         },
+      ],
+    },
+    {
+      title: "共通動作",
+      skills: [
         {
           name: "瞑想",
           command: "D継続押し",
