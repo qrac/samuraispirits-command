@@ -63,11 +63,11 @@ export const senRoot: DataItem = {
           command: "被コマ投げ直後にAR",
         },
         {
-          name: "上段弾き",
+          name: "弾き（上段・中断）",
           command: "←+R",
         },
         {
-          name: "下段弾き",
+          name: "弾き（下段）",
           command: "↙+R",
         },
         {
@@ -103,7 +103,7 @@ export const senRoot: DataItem = {
           ],
           skills: [
             {
-              name: "怒り技",
+              name: "怒り爆発中専用技",
               command: "↓↘→+BC",
             },
           ],
