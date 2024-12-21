@@ -91,6 +91,38 @@ export const senRoot: DataItem = {
           command: "↓N",
         },
         {
+          name: "受け身（通常）",
+          command: "被ダウンの瞬間に→",
+        },
+        {
+          name: "受け身（後転）",
+          command: "被ダウンの瞬間に←",
+        },
+        {
+          name: "受け身（軸変）",
+          command: "被ダウンの瞬間に↑ or ↓+R",
+        },
+        {
+          name: "移動起き上がり（前後）",
+          command: "被ダウン時← or →",
+        },
+        {
+          name: "移動起き上がり（軸変）",
+          command: "被ダウン時↑ or ↓",
+        },
+        {
+          name: "クイック起き上がり",
+          command: "被ダウン時R",
+        },
+        {
+          name: "起き上がり攻撃（中段）",
+          command: "起き上がり時A or B",
+        },
+        {
+          name: "起き上がり攻撃（下段）",
+          command: "起き上がり時C",
+        },
+        {
           name: "挑発",
           command: "ABC",
           notes: ["怒ゲージ最大時は使用不可"],
