@@ -339,20 +339,20 @@ export const senNakoruru: DataItem = {
       skills: [
         {
           name: "アシトマップアンヌムツベ",
-          command: "↓↘→+BC（溜め可）",
-          notes: ["特中"],
+          command: "↓↘→+BC",
+          notes: ["特中 / BC継続押しでタメ可"],
           skills: [
             {
-              name: "最大溜め",
-              command: "",
-              notes: ["G不能"],
-            },
-            {
               name: "キャンセル",
-              command: "溜め中に←←",
+              command: "タメ中に←←",
               notes: ["特殊動作"],
             },
           ],
+        },
+        {
+          name: "アフンチャロアンヌムツベ",
+          command: "↓↘→+BC最大タメ",
+          notes: ["G不能"],
         },
       ],
     },
