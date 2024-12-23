@@ -1,6 +1,6 @@
 import type { DataItem } from "../../types"
 import { senRoot } from "./root"
-//import { senHaoumaru } from "./characters/haoumaru"
+import { senHaoumaru } from "./characters/haoumaru"
 //import { senNakoruru } from "./characters/nakoruru"
 //import { senRimururu } from "./characters/rimururu"
 //import { senGenjuro } from "./characters/genjuro"
@@ -27,7 +27,7 @@ import { senRoot } from "./root"
 
 export const senList = [
   senRoot,
-  //senHaoumaru,
+  senHaoumaru,
   //senNakoruru,
   //senRimururu,
   //senGenjuro,
