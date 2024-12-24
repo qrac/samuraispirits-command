@@ -55,6 +55,10 @@ export const senRoot: DataItem = {
           command: "R←",
         },
         {
+          name: "後方投げ（広域）",
+          command: "→+R←",
+        },
+        {
           name: "投げ抜け",
           command: "投げられ直後にR",
         },
