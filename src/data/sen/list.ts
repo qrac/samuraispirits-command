@@ -3,7 +3,7 @@ import { senRoot } from "./root"
 import { senHaoumaru } from "./characters/haoumaru"
 import { senNakoruru } from "./characters/nakoruru"
 import { senRimururu } from "./characters/rimururu"
-//import { senGenjuro } from "./characters/genjuro"
+import { senGenjuro } from "./characters/genjuro"
 //import { senUkyo } from "./characters/ukyo"
 //import { senKyoshiro } from "./characters/kyoshiro"
 //import { senGalford } from "./characters/galford"
@@ -30,7 +30,7 @@ export const senList = [
   senHaoumaru,
   senNakoruru,
   senRimururu,
-  //senGenjuro,
+  senGenjuro,
   //senUkyo,
   //senKyoshiro,
   //senGalford,
