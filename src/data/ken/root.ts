@@ -84,10 +84,12 @@ export const kenRoot: DataItem = {
         {
           name: "近距離受け身",
           command: "被ダウン時E",
+          notes: ["打撃無敵なし / 必殺技でキャンセル可能"],
         },
         {
           name: "遠距離受け身",
           command: "被ダウン時←+E",
+          notes: ["投げ無敵なし"],
         },
         {
           name: "弾き返し",
@@ -358,15 +360,15 @@ export const kenRoot: DataItem = {
         },
       ],
     },
-    /*{
+    {
       title: "もっと詳しい動画",
       links: [
         {
-          name: "",
-          href: "https://youtu.be/xxx",
+          name: "受け身&受け身狩り解説 - YouTube",
+          href: "https://youtu.be/j96ieEL9uZE",
         },
       ],
-    },*/
+    },
   ],
   rootSources: [
     {
