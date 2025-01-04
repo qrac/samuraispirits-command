@@ -63,11 +63,11 @@ export const zanBasaraShura: DataItem = {
       links: [
         {
           name: "首斬り破沙羅 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#bas",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#bas",
         },
         {
           name: "首斬り破沙羅 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#bas",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#bas",
         },
       ],
     },

@@ -80,7 +80,7 @@ export const zerospMina: DataItem = {
       links: [
         {
           name: "キャラ別攻略 真鏡名ミナ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/18mina.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/18mina.htm",
         },
         {
           name: "変更点～真鏡名ミナ～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

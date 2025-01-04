@@ -111,7 +111,7 @@ export const kenYunfei: DataItem = {
         },
         {
           name: "劉雲飛 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero-yunfei",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#zero-yunfei",
         },
         {
           name: "劉雲飛攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",

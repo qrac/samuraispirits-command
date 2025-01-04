@@ -98,11 +98,11 @@ export const zerospRera: DataItem = {
       links: [
         {
           name: "キャラ別攻略 レラ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/22rera.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/22rera.htm",
         },
         {
           name: "変更点～レラ～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/22rera.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/22rera.htm",
         },
       ],
     },

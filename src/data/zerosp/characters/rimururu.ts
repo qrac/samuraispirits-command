@@ -81,11 +81,11 @@ export const zerospRimururu: DataItem = {
       links: [
         {
           name: "【遺跡】リムルル攻略 まとめサイト｡◇ﾟ 零SP編",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/rimururu/index.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/rimururu/index.htm",
         },
         {
           name: "キャラ別攻略 リムルル | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/12rimu.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/12rimu.htm",
         },
         {
           name: "変更点～リムルル～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

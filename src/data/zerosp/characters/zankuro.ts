@@ -52,7 +52,7 @@ export const zerospZankuro: DataItem = {
       links: [
         {
           name: "キャラ別攻略 壬無月斬紅郎 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/26zankuro.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/26zankuro.htm",
         },
         {
           name: "簡易攻略～壬無月斬紅郎～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

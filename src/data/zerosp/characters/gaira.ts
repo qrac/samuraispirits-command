@@ -65,7 +65,7 @@ export const zerospGaira: DataItem = {
       links: [
         {
           name: "キャラ別攻略 花諷院骸羅 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/14gaira.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/14gaira.htm",
         },
         {
           name: "変更点～花諷院骸羅～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

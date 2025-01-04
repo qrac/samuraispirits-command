@@ -56,7 +56,7 @@ export const zerospRasetsumaru: DataItem = {
       links: [
         {
           name: "キャラ別攻略 羅刹丸 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/21rasetsu.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/21rasetsu.htm",
         },
         {
           name: "変更点～羅刹丸～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

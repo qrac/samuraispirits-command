@@ -101,7 +101,7 @@ export const zerospNakoruru: DataItem = {
       links: [
         {
           name: "キャラ別攻略 ナコルル | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/02nako.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/02nako.htm",
         },
         {
           name: "変更点～ナコルル～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

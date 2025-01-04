@@ -54,11 +54,11 @@ export const zanHaoumaruShura: DataItem = {
       links: [
         {
           name: "覇王丸 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#hao",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#hao",
         },
         {
           name: "覇王丸 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#hao",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#hao",
         },
       ],
     },

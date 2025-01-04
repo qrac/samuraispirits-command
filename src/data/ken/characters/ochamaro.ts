@@ -190,7 +190,7 @@ export const kenoOhamaro: DataItem = {
         },
         {
           name: "機功おちゃ麻呂 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken-ochamaro",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#ken-ochamaro",
         },
         {
           name: "機功おちゃ麻呂攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",

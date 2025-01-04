@@ -65,11 +65,11 @@ export const zanRimururuShura: DataItem = {
       links: [
         {
           name: "リムルル - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#rim",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#rim",
         },
         {
           name: "リムルル - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#rim",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#rim",
         },
       ],
     },

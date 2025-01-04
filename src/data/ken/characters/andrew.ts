@@ -98,7 +98,7 @@ export const kenAndrew: DataItem = {
         },
         {
           name: "アンドリュー - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken-andrew",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#ken-andrew",
         },
       ],
     },

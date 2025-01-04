@@ -52,7 +52,7 @@ export const zerospUkyo: DataItem = {
       links: [
         {
           name: "キャラ別攻略 橘右京 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/05ukyo.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/05ukyo.htm",
         },
         {
           name: "変更点～橘右京～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

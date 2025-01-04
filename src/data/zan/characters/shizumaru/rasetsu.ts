@@ -61,11 +61,11 @@ export const zanShizumaruRasetsu: DataItem = {
       links: [
         {
           name: "緋雨閑丸 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#shiz",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#shiz",
         },
         {
           name: "緋雨閑丸 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#shiz",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#shiz",
         },
       ],
     },

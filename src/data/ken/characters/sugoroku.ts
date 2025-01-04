@@ -83,7 +83,7 @@ export const kenSugoroku: DataItem = {
         },
         {
           name: "祭囃子双六 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#ken-sugoroku",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#ken-sugoroku",
         },
       ],
     },

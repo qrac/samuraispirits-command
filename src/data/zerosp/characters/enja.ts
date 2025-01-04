@@ -81,7 +81,7 @@ export const zerospEnja: DataItem = {
       links: [
         {
           name: "キャラ別攻略 炎邪 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/23en.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/23en.htm",
         },
         {
           name: "変更点～炎邪～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

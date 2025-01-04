@@ -175,7 +175,7 @@ export const zerospRoot: DataItem = {
       links: [
         {
           name: "サムライスピリッツ零SPECIAL 初心者向け攻略ページ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/index.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/index.htm",
         },
         {
           name: "サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
@@ -206,7 +206,7 @@ export const zerospRoot: DataItem = {
         },
         {
           name: "サムライスピリッツ零SPECIAL 初心者向け攻略ページ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/index.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/index.htm",
         },
         {
           name: "サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",
