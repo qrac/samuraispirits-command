@@ -356,7 +356,7 @@ export const kenRoot: DataItem = {
       links: [
         {
           name: "サムライスピリッツ天下一剣客伝 初心者向け攻略ページ | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/index.htm",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/index.htm",
         },
       ],
     },
@@ -380,7 +380,7 @@ export const kenRoot: DataItem = {
         },
         {
           name: "サムライスピリッツ天下一剣客伝 初心者向け攻略ページ | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/index.htm",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/index.htm",
         },
         {
           name: "サムライスピリッツ天下一剣客伝 攻略サイト",

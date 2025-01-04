@@ -56,7 +56,7 @@ export const zerospGaoh: DataItem = {
       links: [
         {
           name: "キャラ別攻略 兇國日輪守我旺 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/27gaoh.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/27gaoh.htm",
         },
         {
           name: "簡易攻略～兇國日輪守我旺～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

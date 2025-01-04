@@ -75,7 +75,7 @@ export const kenGenjuro: DataItem = {
         },
         {
           name: "牙神幻十郎 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#sin-genjuro",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#sin-genjuro",
         },
         {
           name: "牙神幻十郎攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",

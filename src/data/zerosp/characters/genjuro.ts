@@ -58,7 +58,7 @@ export const zerospGenjuro: DataItem = {
       links: [
         {
           name: "キャラ別攻略 牙神幻十郎 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/10kiba.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/10kiba.htm",
         },
         {
           name: "変更点～牙神幻十郎～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

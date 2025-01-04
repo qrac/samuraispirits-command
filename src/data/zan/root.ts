@@ -143,7 +143,7 @@ export const zanRoot: DataItem = {
       links: [
         {
           name: "サムライスピリッツ斬紅郎無双剣 ファーストステップガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/index.htm",
+          href: "https://amatoge.static.jp/meikyo/zan/index.htm",
         },
       ],
     },
@@ -166,7 +166,7 @@ export const zanRoot: DataItem = {
         },
         {
           name: "サムライスピリッツ斬紅郎無双剣 ファーストステップガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/index.htm",
+          href: "https://amatoge.static.jp/meikyo/zan/index.htm",
         },
       ],
     },

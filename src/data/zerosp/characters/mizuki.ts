@@ -60,7 +60,7 @@ export const zerospMizuki: DataItem = {
       links: [
         {
           name: "キャラ別攻略 羅将神ミヅキ | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/28mizuki.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/28mizuki.htm",
         },
         {
           name: "簡易攻略～羅将神ミヅキ～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

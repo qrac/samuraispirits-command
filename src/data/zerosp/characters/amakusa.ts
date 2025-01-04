@@ -79,7 +79,7 @@ export const zerospAmakusa: DataItem = {
       links: [
         {
           name: "キャラ別攻略 天草四郎時貞 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/25amakusa.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/25amakusa.htm",
         },
         {
           name: "簡易攻略～天草四郎時貞～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

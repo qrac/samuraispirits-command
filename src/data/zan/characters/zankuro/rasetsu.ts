@@ -64,11 +64,11 @@ export const zanZankuroRasetsu: DataItem = {
       links: [
         {
           name: "壬無月斬紅郎 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#zan",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#zan",
         },
         {
           name: "壬無月斬紅郎 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#zan",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#zan",
         },
       ],
     },

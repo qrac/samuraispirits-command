@@ -46,11 +46,11 @@ export const zanUkyoRasetsu: DataItem = {
       links: [
         {
           name: "橘右京 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#uky",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#uky",
         },
         {
           name: "橘右京 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#uky",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#uky",
         },
       ],
     },

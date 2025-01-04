@@ -97,7 +97,7 @@ export const kenGaoh: DataItem = {
         },
         {
           name: "兇國日輪守我旺 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#zero-gaoh",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#zero-gaoh",
         },
       ],
     },

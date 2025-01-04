@@ -64,7 +64,7 @@ export const zerospHaoumaru: DataItem = {
       links: [
         {
           name: "キャラ別攻略 覇王丸 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/01haou.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/01haou.htm",
         },
         {
           name: "変更点～覇王丸～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

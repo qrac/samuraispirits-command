@@ -85,7 +85,7 @@ export const kenHaoumaru: DataItem = {
         },
         {
           name: "覇王丸 - キャラクターとコマンドリスト | 剣サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/kenkaku/waza.htm#syo-haoumaru",
+          href: "https://amatoge.static.jp/meikyo/kenkaku/waza.htm#syo-haoumaru",
         },
         {
           name: "覇王丸攻略 - サムライスピリッツ天下一剣客伝 攻略サイト",

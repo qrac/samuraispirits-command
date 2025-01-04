@@ -89,7 +89,7 @@ export const zerospHanzo: DataItem = {
       links: [
         {
           name: "キャラ別攻略 服部半蔵 | 零SP | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zerosp/character/03hanzo.htm",
+          href: "https://amatoge.static.jp/meikyo/zerosp/character/03hanzo.htm",
         },
         {
           name: "変更点～服部半蔵～ サムライスピリッツ零SPECIAL - ぽんしゃぶ弐号",

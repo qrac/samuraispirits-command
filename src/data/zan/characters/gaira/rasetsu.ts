@@ -50,11 +50,11 @@ export const zanGairaRasetsu: DataItem = {
       links: [
         {
           name: "花諷院骸羅 - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#gai",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#gai",
         },
         {
           name: "花諷院骸羅 - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#gai",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#gai",
         },
       ],
     },

@@ -91,11 +91,11 @@ export const zanNakoruruShura: DataItem = {
       links: [
         {
           name: "ナコルル - キャラクターとコマンドリスト | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/command.htm#nak",
+          href: "https://amatoge.static.jp/meikyo/zan/command.htm#nak",
         },
         {
           name: "ナコルル - ド定番連続技ガイド | 斬サム | 明鏡止水｡◇ﾟ in 雨峠",
-          href: "http://amtug.html.xdomain.jp/meikyo/zan/combo.htm#nak",
+          href: "https://amatoge.static.jp/meikyo/zan/combo.htm#nak",
         },
       ],
     },
