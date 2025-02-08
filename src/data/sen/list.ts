@@ -5,8 +5,8 @@ import { senNakoruru } from "./characters/nakoruru"
 import { senRimururu } from "./characters/rimururu"
 import { senGenjuro } from "./characters/genjuro"
 import { senUkyo } from "./characters/ukyo"
-//import { senGalford } from "./characters/galford"
 import { senKyoshiro } from "./characters/kyoshiro"
+import { senGalford } from "./characters/galford"
 //import { senHanzo } from "./characters/hanzo"
 //import { senKazuki } from "./characters/kazuki"
 //import { senSougetsu } from "./characters/sougetsu"
@@ -32,8 +32,8 @@ export const senList = [
   senRimururu,
   senGenjuro,
   senUkyo,
-  //senGalford,
   senKyoshiro,
+  senGalford,
   //senHanzo,
   //senKazuki,
   //senSougetsu,
