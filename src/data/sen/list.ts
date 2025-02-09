@@ -10,7 +10,7 @@ import { senGalford } from "./characters/galford"
 import { senHanzo } from "./characters/hanzo"
 import { senKazuki } from "./characters/kazuki"
 import { senSougetsu } from "./characters/sougetsu"
-//import { senJubei } from "./characters/jubei"
+import { senJubei } from "./characters/jubei"
 //import { senCharlotte } from "./characters/charlotte"
 //import { senWanfu } from "./characters/wanfu"
 //import { senTakechiyo } from "./characters/takechiyo"
@@ -37,7 +37,7 @@ export const senList = [
   senHanzo,
   senKazuki,
   senSougetsu,
-  //senJubei,
+  senJubei,
   //senCharlotte,
   //senWanfu,
   //senTakechiyo,
