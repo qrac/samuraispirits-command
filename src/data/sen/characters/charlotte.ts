@@ -358,7 +358,7 @@ export const senCharlotte: DataItem = {
         {
           name: "リュッシュ・ファーント",
           command: "↓↘→+BC",
-          notes: ["中・上・中・上・中・上・中・上・中"],
+          notes: ["（中・上・中・上・中・上・中・上・中）"],
         },
       ],
     },
