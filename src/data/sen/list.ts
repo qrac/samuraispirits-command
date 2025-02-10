@@ -17,7 +17,7 @@ import { senTakechiyo } from "./characters/takechiyo"
 import { senSuzuhime } from "./characters/suzuhime"
 import { senJinbei } from "./characters/jinbei"
 import { senClaude } from "./characters/claude"
-//import { senJ } from "./characters/j"
+import { senJ } from "./characters/j"
 //import { senKim } from "./characters/kim"
 //import { senKirian } from "./characters/kirian"
 //import { senGarosu } from "./characters/garosu"
@@ -44,7 +44,7 @@ export const senList = [
   senSuzuhime,
   senJinbei,
   senClaude,
-  //senJ,
+  senJ,
   //senKim,
   //senKirian,
   //senGarosu,
