@@ -16,4 +16,7 @@ export default defineConfig({
     },
   },
   plugins: [],
+  ssr: {
+    noExternal: ["react-helmet-async"],
+  },
 })
