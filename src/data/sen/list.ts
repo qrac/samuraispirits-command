@@ -22,7 +22,7 @@ import { senKim } from "./characters/kim"
 import { senKirian } from "./characters/kirian"
 import { senGarosu } from "./characters/garosu"
 import { senVaruta } from "./characters/varuta"
-//import { senBlack } from "./characters/black"
+import { senBlack } from "./characters/black"
 //import { senAngelica } from "./characters/angelica"
 
 export const senList = [
@@ -49,6 +49,6 @@ export const senList = [
   senKirian,
   senGarosu,
   senVaruta,
-  //senBlack,
+  senBlack,
   //senAngelica,
 ] as DataItem[]
