@@ -116,8 +116,8 @@ export const senClaude: DataItem = {
           skills: [
             {
               name: "ガトリングヘッドバット",
-              command: "ヒット時にBC",
-              notes: ["打撃投げ（相手が立ち状態時限定）"],
+              command: "（相手立ち状態で）ヒット時にBC",
+              notes: ["打撃投げ"],
             },
           ],
         },
