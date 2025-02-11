@@ -6,6 +6,7 @@ export const senRoot: DataItem = {
   layout: "slim",
   groups: [
     {
+      title: "ボタン説明",
       skills: [
         {
           name: "横斬り",
