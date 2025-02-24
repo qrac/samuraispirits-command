@@ -130,6 +130,18 @@
   fill: var(--theme-button-r);
 }
 
+.skill-command-icon-svg.is-button-l {
+  fill: var(--theme-button-l);
+}
+
+.skill-command-icon-svg.is-button-m {
+  fill: var(--theme-button-m);
+}
+
+.skill-command-icon-svg.is-button-h {
+  fill: var(--theme-button-h);
+}
+
 .skill-command-icon-svg.is-button-zan {
   fill: var(--theme-button-zan);
 }

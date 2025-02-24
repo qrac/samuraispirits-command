@@ -9,6 +9,7 @@ import { kenList } from "./ken/list"
 import { polyList } from "./poly/list"
 import { asuraList } from "./asura/list"
 import { senList } from "./sen/list"
+import { reiList } from "./rei/list"
 
 export const dataList = [
   ...firstList,
@@ -21,4 +22,5 @@ export const dataList = [
   ...polyList,
   ...asuraList,
   ...senList,
+  ...reiList,
 ] as DataItem[]

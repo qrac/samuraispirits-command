@@ -9,6 +9,7 @@ import { kenNav } from "./ken/nav"
 import { polyNav } from "./poly/nav"
 import { asuraNav } from "./asura/nav"
 import { senNav } from "./sen/nav"
+import { reiNav } from "./rei/nav"
 
 export const dataNav: DataNav = {
   ...{
@@ -26,6 +27,7 @@ export const dataNav: DataNav = {
   ...polyNav,
   ...asuraNav,
   ...senNav,
+  ...reiNav,
   ...{
     source: {
       name: "資料",
