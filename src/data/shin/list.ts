@@ -10,7 +10,7 @@ import { shinHanzo } from "./characters/hanzo"
 import { shinJubei } from "./characters/jubei"
 import { shinCharlotte } from "./characters/charlotte"
 import { shinGenan } from "./characters/genan"
-import { shinWanfu } from "./characters/wanfu"
+import { shinWanFu } from "./characters/wan-fu"
 import { shinEarthquake } from "./characters/earthquake"
 import { shinChamcham } from "./characters/chamcham"
 import { shinSieger } from "./characters/sieger"
@@ -28,7 +28,7 @@ export const shinList = [
   shinJubei,
   shinCharlotte,
   shinGenan,
-  shinWanfu,
+  shinWanFu,
   shinEarthquake,
   shinChamcham,
   shinSieger,

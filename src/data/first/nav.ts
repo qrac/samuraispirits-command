@@ -39,7 +39,7 @@ export const firstNav: DataNav = {
       genan: {
         name: "不知火幻庵",
       },
-      wanfu: {
+      "wan-fu": {
         name: "王虎",
       },
       earthquake: {
