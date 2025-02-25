@@ -10,7 +10,7 @@ import { firstJubei } from "./characters/jubei"
 import { firstCharlotte } from "./characters/charlotte"
 import { firstTamtam } from "./characters/tamtam"
 import { firstGenan } from "./characters/genan"
-import { firstWanfu } from "./characters/wanfu"
+import { firstWanFu } from "./characters/wan-fu"
 import { firstEarthquake } from "./characters/earthquake"
 
 export const firstList = [
@@ -25,6 +25,6 @@ export const firstList = [
   firstCharlotte,
   firstTamtam,
   firstGenan,
-  firstWanfu,
+  firstWanFu,
   firstEarthquake,
 ] as DataItem[]

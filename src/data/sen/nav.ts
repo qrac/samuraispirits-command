@@ -45,7 +45,7 @@ export const senNav: DataNav = {
       charlotte: {
         name: "シャルロット",
       },
-      wanfu: {
+      "wan-fu": {
         name: "王虎",
       },
       takechiyo: {

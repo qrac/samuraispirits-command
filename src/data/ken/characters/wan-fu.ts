@@ -1,7 +1,7 @@
 import type { DataItem } from "../../../types"
 
-export const kenWanfu: DataItem = {
-  id: "ken-wanfu",
+export const kenWanFu: DataItem = {
+  id: "ken-wan-fu",
   name: "王虎",
   groups: [
     {
