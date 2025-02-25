@@ -34,8 +34,12 @@ export const reiRoot: DataItem = {
           command: "↘+蹴",
         },
         {
-          name: "防御崩し",
-          command: "近距離で← or →+H蹴",
+          name: "防御崩し（突き放し）",
+          command: "近距離でN or →+H蹴",
+        },
+        {
+          name: "防御崩し（引っ張り）",
+          command: "近距離で←+H蹴",
         },
         {
           name: "見極め",
