@@ -14,7 +14,7 @@ import { reiSougetsu } from "./characters/sougetsu"
 import { reiBasara } from "./characters/basara"
 import { reiJubei } from "./characters/jubei"
 import { reiCharlotte } from "./characters/charlotte"
-//import { reiWanFu } from "./characters/wan-fu"
+import { reiWanFu } from "./characters/wan-fu"
 //import { reiEarthquake } from "./characters/earthquake"
 //import { reiChamcham } from "./characters/chamcham"
 //import { reiTamtam } from "./characters/tamtam"
@@ -47,7 +47,7 @@ export const reiList = [
   reiBasara,
   reiJubei,
   reiCharlotte,
-  //reiWanFu,
+  reiWanFu,
   //reiEarthquake,
   //reiChamcham,
   //reiTamtam,
