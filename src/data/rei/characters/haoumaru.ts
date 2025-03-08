@@ -10,12 +10,12 @@ export const reiHaoumaru: DataItem = {
         {
           name: "奥義 弧月斬",
           command: "→↓↘+斬",
-          tags: [{ name: "怒", color: 2 }],
+          notes: ["怒り時Hで強化"],
         },
         {
           name: "奥義 疾風弧月斬",
           command: "踏み込み中に→↓↘+斬",
-          tags: [{ name: "怒", color: 2 }],
+          notes: ["怒り時Hで強化"],
         },
         {
           name: "奥義 旋風裂斬",
@@ -32,7 +32,6 @@ export const reiHaoumaru: DataItem = {
         {
           name: "酒攻撃",
           command: "↓↙←+蹴",
-          tags: [{ name: "素+", color: 4 }],
         },
       ],
     },
@@ -68,6 +67,10 @@ export const reiHaoumaru: DataItem = {
         {
           name: "覇王丸 - SAMURAI SPIRITS user's Wiki*",
           href: "https://wikiwiki.jp/samurai2019/%E8%A6%87%E7%8E%8B%E4%B8%B8",
+        },
+        {
+          name: "覇王丸 - SAMURAI SPIRITS公式サイト | コマンドリスト",
+          href: "https://www.snk-corp.co.jp/official/samuraispirits/img/command/01.pdf",
         },
       ],
     },
