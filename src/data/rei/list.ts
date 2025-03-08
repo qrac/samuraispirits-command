@@ -1,6 +1,6 @@
 import type { DataItem } from "../../types"
 import { reiRoot } from "./root"
-//import { reiHaoumaru } from "./characters/haoumaru"
+import { reiHaoumaru } from "./characters/haoumaru"
 //import { reiNakoruru } from "./characters/nakoruru"
 //import { reiRimururu } from "./characters/rimururu"
 //import { reiShizumaru } from "./characters/shizumaru"
@@ -33,7 +33,7 @@ import { reiRoot } from "./root"
 
 export const reiList = [
   reiRoot,
-  //reiHaoumaru,
+  reiHaoumaru,
   //reiNakoruru,
   //reiRimururu,
   //reiShizumaru,
