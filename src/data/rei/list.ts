@@ -4,7 +4,7 @@ import { reiHaoumaru } from "./characters/haoumaru"
 import { reiNakoruru } from "./characters/nakoruru"
 import { reiRimururu } from "./characters/rimururu"
 import { reiShizumaru } from "./characters/shizumaru"
-//import { reiGenjuro } from "./characters/genjuro"
+import { reiGenjuro } from "./characters/genjuro"
 //import { reiUkyo } from "./characters/ukyo"
 //import { reiKyoshiro } from "./characters/kyoshiro"
 //import { reiGalford } from "./characters/galford"
@@ -37,7 +37,7 @@ export const reiList = [
   reiNakoruru,
   reiRimururu,
   reiShizumaru,
-  //reiGenjuro,
+  reiGenjuro,
   //reiUkyo,
   //reiKyoshiro,
   //reiGalford,
