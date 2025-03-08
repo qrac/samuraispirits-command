@@ -64,6 +64,11 @@
   color: var(--theme-ac-3);
 }
 
+.skill-tag.is-ac-4 {
+  border-color: var(--theme-ac-4);
+  color: var(--theme-ac-4);
+}
+
 .skill-command {
   padding-right: calc(var(--theme-space) * 0.5);
   font-size: 1.25rem;
