@@ -51,6 +51,19 @@ export const reiHanzo: DataItem = {
       ],
     },
     {
+      title: "特殊",
+      skills: [
+        {
+          name: "三角飛び",
+          command: "空中画面端で↗",
+        },
+        {
+          name: "空転撃",
+          command: "空中近距離で→+蹴",
+        },
+      ],
+    },
+    {
       title: "武器飛ばし必殺技",
       titleColor: 2,
       skills: [
