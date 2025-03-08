@@ -10,12 +10,12 @@ export const reiNakoruru: DataItem = {
         {
           name: "アンヌ ムツベ",
           command: "←↙↓+斬",
-          notes: ["怒り時Hで強化"],
+          tags: [{ name: "怒", color: 2 }],
         },
         {
           name: "レラ ムツベ",
           command: "↓↘→+斬",
-          notes: ["怒り時Hで強化"],
+          tags: [{ name: "怒", color: 2 }],
         },
         {
           name: "カムイ リムセ",
@@ -50,7 +50,7 @@ export const reiNakoruru: DataItem = {
             {
               name: "カムイ ムツベ",
               command: "MH",
-              notes: ["怒り時に強化"],
+              tags: [{ name: "怒", color: 2 }],
             },
           ],
         },

@@ -14,7 +14,7 @@ export const reiShizumaru: DataItem = {
         {
           name: "緋刀流 梅雨円殺陣",
           command: "→↓↘+斬",
-          notes: ["怒り時Hで強化"],
+          tags: [{ name: "怒", color: 2 }],
         },
         {
           name: "緋刀流 五月雨斬り",

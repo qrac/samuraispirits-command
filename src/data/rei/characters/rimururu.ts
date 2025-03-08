@@ -8,14 +8,6 @@ export const reiRimururu: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "コンル メム",
-          command: "↓↓+斬",
-        },
-        {
-          name: "コンル シラル",
-          command: "空中で↓+斬",
-        },
-        {
           name: "ルプシ クアレ・ニシ",
           command: "↓↘→+L or M",
         },
@@ -24,9 +16,13 @@ export const reiRimururu: DataItem = {
           command: "↓↘→+H",
         },
         {
+          name: "コンル メム",
+          command: "↓↓+斬",
+        },
+        {
           name: "コンル ノンノ",
           command: "→↓↘+斬",
-          notes: ["怒り時Hで強化"],
+          tags: [{ name: "怒", color: 2 }],
         },
         {
           name: "ルプシ トゥム",
@@ -39,6 +35,10 @@ export const reiRimururu: DataItem = {
         {
           name: "ウプン オプ",
           command: "→+斬連打",
+        },
+        {
+          name: "コンル シラル",
+          command: "空中で↓+斬",
         },
       ],
     },
