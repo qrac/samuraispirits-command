@@ -90,15 +90,15 @@ export const reiGalford: DataItem = {
       links: [
         {
           name: "SAMURAI SPIRITS ガルフォード - 究極攻略最前線",
-          href: "https://gamers-high.com/samurai-spirits/character/haohmaru.html",
+          href: "https://gamers-high.com/samurai-spirits/character/galford.html",
         },
         {
           name: "ガルフォード - SAMURAI SPIRITS user's Wiki*",
-          href: "https://wikiwiki.jp/samurai2019/%E8%A6%87%E7%8E%8B%E4%B8%B8",
+          href: "https://wikiwiki.jp/samurai2019/%E3%82%AC%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89",
         },
         {
           name: "ガルフォード - SAMURAI SPIRITS公式サイト | コマンドリスト",
-          href: "https://www.snk-corp.co.jp/official/samuraispirits/img/command/01.pdf",
+          href: "https://www.snk-corp.co.jp/official/samuraispirits/img/command/04.pdf",
         },
       ],
     },
