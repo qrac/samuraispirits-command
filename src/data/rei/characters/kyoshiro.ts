@@ -39,6 +39,15 @@ export const reiKyoshiro: DataItem = {
       ],
     },
     {
+      title: "特殊",
+      skills: [
+        {
+          name: "屈み歩き",
+          command: "↙ or ↘",
+        },
+      ],
+    },
+    {
       title: "武器飛ばし必殺技",
       titleColor: 2,
       skills: [
