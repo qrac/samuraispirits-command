@@ -18,11 +18,11 @@ export const reiNakoruru: DataItem = {
           notes: ["怒り時Hで強化"],
         },
         {
-          name: "カムイ リㇺセ",
+          name: "カムイ リムセ",
           command: "←↓↙+斬",
           skills: [
             {
-              name: "カムイ リㇺセ返し",
+              name: "カムイ リムセ返し",
               command: "斬 or 蹴",
             },
           ],
@@ -57,11 +57,28 @@ export const reiNakoruru: DataItem = {
       ],
     },
     {
+      title: "特殊",
+      skills: [
+        {
+          name: "三角飛び",
+          command: "空中画面端で↗",
+        },
+        {
+          name: "カムイ フム ケスプ",
+          command: "空中で↙ or ↓ or ↘+蹴",
+        },
+        {
+          name: "レラ キシマ テク",
+          command: "空中近距離で→+蹴",
+        },
+      ],
+    },
+    {
       title: "武器飛ばし必殺技",
       titleColor: 2,
       skills: [
         {
-          name: "エレルㇱ カムイ リㇺセ",
+          name: "エレルシ カムイ リムセ",
           command: "↓↘→+MH",
         },
       ],
