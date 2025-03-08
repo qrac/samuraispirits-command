@@ -2,7 +2,7 @@ import type { DataItem } from "../../types"
 import { reiRoot } from "./root"
 import { reiHaoumaru } from "./characters/haoumaru"
 import { reiNakoruru } from "./characters/nakoruru"
-//import { reiRimururu } from "./characters/rimururu"
+import { reiRimururu } from "./characters/rimururu"
 //import { reiShizumaru } from "./characters/shizumaru"
 //import { reiGenjuro } from "./characters/genjuro"
 //import { reiUkyo } from "./characters/ukyo"
@@ -35,7 +35,7 @@ export const reiList = [
   reiRoot,
   reiHaoumaru,
   reiNakoruru,
-  //reiRimururu,
+  reiRimururu,
   //reiShizumaru,
   //reiGenjuro,
   //reiUkyo,
