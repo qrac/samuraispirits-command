@@ -30,7 +30,7 @@ export const reiBasara: DataItem = {
         {
           name: "影吸い",
           command: "↓↙←+蹴",
-          notes: ["左右に移動可能"],
+          notes: ["左右に移動可"],
         },
         {
           name: "影出",
