@@ -25,7 +25,7 @@ import { reiShiki } from "./characters/shiki"
 import { reiAmakusa } from "./characters/amakusa"
 import { reiKurama } from "./characters/kurama"
 import { reiDarli } from "./characters/darli"
-//import { reiWuRuixiang } from "./characters/wu-ruixiang"
+import { reiWuRuixiang } from "./characters/wu-ruixiang"
 //import { reiHibiki } from "./characters/hibiki"
 //import { reiWarden } from "./characters/warden"
 //import { reiGongsunli } from "./characters/gongsunli"
@@ -58,7 +58,7 @@ export const reiList = [
   reiAmakusa,
   reiKurama,
   reiDarli,
-  //reiWuRuixiang,
+  reiWuRuixiang,
   //reiHibiki,
   //reiWarden,
   //reiGongsunli,
