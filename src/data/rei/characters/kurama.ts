@@ -20,7 +20,7 @@ export const reiKurama: DataItem = {
         },
         {
           name: "雁渡",
-          command: "→↓↘+斬（空中も可）",
+          command: "→↓↘+斬",
           tags: [{ name: "怒", color: 2 }],
         },
       ],
