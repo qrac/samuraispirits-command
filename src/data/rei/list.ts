@@ -19,7 +19,7 @@ import { reiEarthquake } from "./characters/earthquake"
 import { reiChamcham } from "./characters/chamcham"
 import { reiTamtam } from "./characters/tamtam"
 import { reiYoshitora } from "./characters/yoshitora"
-//import { reiMina } from "./characters/mina"
+import { reiMina } from "./characters/mina"
 //import { reiIroha } from "./characters/iroha"
 //import { reiShiki } from "./characters/shiki"
 //import { reiAmakusa } from "./characters/amakusa"
@@ -52,7 +52,7 @@ export const reiList = [
   reiChamcham,
   reiTamtam,
   reiYoshitora,
-  //reiMina,
+  reiMina,
   //reiIroha,
   //reiShiki,
   //reiAmakusa,
