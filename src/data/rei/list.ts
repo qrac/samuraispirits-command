@@ -20,7 +20,7 @@ import { reiChamcham } from "./characters/chamcham"
 import { reiTamtam } from "./characters/tamtam"
 import { reiYoshitora } from "./characters/yoshitora"
 import { reiMina } from "./characters/mina"
-//import { reiIroha } from "./characters/iroha"
+import { reiIroha } from "./characters/iroha"
 //import { reiShiki } from "./characters/shiki"
 //import { reiAmakusa } from "./characters/amakusa"
 //import { reiKurama } from "./characters/kurama"
@@ -53,7 +53,7 @@ export const reiList = [
   reiTamtam,
   reiYoshitora,
   reiMina,
-  //reiIroha,
+  reiIroha,
   //reiShiki,
   //reiAmakusa,
   //reiKurama,
