@@ -39,6 +39,7 @@ export const reiRimururu: DataItem = {
         {
           name: "コンル シラル",
           command: "空中で↓+斬",
+          notes: ["三角飛び後は出せない"],
         },
       ],
     },
