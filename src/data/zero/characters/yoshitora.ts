@@ -29,7 +29,7 @@ export const zeroYoshitora: DataItem = {
         },
         {
           name: "六の太刀 夕顔",
-          command: "→↓↘+C",
+          command: "近距離で→↓↘+C",
         },
         {
           name: "七の太刀 遊蝶華",
