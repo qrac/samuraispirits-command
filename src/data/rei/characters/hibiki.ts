@@ -29,7 +29,9 @@ export const reiHibiki: DataItem = {
             {
               name: "発勝する神気也",
               command: "怒最大・裏回り時に↓↘→+MH",
-              notes: ["M or H版のボタン継続押しによる裏回り時限定"],
+              notes: [
+                "武器飛ばし必殺技 / M or H版のボタン継続押しによる裏回り時のみ",
+              ],
             },
           ],
         },
@@ -50,6 +52,7 @@ export const reiHibiki: DataItem = {
                 {
                   name: "発勝する神気也",
                   command: "怒最大時に↓↘→+MH",
+                  notes: ["武器飛ばし必殺技"],
                 },
               ],
             },
