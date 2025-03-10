@@ -8,10 +8,6 @@ export const reiTamtam: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "パグナ・パグナ",
-          command: "→+斬連打",
-        },
-        {
           name: "ムーラ・ムーラ",
           command: "↓↘→+L or M",
           notes: ["3回まで連続入力可能"],
@@ -20,6 +16,10 @@ export const reiTamtam: DataItem = {
           name: "アハウ・ガブル",
           command: "→↓↘+斬",
           tags: [{ name: "怒", color: 2 }],
+        },
+        {
+          name: "パグナ・パグナ",
+          command: "→+斬連打",
         },
         {
           name: "パグナ・デオス",

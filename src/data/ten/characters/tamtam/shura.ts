@@ -8,10 +8,6 @@ export const tenTamtamShura: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "パグナ・パグナ",
-          command: "→+斬連打",
-        },
-        {
           name: "ムーラ・ガブル 上",
           command: "↓↘→+斬",
         },
@@ -22,6 +18,10 @@ export const tenTamtamShura: DataItem = {
         {
           name: "アハウ・ガブル",
           command: "→↓↘+斬",
+        },
+        {
+          name: "パグナ・パグナ",
+          command: "→+斬連打",
         },
         {
           name: "パグナ・デオス",

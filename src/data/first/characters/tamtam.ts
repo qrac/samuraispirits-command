@@ -8,16 +8,16 @@ export const firstTamtam: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "パグナ・パグナ",
-          command: "←タメ→+斬",
-        },
-        {
           name: "ムーラ・ガブル",
           command: "↓↘→+斬",
         },
         {
           name: "アハウ・ガブル",
           command: "→↘↓↙←+斬",
+        },
+        {
+          name: "パグナ・パグナ",
+          command: "←タメ→+斬",
         },
         {
           name: "パグナ・デオス",

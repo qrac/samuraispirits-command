@@ -8,10 +8,6 @@ export const zeroTamtam: DataItem = {
       title: "必殺技",
       skills: [
         {
-          name: "パグナ・パグナ",
-          command: "→+斬連打",
-        },
-        {
           name: "ムーラ・ムーラ",
           command: "↓↘→+A or B",
           notes: ["3回まで連続入力可能"],
@@ -19,6 +15,10 @@ export const zeroTamtam: DataItem = {
         {
           name: "アハウ・ガブル",
           command: "→↓↘+斬",
+        },
+        {
+          name: "パグナ・パグナ",
+          command: "→+斬連打",
         },
         {
           name: "パグナ・デオス",
