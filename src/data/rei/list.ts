@@ -28,7 +28,7 @@ import { reiDarli } from "./characters/darli"
 import { reiWuRuixiang } from "./characters/wu-ruixiang"
 import { reiHibiki } from "./characters/hibiki"
 import { reiWarden } from "./characters/warden"
-//import { reiGongsunli } from "./characters/gongsunli"
+import { reiGongsunli } from "./characters/gongsunli"
 //import { reiBaiken } from "./characters/baiken"
 
 export const reiList = [
@@ -61,6 +61,6 @@ export const reiList = [
   reiWuRuixiang,
   reiHibiki,
   reiWarden,
-  //reiGongsunli,
+  reiGongsunli,
   //reiBaiken,
 ] as DataItem[]
