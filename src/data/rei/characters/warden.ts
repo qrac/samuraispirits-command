@@ -27,7 +27,7 @@ export const reiWarden: DataItem = {
       skills: [
         {
           name: "クラッシングカウンターストライク",
-          command: "近距離M",
+          command: "近立ちM",
           skills: [
             {
               name: "ヴァンガードの行軍",
@@ -61,19 +61,19 @@ export const reiWarden: DataItem = {
         },
         {
           name: "守護者の襲撃",
-          command: "遠距離M中にM",
+          command: "遠立ちM中にM",
         },
         {
           name: "守護者の襲撃（キャンセル）",
-          command: "遠距離M中に蹴",
+          command: "遠立ちM中に蹴",
         },
         {
           name: "ウォーデンの怒り",
-          command: "近距離H中にH",
+          command: "近立ちH中にH",
         },
         {
           name: "ウォーデンの怒り（キャンセル）",
-          command: "近距離H中に蹴",
+          command: "近立ちH中に蹴",
         },
       ],
     },
