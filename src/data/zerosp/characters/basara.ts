@@ -20,6 +20,19 @@ export const zerospBasara: DataItem = {
           command: "↓↘→+C",
         },
         {
+          name: "影出",
+          command: "→↓↘+斬",
+        },
+        {
+          name: "影騙し",
+          command: "←↓↙+斬 or C",
+          notes: ["レバー左右で移動可"],
+        },
+        {
+          name: "影吸い",
+          command: "↓↙←+C",
+        },
+        {
           name: "友引",
           command: "近距離で→↓↘+C",
         },
@@ -28,16 +41,8 @@ export const zerospBasara: DataItem = {
           command: "空中で↓+C",
         },
         {
-          name: "影吸い",
-          command: "↓↙←+C",
-        },
-        {
-          name: "影出",
-          command: "→↓↘+斬",
-        },
-        {
-          name: "影騙し",
-          command: "←↓↙+斬 or C",
+          name: "頭骨割り",
+          command: "空中で↙ or ↘+C",
         },
       ],
     },
@@ -47,10 +52,6 @@ export const zerospBasara: DataItem = {
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
-        },
-        {
-          name: "頭骨割り",
-          command: "空中で↙ or ↘+C",
         },
       ],
     },

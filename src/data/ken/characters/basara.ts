@@ -24,17 +24,13 @@ export const kenBasara: DataItem = {
           command: "→↓↘+斬",
         },
         {
-          name: "友引",
-          command: "近距離で→↓↘+D",
-        },
-        {
           name: "影騙し",
           command: "↓↙←+A or B or C or AC or AD or BC or BD",
         },
         {
           name: "影吸い",
           command: "↓↙←+D",
-          notes: ["レバー左右で移動"],
+          notes: ["レバー左右で移動可"],
         },
         {
           name: "影煩い",
@@ -43,6 +39,18 @@ export const kenBasara: DataItem = {
         {
           name: "影羽織",
           command: "←↓↙+D",
+        },
+        {
+          name: "友引",
+          command: "近距離で→↓↘+D",
+        },
+        {
+          name: "刺し足",
+          command: "空中で↓+D",
+        },
+        {
+          name: "頭骨割り",
+          command: "空中で↙ or ↘+D",
         },
       ],
     },
@@ -56,14 +64,6 @@ export const kenBasara: DataItem = {
         {
           name: "三角降り",
           command: "空中画面端で↘",
-        },
-        {
-          name: "刺し足",
-          command: "空中で↓+D",
-        },
-        {
-          name: "頭骨割り",
-          command: "空中で↙ or ↘+D",
         },
         {
           name: "ぬいぐるみ変化【真】",

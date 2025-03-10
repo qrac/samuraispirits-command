@@ -24,12 +24,17 @@ export const tenBasaraRasetsu: DataItem = {
           command: "←↓↙+斬 or D",
         },
         {
+          name: "影吸い",
+          command: "↓↙←+斬 or D",
+          notes: ["レバー左右で移動可"],
+        },
+        {
           name: "刺し足",
           command: "空中で↓+D",
         },
         {
-          name: "影吸い",
-          command: "↓↙←+斬 or D",
+          name: "頭骨割り",
+          command: "空中で↙ or ↘+D",
         },
       ],
     },
@@ -39,10 +44,6 @@ export const tenBasaraRasetsu: DataItem = {
         {
           name: "三角飛び",
           command: "空中画面端で↗ or → or ↘",
-        },
-        {
-          name: "頭骨割り",
-          command: "空中で↙ or ↘+D",
         },
       ],
     },

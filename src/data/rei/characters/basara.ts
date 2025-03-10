@@ -20,6 +20,20 @@ export const reiBasara: DataItem = {
           command: "↓↘→+蹴",
         },
         {
+          name: "影出",
+          command: "→↓↘+斬",
+          tags: [{ name: "怒", color: 2 }],
+        },
+        {
+          name: "影騙し",
+          command: "←↓↙+斬 or L蹴 or M蹴 or H蹴",
+        },
+        {
+          name: "影吸い",
+          command: "↓↙←+蹴",
+          notes: ["レバー左右で移動可"],
+        },
+        {
           name: "友引",
           command: "近距離で→↓↘+蹴",
         },
@@ -28,18 +42,8 @@ export const reiBasara: DataItem = {
           command: "空中で↓+蹴",
         },
         {
-          name: "影吸い",
-          command: "↓↙←+蹴",
-          notes: ["左右に移動可"],
-        },
-        {
-          name: "影出",
-          command: "→↓↘+斬",
-          tags: [{ name: "怒", color: 2 }],
-        },
-        {
-          name: "影騙し",
-          command: "←↓↙+斬 or L蹴 or M蹴 or H蹴",
+          name: "頭骨割り",
+          command: "空中で↙ or ↘+蹴",
         },
       ],
     },
@@ -49,10 +53,6 @@ export const reiBasara: DataItem = {
         {
           name: "三角飛び",
           command: "空中画面端で↗",
-        },
-        {
-          name: "頭骨割り",
-          command: "空中で↙ or ↘+蹴",
         },
       ],
     },

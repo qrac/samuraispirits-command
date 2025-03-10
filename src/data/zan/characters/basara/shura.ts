@@ -28,12 +28,13 @@ export const zanBasaraShura: DataItem = {
           command: "近距離で←↙↓↘→+A",
         },
         {
-          name: "刺し足",
-          command: "空中で↓+D",
-        },
-        {
           name: "影吸い",
           command: "↓↙←+D",
+          notes: ["レバー左右で移動可"],
+        },
+        {
+          name: "刺し足",
+          command: "空中で↓+D",
         },
       ],
     },
