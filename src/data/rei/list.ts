@@ -29,7 +29,7 @@ import { reiWuRuixiang } from "./characters/wu-ruixiang"
 import { reiHibiki } from "./characters/hibiki"
 import { reiWarden } from "./characters/warden"
 import { reiGongsunli } from "./characters/gongsunli"
-//import { reiBaiken } from "./characters/baiken"
+import { reiBaiken } from "./characters/baiken"
 
 export const reiList = [
   reiRoot,
@@ -62,5 +62,5 @@ export const reiList = [
   reiHibiki,
   reiWarden,
   reiGongsunli,
-  //reiBaiken,
+  reiBaiken,
 ] as DataItem[]
