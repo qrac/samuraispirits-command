@@ -23,6 +23,7 @@ export const reiYoshitora: DataItem = {
         {
           name: "四の太刀 椿",
           command: "←↓↙+斬",
+          notes: ["突進中ガードポイント"],
         },
         {
           name: "五の太刀 朝顔",
@@ -30,11 +31,11 @@ export const reiYoshitora: DataItem = {
         },
         {
           name: "六の太刀 夕顔",
-          command: "→↓↘+蹴",
+          command: "近距離で→↓↘+蹴",
         },
         {
           name: "七の太刀 遊蝶華",
-          command: "壱〜六をすべて当て終わったラウンドで→↘↓↙←→+LM",
+          command: "壱〜六 or 秘奥義を当て終わったラウンドで→↘↓↙←→+LM",
         },
       ],
     },

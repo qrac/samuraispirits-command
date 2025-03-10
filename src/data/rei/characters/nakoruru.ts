@@ -20,6 +20,7 @@ export const reiNakoruru: DataItem = {
         {
           name: "カムイ リムセ",
           command: "←↓↙+斬",
+          notes: ["飛び道具反射"],
           skills: [
             {
               name: "カムイ リムセ返し",
@@ -38,6 +39,7 @@ export const reiNakoruru: DataItem = {
             {
               name: "鷹につかまり攻撃",
               command: "斬",
+              notes: ["カムイ ムツベでキャンセル可"],
             },
             {
               name: "鷹から降りる",

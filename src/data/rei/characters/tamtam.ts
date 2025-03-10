@@ -48,6 +48,7 @@ export const reiTamtam: DataItem = {
         {
           name: "マグナス・ディオス・ザール",
           command: "→←↙↓↘→+H蹴",
+          notes: ["G不能 / 投げ属性"],
         },
       ],
     },

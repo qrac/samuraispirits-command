@@ -36,6 +36,7 @@ export const reiRimururu: DataItem = {
         {
           name: "カムイ シトゥキ",
           command: "←↓↙+斬",
+          notes: ["鏡は飛び道具反射 / つららは飛び道具相殺"],
         },
         {
           name: "ウプン オプ",

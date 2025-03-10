@@ -31,6 +31,7 @@ export const reiKyoshiro: DataItem = {
         {
           name: "蝦蟇地獄",
           command: "↓↙←+蹴",
+          notes: ["G不能"],
         },
         {
           name: "血煙曲輪",

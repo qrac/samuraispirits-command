@@ -23,14 +23,17 @@ export const reiJubei: DataItem = {
         {
           name: "柳生 心眼刀・水月",
           command: "↓↙←+L",
+          notes: ["下段範囲の当て身"],
         },
         {
           name: "柳生 心眼刀・相破",
           command: "↓↙←+M",
+          notes: ["上中段範囲の当て身"],
         },
         {
           name: "柳生 心眼刀・天羅",
           command: "↓↙←+H",
+          notes: ["上方向中心の当て身"],
         },
       ],
     },

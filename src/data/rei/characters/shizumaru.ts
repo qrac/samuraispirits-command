@@ -23,6 +23,7 @@ export const reiShizumaru: DataItem = {
         {
           name: "緋刀流 氷雨返し",
           command: "↓↘→+蹴",
+          notes: ["飛び道具反射"],
         },
         {
           name: "緋刀流 時雨",
@@ -33,6 +34,14 @@ export const reiShizumaru: DataItem = {
           command: "空中で↑+斬",
           skills: [
             {
+              name: "移動",
+              command: "← or →",
+            },
+            {
+              name: "解除",
+              command: "↙ or ↓ or ↘",
+            },
+            {
               name: "緋刀流 雷雨",
               command: "MH",
             },
@@ -41,6 +50,9 @@ export const reiShizumaru: DataItem = {
         {
           name: "緋刀流 真・雨流れ狂落斬",
           command: "斬継続押し後離す",
+          notes: [
+            "5段階タメ（2秒・4秒・6秒・20秒・80秒） / 段階で無敵増加 / 5段目は突進時無敵",
+          ],
         },
       ],
     },
@@ -70,6 +82,7 @@ export const reiShizumaru: DataItem = {
         {
           name: "鬼の記憶・天泣",
           command: "→←↙↓↘→+H蹴",
+          notes: ["飛び道具貫通"],
         },
       ],
     },

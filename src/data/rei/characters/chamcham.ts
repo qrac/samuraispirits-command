@@ -24,6 +24,7 @@ export const reiChamcham: DataItem = {
             {
               name: "顔引っかくゾ！",
               command: "L or H",
+              notes: ["投げ技"],
             },
             {
               name: "背中引っかくゾ！",

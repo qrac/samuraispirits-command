@@ -46,6 +46,7 @@ export const reiEarthquake: DataItem = {
         {
           name: "アースガッデム",
           command: "↓↘→+MH",
+          notes: ["レバー左右で移動可"],
         },
       ],
     },

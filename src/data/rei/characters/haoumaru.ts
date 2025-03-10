@@ -32,6 +32,7 @@ export const reiHaoumaru: DataItem = {
         {
           name: "酒攻撃",
           command: "↓↙←+蹴",
+          notes: ["飛び道具反射"],
         },
       ],
     },

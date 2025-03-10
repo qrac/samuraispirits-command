@@ -22,6 +22,7 @@ export const reiBasara: DataItem = {
         {
           name: "影出",
           command: "→↓↘+斬",
+          notes: ["H版は相手の位置をサーチ"],
           tags: [{ name: "怒", color: 2 }],
         },
         {
