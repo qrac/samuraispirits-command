@@ -47,7 +47,7 @@ export const reiIroha: DataItem = {
         {
           name: "風飛落",
           command: "↓↘→+MH",
-          notes: ["左右に移動可"],
+          notes: ["レバー左右で移動可"],
         },
       ],
     },
