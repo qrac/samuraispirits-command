@@ -16,16 +16,16 @@ export const tenRimururuShura: DataItem = {
           command: "↓↙←+斬",
         },
         {
+          name: "コンル シラㇽ",
+          command: "空中で↓+斬",
+        },
+        {
           name: "コンル ノンノ",
           command: "→↓↘+斬",
         },
         {
           name: "カムイ シトゥキ",
           command: "←↓↙+斬",
-        },
-        {
-          name: "コンル シラㇽ",
-          command: "空中で↓+斬",
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",

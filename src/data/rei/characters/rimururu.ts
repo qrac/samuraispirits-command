@@ -20,6 +20,11 @@ export const reiRimururu: DataItem = {
           command: "↓↓+斬",
         },
         {
+          name: "コンル シラル",
+          command: "空中で↓+斬",
+          notes: ["三角飛び後は出せない"],
+        },
+        {
           name: "コンル ノンノ",
           command: "→↓↘+斬",
           tags: [{ name: "怒", color: 2 }],
@@ -35,11 +40,6 @@ export const reiRimururu: DataItem = {
         {
           name: "ウプン オプ",
           command: "→+斬連打",
-        },
-        {
-          name: "コンル シラル",
-          command: "空中で↓+斬",
-          notes: ["三角飛び後は出せない"],
         },
       ],
     },

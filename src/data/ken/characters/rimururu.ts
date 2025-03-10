@@ -20,6 +20,10 @@ export const kenRimururu: DataItem = {
           command: "↓↓+斬",
         },
         {
+          name: "コンル シラㇽ",
+          command: "空中で↓+斬",
+        },
+        {
           name: "コンル ノンノ",
           command: "→↓↘+斬",
         },
@@ -30,10 +34,6 @@ export const kenRimururu: DataItem = {
         {
           name: "ウプン オㇷ゚",
           command: "→+斬連打",
-        },
-        {
-          name: "コンル シラㇽ",
-          command: "空中で↓+斬",
         },
         {
           name: "ルプㇱ カムイ ウェイサンペコル",

@@ -26,16 +26,16 @@ export const zanRimururuRasetsu: DataItem = {
           ],
         },
         {
-          name: "ウプン オㇷ゚",
-          command: "斬連打",
-        },
-        {
           name: "ルプㇱ トゥム（立ち）",
           command: "→+AB",
         },
         {
           name: "ルプㇱ トゥム（屈）",
           command: "↘+AB",
+        },
+        {
+          name: "ウプン オㇷ゚",
+          command: "斬連打",
         },
         {
           name: "ルプㇱ テㇰ ヌㇺ（ヤク）",

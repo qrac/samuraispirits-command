@@ -26,12 +26,12 @@ export const zanRimururuShura: DataItem = {
           ],
         },
         {
-          name: "カムイ シトゥキ",
-          command: "↓↙←→+C",
-        },
-        {
           name: "コンル ノンノ",
           command: "→↓↘+A",
+        },
+        {
+          name: "カムイ シトゥキ",
+          command: "↓↙←→+C",
         },
         {
           name: "ルプㇱ テㇰ ヌㇺ（チィゥ）",
