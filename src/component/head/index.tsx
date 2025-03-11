@@ -17,6 +17,15 @@ export function ComponentHead({
   const gameId = pathname.split("/").filter((str) => str)[0]
   const game = games.find((item) => item[0] === gameId)
 
+  function getAbb() {
+    if (!game[1]?.fullName) {
+      return ""
+    }
+    let abb = game[1].name
+    abb = abb.replace("零（無印）", "無印")
+    abb = abb.replace("アスラ", "")
+    return abb ? `（${abb}）` : ""
+  }
   function getTitle(hasSiteName: boolean) {
     const withName = hasSiteName ? ` - ${siteName}` : ""
 
@@ -29,7 +38,8 @@ export function ComponentHead({
     if (currentDataItem && game) {
       const { name } = currentDataItem
       const gameName = game[1]?.fullName || game[1].name
-      return `${name} コマンド表 / ${gameName}${withName}`
+      const gameAbb = getAbb()
+      return `${name} コマンド表 / ${gameName}${gameAbb}${withName}`
     }
     return `404${withName}`
   }
