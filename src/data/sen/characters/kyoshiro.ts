@@ -252,14 +252,14 @@ export const senKyoshiro: DataItem = {
         },
       ],
     },
-    /*{
+    {
       title: "もっと詳しい動画",
       links: [
         {
           name: "サムライスピリッツ閃 千両狂死郎 技一覧 - YouTube",
-          href: "https://youtu.be/xxxx",
+          href: "https://youtu.be/LYPcqOcwkIA",
         },
       ],
-    },*/
+    },
   ],
 }
