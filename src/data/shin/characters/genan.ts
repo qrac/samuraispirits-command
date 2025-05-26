@@ -76,11 +76,11 @@ export const shinGenan: DataItem = {
       links: [
         {
           name: "不知火幻庵 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/genan/genan_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/genan/genan_mainframe.htm",
         },
         {
           name: "不知火幻庵の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/genan/genan_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/genan/genan_comboframe.htm",
         },
       ],
     },

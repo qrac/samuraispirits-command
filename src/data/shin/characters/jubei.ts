@@ -68,11 +68,11 @@ export const shinJubei: DataItem = {
       links: [
         {
           name: "柳生十兵衛 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/jyubei/jyubei_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/jyubei/jyubei_mainframe.htm",
         },
         {
           name: "柳生十兵衛の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/jyubei/jyubei_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/jyubei/jyubei_comboframe.htm",
         },
       ],
     },

@@ -116,11 +116,11 @@ export const shinNakoruru: DataItem = {
       links: [
         {
           name: "ナコルル - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/nako/nako_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/nako/nako_mainframe.htm",
         },
         {
           name: "ナコルルの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/nako/nako_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/nako/nako_comboframe.htm",
         },
       ],
     },

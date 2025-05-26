@@ -77,11 +77,11 @@ export const shinUkyo: DataItem = {
       links: [
         {
           name: "橘右京 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/ukyo/ukyo_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/ukyo/ukyo_mainframe.htm",
         },
         {
           name: "橘右京の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/ukyo/ukyo_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/ukyo/ukyo_comboframe.htm",
         },
       ],
     },

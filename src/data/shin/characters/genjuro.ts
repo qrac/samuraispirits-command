@@ -61,11 +61,11 @@ export const shinGenjuro: DataItem = {
       links: [
         {
           name: "牙神幻十郎 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/genjyu/genjyu_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/genjyu/genjyu_mainframe.htm",
         },
         {
           name: "牙神幻十郎の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/genjyu/genjyu_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/genjyu/genjyu_comboframe.htm",
         },
       ],
     },

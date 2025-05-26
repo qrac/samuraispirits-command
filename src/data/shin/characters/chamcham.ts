@@ -76,11 +76,11 @@ export const shinChamcham: DataItem = {
       links: [
         {
           name: "チャムチャム - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/cham/cham_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/cham/cham_mainframe.htm",
         },
         {
           name: "チャムチャムの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/cham/cham_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/cham/cham_comboframe.htm",
         },
       ],
     },

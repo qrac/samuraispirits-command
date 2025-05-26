@@ -77,11 +77,11 @@ export const shinNicotine: DataItem = {
       links: [
         {
           name: "花諷院和狆 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/niko/niko_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/niko/niko_mainframe.htm",
         },
         {
           name: "花諷院和狆の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/niko/niko_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/niko/niko_comboframe.htm",
         },
       ],
     },

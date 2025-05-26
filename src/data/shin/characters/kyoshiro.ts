@@ -80,11 +80,11 @@ export const shinKyoshiro: DataItem = {
       links: [
         {
           name: "千両狂死郎 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/kyou/kyou_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/kyou/kyou_mainframe.htm",
         },
         {
           name: "千両狂死郎の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/kyou/kyou_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/kyou/kyou_comboframe.htm",
         },
       ],
     },

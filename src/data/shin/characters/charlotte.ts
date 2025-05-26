@@ -60,11 +60,11 @@ export const shinCharlotte: DataItem = {
       links: [
         {
           name: "シャルロット - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/char/char_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/char/char_mainframe.htm",
         },
         {
           name: "シャルロットの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/char/char_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/char/char_comboframe.htm",
         },
       ],
     },

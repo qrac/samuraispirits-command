@@ -84,11 +84,11 @@ export const shinWanFu: DataItem = {
       links: [
         {
           name: "王虎 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/earth/earth_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/earth/earth_mainframe.htm",
         },
         {
           name: "王虎の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/wanhu/wanhu_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/wanhu/wanhu_comboframe.htm",
         },
       ],
     },

@@ -100,11 +100,11 @@ export const shinSieger: DataItem = {
       links: [
         {
           name: "ナインハルト・ズィーガー - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/sie/sie_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/sie/sie_mainframe.htm",
         },
         {
           name: "ナインハルト・ズィーガーの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/sie/sie_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/sie/sie_comboframe.htm",
         },
       ],
     },

@@ -82,11 +82,11 @@ export const shinHaoumaru: DataItem = {
       links: [
         {
           name: "覇王丸 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/haou/haou_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/haou/haou_mainframe.htm",
         },
         {
           name: "覇王丸の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/haou/haou_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/haou/haou_comboframe.htm",
         },
       ],
     },

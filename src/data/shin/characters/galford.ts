@@ -106,11 +106,11 @@ export const shinGalford: DataItem = {
       links: [
         {
           name: "ガルフォード - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/gal/gal_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/gal/gal_mainframe.htm",
         },
         {
           name: "ガルフォードの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/gal/gal_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/gal/gal_comboframe.htm",
         },
       ],
     },

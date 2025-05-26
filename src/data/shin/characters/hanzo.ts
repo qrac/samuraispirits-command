@@ -98,11 +98,11 @@ export const shinHanzo: DataItem = {
       links: [
         {
           name: "服部半蔵 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/hanzo/hanzo_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/hanzo/hanzo_mainframe.htm",
         },
         {
           name: "服部半蔵の連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/hanzo/hanzo_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/hanzo/hanzo_comboframe.htm",
         },
       ],
     },

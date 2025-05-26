@@ -108,7 +108,7 @@ export const shinRoot: DataItem = {
       links: [
         {
           name: "真刃繚乱 - 真侍魂の解析・攻略専門サイト",
-          href: "http://shinjin.starfree.jp/SinSamurai_Main.htm",
+          href: "https://ss843087.stars.ne.jp/SinSamurai_Main.htm",
         },
       ],
     },
@@ -131,7 +131,7 @@ export const shinRoot: DataItem = {
         },
         {
           name: "真刃繚乱 - 真侍魂の解析・攻略専門サイト",
-          href: "http://shinjin.starfree.jp/SinSamurai_Main.htm",
+          href: "https://ss843087.stars.ne.jp/SinSamurai_Main.htm",
         },
         {
           name: "真サムライスピリッツ 覇王丸地獄変 -SNK PERFECT DATABASE-",

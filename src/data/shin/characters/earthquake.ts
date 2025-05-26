@@ -77,11 +77,11 @@ export const shinEarthquake: DataItem = {
       links: [
         {
           name: "アースクェイク - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/chara_data/earth/earth_mainframe.htm",
+          href: "https://ss843087.stars.ne.jp/chara_data/earth/earth_mainframe.htm",
         },
         {
           name: "アースクェイクの連続技 - 真刃繚乱",
-          href: "http://shinjin.starfree.jp/combo/earth/earth_comboframe.htm",
+          href: "https://ss843087.stars.ne.jp/combo/earth/earth_comboframe.htm",
         },
       ],
     },
