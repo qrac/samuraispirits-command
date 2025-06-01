@@ -225,14 +225,14 @@ export const senWanFu: DataItem = {
         },
       ],
     },
-    /*{
+    {
       title: "もっと詳しい動画",
       links: [
         {
           name: "サムライスピリッツ閃 王虎 技一覧 - YouTube",
-          href: "https://youtu.be/xxxx",
+          href: "https://youtu.be/lPMkDDXFTxs",
         },
       ],
-    },*/
+    },
   ],
 }
