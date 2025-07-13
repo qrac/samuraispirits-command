@@ -385,14 +385,14 @@ export const senGalford: DataItem = {
         },
       ],
     },
-    /*{
+    {
       title: "もっと詳しい動画",
       links: [
         {
           name: "サムライスピリッツ閃 ガルフォード 技一覧 - YouTube",
-          href: "https://youtu.be/xxxx",
+          href: "https://youtu.be/NacgBMzW5UA",
         },
       ],
-    },*/
+    },
   ],
 }
