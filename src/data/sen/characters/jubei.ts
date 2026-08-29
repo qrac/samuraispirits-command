@@ -198,12 +198,12 @@ export const senJubei: DataItem = {
         },
         {
           name: "柳生心眼刀・相破",
-          command: "←+AB",
+          command: "←+AR",
           notes: ["上中段返し技"],
         },
         {
           name: "柳生心眼刀・天羅",
-          command: "↙+BC",
+          command: "↙+AR",
           notes: ["下段返し技"],
         },
       ],
